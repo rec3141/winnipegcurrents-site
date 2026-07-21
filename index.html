@@ -27,6 +27,18 @@
   .legend a{display:flex;align-items:center;gap:8px;background:#fff;border-radius:999px;padding:8px 15px;font-size:13px;font-weight:700;text-decoration:none;box-shadow:var(--shadow);transition:transform .15s}
   .legend a:hover{transform:translateY(-2px)}
   .dot{width:12px;height:12px;border-radius:50%;flex:none}
+  /* floating stream nav — slides in once you scroll past the hero */
+  .floatnav{position:fixed;top:0;left:0;right:0;z-index:40;background:rgba(245,240,230,.94);backdrop-filter:blur(10px);box-shadow:0 3px 16px rgba(20,30,50,.12);transform:translateY(-105%);transition:transform .28s ease;padding:8px 12px}
+  .floatnav.show{transform:none}
+  .floatnav .inner{max-width:1080px;margin:0 auto;display:flex;gap:8px;align-items:center;overflow-x:auto;scrollbar-width:none}
+  .floatnav .inner::-webkit-scrollbar{display:none}
+  .floatnav .brand{font-weight:800;font-size:13px;color:#1a2432;margin-right:4px;flex:none;letter-spacing:-.01em}
+  .floatnav a{flex:none;display:flex;align-items:center;gap:7px;padding:6px 12px;border-radius:999px;font-size:12.5px;font-weight:700;text-decoration:none;color:#3a4453;background:#fff;border:1px solid #eadfca;white-space:nowrap;transition:background .15s,color .15s,border-color .15s}
+  .floatnav a .dot{width:10px;height:10px;border-radius:50%}
+  .floatnav a.active{color:#fff}
+  .floatnav a.active .dot{background:#fff !important}
+  @media(max-width:640px){.floatnav .brand{display:none}}
+  .stream,#s-horizon{scroll-margin-top:60px}
   .headwaters{margin:34px auto 8px}
   .hw-label{display:flex;align-items:center;gap:12px;justify-content:center;font-size:13px;letter-spacing:.24em;text-transform:uppercase;font-weight:800;color:#8a6d2a;margin-bottom:16px}
   .hw-label::before,.hw-label::after{content:"";height:2px;flex:1;max-width:120px;background:linear-gradient(90deg,transparent,var(--wheat))}
@@ -89,6 +101,7 @@
 </style>
 </head>
 <body>
+<div class="floatnav" id="floatnav"><div class="inner" id="floatnav-inner"></div></div>
 <header class="hero">
   <div class="stars" id="stars"></div>
   <svg class="bison" viewBox="0 0 640 512" fill="#f7f3e9" xmlns="http://www.w3.org/2000/svg"><path d="M111 144c-9 0-16-7-16-16s7-16 16-16h34c0-27 22-48 48-48h224c9 0 16 7 16 16v16h48c18 0 32 14 32 32v48c0 18-14 32-32 32h-16v40c0 13-11 24-24 24h-8v40c0 9-7 16-16 16h-32c-9 0-16-7-16-16v-40H208v40c0 9-7 16-16 16h-32c-9 0-16-7-16-16v-56c-24-14-40-40-40-70v-42h7zm81 0a16 16 0 100 32 16 16 0 000-32z"/></svg>
@@ -190,10 +203,13 @@ function render(snap){
   document.getElementById("daterange").textContent =
     `Now showing: ${label}  ·  ${evs.length} events`;
 
-  // legend
-  let leg = STREAMS.map(s=>`<a href="#s-${s.key}"><span class="dot" style="background:${s.c}"></span>${s.name}</a>`).join("");
-  if (horizon.length) leg += `<a href="#s-horizon"><span class="dot" style="background:#c98a1e"></span>On the Horizon</a>`;
-  document.getElementById("legend").innerHTML = leg;
+  // nav chips — resting legend + floating bar (only streams that actually have events)
+  const navItems = STREAMS.filter(s => streamEvents.some(e=>e.stream===s.key)).map(s=>({key:s.key,name:s.name,color:s.c}));
+  if (horizon.length) navItems.push({key:"horizon", name:"On the Horizon", color:"#c98a1e"});
+  const chip = it => `<a href="#s-${it.key}" data-key="${it.key}" data-color="${it.color}"><span class="dot" style="background:${it.color}"></span>${it.name}</a>`;
+  document.getElementById("legend").innerHTML = navItems.map(chip).join("");
+  document.getElementById("floatnav-inner").innerHTML =
+    `<span class="brand">River City Currents</span>` + navItems.map(chip).join("");
 
   // headwaters
   const hw = snap.headwaters || [];
@@ -246,6 +262,34 @@ function render(snap){
 
   document.getElementById("status").hidden = true;
   document.getElementById("main").hidden = false;
+  setupNav();
+}
+
+function setupNav(){
+  const floatnav = document.getElementById("floatnav");
+  const restLegend = document.getElementById("legend");
+  // show the floating bar once the resting legend has scrolled off the top
+  const io = new IntersectionObserver(function(es){
+    es.forEach(function(e){
+      if (!e.isIntersecting && e.boundingClientRect.top < 0) floatnav.classList.add("show");
+      else floatnav.classList.remove("show");
+    });
+  }, {threshold:0});
+  io.observe(restLegend);
+  // scroll-spy: highlight the stream currently in view
+  const sections = Array.from(document.querySelectorAll(".stream, #s-horizon"));
+  const chips = Array.from(document.querySelectorAll("#floatnav-inner a"));
+  const byKey = {}; chips.forEach(c=>byKey[c.dataset.key]=c);
+  let ticking = false;
+  function spy(){
+    ticking = false;
+    let key = null;
+    for (const sec of sections){ if (sec.getBoundingClientRect().top <= 90) key = sec.id.replace("s-",""); }
+    chips.forEach(c=>{ c.classList.remove("active"); c.style.background=""; c.style.borderColor=""; });
+    if (key && byKey[key]){ const c = byKey[key]; c.classList.add("active"); c.style.background=c.dataset.color; c.style.borderColor=c.dataset.color; }
+  }
+  window.addEventListener("scroll", ()=>{ if(!ticking){ ticking=true; requestAnimationFrame(spy); } }, {passive:true});
+  spy();
 }
 
 async function boot(){
