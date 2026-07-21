@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>River City Currents — Winnipeg Events</title>
-<meta name="description" content="What's happening in and around Winnipeg, sorted into vibe streams — updated weekly.">
+<meta name="description" content="What's happening in and around Winnipeg — updated weekly.">
 <style>
   :root{--ink:#1a2432;--paper:#f5f0e6;--wheat:#d8c48f;--night:#12203a;--shadow:0 6px 22px rgba(20,30,50,.14)}
   *{box-sizing:border-box;margin:0;padding:0}
@@ -113,7 +113,7 @@
   <svg class="bison" viewBox="0 0 640 512" fill="#f7f3e9" xmlns="http://www.w3.org/2000/svg"><path d="M111 144c-9 0-16-7-16-16s7-16 16-16h34c0-27 22-48 48-48h224c9 0 16 7 16 16v16h48c18 0 32 14 32 32v48c0 18-14 32-32 32h-16v40c0 13-11 24-24 24h-8v40c0 9-7 16-16 16h-32c-9 0-16-7-16-16v-40H208v40c0 9-7 16-16 16h-32c-9 0-16-7-16-16v-56c-24-14-40-40-40-70v-42h7zm81 0a16 16 0 100 32 16 16 0 000-32z"/></svg>
   <div class="kicker">Winnipeg · Manitoba</div>
   <h1>River City <span class="accent">Currents</span></h1>
-  <p class="sub">Winnipeg is the city where two rivers meet — so its week doesn't fit in a grid. Here's what's happening, sorted into <strong>streams</strong> by vibe, with the big stuff worth booking early flowing in downstream.</p>
+  <p class="sub">Winnipeg is the city where many rivers meet. Here's what's happening, sorted into <strong>streams</strong></p>
   <div class="todayline" id="todayline">&nbsp;</div>
   <div class="daterange" id="daterange">Loading the currents…</div>
   <div class="wave-hero"><svg viewBox="0 0 1440 70" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path fill="#f5f0e6" d="M0,32 C240,72 480,0 720,24 C960,48 1200,72 1440,36 L1440,70 L0,70 Z"/></svg></div>
@@ -141,7 +141,7 @@
 <footer>
   <div class="wrap">
     <h5>About this calendar</h5>
-    <p>Six vibe streams named for the waters that shape Manitoba — the <strong>Confluence</strong> (The Forks, where the Red &amp; Assiniboine meet), the <strong>Rapids</strong>, the <strong>Roar</strong> of the Red on a game night, the <strong>Deep Waters</strong> of the arts, the <strong>Open Sky</strong> over the lake country, and the <strong>Little Ripples</strong> for the youngest paddlers — plus <strong>On the Horizon</strong> for what's coming downstream. Each week a fan-out of agents digs through official calendars, venue listings, breweries, galleries, parks, community boards and box offices; the results are stored as dated data and rendered here.</p>
+    <p>The cultural waters that shape Manitoba — the <strong>Confluence</strong> of social meetups, the <strong>Rapids</strong>, the <strong>Roar</strong> of the Red on a game night, the <strong>Deep Waters</strong> of the arts, the <strong>Open Sky</strong> over the lake country, and the <strong>Little Ripples</strong> for the youngest paddlers — plus <strong>On the Horizon</strong> for what's coming downstream.</p>
     <div class="srcs">
       <a href="https://www.tourismwinnipeg.com/festivals-and-events" target="_blank" rel="noopener">Tourism Winnipeg</a>
       <a href="https://www.theforks.com/events/calendar-of-events" target="_blank" rel="noopener">The Forks</a>
@@ -153,8 +153,7 @@
       <a href="https://www.winnipegfringe.com/" target="_blank" rel="noopener">Winnipeg Fringe</a>
       <a href="https://wpgforfree.ca/" target="_blank" rel="noopener">WPG For Free</a>
     </div>
-    <p class="refresh" id="refresh">Refreshes weekly · main body covers the next two weeks · horizon looks ~6 months out.</p>
-    <p class="fine">Always confirm dates, times and ticket availability on the official event page before heading out — listings shift, and the far-ahead ones especially.</p>
+    <p class="refresh" id="refresh">Refreshes weekly · new events on Tuesdays</p>
   </div>
 </footer>
 
@@ -266,7 +265,7 @@ function render(snap){
 
   if (snap.generated){
     document.getElementById("refresh").textContent =
-      `Last updated ${snap.generated} · refreshes weekly · main body covers the next two weeks · horizon looks ~6 months out.`;
+      `Last updated ${snap.generated} · new events added on Tuesdays`;
   }
 
   document.getElementById("status").hidden = true;
