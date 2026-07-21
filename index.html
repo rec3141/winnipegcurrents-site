@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>River City Currents — Winnipeg Events</title>
+<meta name="description" content="What's happening in and around Winnipeg, sorted into vibe streams — updated weekly.">
 <style>
   :root{--ink:#1a2432;--paper:#f5f0e6;--wheat:#d8c48f;--night:#12203a;--shadow:0 6px 22px rgba(20,30,50,.14)}
   *{box-sizing:border-box;margin:0;padding:0}
@@ -65,7 +66,6 @@
   .pill.fam{background:#e5eefb;color:#2c5ba0}
   .pill.time{background:#eef0f3;color:#4a5460}
   .pill.book{background:#fbe3c4;color:#9a4a12;border:1px solid #e6a86a}
-  /* horizon */
   #s-horizon{--c:#c98a1e;margin-top:14px}
   .h-head{position:relative;border-radius:16px 16px 0 0;padding:20px 24px 44px;color:#fff;overflow:hidden;background:linear-gradient(120deg,#8a5a12,#d99a2c)}
   .h-head h2{font-size:clamp(22px,4vw,30px);font-weight:800;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
@@ -73,9 +73,10 @@
   .h-head .desc{margin-top:4px;font-size:14px;opacity:.95}
   .h-body{background:#fff;border-radius:0 0 16px 16px;padding:8px 18px 20px;box-shadow:var(--shadow)}
   .h-month{font-size:13px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:#a86a12;margin:20px 4px 10px;padding-top:8px;border-top:1px dashed #e6cfa0}
-  .h-month:first-child{border-top:0;padding-top:8px}
+  .h-month:first-child{border-top:0}
   .horizon-cards{background:transparent;box-shadow:none;padding:0;border-radius:0}
   .horizon-cards .card{background:#fffdf8}
+  #status{max-width:1120px;margin:0 auto;padding:60px 20px;text-align:center;color:#6a7280;font-size:15px}
   footer{margin-top:46px;background:var(--night);color:#c6d2e4;padding:40px 20px 46px}
   footer .wrap{max-width:900px}
   footer h5{color:#fff;font-size:15px;margin-bottom:10px}
@@ -89,787 +90,38 @@
 </head>
 <body>
 <header class="hero">
-  <div class="stars"><span class="star" style="left:7%;top:12%;width:2px;height:2px"></span><span class="star" style="left:15%;top:30%;width:1px;height:1px"></span><span class="star" style="left:23%;top:8%;width:2px;height:2px"></span><span class="star" style="left:31%;top:22%;width:1px;height:1px"></span><span class="star" style="left:42%;top:14%;width:2px;height:2px"></span><span class="star" style="left:55%;top:9%;width:1px;height:1px"></span><span class="star" style="left:63%;top:26%;width:2px;height:2px"></span><span class="star" style="left:71%;top:16%;width:1px;height:1px"></span><span class="star" style="left:78%;top:33%;width:2px;height:2px"></span><span class="star" style="left:85%;top:11%;width:1px;height:1px"></span><span class="star" style="left:91%;top:24%;width:2px;height:2px"></span><span class="star" style="left:12%;top:44%;width:1px;height:1px"></span><span class="star" style="left:38%;top:40%;width:2px;height:2px"></span><span class="star" style="left:68%;top:42%;width:1px;height:1px"></span><span class="star" style="left:48%;top:20%;width:1px;height:1px"></span><span class="star" style="left:27%;top:36%;width:2px;height:2px"></span><span class="star" style="left:82%;top:44%;width:1px;height:1px"></span><span class="star" style="left:95%;top:34%;width:2px;height:2px"></span></div>
+  <div class="stars" id="stars"></div>
   <svg class="bison" viewBox="0 0 640 512" fill="#f7f3e9" xmlns="http://www.w3.org/2000/svg"><path d="M111 144c-9 0-16-7-16-16s7-16 16-16h34c0-27 22-48 48-48h224c9 0 16 7 16 16v16h48c18 0 32 14 32 32v48c0 18-14 32-32 32h-16v40c0 13-11 24-24 24h-8v40c0 9-7 16-16 16h-32c-9 0-16-7-16-16v-40H208v40c0 9-7 16-16 16h-32c-9 0-16-7-16-16v-56c-24-14-40-40-40-70v-42h7zm81 0a16 16 0 100 32 16 16 0 000-32z"/></svg>
   <div class="kicker">Winnipeg · Manitoba</div>
   <h1>River City <span class="accent">Currents</span></h1>
   <p class="sub">Winnipeg is the city where two rivers meet — so its week doesn't fit in a grid. Here's what's happening, sorted into <strong>streams</strong> by vibe, with the big stuff worth booking early flowing in downstream.</p>
-  <div class="daterange">Now showing: July 21 – August 4, 2026 &nbsp;·&nbsp; 114 events</div>
+  <div class="daterange" id="daterange">Loading the currents…</div>
   <div class="wave-hero"><svg viewBox="0 0 1440 70" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path fill="#f5f0e6" d="M0,32 C240,72 480,0 720,24 C960,48 1200,72 1440,36 L1440,70 L0,70 Z"/></svg></div>
 </header>
 
-<nav class="legend"><a href="#s-confluence"><span class="dot" style="background:#e0a82e"></span>The Confluence</a><a href="#s-rapids"><span class="dot" style="background:#e05a3b"></span>The Rapids</a><a href="#s-roar"><span class="dot" style="background:#c23b3b"></span>The Roar</a><a href="#s-deep"><span class="dot" style="background:#7a5ba6"></span>Deep Waters</a><a href="#s-sky"><span class="dot" style="background:#3e92cc"></span>Open Sky</a><a href="#s-ripples"><span class="dot" style="background:#219f8e"></span>Little Ripples</a><a href="#s-horizon"><span class="dot" style="background:#c98a1e"></span>On the Horizon</a></nav>
-
-<main class="wrap">
-  <section class="headwaters">
+<nav class="legend" id="legend"></nav>
+<div id="status">Pulling the latest events…</div>
+<main class="wrap" id="main" hidden>
+  <section class="headwaters" id="headwaters" hidden>
     <div class="hw-label">The Headwaters · Festival Season</div>
-    <div class="hw-grid">
-      <div class="hw-card f1">
-        <div class="tag">Runs through Jul 26</div>
-        <h3>Winnipeg Fringe Festival</h3>
-        <div class="meta">Exchange District · Old Market Square hub</div>
-        <p>Canada's second-largest fringe: hundreds of shows across the Exchange, plus a free outdoor hub with street performers, live music, food & Kids Fringe.</p>
-        <a class="more" href="https://www.winnipegfringe.com/" target="_blank" rel="noopener">Explore the Fringe →</a>
-      </div>
-      <div class="hw-card f2">
-        <div class="tag">Opens Aug 2 · runs to Aug 15</div>
-        <h3>Folklorama 2026</h3>
-        <div class="meta">45 pavilions across Winnipeg · 55th edition</div>
-        <p>The world's largest & longest-running multicultural festival. Two weeks of cultural pavilions — food, dance and music from dozens of communities.</p>
-        <a class="more" href="https://folklorama.ca/" target="_blank" rel="noopener">See pavilions →</a>
-      </div>
-    </div>
+    <div class="hw-grid" id="hw-grid"></div>
   </section>
-
-  <section class="stream" id="s-confluence" style="--c:#e0a82e">
-    <div class="stream-head" style="background:linear-gradient(120deg,#c78f1e,#e8bb4e)">
-      <h2>The Confluence<span class="count">15</span></h2>
-      <div class="river">≈ The Forks · where the rivers meet</div>
-      <div class="desc">Markets, street food & the crowds that gather at the middle of it all.</div>
-      <div class="wave-btm"><svg viewBox="0 0 1440 34" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path fill="#fff" d="M0,18 C180,34 360,4 540,16 C740,29 900,34 1080,20 C1230,9 1350,20 1440,14 L1440,34 L0,34 Z"/></svg></div>
-    </div>
-    <div class="cards"><article class="card">
-      <div class="when">Jul 23</div>
-      <h4><a href="https://jeudisfranco.com/" target="_blank" rel="noopener">Jeudis Franco Thursdays in St. Boniface</a></h4>
-      <div class="venue">Various venues, St. Boniface (Joseph-Royal Park hub)</div>
-      <div class="blurb">Winnipeg's Francophone quarter comes alive every Thursday with the St. Boniface Summer Market, art walks, patios, boat tours and outdoor cinema.</div>
-      <div class="foot"><span class="pill free">Free</span><span class="pill fam">Family</span><span class="pill time">5:30 PM - 9:30 PM</span></div>
-    </article><article class="card">
-      <div class="when">Jul 23</div>
-      <h4><a href="https://downtownwinnipegbiz.com/2026-downtown-outdoor-farmers-market/" target="_blank" rel="noopener">Downtown Winnipeg Outdoor Farmers' Market</a></h4>
-      <div class="venue">Graham Avenue, Downtown Winnipeg</div>
-      <div class="blurb">Local growers, makers and food vendors line Graham Avenue for this free biweekly Thursday market (next dates Jul 23 and Aug 6).</div>
-      <div class="foot"><span class="pill free">Free</span><span class="pill fam">Family</span><span class="pill time">10:00 AM - 2:00 PM</span></div>
-    </article><article class="card">
-      <div class="when">Jul 23</div>
-      <h4><a href="https://properpubquiz.ca/" target="_blank" rel="noopener">Trivia Night at The Marion Hotel (Proper Pub Quiz)</a></h4>
-      <div class="venue">The Marion Hotel, 122 Marion St</div>
-      <div class="blurb">Free-to-play pub quiz with prizes every night, hosted by Proper Pub Quiz at The Marion Hotel.</div>
-      <div class="foot"><span class="pill free">Free</span><span class="pill time">7:00 PM</span></div>
-    </article><article class="card">
-      <div class="when">Jul 23-26</div>
-      <h4><a href="https://www.todocanada.ca/manitoba-festivals-july/" target="_blank" rel="noopener">Manitoba Threshermen's Reunion &amp; Stampede</a></h4>
-      <div class="venue">Austin, MB (Manitoba Agricultural Museum)</div>
-      <div class="blurb">A four-day celebration of Manitoba's agricultural roots with antique tractors, threshing demos, a pioneer village and stampede events about 90 minutes west of the city.</div>
-      <div class="foot"><span class="pill tix">Ticketed</span><span class="pill fam">Family</span><span class="pill time">Grounds open daily</span></div>
-    </article><article class="card">
-      <div class="when">Jul 24-26</div>
-      <h4><a href="https://www.cravenite.ca/" target="_blank" rel="noopener">Crave Nite Festival</a></h4>
-      <div class="venue">The Forks, CN Stage &amp; Field</div>
-      <div class="blurb">A free late-night culture-and-food festival with a vibrant night market, Manitoba flavours, live DJs and hands-on activations at The Forks.</div>
-      <div class="foot"><span class="pill free">Free</span><span class="pill fam">Family</span><span class="pill time">Fri 4-11 PM, Sat 3-11 PM, Sun 2-10 PM</span></div>
-    </article><article class="card">
-      <div class="when">Jul 24-25</div>
-      <h4><a href="https://wpgforfree.ca/2026/07/20/10-free-winnipeg-weekend-events-3/" target="_blank" rel="noopener">Downtown Winnipeg Night Market</a></h4>
-      <div class="venue">True North Square &amp; Graham Avenue</div>
-      <div class="blurb">A free downtown night market packed with local artisan vendors, street food and live entertainment.</div>
-      <div class="foot"><span class="pill free">Free</span><span class="pill fam">Family</span><span class="pill time">2:00 PM - 10:00 PM</span></div>
-    </article><article class="card">
-      <div class="when">Jul 24-26</div>
-      <h4><a href="https://manitobasunflowerfestival.ca/" target="_blank" rel="noopener">Manitoba Sunflower Festival</a></h4>
-      <div class="venue">Centennial Park, Altona, MB</div>
-      <div class="blurb">Altona's free signature family festival features a parade, market vendors, live entertainment and sunflower-themed fun in the Sunflower Capital of Canada.</div>
-      <div class="foot"><span class="pill free">Free</span><span class="pill fam">Family</span><span class="pill time">All weekend</span></div>
-    </article><article class="card">
-      <div class="when">Jul 25</div>
-      <h4><a href="https://folklorama.ca/" target="_blank" rel="noopener">Casinos of Winnipeg Folklorama Kick-Off</a></h4>
-      <div class="venue">Lyric Theatre, Assiniboine Park</div>
-      <div class="blurb">A free preview of the world's largest multicultural festival with ethno-cultural performances, an Ambassador Parade, pavilion expo and food trucks.</div>
-      <div class="foot"><span class="pill free">Free</span><span class="pill fam">Family</span><span class="pill time">4:00 PM - 8:00 PM</span></div>
-    </article><article class="card">
-      <div class="when">Jul 25</div>
-      <h4><a href="https://wpgforfree.ca/2026/07/20/10-free-winnipeg-weekend-events-3/" target="_blank" rel="noopener">Saturdays on Sargent</a></h4>
-      <div class="venue">Sargent Avenue (Lipton to Young St)</div>
-      <div class="blurb">A free West End community street party with live music, family activities, face painting and local food and shopping.</div>
-      <div class="foot"><span class="pill free">Free</span><span class="pill fam">Family</span><span class="pill time">12:00 PM - 3:00 PM</span></div>
-    </article><article class="card">
-      <div class="when">Jul 25</div>
-      <h4><a href="https://stnorbertfarmersmarket.ca/" target="_blank" rel="noopener">Le Marché St. Norbert Farmers' Market</a></h4>
-      <div class="venue">St. Norbert Farmers' Market, 3514 Pembina Hwy</div>
-      <div class="blurb">Manitoba's largest open-air market runs every Saturday with local produce, baking, prepared foods and crafts (summer season through Oct 10).</div>
-      <div class="foot"><span class="pill free">Free</span><span class="pill fam">Family</span><span class="pill time">8:00 AM - 2:00 PM</span></div>
-    </article><article class="card">
-      <div class="when">Jul 26</div>
-      <h4><a href="https://wpgforfree.ca/2026/07/20/10-free-winnipeg-weekend-events-3/" target="_blank" rel="noopener">Open Corydon - Little Italy</a></h4>
-      <div class="venue">Corydon Avenue (Lilac to Daly St)</div>
-      <div class="blurb">Corydon's Little Italy goes car-free for a day of patios, shops, live music and public art.</div>
-      <div class="foot"><span class="pill free">Free</span><span class="pill fam">Family</span><span class="pill time">10:00 AM - 8:00 PM</span></div>
-    </article><article class="card">
-      <div class="when">Jul 28</div>
-      <h4><a href="https://properpubquiz.ca/" target="_blank" rel="noopener">Trivia Night at Torque Brewing (Proper Pub Quiz)</a></h4>
-      <div class="venue">Torque Brewing, 330-830 King Edward St</div>
-      <div class="blurb">Free weekly pub quiz with prizes in the taproom at Torque Brewing.</div>
-      <div class="foot"><span class="pill free">Free</span><span class="pill time">7:00 PM</span></div>
-    </article><article class="card">
-      <div class="when">Jul 29</div>
-      <h4><a href="https://www.fortwhyte.org/visit/calendar/" target="_blank" rel="noopener">FortWhyte Farms Pizza Dinner</a></h4>
-      <div class="venue">FortWhyte Farms, Winnipeg</div>
-      <div class="blurb">Wood-fired pizza made with produce grown on FortWhyte's youth-run urban farm, served outdoors.</div>
-      <div class="foot"><span class="pill fam">Family</span><span class="pill tix">Ticketed</span><span class="pill time">5:30-6:45 pm</span></div>
-    </article><article class="card">
-      <div class="when">Jul 29</div>
-      <h4><a href="https://acrosstheboardcafe.com/" target="_blank" rel="noopener">Blood on the Clocktower at Across the Board Game Cafe</a></h4>
-      <div class="venue">Across the Board Game Cafe, 211 Bannatyne Ave</div>
-      <div class="blurb">A guided evening of the acclaimed social-deduction game Blood on the Clocktower at Winnipeg's board-game cafe.</div>
-      <div class="foot"><span class="pill tix">Ticketed</span><span class="pill time">6:30 PM - 10:00 PM</span></div>
-    </article><article class="card">
-      <div class="when">Jul 31-Aug 3</div>
-      <h4><a href="https://www.icelandicfestival.com/festival-info/attend" target="_blank" rel="noopener">Íslendingadagurinn — Icelandic Festival of Manitoba</a></h4>
-      <div class="venue">Gimli, MB (Lake Winnipeg waterfront)</div>
-      <div class="blurb">The 137th Icelandic festival brings Viking reenactors, one of Manitoba's biggest parades, a midway, fireworks and lakeside cultural events to Gimli on the August long weekend.</div>
-      <div class="foot"><span class="pill free">Free</span><span class="pill fam">Family</span><span class="pill tix">Ticketed</span><span class="pill time">All weekend; parade Aug 3</span></div>
-    </article></div>
-  </section><section class="stream" id="s-rapids" style="--c:#e05a3b">
-    <div class="stream-head" style="background:linear-gradient(120deg,#c7452a,#ef7a4f)">
-      <h2>The Rapids<span class="count">14</span></h2>
-      <div class="river">≈ Assiniboine current</div>
-      <div class="desc">Live music, tributes & after-dark energy.</div>
-      <div class="wave-btm"><svg viewBox="0 0 1440 34" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path fill="#fff" d="M0,18 C180,34 360,4 540,16 C740,29 900,34 1080,20 C1230,9 1350,20 1440,14 L1440,34 L0,34 Z"/></svg></div>
-    </div>
-    <div class="cards"><article class="card">
-      <div class="when">Jul 23</div>
-      <h4><a href="https://winnipeg.events/july/" target="_blank" rel="noopener">Marty Stuart &amp; His Fabulous Superlatives</a></h4>
-      <div class="venue">Club Regent Event Centre</div>
-      <div class="blurb">Grammy-winning country &amp; roots showmanship from a genuine legend of the genre.</div>
-      <div class="foot"><span class="pill tix">Ticketed</span><span class="pill time">7:00 PM</span></div>
-    </article><article class="card">
-      <div class="when">Jul 24</div>
-      <h4><a href="https://www.tcb.beer/upcoming-events" target="_blank" rel="noopener">Live Music on the Patio at Trans Canada Brewing</a></h4>
-      <div class="venue">Trans Canada Brewing Co., 1-1290 Kenaston Blvd</div>
-      <div class="blurb">The taproom hosts free local live music most weekends through summer, kicking off with Keith Dyck on Jul 24 and Jeffrey G on Jul 25.</div>
-      <div class="foot"><span class="pill free">Free</span><span class="pill time">Evening</span></div>
-    </article><article class="card">
-      <div class="when">Jul 24</div>
-      <h4><a href="https://winnipeg.events/july/" target="_blank" rel="noopener">1999 — The Ultimate Prince Experience</a></h4>
-      <div class="venue">Club Regent Event Centre</div>
-      <div class="blurb">A high-energy tribute to the Purple One's biggest hits.</div>
-      <div class="foot"><span class="pill tix">Ticketed</span><span class="pill time">8:00 PM</span></div>
-    </article><article class="card">
-      <div class="when">Fri &amp; Sat (to Aug 29)</div>
-      <h4><a href="https://wpgforfree.ca/" target="_blank" rel="noopener">Corydon Avenue Concert Series</a></h4>
-      <div class="venue">Corydon Ave, Little Italy</div>
-      <div class="blurb">Free live music — rock, blues, jazz, country &amp; pop from local musicians all summer.</div>
-      <div class="foot"><span class="pill free">Free</span><span class="pill time">7–10 PM</span></div>
-    </article><article class="card">
-      <div class="when">Jul 25</div>
-      <h4><a href="https://winnipeg.events/july/" target="_blank" rel="noopener">Taylor — A Tribute to the Eras of Taylor Swift</a></h4>
-      <div class="venue">Club Regent Event Centre</div>
-      <div class="blurb">A friendship-bracelet-ready run through every era.</div>
-      <div class="foot"><span class="pill tix">Ticketed</span><span class="pill time">7:00 PM</span></div>
-    </article><article class="card">
-      <div class="when">Jul 29</div>
-      <h4><a href="https://winnipeg.events/july/" target="_blank" rel="noopener">Honeymoon Suite</a></h4>
-      <div class="venue">Burton Cummings Theatre</div>
-      <div class="blurb">Canadian rock mainstays back on the Burt stage.</div>
-      <div class="foot"><span class="pill tix">Ticketed</span><span class="pill time">8:00 PM</span></div>
-    </article><article class="card">
-      <div class="when">Jul 30</div>
-      <h4><a href="https://myparktheatre.com/calendar/" target="_blank" rel="noopener">SuperFX (Video Game Music Live)</a></h4>
-      <div class="venue">The Park Theatre</div>
-      <div class="blurb">A live-band celebration of classic video-game soundtracks (billed alongside 8-bit &amp; The Single Players) at the Park.</div>
-      <div class="foot"><span class="pill tix">Ticketed</span><span class="pill time">6:30 PM</span></div>
-    </article><article class="card">
-      <div class="when">Jul 31</div>
-      <h4><a href="https://www.bandsintown.com/v/10031983-bulldog-event-centre" target="_blank" rel="noopener">Black Pontiac</a></h4>
-      <div class="venue">Bulldog Event Centre</div>
-      <div class="blurb">Gritty rock at the Main Street DIY room Bulldog Event Centre.</div>
-      <div class="foot"><span class="pill tix">Ticketed</span><span class="pill time">8:00 PM</span></div>
-    </article><article class="card">
-      <div class="when">Jul 31</div>
-      <h4><a href="https://www.wag.ca/events/event-calendar/" target="_blank" rel="noopener">Window Radio x WAG: Golden Hour Rooftop Mix</a></h4>
-      <div class="venue">WAG-Qaumajuq Rooftop</div>
-      <div class="blurb">The rooftop becomes an immersive soundscape featuring baddievision, One Prime Spectacle, and Proper.</div>
-      <div class="foot"><span class="pill tix">Ticketed</span><span class="pill time">Evening</span></div>
-    </article><article class="card">
-      <div class="when">Jul 31-Aug 3</div>
-      <h4><a href="https://www.todocanada.ca/manitoba-festivals-july/" target="_blank" rel="noopener">Elements Music &amp; Arts Festival</a></h4>
-      <div class="venue">Stonyridge Campground, St. Laurent, MB</div>
-      <div class="blurb">A 19+ camping music and arts festival on a 240-acre property with a quarry beach about an hour north of Winnipeg.</div>
-      <div class="foot"><span class="pill tix">Ticketed</span><span class="pill time">Camping festival, all weekend</span></div>
-    </article><article class="card">
-      <div class="when">Aug 1</div>
-      <h4><a href="https://myparktheatre.com/calendar/" target="_blank" rel="noopener">Iron Kingdom w/ W.M.D</a></h4>
-      <div class="venue">The Park Theatre</div>
-      <div class="blurb">Heavy classic-metal double bill headlined by Iron Kingdom at the Park Theatre.</div>
-      <div class="foot"><span class="pill tix">Ticketed</span><span class="pill time">7:00 PM</span></div>
-    </article><article class="card">
-      <div class="when">Aug 2</div>
-      <h4><a href="https://www.bandsintown.com/v/10019686-the-handsome-daughter" target="_blank" rel="noopener">Wax Mannequin</a></h4>
-      <div class="venue">The Handsome Daughter</div>
-      <div class="blurb">Ontario cult indie-folk showman Wax Mannequin plays the intimate Handsome Daughter.</div>
-      <div class="foot"><span class="pill tix">Ticketed</span></div>
-    </article><article class="card">
-      <div class="when">Aug 4</div>
-      <h4><a href="https://winnipeg.events/august/" target="_blank" rel="noopener">K-Hunters — The Show</a></h4>
-      <div class="venue">Centennial Concert Hall</div>
-      <div class="blurb">A high-production K-pop tribute spectacle.</div>
-      <div class="foot"><span class="pill tix">Ticketed</span><span class="pill time">7:00 PM</span></div>
-    </article><article class="card">
-      <div class="when">Aug 4</div>
-      <h4><a href="https://winnipeg.events/august/" target="_blank" rel="noopener">Magic Men Australia</a></h4>
-      <div class="venue">Park Theatre</div>
-      <div class="blurb">The touring all-in adults' night-out revue (19+).</div>
-      <div class="foot"><span class="pill tix">Ticketed</span><span class="pill time">7:30 PM</span></div>
-    </article></div>
-  </section><section class="stream" id="s-roar" style="--c:#c23b3b">
-    <div class="stream-head" style="background:linear-gradient(120deg,#a52c2c,#d85a5a)">
-      <h2>The Roar<span class="count">9</span></h2>
-      <div class="river">≈ Red River on a game night</div>
-      <div class="desc">Bombers, Sea Bears, Goldeyes — big crowds, big noise.</div>
-      <div class="wave-btm"><svg viewBox="0 0 1440 34" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path fill="#fff" d="M0,18 C180,34 360,4 540,16 C740,29 900,34 1080,20 C1230,9 1350,20 1440,14 L1440,34 L0,34 Z"/></svg></div>
-    </div>
-    <div class="cards"><article class="card">
-      <div class="when">Jul 23</div>
-      <h4><a href="https://www.seabears.ca/schedule" target="_blank" rel="noopener">Winnipeg Sea Bears vs. Vancouver Bandits</a></h4>
-      <div class="venue">Canada Life Centre</div>
-      <div class="blurb">CEBL pro basketball as the Sea Bears host the Vancouver Bandits downtown.</div>
-      <div class="foot"><span class="pill tix">Ticketed</span><span class="pill fam">Family</span><span class="pill time">7:00 PM</span></div>
-    </article><article class="card">
-      <div class="when">Jul 24</div>
-      <h4><a href="https://www.goldeyes.com/promotional-schedule" target="_blank" rel="noopener">Winnipeg Goldeyes vs. TBD — Jamaica Trip Giveaway &amp; Fireworks</a></h4>
-      <div class="venue">Blue Cross Park</div>
-      <div class="blurb">Friday night Goldeyes baseball with a Jamaica trip giveaway and a post-game fireworks show.</div>
-      <div class="foot"><span class="pill tix">Ticketed</span><span class="pill fam">Family</span><span class="pill time">7:00 PM</span></div>
-    </article><article class="card">
-      <div class="when">Jul 24</div>
-      <h4><a href="https://www.bluebombers.com/" target="_blank" rel="noopener">Blue Bombers vs. Calgary Stampeders</a></h4>
-      <div class="venue">Princess Auto Stadium</div>
-      <div class="blurb">CFL Friday-night football under the lights.</div>
-      <div class="foot"><span class="pill tix">Ticketed</span><span class="pill time">7:30 PM</span></div>
-    </article><article class="card">
-      <div class="when">Jul 25</div>
-      <h4><a href="https://www.goldeyes.com/promotional-schedule" target="_blank" rel="noopener">Winnipeg Goldeyes — Christmas in July</a></h4>
-      <div class="venue">Blue Cross Park</div>
-      <div class="blurb">A festive Christmas in July theme night at the ballpark for the whole family.</div>
-      <div class="foot"><span class="pill tix">Ticketed</span><span class="pill fam">Family</span></div>
-    </article><article class="card">
-      <div class="when">Jul 25</div>
-      <h4><a href="https://www.seabears.ca/schedule" target="_blank" rel="noopener">Winnipeg Sea Bears vs. Brampton Honey Badgers</a></h4>
-      <div class="venue">Canada Life Centre</div>
-      <div class="blurb">The Sea Bears take on the Brampton Honey Badgers in CEBL action at Canada Life Centre.</div>
-      <div class="foot"><span class="pill tix">Ticketed</span><span class="pill fam">Family</span></div>
-    </article><article class="card">
-      <div class="when">Jul 30</div>
-      <h4><a href="https://www.bluebombers.com/" target="_blank" rel="noopener">Blue Bombers vs. BC Lions</a></h4>
-      <div class="venue">Princess Auto Stadium</div>
-      <div class="blurb">A big West Division matchup at the stadium.</div>
-      <div class="foot"><span class="pill tix">Ticketed</span><span class="pill time">7:30 PM</span></div>
-    </article><article class="card">
-      <div class="when">Jul 31</div>
-      <h4><a href="https://www.goldeyes.com/promotional-schedule" target="_blank" rel="noopener">Winnipeg Goldeyes — Alternate Identity Night &amp; Fireworks</a></h4>
-      <div class="venue">Blue Cross Park</div>
-      <div class="blurb">The Goldeyes play as their reveal alternate identity with limited-edition merch and post-game fireworks.</div>
-      <div class="foot"><span class="pill tix">Ticketed</span><span class="pill fam">Family</span><span class="pill time">7:00 PM</span></div>
-    </article><article class="card">
-      <div class="when">Jul 31</div>
-      <h4><a href="https://www.seabears.ca/schedule" target="_blank" rel="noopener">Winnipeg Sea Bears vs. Ottawa BlackJacks — Home Finale</a></h4>
-      <div class="venue">Canada Life Centre</div>
-      <div class="blurb">The Sea Bears close their regular-season home schedule against the Ottawa BlackJacks.</div>
-      <div class="foot"><span class="pill tix">Ticketed</span><span class="pill fam">Family</span><span class="pill time">7:00 PM</span></div>
-    </article><article class="card">
-      <div class="when">Aug 4</div>
-      <h4><a href="https://www.goldeyes.com/promotional-schedule" target="_blank" rel="noopener">Winnipeg Goldeyes — Baseball Bingo Night</a></h4>
-      <div class="venue">Blue Cross Park</div>
-      <div class="blurb">A Tuesday-night Goldeyes game featuring interactive Baseball Bingo for fans.</div>
-      <div class="foot"><span class="pill tix">Ticketed</span><span class="pill fam">Family</span></div>
-    </article></div>
-  </section><section class="stream" id="s-deep" style="--c:#7a5ba6">
-    <div class="stream-head" style="background:linear-gradient(120deg,#5f4193,#9a72c4)">
-      <h2>Deep Waters<span class="count">19</span></h2>
-      <div class="river">≈ Seine River · St. Boniface</div>
-      <div class="desc">Theatre, galleries, film, comedy & ceremony.</div>
-      <div class="wave-btm"><svg viewBox="0 0 1440 34" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path fill="#fff" d="M0,18 C180,34 360,4 540,16 C740,29 900,34 1080,20 C1230,9 1350,20 1440,14 L1440,34 L0,34 Z"/></svg></div>
-    </div>
-    <div class="cards"><article class="card">
-      <div class="when">Jul 15-26</div>
-      <h4><a href="https://www.winnipegfringe.com/" target="_blank" rel="noopener">Winnipeg Fringe Theatre Festival</a></h4>
-      <div class="venue">Old Market Square &amp; venues across the Exchange District</div>
-      <div class="blurb">Canada's second-largest fringe packs the Exchange District with hundreds of indie theatre, improv, comedy and dance shows plus a free outdoor stage.</div>
-      <div class="foot"><span class="pill tix">Ticketed</span><span class="pill free">Free</span><span class="pill fam">Family</span><span class="pill time">Various; free outdoor stage at Old Market Square</span></div>
-    </article><article class="card">
-      <div class="when">Jul 21</div>
-      <h4><a href="https://davebarbercinematheque.com/" target="_blank" rel="noopener">Directed by Elaine May: A New Leaf + Mikey and Nicky (4K)</a></h4>
-      <div class="venue">Dave Barber Cinematheque</div>
-      <div class="blurb">A double bill of 4K restorations opens a retrospective of filmmaker Elaine May's sharp comedies.</div>
-      <div class="foot"><span class="pill tix">Ticketed</span><span class="pill time">7:00 PM &amp; 9:00 PM</span></div>
-    </article><article class="card">
-      <div class="when">Through Aug 2026</div>
-      <h4><a href="https://www.wag.ca/art/exhibitions/" target="_blank" rel="noopener">Bîstyek: Forbidden Colours</a></h4>
-      <div class="venue">Winnipeg Art Gallery-Qaumajuq</div>
-      <div class="blurb">Winnipeg artist Bîstyek's exhibition reflects on Kurdish identity in its closing weeks.</div>
-      <div class="foot"><span class="pill tix">Ticketed</span><span class="pill time">Gallery hours</span></div>
-    </article><article class="card">
-      <div class="when">Through Dec 13</div>
-      <h4><a href="https://www.wag.ca/art/exhibitions/" target="_blank" rel="noopener">Staycation: The Art of Being Here</a></h4>
-      <div class="venue">Winnipeg Art Gallery-Qaumajuq</div>
-      <div class="blurb">Manitoba artworks from the last 50 years invite you to see your surroundings through new eyes.</div>
-      <div class="foot"><span class="pill tix">Ticketed</span><span class="pill time">Gallery hours</span></div>
-    </article><article class="card">
-      <div class="when">Jul 21-22</div>
-      <h4><a href="https://rumorscomedyclub.com/events/list" target="_blank" rel="noopener">Jordan Welwood at Rumor's Comedy Club</a></h4>
-      <div class="venue">Rumor's Restaurant &amp; Comedy Club, 2025 Corydon Ave</div>
-      <div class="blurb">Stand-up headliner Jordan Welwood plays Winnipeg's long-running comedy club to open the week.</div>
-      <div class="foot"><span class="pill tix">Ticketed</span><span class="pill time">Evening show</span></div>
-    </article><article class="card">
-      <div class="when">Jul 22</div>
-      <h4><a href="https://www.wag.ca/events/event-calendar/" target="_blank" rel="noopener">WAG Wednesday Nights: Dance Battle</a></h4>
-      <div class="venue">Winnipeg Art Gallery-Qaumajuq</div>
-      <div class="blurb">A hip hop dance showdown livens up the gallery on a summer Wednesday night.</div>
-      <div class="foot"><span class="pill free">Free</span><span class="pill time">Evening</span></div>
-    </article><article class="card">
-      <div class="when">Jul 22</div>
-      <h4><a href="https://allevents.in/winnipeg/interpretive-walk-indigenous-medicines-with-knowledge-keeper-lisa-hittrick/100001993495171722" target="_blank" rel="noopener">Interpretive Walk: Indigenous Medicines with Knowledge Keeper Lisa Hittrick</a></h4>
-      <div class="venue">Henteleff Park</div>
-      <div class="blurb">Métis Knowledge Keeper Lisa Hittrick leads a free evening walk sharing traditional Indigenous plant medicines along the Red River.</div>
-      <div class="foot"><span class="pill free">Free</span><span class="pill fam">Family</span><span class="pill time">7:00 PM - 8:30 PM</span></div>
-    </article><article class="card">
-      <div class="when">Jul 23</div>
-      <h4><a href="https://www.wag.ca/events/event-calendar/" target="_blank" rel="noopener">Comedy on the Rooftop</a></h4>
-      <div class="venue">WAG-Qaumajuq Rooftop</div>
-      <div class="blurb">An evening with some of Winnipeg's best comics on the iconic WAG rooftop.</div>
-      <div class="foot"><span class="pill tix">Ticketed</span><span class="pill time">Evening</span></div>
-    </article><article class="card">
-      <div class="when">Jul 23-25</div>
-      <h4><a href="https://rumorscomedyclub.com/events/list" target="_blank" rel="noopener">Jay Pharoah at Rumor's Comedy Club</a></h4>
-      <div class="venue">Rumor's Restaurant &amp; Comedy Club, 2025 Corydon Ave</div>
-      <div class="blurb">Former Saturday Night Live cast member and impressionist Jay Pharoah headlines a three-night Concert Series run.</div>
-      <div class="foot"><span class="pill tix">Ticketed</span><span class="pill time">Evening show</span></div>
-    </article><article class="card">
-      <div class="when">Jul 24-26</div>
-      <h4><a href="https://cookscreekmedievalfest.ca/" target="_blank" rel="noopener">Cooks Creek Medieval Festival</a></h4>
-      <div class="venue">Immaculate Conception Church &amp; Grotto, Cook's Creek, MB</div>
-      <div class="blurb">A medieval fair with armoured combat, jousting, artisans and period reenactors on the grounds of a historic church just east of Winnipeg.</div>
-      <div class="foot"><span class="pill tix">Ticketed</span><span class="pill fam">Family</span><span class="pill time">Daytime, all weekend</span></div>
-    </article><article class="card">
-      <div class="when">Jul 25-26</div>
-      <h4><a href="https://wpgforfree.ca/2026/07/20/10-free-winnipeg-weekend-events-3/" target="_blank" rel="noopener">5th Annual Anishinaabe Days Traditional Pow Wow</a></h4>
-      <div class="venue">Naawi-Oodena, 505 Kenaston Blvd</div>
-      <div class="blurb">A free traditional powwow of singing, dancing and drumming on the Naawi-Oodena urban reserve grounds.</div>
-      <div class="foot"><span class="pill free">Free</span><span class="pill fam">Family</span><span class="pill time">Grand Entry Sat 1 &amp; 7 PM, Sun 1 PM</span></div>
-    </article><article class="card">
-      <div class="when">Jul 25</div>
-      <h4><a href="https://winnipeg.events/july/" target="_blank" rel="noopener">Stuff You Should Know — Live</a></h4>
-      <div class="venue">Burton Cummings Theatre</div>
-      <div class="blurb">The hit podcast, live on stage.</div>
-      <div class="foot"><span class="pill tix">Ticketed</span><span class="pill time">7:00 PM</span></div>
-    </article><article class="card">
-      <div class="when">Jul 27–Aug 2</div>
-      <h4><a href="https://www.theforks.com/events/calendar-of-events" target="_blank" rel="noopener">Gallery at the Allery — Dawn Marie Chartrand</a></h4>
-      <div class="venue">The Forks Market</div>
-      <div class="blurb">Indigenous artist exhibition celebrating culture, healing, resilience &amp; the strength of Indigenous women.</div>
-      <div class="foot"><span class="pill free">Free</span><span class="pill time">9:30a–9p</span></div>
-    </article><article class="card">
-      <div class="when">Jul 28</div>
-      <h4><a href="https://rumorscomedyclub.com/events/list" target="_blank" rel="noopener">David Nihill at Rumor's Comedy Club</a></h4>
-      <div class="venue">Rumor's Restaurant &amp; Comedy Club, 2025 Corydon Ave</div>
-      <div class="blurb">Bestselling comic and author David Nihill brings his Concert Series stand-up set to Rumor's for one night.</div>
-      <div class="foot"><span class="pill tix">Ticketed</span><span class="pill time">Evening show</span></div>
-    </article><article class="card">
-      <div class="when">Jul 29-30</div>
-      <h4><a href="https://www.wag.ca/events/event-calendar/" target="_blank" rel="noopener">WAG Wednesday Nights: Art Moto - Where Design Meets the Road</a></h4>
-      <div class="venue">Winnipeg Art Gallery-Qaumajuq</div>
-      <div class="blurb">A two-day pop-up exhibition celebrating the design and craft of motorcycles.</div>
-      <div class="foot"><span class="pill free">Free</span><span class="pill time">Evening</span></div>
-    </article><article class="card">
-      <div class="when">Jul 29</div>
-      <h4><a href="https://www.theforks.com/events/calendar-of-events" target="_blank" rel="noopener">Full Moon Ceremony</a></h4>
-      <div class="venue">Oodena Celebration Circle, The Forks</div>
-      <div class="blurb">A community gathering honouring Grandmother Moon — all are welcome.</div>
-      <div class="foot"><span class="pill free">Free</span><span class="pill time">9–11 PM</span></div>
-    </article><article class="card">
-      <div class="when">Jul 30</div>
-      <h4><a href="https://davebarbercinematheque.com/" target="_blank" rel="noopener">Wild Style (Cult-O-Rama)</a></h4>
-      <div class="venue">Dave Barber Cinematheque</div>
-      <div class="blurb">The seminal 1983 hip hop film screens as part of the Cult-O-Rama series.</div>
-      <div class="foot"><span class="pill tix">Ticketed</span><span class="pill time">Evening</span></div>
-    </article><article class="card">
-      <div class="when">Jul 31</div>
-      <h4><a href="https://davebarbercinematheque.com/" target="_blank" rel="noopener">Silent Friend</a></h4>
-      <div class="venue">Dave Barber Cinematheque</div>
-      <div class="blurb">A new feature screening at Winnipeg's independent art-house cinema.</div>
-      <div class="foot"><span class="pill tix">Ticketed</span><span class="pill time">Evening</span></div>
-    </article><article class="card">
-      <div class="when">Aug 4-8</div>
-      <h4><a href="https://rumorscomedyclub.com/events/list" target="_blank" rel="noopener">Ben Walker at Rumor's Comedy Club</a></h4>
-      <div class="venue">Rumor's Restaurant &amp; Comedy Club, 2025 Corydon Ave</div>
-      <div class="blurb">Comedian Ben Walker headlines a five-night stand-up run at Rumor's.</div>
-      <div class="foot"><span class="pill tix">Ticketed</span><span class="pill time">Evening show</span></div>
-    </article></div>
-  </section><section class="stream" id="s-sky" style="--c:#3e92cc">
-    <div class="stream-head" style="background:linear-gradient(120deg,#2c74a8,#57add9)">
-      <h2>Open Sky<span class="count">10</span></h2>
-      <div class="river">≈ Lake Winnipeg & beyond</div>
-      <div class="desc">Outdoors, nature & fresh air.</div>
-      <div class="wave-btm"><svg viewBox="0 0 1440 34" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path fill="#fff" d="M0,18 C180,34 360,4 540,16 C740,29 900,34 1080,20 C1230,9 1350,20 1440,14 L1440,34 L0,34 Z"/></svg></div>
-    </div>
-    <div class="cards"><article class="card">
-      <div class="when">Jul 21</div>
-      <h4><a href="https://www.fortwhyte.org/visit/calendar/" target="_blank" rel="noopener">Paddle Nights at FortWhyte Alive</a></h4>
-      <div class="venue">FortWhyte Alive, 1961 McCreary Rd, Winnipeg</div>
-      <div class="blurb">Guided evening canoe and kayak paddle across FortWhyte's chain of lakes as the sun goes down.</div>
-      <div class="foot"><span class="pill tix">Ticketed</span><span class="pill time">6:00-8:30 pm</span></div>
-    </article><article class="card">
-      <div class="when">Jul 21</div>
-      <h4><a href="https://www.fortwhyte.org/visit/calendar/" target="_blank" rel="noopener">Wild Edibles Walk</a></h4>
-      <div class="venue">FortWhyte Alive, 1961 McCreary Rd, Winnipeg</div>
-      <div class="blurb">Beginner foraging workshop identifying edible wild plants along the trails at FortWhyte Alive.</div>
-      <div class="foot"><span class="pill tix">Ticketed</span><span class="pill time">6:00-7:30 pm</span></div>
-    </article><article class="card">
-      <div class="when">Jul 23</div>
-      <h4><a href="https://www.fortwhyte.org/visit/calendar/" target="_blank" rel="noopener">The FortWhyte Chase</a></h4>
-      <div class="venue">FortWhyte Alive, 1961 McCreary Rd, Winnipeg</div>
-      <div class="blurb">An evening of team challenges and racing across FortWhyte's woods, water and trails.</div>
-      <div class="foot"><span class="pill tix">Ticketed</span><span class="pill time">7:00-11:00 pm</span></div>
-    </article><article class="card">
-      <div class="when">Jul 25</div>
-      <h4><a href="https://www.fortwhyte.org/visit/calendar/" target="_blank" rel="noopener">Baby Bison Walk</a></h4>
-      <div class="venue">FortWhyte Alive, 1961 McCreary Rd, Winnipeg</div>
-      <div class="blurb">A guided walk to see this year's newborn bison calves in FortWhyte's prairie enclosure.</div>
-      <div class="foot"><span class="pill fam">Family</span><span class="pill tix">Ticketed</span><span class="pill time">10:30-11:30 am</span></div>
-    </article><article class="card">
-      <div class="when">Jul 26</div>
-      <h4><a href="https://www.fortwhyte.org/visit/calendar/" target="_blank" rel="noopener">Voyageur Canoe Rides</a></h4>
-      <div class="venue">FortWhyte Alive, 1961 McCreary Rd, Winnipeg</div>
-      <div class="blurb">Hop aboard a big voyageur canoe for a paddle through the lakes and wetlands of FortWhyte.</div>
-      <div class="foot"><span class="pill fam">Family</span><span class="pill tix">Ticketed</span><span class="pill time">1:00-3:00 pm</span></div>
-    </article><article class="card">
-      <div class="when">Jul 26</div>
-      <h4><a href="https://www.assiniboinepark.ca/events/summer-entertainment-series" target="_blank" rel="noopener">Jazz in the Leo Mol Sculpture Garden</a></h4>
-      <div class="venue">Leo Mol Sculpture Garden, Assiniboine Park, Winnipeg</div>
-      <div class="blurb">Free outdoor midday jazz with Danny Carroll amid the sculptures and gardens of Assiniboine Park.</div>
-      <div class="foot"><span class="pill free">Free</span><span class="pill fam">Family</span><span class="pill time">12:00-1:00 pm</span></div>
-    </article><article class="card">
-      <div class="when">Sundays</div>
-      <h4><a href="https://wpgforfree.ca/" target="_blank" rel="noopener">ArtRide: guided public-art bike tour</a></h4>
-      <div class="venue">Assiniboine River corridor</div>
-      <div class="blurb">A ~20 km guided cycling tour of murals, sculpture &amp; architecture. Bring your bike.</div>
-      <div class="foot"><span class="pill free">Free</span><span class="pill time">10a–12p</span></div>
-    </article><article class="card">
-      <div class="when">Jul 28</div>
-      <h4><a href="https://www.fortwhyte.org/event/learn-to-fish/2026-05-26/" target="_blank" rel="noopener">Learn to Fish</a></h4>
-      <div class="venue">FortWhyte Alive (Alloway Reception Centre), 1961 McCreary Rd, Winnipeg</div>
-      <div class="blurb">A hands-on outdoor angling clinic where you cast for northern pike and yellow perch with rentals available.</div>
-      <div class="foot"><span class="pill fam">Family</span><span class="pill tix">Ticketed</span><span class="pill time">6:30-8:30 pm</span></div>
-    </article><article class="card">
-      <div class="when">Jul 29</div>
-      <h4><a href="https://www.fortwhyte.org/visit/calendar/" target="_blank" rel="noopener">Discover Nature Together - Wonderful Wetlands</a></h4>
-      <div class="venue">FortWhyte Alive, 1961 McCreary Rd, Winnipeg</div>
-      <div class="blurb">A guided interpretive walk exploring the plants and creatures of FortWhyte's marshes and lakes.</div>
-      <div class="foot"><span class="pill fam">Family</span><span class="pill tix">Ticketed</span><span class="pill time">6:00-7:30 pm</span></div>
-    </article><article class="card">
-      <div class="when">Aug 2</div>
-      <h4><a href="https://www.runguides.com/event/2528/islendingadagurinn-5k-road-race" target="_blank" rel="noopener">Islendingadagurinn 5K Road Race</a></h4>
-      <div class="venue">Gimli Pavilion Park, Gimli MB</div>
-      <div class="blurb">A scenic lakeside 5K road race in Gimli run as part of the Icelandic Festival of Manitoba.</div>
-      <div class="foot"><span class="pill tix">Ticketed</span><span class="pill fam">Family</span></div>
-    </article></div>
-  </section><section class="stream" id="s-ripples" style="--c:#219f8e">
-    <div class="stream-head" style="background:linear-gradient(120deg,#178476,#3bbaa6)">
-      <h2>Little Ripples<span class="count">13</span></h2>
-      <div class="river">≈ gentle currents</div>
-      <div class="desc">Family & kid-sized adventures.</div>
-      <div class="wave-btm"><svg viewBox="0 0 1440 34" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path fill="#fff" d="M0,18 C180,34 360,4 540,16 C740,29 900,34 1080,20 C1230,9 1350,20 1440,14 L1440,34 L0,34 Z"/></svg></div>
-    </div>
-    <div class="cards"><article class="card">
-      <div class="when">Jul 21-26</div>
-      <h4><a href="https://www.winnipegfringe.com/Kids-Fringe.aspx" target="_blank" rel="noopener">Kids Fringe at Old Market Square</a></h4>
-      <div class="venue">Old Market Square, Exchange District</div>
-      <div class="blurb">Free daily crafts, games and special guests for kids in the heart of the Fringe Festival.</div>
-      <div class="foot"><span class="pill free">Free</span><span class="pill fam">Family</span><span class="pill time">12:00-3:00 PM daily</span></div>
-    </article><article class="card">
-      <div class="when">Jul 21-Aug 1</div>
-      <h4><a href="https://www.theforks.com/events/calendar-of-events" target="_blank" rel="noopener">Free Skateboard Lessons at The Forks</a></h4>
-      <div class="venue">The Plaza Skateboard Park, The Forks</div>
-      <div class="blurb">Pihtikwe Skatepark offers free all-ages skateboard lessons with equipment provided all summer at The Forks skatepark.</div>
-      <div class="foot"><span class="pill free">Free</span><span class="pill fam">Family</span><span class="pill time">11:00 AM-5:00 PM</span></div>
-    </article><article class="card">
-      <div class="when">Through Sep 7</div>
-      <h4><a href="https://childrensmuseum.com/exhibit/motion-mania/" target="_blank" rel="noopener">Motion Mania at the Children's Museum</a></h4>
-      <div class="venue">Manitoba Children's Museum, The Forks</div>
-      <div class="blurb">Kids design, build and test their own roller coasters across 30+ parts and 10 hands-on STEM challenges, included with admission.</div>
-      <div class="foot"><span class="pill tix">Ticketed</span><span class="pill fam">Family</span><span class="pill time">9:30 AM-4:30 PM</span></div>
-    </article><article class="card">
-      <div class="when">Through Sep 7</div>
-      <h4><a href="https://manitobamuseum.ca/event/summer2026/2026-07-02/" target="_blank" rel="noopener">Summer @ the Manitoba Museum &amp; Science Gallery</a></h4>
-      <div class="venue">Manitoba Museum, 190 Rupert Ave</div>
-      <div class="blurb">Daily hands-on gallery activities, a wind-powered boat build in the Science Gallery and family planetarium shows, with free admission for kids 17 and under.</div>
-      <div class="foot"><span class="pill tix">Ticketed</span><span class="pill fam">Family</span><span class="pill time">10:00 AM-4:00 PM daily</span></div>
-    </article><article class="card">
-      <div class="when">Through Aug 30</div>
-      <h4><a href="https://www.assiniboinepark.ca/events" target="_blank" rel="noopener">Assiniboine Park Summer Entertainment Series</a></h4>
-      <div class="venue">Assiniboine Park (Lyric Theatre, The Leaf, Leo Mol Garden)</div>
-      <div class="blurb">Free music, Movies in the Park, jazz and outdoor yoga run all summer across the park for the whole family.</div>
-      <div class="foot"><span class="pill free">Free</span><span class="pill fam">Family</span><span class="pill time">Various (evenings/weekends)</span></div>
-    </article><article class="card">
-      <div class="when">Ongoing</div>
-      <h4><a href="https://www.assiniboinepark.ca/leaf/about-the-leaf" target="_blank" rel="noopener">The Leaf Butterfly Garden at Assiniboine Park</a></h4>
-      <div class="venue">The Leaf, Assiniboine Park</div>
-      <div class="blurb">Wander tropical biomes and a butterfly garden inside Canada's tallest indoor waterfall attraction, a rainy-day-proof family outing.</div>
-      <div class="foot"><span class="pill tix">Ticketed</span><span class="pill fam">Family</span><span class="pill time">Daytime hours</span></div>
-    </article><article class="card">
-      <div class="when">Through Aug</div>
-      <h4><a href="https://guides.wpl.winnipeg.ca/tdsummerreadingclub" target="_blank" rel="noopener">TD Summer Reading Club at Winnipeg Public Library</a></h4>
-      <div class="venue">Winnipeg Public Library (all branches)</div>
-      <div class="blurb">Free summer reading challenge plus storytimes and kids programs keeping children reading all summer at every library branch.</div>
-      <div class="foot"><span class="pill free">Free</span><span class="pill fam">Family</span><span class="pill time">Varies by branch</span></div>
-    </article><article class="card">
-      <div class="when">Jul 22</div>
-      <h4><a href="https://www.wag.ca/events/event-calendar/" target="_blank" rel="noopener">Charms ClayMaker Workshop</a></h4>
-      <div class="venue">Winnipeg Art Gallery-Qaumajuq</div>
-      <div class="blurb">A hands-on clay workshop where you make whimsical charms for bags, keychains, or magnets.</div>
-      <div class="foot"><span class="pill fam">Family</span><span class="pill tix">Ticketed</span><span class="pill time">Daytime</span></div>
-    </article><article class="card">
-      <div class="when">Jul 22-26</div>
-      <h4><a href="https://www.winnipegfringe.com/Kids-Fringe.aspx" target="_blank" rel="noopener">Double Dare Magic (Kids Fringe show)</a></h4>
-      <div class="venue">Manitoba Theatre for Young People, The Forks</div>
-      <div class="blurb">A family magic show at the Fringe with tickets around $10 adults / $6 kids.</div>
-      <div class="foot"><span class="pill tix">Ticketed</span><span class="pill fam">Family</span><span class="pill time">Multiple showtimes</span></div>
-    </article><article class="card">
-      <div class="when">Jul 23–27</div>
-      <h4><a href="https://winnipeg.events/july/" target="_blank" rel="noopener">Cirque Italia: Water Circus — Nautilus</a></h4>
-      <div class="venue">St. Vital Centre</div>
-      <div class="blurb">A travelling big-top circus staged around a 35,000-gallon water tank.</div>
-      <div class="foot"><span class="pill tix">Ticketed</span><span class="pill fam">Family</span><span class="pill time">Multiple</span></div>
-    </article><article class="card">
-      <div class="when">Jul 26</div>
-      <h4><a href="https://www.fortwhyte.org/visit/calendar/" target="_blank" rel="noopener">Family Nature Hike</a></h4>
-      <div class="venue">FortWhyte Alive, 1961 McCreary Rd, Winnipeg</div>
-      <div class="blurb">An interpreter-led family stroll spotting birds, bugs and prairie wildlife on FortWhyte's trails.</div>
-      <div class="foot"><span class="pill fam">Family</span><span class="pill time">1:00-2:00 pm</span></div>
-    </article><article class="card">
-      <div class="when">Jul 27-31 &amp; Aug 3-7</div>
-      <h4><a href="https://childrensmuseum.com/" target="_blank" rel="noopener">Summer Day Camps at Manitoba Children's Museum</a></h4>
-      <div class="venue">Manitoba Children's Museum, The Forks</div>
-      <div class="blurb">Age-grouped weekly day camps packed with indoor and outdoor games, crafts and time in all 12 galleries.</div>
-      <div class="foot"><span class="pill tix">Ticketed</span><span class="pill fam">Family</span><span class="pill time">9:30 AM-4:00 PM</span></div>
-    </article><article class="card">
-      <div class="when">Aug 1</div>
-      <h4><a href="https://www.fortwhyte.org/visit/calendar/" target="_blank" rel="noopener">Guided Dipnetting</a></h4>
-      <div class="venue">FortWhyte Alive, 1961 McCreary Rd, Winnipeg</div>
-      <div class="blurb">Wade in with nets to scoop up and examine the tiny critters living in FortWhyte's ponds.</div>
-      <div class="foot"><span class="pill fam">Family</span><span class="pill tix">Ticketed</span><span class="pill time">1:00-3:00 pm</span></div>
-    </article></div>
-  </section>
-
-  <section id="s-horizon">
+  <div id="streams"></div>
+  <section id="s-horizon" hidden>
     <div class="h-head">
-      <h2>On the Horizon<span class="count">34</span></h2>
+      <h2>On the Horizon<span class="count" id="h-count"></span></h2>
       <div class="river" style="font-size:13px;font-weight:600;opacity:.9">≈ downstream · the far bends of the river</div>
       <div class="desc">Beyond the next two weeks — the big shows and festivals worth booking now, before they sell out.</div>
       <div class="wave-btm"><svg viewBox="0 0 1440 34" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path fill="#fff" d="M0,18 C180,34 360,4 540,16 C740,29 900,34 1080,20 C1230,9 1350,20 1440,14 L1440,34 L0,34 Z"/></svg></div>
     </div>
-    <div class="h-body"><div class="h-month">August 2026</div><div class="cards horizon-cards"><article class="card">
-      <div class="when">Aug 5</div>
-      <h4><a href="https://acrosstheboardcafe.com/" target="_blank" rel="noopener">Beginner Dungeons &amp; Dragons at Across the Board Game Cafe</a></h4>
-      <div class="venue">Across the Board Game Cafe, 211 Bannatyne Ave</div>
-      <div class="blurb">A newcomer-friendly introduction to Dungeons &amp; Dragons with a guide at Winnipeg's board-game cafe.</div>
-      <div class="foot"><span class="pill tix">Ticketed</span><span class="pill time">6:00 PM - 10:00 PM</span></div>
-    </article><article class="card">
-      <div class="when">Aug 6</div>
-      <h4><a href="https://www.runguides.com/winnipeg/runs" target="_blank" rel="noopener">Birds Hill Trail Series — Esker 8K</a></h4>
-      <div class="venue">Birds Hill Provincial Park, Narol MB</div>
-      <div class="blurb">An evening trail run through the eskers of Birds Hill Provincial Park just outside the city.</div>
-      <div class="foot"><span class="pill tix">Ticketed</span></div>
-    </article><article class="card">
-      <div class="when">Aug 6</div>
-      <h4><a href="https://www.cebl.ca/new-playoff-era-to-begin-as-cebl-announces-2026-season-schedule" target="_blank" rel="noopener">CEBL Conference Semifinals (Sea Bears potential home game)</a></h4>
-      <div class="venue">Canada Life Centre</div>
-      <div class="blurb">Single-elimination CEBL playoffs begin August 6, with higher seeds hosting in their home markets.</div>
-      <div class="foot"><span class="pill book">🎟 Book ahead</span><span class="pill tix">Ticketed</span><span class="pill fam">Family</span></div>
-    </article><article class="card">
-      <div class="when">Aug 8</div>
-      <h4><a href="https://grandbeachsand.com/sandcastle-contest/" target="_blank" rel="noopener">Grand Beach Sandcastle Contest</a></h4>
-      <div class="venue">Grand Beach Provincial Park, Grand Marais, MB</div>
-      <div class="blurb">A day-trip beach classic where kids, adults and families build elaborate sandcastles on one of Canada's best beaches.</div>
-      <div class="foot"><span class="pill free">Free</span><span class="pill fam">Family</span><span class="pill time">All day</span></div>
-    </article><article class="card">
-      <div class="when">Aug 10</div>
-      <h4><a href="https://www.canadalifecentre.ca/events/" target="_blank" rel="noopener">Daniel Caesar</a></h4>
-      <div class="venue">Canada Life Centre</div>
-      <div class="blurb">Grammy-winning R&amp;B star Daniel Caesar performs at Canada Life Centre.</div>
-      <div class="foot"><span class="pill book">🎟 Book ahead</span><span class="pill tix">Ticketed</span><span class="pill time">7:30 PM</span></div>
-    </article><article class="card">
-      <div class="when">Aug 13-16</div>
-      <h4><a href="https://www.streatfeast.ca/" target="_blank" rel="noopener">StrEAT Feast Festival</a></h4>
-      <div class="venue">The Forks, CN Stage &amp; Field</div>
-      <div class="blurb">A free four-day celebration of Winnipeg's food trucks and global street eats at The Forks.</div>
-      <div class="foot"><span class="pill free">Free</span><span class="pill fam">Family</span><span class="pill time">TBA</span></div>
-    </article><article class="card">
-      <div class="when">Aug 14</div>
-      <h4><a href="https://westendculturalcentre.thundertix.com/" target="_blank" rel="noopener">Richard Inman</a></h4>
-      <div class="venue">West End Cultural Centre</div>
-      <div class="blurb">Winnipeg's own honky-tonk troubadour Richard Inman headlines the WECC.</div>
-      <div class="foot"><span class="pill tix">Ticketed</span><span class="pill time">8:00 PM</span></div>
-    </article><article class="card">
-      <div class="when">Aug 14</div>
-      <h4><a href="https://www.burtoncummingstheatre.ca/event/burt-block-party-the-beaches-lights-lolo-and-guests/" target="_blank" rel="noopener">Burt Block Party: The Beaches, Lights &amp; LØLØ</a></h4>
-      <div class="venue">Burton Cummings Theatre</div>
-      <div class="blurb">An outdoor block-party bill headlined by The Beaches and Lights on Smith Street.</div>
-      <div class="foot"><span class="pill book">🎟 Book ahead</span><span class="pill tix">Ticketed</span><span class="pill time">5:00 PM</span></div>
-    </article><article class="card">
-      <div class="when">Aug 16</div>
-      <h4><a href="https://acrosstheboardcafe.com/" target="_blank" rel="noopener">Family Dungeons &amp; Dragons at Across the Board Game Cafe</a></h4>
-      <div class="venue">Across the Board Game Cafe, 211 Bannatyne Ave</div>
-      <div class="blurb">A tabletop D&amp;D adventure designed for families to play together at the board-game cafe.</div>
-      <div class="foot"><span class="pill tix">Ticketed</span><span class="pill fam">Family</span><span class="pill time">2:00 PM - 5:00 PM</span></div>
-    </article><article class="card">
-      <div class="when">Aug 22</div>
-      <h4><a href="https://www.eventbrite.ca/e/9th-annual-winnipeg-beer-festival-2026-wpgbeerfest-tickets-1983563327308" target="_blank" rel="noopener">9th Annual Winnipeg Beer Festival</a></h4>
-      <div class="venue">Le Patio 340, Centre Culturel Franco-Manitobain, 340 Provencher Blvd</div>
-      <div class="blurb">An outdoor sampling event featuring dozens of Manitoba brewers and distillers plus food, with limited tickets that typically sell out.</div>
-      <div class="foot"><span class="pill book">🎟 Book ahead</span><span class="pill tix">Ticketed</span><span class="pill time">5:00 PM - 9:30 PM</span></div>
-    </article><article class="card">
-      <div class="when">Aug 22</div>
-      <h4><a href="https://tacosandtequilafestival.com/market/winnipeg/" target="_blank" rel="noopener">Tacos and Tequila Festival</a></h4>
-      <div class="venue">Blue Cross Park, 1 Portage Ave E</div>
-      <div class="blurb">A ticketed all-day fiesta of tacos, tequila and hip-hop headliners (T.I., Fat Joe, Too $hort) at the ballpark.</div>
-      <div class="foot"><span class="pill book">🎟 Book ahead</span><span class="pill tix">Ticketed</span><span class="pill time">1:30 PM</span></div>
-    </article><article class="card">
-      <div class="when">Aug 24</div>
-      <h4><a href="https://www.canadalifecentre.ca/events/" target="_blank" rel="noopener">BINI</a></h4>
-      <div class="venue">Canada Life Centre</div>
-      <div class="blurb">Chart-topping P-pop girl group BINI brings their global tour to Winnipeg.</div>
-      <div class="foot"><span class="pill book">🎟 Book ahead</span><span class="pill tix">Ticketed</span><span class="pill time">8:00 PM</span></div>
-    </article><article class="card">
-      <div class="when">Aug 27</div>
-      <h4><a href="https://myparktheatre.com/calendar/" target="_blank" rel="noopener">Soul Asylum</a></h4>
-      <div class="venue">The Park Theatre</div>
-      <div class="blurb">90s alt-rock icons Soul Asylum bring 'Runaway Train' to the small Park Theatre, with tickets already running low.</div>
-      <div class="foot"><span class="pill book">🎟 Book ahead</span><span class="pill tix">Ticketed</span><span class="pill time">8:00 PM</span></div>
-    </article><article class="card">
-      <div class="when">Aug 28-30</div>
-      <h4><a href="https://cornandapple.com/" target="_blank" rel="noopener">Morden Corn &amp; Apple Festival</a></h4>
-      <div class="venue">Downtown Morden, MB</div>
-      <div class="blurb">Manitoba's beloved free harvest festival draws huge crowds for free corn on the cob, apple cider, a parade, a midway and major-name concerts (2026 headliners include The Tea Party).</div>
-      <div class="foot"><span class="pill book">🎟 Book ahead</span><span class="pill free">Free</span><span class="pill fam">Family</span><span class="pill time">Daily from 8:30am</span></div>
-    </article><article class="card">
-      <div class="when">Aug 29</div>
-      <h4><a href="https://www.canadalifecentre.ca/events/" target="_blank" rel="noopener">Deep Purple with Kansas &amp; Jefferson Starship</a></h4>
-      <div class="venue">Canada Life Centre</div>
-      <div class="blurb">A triple bill of classic-rock heavyweights Deep Purple, Kansas and Jefferson Starship.</div>
-      <div class="foot"><span class="pill book">🎟 Book ahead</span><span class="pill tix">Ticketed</span><span class="pill time">6:45 PM</span></div>
-    </article><article class="card">
-      <div class="when">Aug 30</div>
-      <h4><a href="https://www.canadalifecentre.ca/events/" target="_blank" rel="noopener">"Weird Al" Yankovic – The Bigger &amp; Weirder 2026 Tour</a></h4>
-      <div class="venue">Canada Life Centre</div>
-      <div class="blurb">Comedy-music legend Weird Al returns with his Bigger &amp; Weirder arena tour.</div>
-      <div class="foot"><span class="pill book">🎟 Book ahead</span><span class="pill tix">Ticketed</span><span class="pill fam">Family</span><span class="pill time">7:30 PM</span></div>
-    </article></div><div class="h-month">September 2026</div><div class="cards horizon-cards"><article class="card">
-      <div class="when">Sep 3-7</div>
-      <h4><a href="https://www.tasteofmb.com/" target="_blank" rel="noopener">A Taste of Manitoba</a></h4>
-      <div class="venue">Fort Gibraltar, 878 St Joseph St</div>
-      <div class="blurb">Around 20 local restaurants serve signature dishes at this popular ticketed tasting event at Fort Gibraltar.</div>
-      <div class="foot"><span class="pill book">🎟 Book ahead</span><span class="pill tix">Ticketed</span><span class="pill time">Evenings</span></div>
-    </article><article class="card">
-      <div class="when">Sep 12</div>
-      <h4><a href="https://www.bluebombers.com/" target="_blank" rel="noopener">Banjo Bowl — Blue Bombers vs. Saskatchewan Roughriders</a></h4>
-      <div class="venue">Princess Auto Stadium</div>
-      <div class="blurb">The annual sellout rivalry showdown between the Blue Bombers and Roughriders returns to Winnipeg.</div>
-      <div class="foot"><span class="pill book">🎟 Book ahead</span><span class="pill tix">Ticketed</span></div>
-    </article><article class="card">
-      <div class="when">Sep 13</div>
-      <h4><a href="https://westendculturalcentre.thundertix.com/" target="_blank" rel="noopener">Carsie Blanton w/ The Burning Hell</a></h4>
-      <div class="venue">West End Cultural Centre</div>
-      <div class="blurb">Witty indie-folk songwriter Carsie Blanton co-headlines the WECC with beloved wordy troupe The Burning Hell.</div>
-      <div class="foot"><span class="pill tix">Ticketed</span><span class="pill time">8:00 PM</span></div>
-    </article><article class="card">
-      <div class="when">Sep 19</div>
-      <h4><a href="https://www.canadalifecentre.ca/events/" target="_blank" rel="noopener">Cody Johnson with Terri Clark</a></h4>
-      <div class="venue">Canada Life Centre</div>
-      <div class="blurb">Country star Cody Johnson headlines with special guest Terri Clark.</div>
-      <div class="foot"><span class="pill book">🎟 Book ahead</span><span class="pill tix">Ticketed</span><span class="pill time">7:30 PM</span></div>
-    </article><article class="card">
-      <div class="when">Sep 20</div>
-      <h4><a href="https://www.canadalifecentre.ca/events/" target="_blank" rel="noopener">AC/DC – Power Up Tour with The Pretty Reckless</a></h4>
-      <div class="venue">Canada Life Centre</div>
-      <div class="blurb">Rock legends AC/DC bring the Power Up stadium tour to Winnipeg with The Pretty Reckless opening.</div>
-      <div class="foot"><span class="pill book">🎟 Book ahead</span><span class="pill tix">Ticketed</span><span class="pill time">7:00 PM</span></div>
-    </article><article class="card">
-      <div class="when">Sep 24</div>
-      <h4><a href="https://www.burtoncummingstheatre.ca/event/lyle-lovett/" target="_blank" rel="noopener">Lyle Lovett with The Hello Darlins</a></h4>
-      <div class="venue">Burton Cummings Theatre</div>
-      <div class="blurb">Four-time Grammy winner Lyle Lovett performs an intimate theatre show.</div>
-      <div class="foot"><span class="pill book">🎟 Book ahead</span><span class="pill tix">Ticketed</span><span class="pill time">7:30 PM</span></div>
-    </article><article class="card">
-      <div class="when">Sep 26</div>
-      <h4><a href="https://www.canadalifecentre.ca/events/" target="_blank" rel="noopener">Bring Me The Horizon</a></h4>
-      <div class="venue">Canada Life Centre</div>
-      <div class="blurb">UK rock juggernaut Bring Me The Horizon plays a rare Winnipeg arena date.</div>
-      <div class="foot"><span class="pill book">🎟 Book ahead</span><span class="pill tix">Ticketed</span><span class="pill time">7:00 PM</span></div>
-    </article><article class="card">
-      <div class="when">Sep 29</div>
-      <h4><a href="https://www.canadalifecentre.ca/events/" target="_blank" rel="noopener">Journey</a></h4>
-      <div class="venue">Canada Life Centre</div>
-      <div class="blurb">Arena-rock icons Journey play their hits live at Canada Life Centre.</div>
-      <div class="foot"><span class="pill book">🎟 Book ahead</span><span class="pill tix">Ticketed</span><span class="pill time">7:30 PM</span></div>
-    </article></div><div class="h-month">October 2026</div><div class="cards horizon-cards"><article class="card">
-      <div class="when">Oct 2026</div>
-      <h4><a href="https://royalmtc.ca/Subscriptions.aspx" target="_blank" rel="noopener">Cyrano de Bergerac (RMTC Season Opener)</a></h4>
-      <div class="venue">John Hirsch Mainstage, Royal MTC</div>
-      <div class="blurb">Jessy Ardern's new adaptation of the swashbuckling romance opens RMTC's 2026-27 mainstage season.</div>
-      <div class="foot"><span class="pill book">🎟 Book ahead</span><span class="pill tix">Ticketed</span><span class="pill time">Evening</span></div>
-    </article><article class="card">
-      <div class="when">Oct 13-25</div>
-      <h4><a href="https://www.pte.mb.ca/performances" target="_blank" rel="noopener">Glory (PTE Season Opener)</a></h4>
-      <div class="venue">Prairie Theatre Exchange</div>
-      <div class="blurb">Tracey Power's play about a pioneering women's hockey team opens PTE's all-Canadian 2026-27 season.</div>
-      <div class="foot"><span class="pill book">🎟 Book ahead</span><span class="pill tix">Ticketed</span><span class="pill time">Evening</span></div>
-    </article><article class="card">
-      <div class="when">Oct 21-24</div>
-      <h4><a href="https://winnipegimprov.com/" target="_blank" rel="noopener">Winnipeg Improv Festival 2026</a></h4>
-      <div class="venue">Winnipeg (venues TBA)</div>
-      <div class="blurb">Four nights of local and touring improv troupes at Winnipeg's annual improv comedy festival.</div>
-      <div class="foot"><span class="pill tix">Ticketed</span><span class="pill time">Evening shows</span></div>
-    </article><article class="card">
-      <div class="when">Oct 30 - Nov 1</div>
-      <h4><a href="https://www.manitoahbee.com/" target="_blank" rel="noopener">Manito Ahbee Festival &amp; International Pow Wow</a></h4>
-      <div class="venue">Canada Life Centre, Winnipeg</div>
-      <div class="blurb">Manitoba's flagship celebration of Indigenous arts, culture and music, anchored by a major international competition powwow.</div>
-      <div class="foot"><span class="pill book">🎟 Book ahead</span><span class="pill tix">Ticketed</span><span class="pill fam">Family</span><span class="pill time">Grand Entries throughout the weekend</span></div>
-    </article><article class="card">
-      <div class="when">Oct 30 - Nov 1</div>
-      <h4><a href="https://comicconwinnipeg.com/" target="_blank" rel="noopener">Winnipeg Comiccon 2026</a></h4>
-      <div class="venue">RBC Convention Centre, 375 York Ave</div>
-      <div class="blurb">Manitoba's big pop-culture convention brings celebrity guests, comics, cosplay and vendors to the RBC Convention Centre for a weekend.</div>
-      <div class="foot"><span class="pill book">🎟 Book ahead</span><span class="pill tix">Ticketed</span><span class="pill fam">Family</span><span class="pill time">All day</span></div>
-    </article><article class="card">
-      <div class="when">Oct 31</div>
-      <h4><a href="https://myparktheatre.com/calendar/" target="_blank" rel="noopener">Free Throw &amp; Microwave</a></h4>
-      <div class="venue">The Park Theatre</div>
-      <div class="blurb">A Halloween-night emo/indie co-headliner from Free Throw and Microwave that will draw the scene out in force.</div>
-      <div class="foot"><span class="pill book">🎟 Book ahead</span><span class="pill tix">Ticketed</span><span class="pill time">6:30 PM</span></div>
-    </article></div><div class="h-month">November 2026</div><div class="cards horizon-cards"><article class="card">
-      <div class="when">Nov 5</div>
-      <h4><a href="https://myparktheatre.com/calendar/" target="_blank" rel="noopener">Death From Above 1979</a></h4>
-      <div class="venue">The Park Theatre</div>
-      <div class="blurb">Toronto dance-punk duo Death From Above 1979 play a rare small-room Winnipeg show at the Park.</div>
-      <div class="foot"><span class="pill book">🎟 Book ahead</span><span class="pill tix">Ticketed</span><span class="pill time">8:00 PM</span></div>
-    </article><article class="card">
-      <div class="when">Nov 23</div>
-      <h4><a href="https://myparktheatre.com/calendar/" target="_blank" rel="noopener">Turnover</a></h4>
-      <div class="venue">The Park Theatre</div>
-      <div class="blurb">Virginia dream-pop/indie band Turnover headlines the Park with tickets already dwindling.</div>
-      <div class="foot"><span class="pill book">🎟 Book ahead</span><span class="pill tix">Ticketed</span><span class="pill time">6:30 PM</span></div>
-    </article></div><div class="h-month">January 2027</div><div class="cards horizon-cards"><article class="card">
-      <div class="when">Jan 30</div>
-      <h4><a href="https://www.canadalifecentre.ca/events/" target="_blank" rel="noopener">Hilary Duff</a></h4>
-      <div class="venue">Canada Life Centre</div>
-      <div class="blurb">Pop and pop-culture icon Hilary Duff plays Canada Life Centre in early 2027.</div>
-      <div class="foot"><span class="pill book">🎟 Book ahead</span><span class="pill tix">Ticketed</span><span class="pill time">7:30 PM</span></div>
-    </article></div><div class="h-month">March 2027</div><div class="cards horizon-cards"><article class="card">
-      <div class="when">Mar 10</div>
-      <h4><a href="https://www.canadalifecentre.ca/events/" target="_blank" rel="noopener">Letterkenny Live</a></h4>
-      <div class="venue">Canada Life Centre</div>
-      <div class="blurb">The hit comedy Letterkenny comes to life on stage in a touring arena show.</div>
-      <div class="foot"><span class="pill book">🎟 Book ahead</span><span class="pill tix">Ticketed</span><span class="pill time">7:30 PM</span></div>
-    </article></div></div>
+    <div class="h-body" id="h-body"></div>
   </section>
 </main>
 
 <footer>
   <div class="wrap">
     <h5>About this calendar</h5>
-    <p>Six vibe streams named for the waters that shape Manitoba — the <strong>Confluence</strong> (The Forks, where the Red & Assiniboine meet), the <strong>Rapids</strong>, the <strong>Roar</strong> of the Red on a game night, the <strong>Deep Waters</strong> of the arts, the <strong>Open Sky</strong> over the lake country, and the <strong>Little Ripples</strong> for the youngest paddlers — plus <strong>On the Horizon</strong> for what's coming downstream. Events are gathered each week by a fan-out of agents digging into official calendars, venue listings, breweries, galleries, parks, community boards and box offices, then sorted by feel rather than by date.</p>
+    <p>Six vibe streams named for the waters that shape Manitoba — the <strong>Confluence</strong> (The Forks, where the Red &amp; Assiniboine meet), the <strong>Rapids</strong>, the <strong>Roar</strong> of the Red on a game night, the <strong>Deep Waters</strong> of the arts, the <strong>Open Sky</strong> over the lake country, and the <strong>Little Ripples</strong> for the youngest paddlers — plus <strong>On the Horizon</strong> for what's coming downstream. Each week a fan-out of agents digs through official calendars, venue listings, breweries, galleries, parks, community boards and box offices; the results are stored as dated data and rendered here.</p>
     <div class="srcs">
       <a href="https://www.tourismwinnipeg.com/festivals-and-events" target="_blank" rel="noopener">Tourism Winnipeg</a>
       <a href="https://www.theforks.com/events/calendar-of-events" target="_blank" rel="noopener">The Forks</a>
@@ -881,9 +133,133 @@
       <a href="https://www.winnipegfringe.com/" target="_blank" rel="noopener">Winnipeg Fringe</a>
       <a href="https://wpgforfree.ca/" target="_blank" rel="noopener">WPG For Free</a>
     </div>
-    <p class="refresh">Refreshes weekly · main body covers the next two weeks · horizon looks ~6 months out.</p>
+    <p class="refresh" id="refresh">Refreshes weekly · main body covers the next two weeks · horizon looks ~6 months out.</p>
     <p class="fine">Always confirm dates, times and ticket availability on the official event page before heading out — listings shift, and the far-ahead ones especially.</p>
   </div>
 </footer>
+
+<script>
+// Served same-origin from winnipegcurrents.com — the DreamHost cron mirrors this file
+// down from the repo, so visitor page loads never touch GitHub.
+const DATA = "data/latest.json";
+const STREAMS = [
+  {key:"confluence", name:"The Confluence", river:"The Forks · where the rivers meet", grad:"linear-gradient(120deg,#c78f1e,#e8bb4e)", c:"#e0a82e", desc:"Markets, street food & the crowds that gather at the middle of it all."},
+  {key:"rapids", name:"The Rapids", river:"Assiniboine current", grad:"linear-gradient(120deg,#c7452a,#ef7a4f)", c:"#e05a3b", desc:"Live music, tributes & after-dark energy."},
+  {key:"roar", name:"The Roar", river:"Red River on a game night", grad:"linear-gradient(120deg,#a52c2c,#d85a5a)", c:"#c23b3b", desc:"Bombers, Sea Bears, Goldeyes — big crowds, big noise."},
+  {key:"deep", name:"Deep Waters", river:"Seine River · St. Boniface", grad:"linear-gradient(120deg,#5f4193,#9a72c4)", c:"#7a5ba6", desc:"Theatre, galleries, film, comedy & ceremony."},
+  {key:"sky", name:"Open Sky", river:"Lake Winnipeg & beyond", grad:"linear-gradient(120deg,#2c74a8,#57add9)", c:"#3e92cc", desc:"Outdoors, nature & fresh air."},
+  {key:"ripples", name:"Little Ripples", river:"gentle currents", grad:"linear-gradient(120deg,#178476,#3bbaa6)", c:"#219f8e", desc:"Family & kid-sized adventures."},
+];
+const TAGL = {free:"Free",tix:"Ticketed",fam:"Family"};
+const MONTHS = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+const esc = s => String(s==null?"":s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+const escA = s => String(s==null?"":s).replace(/&/g,"&amp;").replace(/"/g,"&quot;");
+const wave = `<div class="wave-btm"><svg viewBox="0 0 1440 34" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path fill="#fff" d="M0,18 C180,34 360,4 540,16 C740,29 900,34 1080,20 C1230,9 1350,20 1440,14 L1440,34 L0,34 Z"/></svg></div>`;
+
+function pills(e, book){
+  let h = (e.tags||[]).map(t=>`<span class="pill ${t}">${TAGL[t]||esc(t)}</span>`).join("");
+  if (book && e.sellout) h = `<span class="pill book">🎟 Book ahead</span>` + h;
+  if (e.time) h += `<span class="pill time">${esc(e.time)}</span>`;
+  return h;
+}
+function card(e, book){
+  return `<article class="card">
+    <div class="when">${esc(e.date)}</div>
+    <h4><a href="${escA(e.url)}" target="_blank" rel="noopener">${esc(e.title)}</a></h4>
+    <div class="venue">${esc(e.venue)}</div>
+    <div class="blurb">${esc(e.blurb)}</div>
+    <div class="foot">${pills(e, book)}</div>
+  </article>`;
+}
+function monthLabel(m){ const [y,mo]=m.split("-"); return `${MONTHS[(+mo)-1]} ${y}`; }
+
+function stars(){
+  const seed=[[7,12,2],[15,30,1],[23,8,2],[31,22,1],[42,14,2],[55,9,1],[63,26,2],[71,16,1],[78,33,2],[85,11,1],[91,24,2],[12,44,1],[38,40,2],[68,42,1],[48,20,1],[27,36,2],[82,44,1],[95,34,2]];
+  document.getElementById("stars").innerHTML = seed.map(p=>`<span class="star" style="left:${p[0]}%;top:${p[1]}%;width:${p[2]}px;height:${p[2]}px"></span>`).join("");
+}
+
+function render(snap){
+  const evs = snap.events || [];
+  const cut = (snap.window && snap.window.end) || "9999-99-99";
+  const isHorizon = e => e.stream === "horizon" || e.dateISO > cut;
+  const streamEvents = evs.filter(e=>!isHorizon(e));
+  const horizon = evs.filter(isHorizon).sort((a,b)=> a.dateISO<b.dateISO?-1:1);
+
+  // hero label
+  const label = (snap.window && snap.window.label) || "";
+  document.getElementById("daterange").textContent =
+    `Now showing: ${label}  ·  ${evs.length} events`;
+
+  // legend
+  let leg = STREAMS.map(s=>`<a href="#s-${s.key}"><span class="dot" style="background:${s.c}"></span>${s.name}</a>`).join("");
+  if (horizon.length) leg += `<a href="#s-horizon"><span class="dot" style="background:#c98a1e"></span>On the Horizon</a>`;
+  document.getElementById("legend").innerHTML = leg;
+
+  // headwaters
+  const hw = snap.headwaters || [];
+  if (hw.length){
+    document.getElementById("hw-grid").innerHTML = hw.map(h=>`
+      <div class="hw-card ${h.theme||'f1'}">
+        <div class="tag">${esc(h.tag)}</div>
+        <h3>${esc(h.title)}</h3>
+        <div class="meta">${esc(h.meta)}</div>
+        <p>${esc(h.blurb)}</p>
+        ${h.url?`<a class="more" href="${escA(h.url)}" target="_blank" rel="noopener">${esc(h.cta||'Details →')}</a>`:""}
+      </div>`).join("");
+    document.getElementById("headwaters").hidden = false;
+  }
+
+  // streams
+  let sHtml = "";
+  for (const s of STREAMS){
+    const list = streamEvents.filter(e=>e.stream===s.key).sort((a,b)=> a.dateISO<b.dateISO?-1:1);
+    if (!list.length) continue;
+    sHtml += `<section class="stream" id="s-${s.key}" style="--c:${s.c}">
+      <div class="stream-head" style="background:${s.grad}">
+        <h2>${s.name}<span class="count">${list.length}</span></h2>
+        <div class="river">≈ ${s.river}</div>
+        <div class="desc">${s.desc}</div>
+        ${wave}
+      </div>
+      <div class="cards">${list.map(e=>card(e,false)).join("")}</div>
+    </section>`;
+  }
+  document.getElementById("streams").innerHTML = sHtml;
+
+  // horizon
+  if (horizon.length){
+    const byMonth = {};
+    horizon.forEach(e=>{ const m=e.dateISO.slice(0,7); (byMonth[m]=byMonth[m]||[]).push(e); });
+    let hHtml = "";
+    Object.keys(byMonth).sort().forEach(m=>{
+      hHtml += `<div class="h-month">${monthLabel(m)}</div><div class="cards horizon-cards">${byMonth[m].map(e=>card(e,true)).join("")}</div>`;
+    });
+    document.getElementById("h-body").innerHTML = hHtml;
+    document.getElementById("h-count").textContent = horizon.length;
+    document.getElementById("s-horizon").hidden = false;
+  }
+
+  if (snap.generated){
+    document.getElementById("refresh").textContent =
+      `Last updated ${snap.generated} · refreshes weekly · main body covers the next two weeks · horizon looks ~6 months out.`;
+  }
+
+  document.getElementById("status").hidden = true;
+  document.getElementById("main").hidden = false;
+}
+
+async function boot(){
+  stars();
+  try{
+    const snap = await fetch(DATA, {cache:"no-cache"}).then(r=>{ if(!r.ok) throw new Error(r.status); return r.json(); });
+    render(snap);
+  }catch(err){
+    document.getElementById("daterange").textContent = "Couldn't load events right now";
+    document.getElementById("status").innerHTML =
+      "We couldn't reach the events feed just now. Please refresh in a minute — the currents will be back.";
+  }
+}
+boot();
+</script>
 </body>
 </html>
