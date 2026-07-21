@@ -30,8 +30,10 @@
   /* floating stream nav — slides in once you scroll past the hero */
   .floatnav{position:fixed;top:0;left:0;right:0;z-index:40;background:rgba(245,240,230,.94);backdrop-filter:blur(10px);box-shadow:0 3px 16px rgba(20,30,50,.12);transform:translateY(-105%);transition:transform .28s ease;padding:8px 12px}
   .floatnav.show{transform:none}
-  .floatnav .inner{max-width:1080px;margin:0 auto;display:flex;gap:8px;align-items:center;overflow-x:auto;scrollbar-width:none}
-  .floatnav .inner::-webkit-scrollbar{display:none}
+  .floatnav .inner{max-width:1080px;margin:0 auto;display:flex;gap:10px;align-items:center}
+  .floatnav .fn-chips{display:flex;gap:8px;align-items:center;overflow-x:auto;scrollbar-width:none;flex:1;min-width:0}
+  .floatnav .fn-chips::-webkit-scrollbar{display:none}
+  .floatnav .today{flex:none;font-size:12.5px;font-weight:700;color:#8a6d2a;white-space:nowrap;padding-left:12px;border-left:1px solid #e0d4b8}
   .floatnav .brand{font-weight:800;font-size:13px;color:#1a2432;margin-right:4px;flex:none;letter-spacing:-.01em}
   .floatnav a{flex:none;display:flex;align-items:center;gap:7px;padding:6px 12px;border-radius:999px;font-size:12.5px;font-weight:700;text-decoration:none;color:#3a4453;background:#fff;border:1px solid #eadfca;white-space:nowrap;transition:background .15s,color .15s,border-color .15s}
   .floatnav a .dot{width:10px;height:10px;border-radius:50%}
@@ -101,7 +103,11 @@
 </style>
 </head>
 <body>
-<div class="floatnav" id="floatnav"><div class="inner" id="floatnav-inner"></div></div>
+<div class="floatnav" id="floatnav"><div class="inner">
+  <span class="brand">River City Currents</span>
+  <div class="fn-chips" id="floatnav-inner"></div>
+  <span class="today" id="floatnav-date"></span>
+</div></div>
 <header class="hero">
   <div class="stars" id="stars"></div>
   <svg class="bison" viewBox="0 0 640 512" fill="#f7f3e9" xmlns="http://www.w3.org/2000/svg"><path d="M111 144c-9 0-16-7-16-16s7-16 16-16h34c0-27 22-48 48-48h224c9 0 16 7 16 16v16h48c18 0 32 14 32 32v48c0 18-14 32-32 32h-16v40c0 13-11 24-24 24h-8v40c0 9-7 16-16 16h-32c-9 0-16-7-16-16v-40H208v40c0 9-7 16-16 16h-32c-9 0-16-7-16-16v-56c-24-14-40-40-40-70v-42h7zm81 0a16 16 0 100 32 16 16 0 000-32z"/></svg>
@@ -208,8 +214,7 @@ function render(snap){
   if (horizon.length) navItems.push({key:"horizon", name:"On the Horizon", color:"#c98a1e"});
   const chip = it => `<a href="#s-${it.key}" data-key="${it.key}" data-color="${it.color}"><span class="dot" style="background:${it.color}"></span>${it.name}</a>`;
   document.getElementById("legend").innerHTML = navItems.map(chip).join("");
-  document.getElementById("floatnav-inner").innerHTML =
-    `<span class="brand">River City Currents</span>` + navItems.map(chip).join("");
+  document.getElementById("floatnav-inner").innerHTML = navItems.map(chip).join("");
 
   // headwaters
   const hw = snap.headwaters || [];
@@ -294,6 +299,8 @@ function setupNav(){
 
 async function boot(){
   stars();
+  document.getElementById("floatnav-date").textContent =
+    new Date().toLocaleDateString(undefined, {weekday:"short", month:"short", day:"numeric", year:"numeric"});
   try{
     const snap = await fetch(DATA, {cache:"no-cache"}).then(r=>{ if(!r.ok) throw new Error(r.status); return r.json(); });
     render(snap);
