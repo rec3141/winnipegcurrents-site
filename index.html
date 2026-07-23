@@ -59,7 +59,6 @@
   .stream{margin:14px 0 0}
   .stream-head{position:relative;border-radius:16px 16px 0 0;padding:20px 24px 44px;color:#fff;overflow:hidden}
   .stream-head h2{font-size:clamp(22px,4vw,30px);font-weight:800;letter-spacing:-.01em;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
-  .stream-head .river{font-size:13px;font-weight:600;opacity:.9;letter-spacing:.05em;margin-top:2px}
   .stream-head .desc{margin-top:4px;font-size:14px;opacity:.95;font-weight:500}
   .stream-head .count{margin-left:auto;font-size:13px;font-weight:700;background:rgba(255,255,255,.2);padding:4px 12px;border-radius:999px}
   .wave-btm{position:absolute;left:0;right:0;bottom:-1px;line-height:0}
@@ -130,7 +129,6 @@
   <section id="s-horizon" hidden>
     <div class="h-head">
       <h2>On the Horizon<span class="count" id="h-count"></span></h2>
-      <div class="river" style="font-size:13px;font-weight:600;opacity:.9">≈ downstream · the far bends of the river</div>
       <div class="desc">Beyond the next two weeks — the big shows and festivals worth booking now, before they sell out.</div>
       <div class="wave-btm"><svg viewBox="0 0 1440 34" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path fill="#fff" d="M0,18 C180,34 360,4 540,16 C740,29 900,34 1080,20 C1230,9 1350,20 1440,14 L1440,34 L0,34 Z"/></svg></div>
     </div>
@@ -162,12 +160,12 @@
 // down from the repo, so visitor page loads never touch GitHub.
 const DATA = "data/latest.json";
 const STREAMS = [
-  {key:"confluence", name:"The Confluence", river:"The Forks · where the rivers meet", grad:"linear-gradient(120deg,#c78f1e,#e8bb4e)", c:"#e0a82e", desc:"Markets, street food & the crowds that gather at the middle of it all."},
-  {key:"rapids", name:"The Rapids", river:"Assiniboine current", grad:"linear-gradient(120deg,#c7452a,#ef7a4f)", c:"#e05a3b", desc:"Live music, tributes & after-dark energy."},
-  {key:"roar", name:"The Roar", river:"Red River on a game night", grad:"linear-gradient(120deg,#a52c2c,#d85a5a)", c:"#c23b3b", desc:"Bombers, Sea Bears, Goldeyes — big crowds, big noise."},
-  {key:"deep", name:"Deep Waters", river:"Seine River · St. Boniface", grad:"linear-gradient(120deg,#5f4193,#9a72c4)", c:"#7a5ba6", desc:"Theatre, galleries, film, comedy & ceremony."},
-  {key:"sky", name:"Open Sky", river:"Lake Winnipeg & beyond", grad:"linear-gradient(120deg,#2c74a8,#57add9)", c:"#3e92cc", desc:"Outdoors, nature & fresh air."},
-  {key:"ripples", name:"Little Ripples", river:"gentle currents", grad:"linear-gradient(120deg,#178476,#3bbaa6)", c:"#219f8e", desc:"Family & kid-sized adventures."},
+  {key:"confluence", name:"The Confluence", grad:"linear-gradient(120deg,#c78f1e,#e8bb4e)", c:"#e0a82e", desc:"Markets, street food & the crowds that gather at the middle of it all."},
+  {key:"rapids", name:"The Rapids", grad:"linear-gradient(120deg,#c7452a,#ef7a4f)", c:"#e05a3b", desc:"Live music, tributes & after-dark energy."},
+  {key:"roar", name:"The Roar", grad:"linear-gradient(120deg,#a52c2c,#d85a5a)", c:"#c23b3b", desc:"Bombers, Sea Bears, Goldeyes — big crowds, big noise."},
+  {key:"deep", name:"Deep Waters", grad:"linear-gradient(120deg,#5f4193,#9a72c4)", c:"#7a5ba6", desc:"Theatre, galleries, film, comedy & ceremony."},
+  {key:"sky", name:"Open Sky", grad:"linear-gradient(120deg,#2c74a8,#57add9)", c:"#3e92cc", desc:"Outdoors, nature & fresh air."},
+  {key:"ripples", name:"Little Ripples", grad:"linear-gradient(120deg,#178476,#3bbaa6)", c:"#219f8e", desc:"Family & kid-sized adventures."},
 ];
 const TAGL = {free:"Free",tix:"Ticketed",fam:"Family"};
 const MONTHS = ["January","February","March","April","May","June","July","August","September","October","November","December"];
@@ -241,7 +239,6 @@ function render(snap){
     sHtml += `<section class="stream" id="s-${s.key}" style="--c:${s.c}">
       <div class="stream-head" style="background:${s.grad}">
         <h2>${s.name}<span class="count">${list.length}</span></h2>
-        <div class="river">≈ ${s.river}</div>
         <div class="desc">${s.desc}</div>
         ${wave}
       </div>
