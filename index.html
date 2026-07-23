@@ -42,6 +42,25 @@
   .floatnav a.active .dot{background:#fff !important}
   @media(max-width:640px){.floatnav .brand{display:none}}
   .stream,#s-horizon{scroll-margin-top:60px}
+  .floatnav .fn-today{cursor:pointer}
+  .floatnav .fn-today.filtering{background:#e0a82e;color:#12203a}
+  .daterange{cursor:pointer}
+  .clearfilter{margin-top:12px;margin-left:10px;background:rgba(255,255,255,.14);color:#f3e9d3;border:1px solid rgba(255,255,255,.3);border-radius:999px;padding:8px 14px;font-size:13px;font-weight:700;cursor:pointer}
+  .clearfilter:hover{background:rgba(255,255,255,.24)}
+  .dp-backdrop{position:fixed;inset:0;background:rgba(10,15,25,.4);z-index:50}
+  .datepicker{position:fixed;top:64px;left:50%;transform:translateX(-50%);z-index:60;background:#fff;border-radius:16px;box-shadow:0 18px 50px rgba(10,20,40,.35);padding:18px 18px 16px;width:min(340px,92vw);color:#1a2432}
+  .datepicker .dp-title{font-weight:800;font-size:15px;margin-bottom:12px}
+  .datepicker .dp-row{display:flex;gap:12px;margin-bottom:12px}
+  .datepicker .dp-row label{flex:1;font-size:12px;font-weight:700;color:#5a6472;display:flex;flex-direction:column;gap:4px}
+  .datepicker input[type=date]{font:inherit;padding:8px 10px;border:1px solid #d9cfba;border-radius:9px;background:#fdfbf6}
+  .datepicker .dp-quick{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+  .datepicker .dp-quick button{flex:1;min-width:90px;background:#f3ece0;border:1px solid #e4d8c0;border-radius:999px;padding:7px 10px;font-size:12.5px;font-weight:700;color:#6a5626;cursor:pointer}
+  .datepicker .dp-quick button:hover{background:#e9dcc4}
+  .datepicker .dp-actions{display:flex;gap:10px;justify-content:flex-end}
+  .datepicker .dp-actions button{border-radius:999px;padding:9px 18px;font-size:13px;font-weight:800;cursor:pointer;border:0}
+  .datepicker .dp-clear{background:#eef0f3;color:#4a5460}
+  .datepicker .dp-apply{background:#12203a;color:#f3e9d3}
+  .emptyfilter{background:#fff;border-radius:16px;box-shadow:var(--shadow);padding:34px 20px;text-align:center;color:#6a7280;font-weight:600;margin-top:14px}
   .headwaters{margin:34px auto 8px}
   .hw-label{display:flex;align-items:center;gap:12px;justify-content:center;font-size:13px;letter-spacing:.24em;text-transform:uppercase;font-weight:800;color:#8a6d2a;margin-bottom:16px}
   .hw-label::before,.hw-label::after{content:"";height:2px;flex:1;max-width:120px;background:linear-gradient(90deg,transparent,var(--wheat))}
@@ -107,6 +126,24 @@
   <span class="brand">River City Currents</span>
   <div class="fn-chips" id="floatnav-inner"></div>
 </div></div>
+
+<div class="dp-backdrop" id="dp-backdrop" hidden></div>
+<div class="datepicker" id="datepicker" hidden role="dialog" aria-label="Filter events by date">
+  <div class="dp-title">Filter events by date</div>
+  <div class="dp-row">
+    <label>From<input type="date" id="dp-from"></label>
+    <label>To<input type="date" id="dp-to"></label>
+  </div>
+  <div class="dp-quick">
+    <button data-q="today">Today</button>
+    <button data-q="weekend">This weekend</button>
+    <button data-q="week">Next 7 days</button>
+  </div>
+  <div class="dp-actions">
+    <button class="dp-clear" id="dp-clear">Clear</button>
+    <button class="dp-apply" id="dp-apply">Apply</button>
+  </div>
+</div>
 <header class="hero">
   <div class="stars" id="stars"></div>
   <svg class="bison" viewBox="0 0 640 512" fill="#f7f3e9" xmlns="http://www.w3.org/2000/svg"><path d="M111 144c-9 0-16-7-16-16s7-16 16-16h34c0-27 22-48 48-48h224c9 0 16 7 16 16v16h48c18 0 32 14 32 32v48c0 18-14 32-32 32h-16v40c0 13-11 24-24 24h-8v40c0 9-7 16-16 16h-32c-9 0-16-7-16-16v-40H208v40c0 9-7 16-16 16h-32c-9 0-16-7-16-16v-56c-24-14-40-40-40-70v-42h7zm81 0a16 16 0 100 32 16 16 0 000-32z"/></svg>
@@ -115,6 +152,7 @@
   <p class="sub">Winnipeg is the city where many rivers meet. <p>Here's what's happening, sorted into <strong>streams</strong>.</p></p>
   <div class="todayline" id="todayline">&nbsp;</div>
   <div class="daterange" id="daterange">Loading the currents…</div>
+  <button class="clearfilter" id="clearfilter" hidden>Clear filter ✕</button>
   <div class="wave-hero"><svg viewBox="0 0 1440 70" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path fill="#f5f0e6" d="M0,32 C240,72 480,0 720,24 C960,48 1200,72 1440,36 L1440,70 L0,70 Z"/></svg></div>
 </header>
 
@@ -125,6 +163,7 @@
     <div class="hw-label">The Headwaters · Festival Season</div>
     <div class="hw-grid" id="hw-grid"></div>
   </section>
+  <div id="emptyfilter" class="emptyfilter" hidden>No events in that date range — try widening it, or clear the filter.</div>
   <div id="streams"></div>
   <section id="s-horizon" hidden>
     <div class="h-head">
@@ -179,9 +218,17 @@ function pills(e, book){
   if (e.time) h += `<span class="pill time">${esc(e.time)}</span>`;
   return h;
 }
+// A bare single day ("Jul 23" / "July 23") -> "Thu, Jul 23"; ranges & ongoing strings kept as-is.
+function displayDate(e){
+  const raw = (e.date||"").trim();
+  const isoOK = /^\d{4}-\d{2}-\d{2}$/.test(e.dateISO||"");
+  const singleDay = /^(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\.?\s+\d{1,2}(,\s*\d{2,4})?$/i.test(raw);
+  if (singleDay && isoOK) return new Date(e.dateISO+"T12:00:00").toLocaleDateString(undefined,{weekday:"short",month:"short",day:"numeric"});
+  return raw;
+}
 function card(e, book){
   return `<article class="card">
-    <div class="when">${esc(e.date)}</div>
+    <div class="when">${esc(displayDate(e))}</div>
     <h4><a href="${escA(e.url)}" target="_blank" rel="noopener">${esc(e.title)}</a></h4>
     <div class="venue">${esc(e.venue)}</div>
     <div class="blurb">${esc(e.blurb)}</div>
@@ -195,29 +242,17 @@ function stars(){
   document.getElementById("stars").innerHTML = seed.map(p=>`<span class="star" style="left:${p[0]}%;top:${p[1]}%;width:${p[2]}px;height:${p[2]}px"></span>`).join("");
 }
 
+let SNAP = null, FILTER = null;
+const isoLocal = d => { const z=n=>String(n).padStart(2,"0"); return d.getFullYear()+"-"+z(d.getMonth()+1)+"-"+z(d.getDate()); };
+const fmtISO = (iso,opts) => new Date(iso+"T12:00:00").toLocaleDateString(undefined,opts);
+function formatRange(from,to){
+  if (from===to) return fmtISO(from,{weekday:"short",month:"short",day:"numeric"});
+  const sameYear = from.slice(0,4)===to.slice(0,4);
+  return fmtISO(from,{month:"short",day:"numeric"}) + " – " + fmtISO(to,{month:"short",day:"numeric"}) + (sameYear?"":", "+to.slice(0,4));
+}
+
 function render(snap){
-  const evs = snap.events || [];
-  const cut = (snap.window && snap.window.end) || "9999-99-99";
-  const isHorizon = e => e.stream === "horizon" || e.dateISO > cut;
-  const streamEvents = evs.filter(e=>!isHorizon(e));
-  const horizon = evs.filter(isHorizon).sort((a,b)=> a.dateISO<b.dateISO?-1:1);
-
-  // hero label
-  const label = (snap.window && snap.window.label) || "";
-  document.getElementById("daterange").textContent =
-    `Now showing: ${label}  ·  ${evs.length} events`;
-
-  // nav chips — resting legend + floating bar (only streams that actually have events)
-  const navItems = STREAMS.filter(s => streamEvents.some(e=>e.stream===s.key)).map(s=>({key:s.key,name:s.name,color:s.c}));
-  if (horizon.length) navItems.push({key:"horizon", name:"On the Horizon", color:"#c98a1e"});
-  const chip = it => `<a href="#s-${it.key}" data-key="${it.key}" data-color="${it.color}"><span class="dot" style="background:${it.color}"></span>${it.name}</a>`;
-  document.getElementById("legend").innerHTML = navItems.map(chip).join("");
-  const todayShort = new Date().toLocaleDateString(undefined, {weekday:"short", month:"short", day:"numeric"});
-  const chipF = it => `<a href="#s-${it.key}" data-key="${it.key}" data-color="${it.color}"><span class="dot" style="background:${it.color}"></span>${it.key==="horizon"?"Horizon":it.name}</a>`;
-  document.getElementById("floatnav-inner").innerHTML =
-    `<span class="fn-today">📅 ${todayShort}</span>` + navItems.map(chipF).join("");
-
-  // headwaters
+  SNAP = snap;
   const hw = snap.headwaters || [];
   if (hw.length){
     document.getElementById("hw-grid").innerHTML = hw.map(h=>`
@@ -230,6 +265,43 @@ function render(snap){
       </div>`).join("");
     document.getElementById("headwaters").hidden = false;
   }
+  if (snap.generated){
+    document.getElementById("refresh").textContent =
+      `Last updated ${snap.generated} · new events added on Tuesdays`;
+  }
+  renderEvents(snap.events || []);
+  document.getElementById("status").hidden = true;
+  document.getElementById("main").hidden = false;
+  setupNav();
+  setupPicker();
+}
+
+function renderEvents(evs){
+  const cut = (SNAP.window && SNAP.window.end) || "9999-99-99";
+  const isHorizon = e => e.stream === "horizon" || e.dateISO > cut;
+  const streamEvents = evs.filter(e=>!isHorizon(e));
+  const horizon = evs.filter(isHorizon).sort((a,b)=> a.dateISO<b.dateISO?-1:1);
+
+  // hero label + clear-filter button
+  const dr = document.getElementById("daterange");
+  if (FILTER){
+    dr.textContent = `Filtered: ${formatRange(FILTER.from,FILTER.to)}  ·  ${evs.length} event${evs.length===1?"":"s"}`;
+    document.getElementById("clearfilter").hidden = false;
+  } else {
+    dr.textContent = `Now showing: ${(SNAP.window&&SNAP.window.label)||""}  ·  ${evs.length} events`;
+    document.getElementById("clearfilter").hidden = true;
+  }
+
+  // nav chips — resting legend + floating bar (only streams that actually have events)
+  const navItems = STREAMS.filter(s => streamEvents.some(e=>e.stream===s.key)).map(s=>({key:s.key,name:s.name,color:s.c}));
+  if (horizon.length) navItems.push({key:"horizon", name:"On the Horizon", color:"#c98a1e"});
+  const chip = it => `<a href="#s-${it.key}" data-key="${it.key}" data-color="${it.color}"><span class="dot" style="background:${it.color}"></span>${it.name}</a>`;
+  document.getElementById("legend").innerHTML = navItems.map(chip).join("");
+  const todayShort = new Date().toLocaleDateString(undefined, {weekday:"short", month:"short", day:"numeric"});
+  const calLabel = FILTER ? formatRange(FILTER.from,FILTER.to) : todayShort;
+  const chipF = it => `<a href="#s-${it.key}" data-key="${it.key}" data-color="${it.color}"><span class="dot" style="background:${it.color}"></span>${it.key==="horizon"?"Horizon":it.name}</a>`;
+  document.getElementById("floatnav-inner").innerHTML =
+    `<span class="fn-today${FILTER?" filtering":""}" title="Filter by date">📅 ${esc(calLabel)}</span>` + navItems.map(chipF).join("");
 
   // streams
   let sHtml = "";
@@ -248,6 +320,7 @@ function render(snap){
   document.getElementById("streams").innerHTML = sHtml;
 
   // horizon
+  const hz = document.getElementById("s-horizon");
   if (horizon.length){
     const byMonth = {};
     horizon.forEach(e=>{ const m=e.dateISO.slice(0,7); (byMonth[m]=byMonth[m]||[]).push(e); });
@@ -257,20 +330,18 @@ function render(snap){
     });
     document.getElementById("h-body").innerHTML = hHtml;
     document.getElementById("h-count").textContent = horizon.length;
-    document.getElementById("s-horizon").hidden = false;
+    hz.hidden = false;
+  } else {
+    document.getElementById("h-body").innerHTML = "";
+    document.getElementById("h-count").textContent = "0";
+    hz.hidden = true;
   }
 
-  if (snap.generated){
-    document.getElementById("refresh").textContent =
-      `Last updated ${snap.generated} · new events added on Tuesdays`;
-  }
-
-  document.getElementById("status").hidden = true;
-  document.getElementById("main").hidden = false;
-  setupNav();
+  document.getElementById("emptyfilter").hidden = evs.length > 0;
 }
 
 function setupNav(){
+  if (window.__navSetup) return; window.__navSetup = true;
   const floatnav = document.getElementById("floatnav");
   const restLegend = document.getElementById("legend");
   // show the floating bar once the resting legend has scrolled off the top
@@ -281,20 +352,71 @@ function setupNav(){
     });
   }, {threshold:0});
   io.observe(restLegend);
-  // scroll-spy: highlight the stream currently in view
-  const sections = Array.from(document.querySelectorAll(".stream, #s-horizon"));
-  const chips = Array.from(document.querySelectorAll("#floatnav-inner a"));
-  const byKey = {}; chips.forEach(c=>byKey[c.dataset.key]=c);
+  // scroll-spy: query the DOM live so it works after re-renders (filtering)
   let ticking = false;
   function spy(){
     ticking = false;
+    const sections = document.querySelectorAll(".stream, #s-horizon");
+    const chips = document.querySelectorAll("#floatnav-inner a");
     let key = null;
-    for (const sec of sections){ if (sec.getBoundingClientRect().top <= 90) key = sec.id.replace("s-",""); }
-    chips.forEach(c=>{ c.classList.remove("active"); c.style.background=""; c.style.borderColor=""; });
-    if (key && byKey[key]){ const c = byKey[key]; c.classList.add("active"); c.style.background=c.dataset.color; c.style.borderColor=c.dataset.color; }
+    sections.forEach(sec=>{ if (sec.getBoundingClientRect().top <= 90) key = sec.id.replace("s-",""); });
+    chips.forEach(c=>{
+      c.classList.remove("active"); c.style.background=""; c.style.borderColor="";
+      if (c.dataset.key===key){ c.classList.add("active"); c.style.background=c.dataset.color; c.style.borderColor=c.dataset.color; }
+    });
   }
   window.addEventListener("scroll", ()=>{ if(!ticking){ ticking=true; requestAnimationFrame(spy); } }, {passive:true});
   spy();
+}
+
+function setupPicker(){
+  if (window.__pickerSetup) return; window.__pickerSetup = true;
+  const pick = document.getElementById("datepicker");
+  const back = document.getElementById("dp-backdrop");
+  const from = document.getElementById("dp-from");
+  const to   = document.getElementById("dp-to");
+  const bounds = () => {
+    const ds = (SNAP.events||[]).map(e=>e.dateISO).filter(Boolean).sort();
+    return { lo: ds[0]||isoLocal(new Date()), hi: ds[ds.length-1]||isoLocal(new Date()) };
+  };
+  const open = () => {
+    const b = bounds();
+    from.min=b.lo; from.max=b.hi; to.min=b.lo; to.max=b.hi;
+    from.value = FILTER ? FILTER.from : ((SNAP.window&&SNAP.window.start)||b.lo);
+    to.value   = FILTER ? FILTER.to   : ((SNAP.window&&SNAP.window.end)||b.hi);
+    pick.hidden=false; back.hidden=false;
+  };
+  const close = () => { pick.hidden=true; back.hidden=true; };
+  const apply = (f,t) => {
+    if (!f && !t){ clearF(); return; }
+    f = f || isoLocal(new Date()); t = t || f;
+    if (f > t){ const x=f; f=t; t=x; }
+    FILTER = { from:f, to:t };
+    renderEvents((SNAP.events||[]).filter(e=>e.dateISO>=f && e.dateISO<=t));
+    close();
+    window.scrollTo({ top:0, behavior:"smooth" });
+  };
+  const clearF = () => { FILTER=null; renderEvents(SNAP.events||[]); close(); };
+  document.getElementById("dp-apply").addEventListener("click", ()=>apply(from.value, to.value));
+  document.getElementById("dp-clear").addEventListener("click", clearF);
+  document.getElementById("clearfilter").addEventListener("click", clearF);
+  back.addEventListener("click", close);
+  pick.querySelectorAll(".dp-quick button").forEach(btn=>btn.addEventListener("click", ()=>{
+    const now=new Date(), q=btn.dataset.q;
+    if (q==="today"){ const d=isoLocal(now); apply(d,d); }
+    else if (q==="week"){ const e=new Date(now); e.setDate(now.getDate()+6); apply(isoLocal(now), isoLocal(e)); }
+    else if (q==="weekend"){
+      const dow=now.getDay(); const s=new Date(now);
+      if (dow!==0) s.setDate(now.getDate()+((6-dow+7)%7)); // upcoming Saturday (or today if Sunday)
+      const e=new Date(s); if (dow!==0) e.setDate(s.getDate()+1); // through Sunday
+      apply(isoLocal(s), isoLocal(e));
+    }
+  }));
+  // open the picker from the calendar chip or the hero date pill
+  document.addEventListener("click", (ev)=>{
+    if (ev.target.closest(".fn-today")) open();
+    else if (ev.target.closest("#daterange")) open();
+  });
 }
 
 async function boot(){
