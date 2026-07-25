@@ -24,7 +24,7 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 25
 
     steps:
       - uses: actions/checkout@v4
@@ -40,6 +40,9 @@ jobs:
       - name: Gather and merge events
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # Soft ceiling: once the running estimate crosses this, no new
+          # searchers launch. In-flight ones finish and results are written.
+          REFRESH_BUDGET_USD: "2.00"
         run: |
           python scripts/refresh.py ${{ inputs.dry_run && '--dry-run' || '' }}
 

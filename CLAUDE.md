@@ -83,8 +83,8 @@ The stream definitions live in the `STREAMS` array near the top of the `<script>
 1. **Daily generator = `.github/workflows/daily-refresh.yml` + `scripts/refresh.py`.**
    Runs at 12:00 UTC (07:00 America/Winnipeg in summer, 06:00 in winter — GitHub cron
    is UTC-only, so it drifts an hour across DST), plus manual `workflow_dispatch`.
-   It fans out ~12 web-search agents across niches (one Claude call each, run in a
-   thread pool), assembles events, **merges** them into the existing `data/latest.json`
+   It fans out 8 web-search agents across niches (one Claude call each, four at a
+   time), assembles events, **merges** them into the existing `data/latest.json`
    (dedupe + drop past-dated events), and commits the updated `data/`.
    It must NOT touch `index.html`. The behavioural spec is in
    `docs/weekly-refresh-task.md`.
@@ -95,6 +95,18 @@ The stream definitions live in the `STREAMS` array near the top of the `<script>
      and prunes what's already in `data/`). `--niches 1,4` runs a subset.
    - A run that finds zero events exits non-zero without writing, so a bad day can't
      wipe the calendar.
+   - **Cost is capped, and this matters — the first live run burned $20 in 14 minutes
+     and completed nothing.** Three bounds: `MAX_SEARCHES` (5) per niche,
+     `MAX_RESUMES` (2) on the `pause_turn` loop, and `REFRESH_BUDGET_USD` (2.00, set
+     in the workflow). Every searcher prints a running token/dollar total, so a run
+     is never a black box. Crossing the budget stops *new* searchers but lets
+     in-flight ones finish and still writes; a credit-exhausted or bad-key 400
+     aborts everything immediately and writes nothing.
+   - **Why the resumption loop is the expensive part:** web search injects fetched
+     page content into the turn. On `pause_turn` the whole accumulated turn is
+     re-sent, so each resumption costs more than the last. A `cache_control`
+     breakpoint bills the resend at cache-read rates, and `MAX_RESUMES` caps how
+     many times it can happen.
 2. **Deploy = a DreamHost cron job** (in the DreamHost panel, not a file here). Hourly.
    Clones/pulls this repo and rsyncs it into the web root, so the live site mirrors
    `main`. Command roughly:

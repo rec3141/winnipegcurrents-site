@@ -12,10 +12,15 @@ touch `index.html`.
 
 ## Step 1 — comprehensive fan-out search
 
-Run ~12 parallel searchers, one per niche, each returning structured events
+Run 8 parallel searchers, one per niche, each returning structured events
 (`NICHES` in `scripts/refresh.py`; each is one Claude call with the `web_search`
-server tool, six at a time in a thread pool). A searcher that fails is logged and
-skipped — it doesn't sink the run:
+server tool, capped at 5 searches, four running at a time). A searcher that fails is
+logged and skipped — it doesn't sink the run.
+
+The niches below are the *coverage* the calendar wants; the script groups them into
+8 calls (outdoors+family, community+subculture, sports+marquee, roadtrips+listings)
+because 13 concurrent searchers proved far too expensive. Coverage accumulates across
+daily runs via the merge, so a single run needn't find everything:
 
 1. **Indie/DIY live music** — Handsome Daughter, Good Will Social Club, Times Change(d),
    Park Theatre, West End Cultural Centre, the Cavern, Bulldog, the Pyramid, Sidestage.
