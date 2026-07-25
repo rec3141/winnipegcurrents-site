@@ -1,9 +1,10 @@
-# Weekly refresh — generator spec
+# Data refresh — generator spec
 
-This is the spec the weekly generator follows. It currently runs as a **Cowork
-scheduled task** (Mondays ~07:00 America/Winnipeg) that lives outside this repo. It is
-reproduced here so it can be audited or reimplemented (e.g. as a script or GitHub
-Action) for a fully repo-owned pipeline.
+This is the spec the generator follows. It is now **implemented in this repo** as
+`scripts/refresh.py`, run daily at 12:00 UTC by `.github/workflows/daily-refresh.yml`.
+(It previously ran weekly as a Cowork scheduled task outside the repo.) Keep this
+document and the script in sync — this is the behavioural contract, the script is the
+implementation.
 
 The generator's job: gather Winnipeg events via a wide web search, **merge** them into
 the existing `data/latest.json`, and push the updated `data/` files. It must **not**
@@ -11,7 +12,10 @@ touch `index.html`.
 
 ## Step 1 — comprehensive fan-out search
 
-Run ~12 parallel searchers, one per niche, each returning structured events:
+Run ~12 parallel searchers, one per niche, each returning structured events
+(`NICHES` in `scripts/refresh.py`; each is one Claude call with the `web_search`
+server tool, six at a time in a thread pool). A searcher that fails is logged and
+skipped — it doesn't sink the run:
 
 1. **Indie/DIY live music** — Handsome Daughter, Good Will Social Club, Times Change(d),
    Park Theatre, West End Cultural Centre, the Cavern, Bulldog, the Pyramid, Sidestage.
@@ -69,14 +73,11 @@ Write the merged object to **both** `data/latest.json` and `data/YYYY/MM/DD.json
 
 ## Step 4 — publish
 
-Push over HTTPS (SSH/port 22 is blocked in the generating environment):
+The workflow commits `data/` as `github-actions[bot]`, rebases onto the branch (other
+actors push `index.html`), and pushes with the built-in `GITHUB_TOKEN` — no PAT needed.
+The only secret is **`ANTHROPIC_API_KEY`** in repo settings → Secrets; **never commit a
+key to this repo.** The DreamHost cron then mirrors `main` to the live site within the
+hour.
 
-```
-git clone https://x-access-token:<GITHUB_PAT>@github.com/rec3141/winnipegcurrents-site.git /tmp/site
-# ...write data files in /tmp/site...
-cd /tmp/site && git add data && git commit -m "Data refresh <today> (merged)" && git push origin main
-```
-
-`<GITHUB_PAT>` = a fine-grained token scoped to this repo, Contents: read/write. It is
-held only in the generator's own config — **never commit it to this repo.** The
-DreamHost cron then mirrors `main` to the live site within the hour.
+If a run finds no events at all, it exits non-zero *without writing* — a bad search day
+leaves yesterday's calendar intact rather than blanking it.

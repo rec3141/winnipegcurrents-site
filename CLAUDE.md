@@ -11,9 +11,9 @@ book-ahead section.
 ## The one-paragraph mental model
 
 Two things are split on purpose: **presentation** (`index.html`, committed, rarely
-changes) and **data** (`data/*.json`, machine-generated weekly). A weekly agent
-gathers events and pushes JSON to this repo; a DreamHost cron pulls the repo to the
-web server. The page fetches its data **same-origin** from the site, so visitor page
+changes) and **data** (`data/*.json`, machine-generated daily). A daily GitHub
+Action gathers events and pushes JSON to this repo; a DreamHost cron pulls the repo to
+the web server. The page fetches its data **same-origin** from the site, so visitor page
 loads never hit GitHub. Edit `index.html` for anything visual/behavioral; the data
 takes care of itself.
 
@@ -24,10 +24,13 @@ index.html            The ENTIRE site: HTML + CSS + vanilla JS aggregator.
                       Fetches data/latest.json and renders it. Edit this for design.
 data/latest.json      The current events snapshot the page renders.
 data/index.json       Manifest: { latest, updated, runs[] }.
-data/YYYY/MM/DD.json  Dated archive — one snapshot per weekly refresh.
+data/YYYY/MM/DD.json  Dated archive — one snapshot per refresh.
+scripts/refresh.py    The generator: web-search fan-out → merge → write data/.
+.github/workflows/    daily-refresh.yml — runs the generator and commits.
 ```
 
-There is no package.json, bundler, or server. It's a single static file plus JSON.
+There is no package.json, bundler, or server. The site is a single static file plus
+JSON; the generator is one standalone Python script (its only dep is `anthropic`).
 
 ## Data schema (each snapshot)
 
@@ -75,13 +78,23 @@ The stream definitions live in the `STREAMS` array near the top of the `<script>
   Next 7 days). Filtering re-renders via `renderEvents(filteredEvents)`; "Clear filter"
   restores `SNAP.events`. Global state: `SNAP` (the snapshot), `FILTER` (or null).
 
-## How data gets updated (the pipeline — NEITHER half is in this repo)
+## How data gets updated (the pipeline — the generator half now lives here)
 
-1. **Weekly generator = a Cowork scheduled task** (Anthropic/Claude side, not a file
-   here). Mondays ~07:00 America/Winnipeg. It fans out ~12 web-search subagents across
-   niches, assembles events, **merges** them into the existing `data/latest.json`
-   (dedupe + drop past-dated events), and `git push`es the updated `data/` over HTTPS.
-   It must NOT touch `index.html`. The full spec is in `docs/weekly-refresh-task.md`.
+1. **Daily generator = `.github/workflows/daily-refresh.yml` + `scripts/refresh.py`.**
+   Runs at 12:00 UTC (07:00 America/Winnipeg in summer, 06:00 in winter — GitHub cron
+   is UTC-only, so it drifts an hour across DST), plus manual `workflow_dispatch`.
+   It fans out ~12 web-search agents across niches (one Claude call each, run in a
+   thread pool), assembles events, **merges** them into the existing `data/latest.json`
+   (dedupe + drop past-dated events), and commits the updated `data/`.
+   It must NOT touch `index.html`. The behavioural spec is in
+   `docs/weekly-refresh-task.md`.
+   - Needs one repo secret: **`ANTHROPIC_API_KEY`**. Pushing uses the workflow's
+     built-in `GITHUB_TOKEN` (`permissions: contents: write`) — no PAT.
+   - Run it locally with `python3 scripts/refresh.py --dry-run` (spends tokens,
+     writes nothing) or `--offline --dry-run` (no API calls at all — just re-merges
+     and prunes what's already in `data/`). `--niches 1,4` runs a subset.
+   - A run that finds zero events exits non-zero without writing, so a bad day can't
+     wipe the calendar.
 2. **Deploy = a DreamHost cron job** (in the DreamHost panel, not a file here). Hourly.
    Clones/pulls this repo and rsyncs it into the web root, so the live site mirrors
    `main`. Command roughly:
@@ -89,11 +102,10 @@ The stream definitions live in the `STREAMS` array near the top of the `<script>
    D="$HOME/src/winnipegcurrents-site"; [ -d "$D/.git" ] || git clone -q https://github.com/rec3141/winnipegcurrents-site.git "$D"; git -C "$D" fetch -q origin && git -C "$D" reset --hard -q origin/main && rsync -a --delete --exclude='.git' --exclude='.well-known' "$D/" "$HOME/winnipegcurrents.ca/"
    ```
 
-A Claude Code instance can own everything in **this repo** (the aggregator, the data
-schema, tests, deploys via `git push`). It canNOT directly manage the Cowork scheduled
-task or the DreamHost cron — those live outside the repo. If you want the whole
-pipeline repo-owned, port the weekly generation into a script or GitHub Action here
-(the spec in `docs/weekly-refresh-task.md` is enough to reimplement it).
+A Claude Code instance can own everything in **this repo**: the aggregator, the data
+schema, the generator, deploys via `git push`. The one piece still outside is the
+**DreamHost cron** that mirrors `main` to the web host — that lives in the DreamHost
+panel.
 
 ## Deploying a change
 
@@ -108,16 +120,17 @@ pipeline repo-owned, port the weekly generation into a script or GitHub Action h
 ## Gotchas / conventions
 
 - **Push over HTTPS, not SSH.** The environments that generate/deploy this block
-  outbound SSH (port 22). Use an HTTPS remote + a token. (The weekly task holds a
-  fine-grained, single-repo, contents-only GitHub PAT in its own config — **no secret
-  is committed to this repo, keep it that way.**)
+  outbound SSH (port 22). Use an HTTPS remote + a token. The Action pushes with its
+  built-in `GITHUB_TOKEN`. **No secret is committed to this repo — keep it that way**;
+  `ANTHROPIC_API_KEY` lives in repo settings → Secrets.
 - **Multiple actors push to `index.html`** (a human editing on GitHub, the assistant,
-  you). Always `git pull --rebase` before pushing; expect the occasional rebase.
+  you, the daily Action). Always `git pull --rebase` before pushing; expect the
+  occasional rebase. The Action rebases before pushing for the same reason.
 - **Don't hand-edit the DreamHost web copy** — the cron overwrites it every hour. Repo
   is the source of truth.
-- **Data files are generated.** They're overwritten by the weekly merge, so prefer
-  changing the generator or the aggregator over hand-editing `data/*.json`.
-- **Merge/dedupe** (in the weekly task): dedupe key = normalized title (lowercased, cut
+- **Data files are generated.** They're overwritten by the daily merge, so prefer
+  changing `scripts/refresh.py` or the aggregator over hand-editing `data/*.json`.
+- **Merge/dedupe** (`merge_events()` in `scripts/refresh.py`): dedupe key = normalized title (lowercased, cut
   at the first " - "/" — ", letters+digits only) + `dateISO`; a second same-date
   word-subset pass collapses title variants ("Folklorama 2026" vs "Folklorama 2026
   (55th Festival)"). Past-dated events are dropped so the set never grows stale.
