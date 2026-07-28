@@ -5,7 +5,7 @@ name: Daily data refresh
 # delay scheduled runs by several minutes under load.
 on:
   schedule:
-    - cron: "0 12 * * *"
+    - cron: "0 0 * * 3"
   workflow_dispatch:
     inputs:
       dry_run:
