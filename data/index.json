@@ -1,6 +1,6 @@
 {
-  "latest": "data/2026/09/02.json",
-  "updated": "2026-09-02",
+  "latest": "data/2026/09/09.json",
+  "updated": "2026-09-09",
   "runs": [
     {
       "date": "2026-07-21",
@@ -71,6 +71,11 @@
       "date": "2026-09-02",
       "path": "data/2026/09/02.json",
       "count": 213
+    },
+    {
+      "date": "2026-09-09",
+      "path": "data/2026/09/09.json",
+      "count": 216
     }
   ]
 }

@@ -1,470 +1,45 @@
 {
-  "generated": "2026-09-02",
+  "generated": "2026-09-09",
   "window": {
-    "start": "2026-09-02",
-    "end": "2026-09-16",
-    "label": "September 2–16, 2026"
+    "start": "2026-09-09",
+    "end": "2026-09-23",
+    "label": "September 9–23, 2026"
   },
   "headwaters": [
     {
       "theme": "f1",
       "tag": "Indigenous cultural festival",
       "title": "Manito Ahbee Festival",
-      "meta": "Mid-October 2026 · RBC Convention Centre & venues citywide",
-      "blurb": "One of Canada's largest celebrations of Indigenous culture, featuring a massive competition Pow Wow, the Indigenous Music Awards, an artisan market, and youth education day, drawing performers and visitors from across North America.",
+      "meta": "Oct 30 – Nov 1, 2026 · Canada Life Centre",
+      "blurb": "One of North America's premier celebrations of Indigenous arts and culture, featuring a massive powwow competition, Indigenous Music Awards, and market marketplace as nations from across Turtle Island gather in Winnipeg.",
       "url": "https://manitoahbee.com/",
-      "cta": "Check festival dates →"
+      "cta": "See festival lineup →"
+    },
+    {
+      "theme": "f2",
+      "tag": "Arts & culture night",
+      "title": "Nuit Blanche Winnipeg",
+      "meta": "Sept 26, 2026 · 6pm–Midnight · Exchange District",
+      "blurb": "A free, one-night-only citywide art crawl through Winnipeg's historic Exchange District featuring contemporary art installations, performances, and interactive experiences from local artists and cultural organizations, part of Culture Days.",
+      "url": "https://nuitblanchewinnipeg.ca/",
+      "cta": "Plan your night →"
     }
   ],
   "events": [
     {
-      "title": "Kruelty, Dead Heat, Dying Remains, Low Fuel",
-      "date": "Sep 2",
-      "dateISO": "2026-09-02",
-      "time": "7:15 PM",
-      "venue": "Sidestage Winnipeg (700 Osborne St)",
-      "url": "https://www.tourismwinnipeg.com/festivals-and-events/live-music",
-      "blurb": "A touring metal/hardcore bill playing Sidestage Winnipeg.",
-      "tags": [
-        "tix"
-      ],
-      "sellout": false,
-      "stream": "rapids"
-    },
-    {
-      "title": "The Funky Miracles",
-      "date": "Sep 2",
-      "dateISO": "2026-09-02",
-      "time": "8:00 PM",
-      "venue": "Blue Note Park (234 Main St)",
-      "url": "https://www.tourismwinnipeg.com/festivals-and-events/live-music",
-      "blurb": "Live band show at the Blue Note Park stage next to Times Change(d).",
-      "tags": [],
-      "sellout": false,
-      "stream": "rapids"
-    },
-    {
-      "title": "Troublemania II",
-      "date": "Sep 2",
-      "dateISO": "2026-09-02",
-      "time": "8:00 PM",
-      "venue": "The Handsome Daughter (61 Sherbrook Street)",
-      "url": "https://www.tourismwinnipeg.com/festivals-and-events/live-music",
-      "blurb": "Local band bill at the West Broadway DIY venue.",
-      "tags": [],
-      "sellout": false,
-      "stream": "rapids"
-    },
-    {
-      "title": "A Taste of Manitoba",
-      "date": "Sep 3-7",
-      "dateISO": "2026-09-03",
-      "time": "Evenings",
-      "venue": "Fort Gibraltar, 878 St Joseph St",
-      "url": "https://www.tasteofmb.com/",
-      "blurb": "Around 20 local restaurants serve signature dishes at this popular ticketed tasting event at Fort Gibraltar.",
-      "tags": [
-        "tix"
-      ],
-      "sellout": true,
-      "stream": "horizon"
-    },
-    {
-      "title": "An Evening with Deep Dark Woods",
-      "date": "Sep 3",
-      "dateISO": "2026-09-03",
-      "time": "Doors 7:00 PM / Show 8:00 PM",
-      "venue": "Park Theatre (698 Osborne St)",
-      "url": "https://myparktheatre.com/",
-      "blurb": "Canadian roots-rock band the Deep Dark Woods play a seated show at Park Theatre.",
-      "tags": [
-        "tix"
-      ],
-      "sellout": false,
-      "stream": "rapids"
-    },
-    {
-      "title": "Birds and Beer Flights",
-      "date": "September 3, 2026",
-      "dateISO": "2026-09-03",
-      "time": "6:00 PM - 9:00 PM",
-      "venue": "Oak Hammock Marsh Wetland Discovery Centre",
-      "url": "https://www.oakhammockmarsh.ca/events/",
-      "blurb": "Sample craft beverages and local foods while watching the nightly return of thousands of migrating waterfowl to the marsh.",
-      "tags": [
-        "tix"
-      ],
-      "sellout": false,
-      "stream": "horizon"
-    },
-    {
-      "title": "Downtown Farmers' Market",
-      "date": "Sep 3",
-      "dateISO": "2026-09-03",
-      "time": "10:00 AM - 2:00 PM",
-      "venue": "Graham Avenue, Downtown Winnipeg",
-      "url": "https://downtownwinnipegbiz.com/2026-downtown-outdoor-farmers-market/",
-      "blurb": "The Downtown Winnipeg BIZ's outdoor market bringing local food and goods vendors to Graham Avenue.",
-      "tags": [
-        "fam",
-        "free"
-      ],
-      "sellout": false,
-      "stream": "confluence"
-    },
-    {
-      "title": "Harvest Sun Music Festival",
-      "date": "Sep 3-6",
-      "dateISO": "2026-09-03",
-      "time": "See listings",
-      "venue": "Kelwood, MB",
-      "url": "https://www.harvestsunfestival.com/",
-      "blurb": "Labour Day long weekend camping music festival near Kelwood, Manitoba, a road-trip destination for Winnipeggers.",
-      "tags": [
-        "tix"
-      ],
-      "sellout": false,
-      "stream": "horizon"
-    },
-    {
-      "title": "Poison Ruin, Jug, Domo",
-      "date": "Sep 3",
-      "dateISO": "2026-09-03",
-      "time": "7:00 PM",
-      "venue": "The Handsome Daughter (61 Sherbrook Street)",
-      "url": "https://www.tourismwinnipeg.com/festivals-and-events/live-music",
-      "blurb": "Touring punk act Poison Ruin plays with local openers Jug and Domo.",
-      "tags": [
-        "tix"
-      ],
-      "sellout": false,
-      "stream": "rapids"
-    },
-    {
-      "title": "The Deep Dark Woods",
-      "date": "Sep 3, 2026",
-      "dateISO": "2026-09-03",
-      "time": "8:00 PM",
-      "venue": "The Park Theatre",
-      "url": "https://www.bandsintown.com/e/1039429821-the-deep-dark-woods-at-the-park-theatre",
-      "blurb": "Saskatchewan indie-folk favourites The Deep Dark Woods deliver their haunted Americana at the Park.",
-      "tags": [
-        "tix"
-      ],
-      "sellout": false,
-      "stream": "horizon"
-    },
-    {
-      "title": "Crave Nite Festival (September)",
-      "date": "September 4-6, 2026",
-      "dateISO": "2026-09-04",
-      "time": "Evening",
-      "venue": "The Forks, CN Stage & Field, Winnipeg",
-      "url": "https://www.cravenite.ca/",
-      "blurb": "The late-night food and culture festival returns to The Forks for a September weekend of vendors and craft.",
-      "tags": [
-        "fam",
-        "free"
-      ],
-      "sellout": false,
-      "stream": "horizon"
-    },
-    {
-      "title": "First Fridays at Little Brown Jug",
-      "date": "Sep 4",
-      "dateISO": "2026-09-04",
-      "time": "6:00 PM - 12:00 AM",
-      "venue": "Little Brown Jug Brewing (437 Talbot Ave)",
-      "url": "https://exchangedistrict.org/venue/little-brown-jug-brewing-co/",
-      "blurb": "Monthly patio and taproom pop-up at Little Brown Jug featuring local vendors, art, and live acoustic music.",
-      "tags": [],
-      "sellout": false,
-      "stream": "confluence"
-    },
-    {
-      "title": "First Fridays at the Manitoba Museum",
-      "date": "Sep 4",
-      "dateISO": "2026-09-04",
-      "time": "Evening, extended hours",
-      "venue": "Manitoba Museum (190 Rupert Ave)",
-      "url": "https://www.tourismwinnipeg.com/festivals-and-events",
-      "blurb": "Free admission and extended hours to explore the Museum, Science Gallery, and Exchange District neighbourhood.",
-      "tags": [
-        "free"
-      ],
-      "sellout": false,
-      "stream": "deep"
-    },
-    {
-      "title": "Minegoziibe Anishinabe Pow Wow",
-      "date": "September 4 – 6, 2026",
-      "dateISO": "2026-09-04",
-      "time": "",
-      "venue": "Minegoziibe Anishinabe Pow Wow Arbour, Manitoba",
-      "url": "https://scoinc.mb.ca/sco-nation-pow-wows-2026/",
-      "blurb": "Traditional pow wow at the Minegoziibe Anishinabe (Pine Creek) arbour with drumming, dancing and cultural celebration.",
-      "tags": [
-        "free",
-        "fam"
-      ],
-      "sellout": false,
-      "stream": "horizon"
-    },
-    {
-      "title": "Sweetnotes",
-      "date": "September 4, 2026",
-      "dateISO": "2026-09-04",
-      "time": "7:00 PM",
-      "venue": "Manitoba Centennial Concert Hall",
-      "url": "https://winnipeg.events/september/",
-      "blurb": "A concert performance at the Centennial Concert Hall.",
-      "tags": [
-        "tix"
-      ],
-      "sellout": false,
-      "stream": "horizon"
-    },
-    {
-      "title": "The Red Jumpsuit Apparatus",
-      "date": "Sep 4",
-      "dateISO": "2026-09-04",
-      "time": "Doors 7:00 PM / Show 8:00 PM",
-      "venue": "Park Theatre (698 Osborne St)",
-      "url": "https://myparktheatre.com/",
-      "blurb": "The touring post-hardcore/pop-punk band headlines Park Theatre, presented by Diamond Mine Agency.",
-      "tags": [
-        "tix"
-      ],
-      "sellout": false,
-      "stream": "rapids"
-    },
-    {
-      "title": "Dovi",
-      "date": "Sep 5",
-      "dateISO": "2026-09-05",
-      "time": "9:00 PM",
-      "venue": "Park Theatre (698 Osborne St)",
-      "url": "https://allevents.in/winnipeg/the%20park%20theatre",
-      "blurb": "Touring artist Dovi performs a live show at the Park Theatre.",
-      "tags": [
-        "tix"
-      ],
-      "sellout": false,
-      "stream": "horizon"
-    },
-    {
-      "title": "Jessica Kirson",
-      "date": "September 5, 2026",
-      "dateISO": "2026-09-05",
-      "time": "8:00 PM",
-      "venue": "Event Centre at Club Regent Casino",
-      "url": "https://winnipeg.events/september/",
-      "blurb": "Comedian Jessica Kirson brings her stand-up show to Winnipeg.",
-      "tags": [
-        "tix"
-      ],
-      "sellout": false,
-      "stream": "horizon"
-    },
-    {
-      "title": "Labour Day Marsh Adventure",
-      "date": "Saturday, September 5, 2026",
-      "dateISO": "2026-09-05",
-      "time": "10:00 am - 4:30 pm",
-      "venue": "Oak Hammock Marsh Wetland Discovery Centre, Stonewall",
-      "url": "https://www.oakhammockmarsh.ca/events/",
-      "blurb": "Long-weekend voyageur canoe adventures plus canoe and bicycle rentals, crafts and face painting.",
-      "tags": [
-        "fam",
-        "tix"
-      ],
-      "sellout": false,
-      "stream": "horizon"
-    },
-    {
-      "title": "Latin American Festival of Winnipeg",
-      "date": "Sep 5",
-      "dateISO": "2026-09-05",
-      "time": "See listings",
-      "venue": "West End Cultural Centre (586 Ellice Ave)",
-      "url": "https://www.wecc.ca/",
-      "blurb": "Latin Roots Band and dance groups present a community festival of Latin American music and dance at WECC.",
-      "tags": [],
-      "sellout": false,
-      "stream": "confluence"
-    },
-    {
-      "title": "Le Marché St. Norbert Farmers' Market",
-      "date": "Saturday, September 5, 2026",
-      "dateISO": "2026-09-05",
-      "time": "8:00 AM - 2:00 PM",
-      "venue": "St. Norbert Farmers' Market, 3514 Pembina Hwy, Winnipeg",
-      "url": "https://stnorbertfarmersmarket.ca/",
-      "blurb": "Manitoba's largest outdoor farmers' market runs every Saturday with local produce, food vendors, and artisans.",
-      "tags": [
-        "fam",
-        "free"
-      ],
-      "sellout": false,
-      "stream": "horizon"
-    },
-    {
-      "title": "ROCAFIESTA",
-      "date": "Sat, Sep 5",
-      "dateISO": "2026-09-05",
-      "time": "",
-      "venue": "The Pyramid Cabaret",
-      "url": "https://pyramidcabaret.com/event/rocafiesta/",
-      "blurb": "Live music event ROCAFIESTA at The Pyramid Cabaret.",
-      "tags": [
-        "tix"
-      ],
-      "sellout": false,
-      "stream": "horizon"
-    },
-    {
-      "title": "Superhero Run",
-      "date": "Saturday, September 5, 2026",
-      "dateISO": "2026-09-05",
-      "time": "Morning",
-      "venue": "Winnipeg, Manitoba",
-      "url": "https://www.runguides.com/event/21620/superhero-run",
-      "blurb": "A costume-friendly 5K and 10K fun run where participants dress as their favourite superheroes. A festive event for families and runners alike.",
-      "tags": [
-        "fam",
-        "tix"
-      ],
-      "sellout": false,
-      "stream": "horizon"
-    },
-    {
-      "title": "Winnipeg Beach Fall Harvest Festival",
-      "date": "Saturday, September 5, 2026",
-      "dateISO": "2026-09-05",
-      "time": "10:00 AM - 3:00 PM",
-      "venue": "Downtown Winnipeg Beach",
-      "url": "https://winnipegbeach.ca/p/annual-events",
-      "blurb": "An outdoor harvest-season vendor market in downtown Winnipeg Beach.",
-      "tags": [
-        "free",
-        "fam"
-      ],
-      "sellout": false,
-      "stream": "horizon"
-    },
-    {
-      "title": "Winnipeg Lantern Festival",
-      "date": "Sep 5-6",
-      "dateISO": "2026-09-05",
-      "time": "See listings",
-      "venue": "Exchange District",
-      "url": "https://wpgforfree.ca/2026/08/31/10-free-winnipeg-weekend-events-september-4/",
-      "blurb": "A free Labour Day weekend festival of illuminated lantern displays, cultural performances and food vendors in the Exchange District.",
-      "tags": [
-        "free",
-        "fam"
-      ],
-      "sellout": false,
-      "stream": "confluence"
-    },
-    {
-      "title": "Propagandhi",
-      "date": "Sunday, September 6, 2026",
-      "dateISO": "2026-09-06",
-      "time": "8:00 PM",
-      "venue": "Burton Cummings Theatre",
-      "url": "https://concertfix.com/concerts/winnipeg-mb+burton-cummings-theatre",
-      "blurb": "Winnipeg's own punk heroes Propagandhi return for a hometown show.",
-      "tags": [
-        "tix"
-      ],
-      "sellout": false,
-      "stream": "horizon"
-    },
-    {
-      "title": "Sensory Sunday",
-      "date": "Sep 6",
-      "dateISO": "2026-09-06",
-      "time": "Morning (see listing)",
-      "venue": "Manitoba Museum (190 Rupert Ave)",
-      "url": "https://manitobamuseum.ca/plan-your-visit/",
-      "blurb": "A quieter, sensory-friendly morning in the Museum Galleries held the first Sunday of every month.",
-      "tags": [
-        "fam"
-      ],
-      "sellout": false,
-      "stream": "ripples"
-    },
-    {
-      "title": "First Friday Free Admission",
-      "date": "Sep 7",
-      "dateISO": "2026-09-07",
-      "time": "Evening",
-      "venue": "Manitoba Museum",
-      "url": "https://manitobamuseum.ca/plan-your-visit/",
-      "blurb": "Free general admission to the Museum Galleries, Planetarium, and Science Gallery on the first Friday evening of the month.",
-      "tags": [
-        "free"
-      ],
-      "sellout": false,
-      "stream": "horizon"
-    },
-    {
-      "title": "Propagandhi",
-      "date": "Sep 7, 2026",
-      "dateISO": "2026-09-07",
-      "time": "7:30 PM",
-      "venue": "The Park Theatre",
-      "url": "https://www.bandsintown.com/e/1039577395-propagandhi-at-the-park-theatre",
-      "blurb": "Legendary Winnipeg punk institution Propagandhi plays a hometown show of politically charged hardcore.",
-      "tags": [
-        "tix"
-      ],
-      "sellout": true,
-      "stream": "horizon"
-    },
-    {
-      "title": "Sensory Sunday",
-      "date": "September 7, 2026",
-      "dateISO": "2026-09-07",
-      "time": "10:00 AM – 12:00 PM",
-      "venue": "Manitoba Museum",
-      "url": "https://manitobamuseum.ca/plan-your-visit/",
-      "blurb": "A quieter, sensory-friendly museum experience with adjusted lighting and sound.",
+      "title": "Amur Tiger Encounter",
+      "date": "Sep 9 – Oct 12",
+      "dateISO": "2026-09-09",
+      "time": "See listing",
+      "venue": "Assiniboine Park Zoo",
+      "url": "https://www.assiniboinepark.ca/events",
+      "blurb": "A behind-the-scenes encounter experience with the zoo's Amur tigers.",
       "tags": [
         "tix",
         "fam"
       ],
       "sellout": false,
-      "stream": "horizon"
-    },
-    {
-      "title": "Voivod",
-      "date": "Sep 7",
-      "dateISO": "2026-09-07",
-      "time": "See listings",
-      "venue": "Park Theatre (698 Osborne St)",
-      "url": "https://www.jambase.com/venue/park-theatre",
-      "blurb": "Canadian metal veterans Voivod play the Park Theatre.",
-      "tags": [
-        "tix"
-      ],
-      "sellout": false,
-      "stream": "horizon"
-    },
-    {
-      "title": "Tyler Kotowski",
-      "date": "Sep 8-9",
-      "dateISO": "2026-09-08",
-      "time": "See showtimes",
-      "venue": "Rumor's Comedy Club (2025 Corydon Ave)",
-      "url": "https://rumorscomedyclub.com/events/list",
-      "blurb": "Stand-up comedy shows at Rumor's Comedy Club, worth booking ahead.",
-      "tags": [
-        "tix"
-      ],
-      "sellout": false,
-      "stream": "horizon"
+      "stream": "ripples"
     },
     {
       "title": "Fiddler on the Roof",
@@ -479,6 +54,72 @@
       ],
       "sellout": true,
       "stream": "horizon"
+    },
+    {
+      "title": "Mindful Birdwatching",
+      "date": "Sep 9",
+      "dateISO": "2026-09-09",
+      "time": "See listing",
+      "venue": "Assiniboine Park",
+      "url": "https://www.assiniboinepark.ca/events",
+      "blurb": "A guided, mindfulness-focused bird watching session at Assiniboine Park.",
+      "tags": [],
+      "sellout": false,
+      "stream": "sky"
+    },
+    {
+      "title": "Slow Flow Yoga",
+      "date": "Sep 9 – Dec 16",
+      "dateISO": "2026-09-09",
+      "time": "See listing",
+      "venue": "Assiniboine Park",
+      "url": "https://www.assiniboinepark.ca/events",
+      "blurb": "A weekly outdoor slow-flow yoga practice led by Jackie Enberg at Assiniboine Park.",
+      "tags": [
+        "tix"
+      ],
+      "sellout": false,
+      "stream": "sky"
+    },
+    {
+      "title": "South Osborne Farmers' Market",
+      "date": "Wednesdays through Oct 14",
+      "dateISO": "2026-09-09",
+      "time": "4:00 PM - 8:00 PM",
+      "venue": "South Osborne, Winnipeg",
+      "url": "https://www.travelmanitoba.com/blog/the-ultimate-list-of-manitoba-farmers-markets/",
+      "blurb": "Weekly evening farmers' market in the South Osborne neighbourhood.",
+      "tags": [
+        "free"
+      ],
+      "sellout": false,
+      "stream": "confluence"
+    },
+    {
+      "title": "WAG Wednesday Nights",
+      "date": "Wednesdays through Sep 23",
+      "dateISO": "2026-09-09",
+      "time": "5:00 PM - 9:00 PM",
+      "venue": "WAG-Qaumajuq (300 Memorial Blvd)",
+      "url": "https://www.wag.ca/visit/hours-admission/",
+      "blurb": "Weekly after-hours gallery evening with DJ sets and extended access to current exhibitions, held every Wednesday.",
+      "tags": [],
+      "sellout": false,
+      "stream": "deep"
+    },
+    {
+      "title": "West Broadway Farmers' Market",
+      "date": "Wednesdays through Oct",
+      "dateISO": "2026-09-09",
+      "time": "3:00 PM - 6:00 PM",
+      "venue": "Broadway Neighbourhood Centre (185 Young St)",
+      "url": "https://www.travelmanitoba.com/blog/the-ultimate-list-of-manitoba-farmers-markets/",
+      "blurb": "Weekly neighbourhood farmers' market running through the fall.",
+      "tags": [
+        "free"
+      ],
+      "sellout": false,
+      "stream": "confluence"
     },
     {
       "title": "Bison Prairie Encounter",
@@ -536,6 +177,21 @@
       ],
       "sellout": false,
       "stream": "horizon"
+    },
+    {
+      "title": "Polar Bear Encounter",
+      "date": "Sep 10 – Oct 31",
+      "dateISO": "2026-09-10",
+      "time": "See listing",
+      "venue": "Assiniboine Park Zoo",
+      "url": "https://www.assiniboinepark.ca/events",
+      "blurb": "A behind-the-scenes encounter experience stepping into the world of the zoo's polar bears.",
+      "tags": [
+        "tix",
+        "fam"
+      ],
+      "sellout": false,
+      "stream": "ripples"
     },
     {
       "title": "Spruce Woods Star Party 2026",
@@ -664,13 +320,13 @@
       "stream": "horizon"
     },
     {
-      "title": "SOS Festival 2026 (3-Day Pass)",
+      "title": "SOS Festival 2026",
       "date": "Sep 11-13",
       "dateISO": "2026-09-11",
-      "time": "Show 7:30 PM / Doors 7:00 PM",
-      "venue": "Park Theatre (698 Osborne Street)",
-      "url": "https://www.livenation.com/venue/KovZpaKMIe/park-theatre-events",
-      "blurb": "A three-day multi-band music festival at the Park Theatre.",
+      "time": "See listings",
+      "venue": "Park Theatre (698 Osborne St)",
+      "url": "https://myparktheatre.com/",
+      "blurb": "Three-day music festival at Park Theatre with acts including Mannequin Pussy.",
       "tags": [
         "tix"
       ],
@@ -691,6 +347,20 @@
       ],
       "sellout": false,
       "stream": "horizon"
+    },
+    {
+      "title": "Alive at the Museum",
+      "date": "Sep 12",
+      "dateISO": "2026-09-12",
+      "time": "7:00 PM - 2:00 AM",
+      "venue": "Manitoba Museum (190 Rupert Ave)",
+      "url": "https://www.showpass.com/aatm/",
+      "blurb": "An 18+ after-hours takeover of the Manitoba Museum with five music stages, live performers and projections through the galleries.",
+      "tags": [
+        "tix"
+      ],
+      "sellout": true,
+      "stream": "rapids"
     },
     {
       "title": "Banjo Bowl — Blue Bombers vs. Saskatchewan Roughriders",
@@ -726,12 +396,12 @@
       "date": "Sep 12",
       "dateISO": "2026-09-12",
       "time": "10:30 AM - 2:30 PM",
-      "venue": "FortWhyte Alive (1961 McCreary Rd)",
+      "venue": "FortWhyte Alive (1961 McCreary Rd.)",
       "url": "https://www.fortwhyte.org/venue/fortwhyte-alive/",
-      "blurb": "An on-site photographer captures family photos against FortWhyte's fall backdrop.",
+      "blurb": "A photographer sets up on site to take family photos against FortWhyte's colourful fall backdrop.",
       "tags": [
-        "tix",
-        "fam"
+        "fam",
+        "tix"
       ],
       "sellout": false,
       "stream": "ripples"
@@ -839,6 +509,21 @@
       "stream": "horizon"
     },
     {
+      "title": "Canada Life Free Sunday",
+      "date": "Sep 13",
+      "dateISO": "2026-09-13",
+      "time": "11:00 AM - 5:00 PM",
+      "venue": "WAG-Qaumajuq (300 Memorial Blvd)",
+      "url": "https://www.wag.ca/visit/hours-admission/",
+      "blurb": "Free admission day to the Winnipeg Art Gallery and Qaumajuq, held on the second Sunday of the month.",
+      "tags": [
+        "free",
+        "fam"
+      ],
+      "sellout": false,
+      "stream": "ripples"
+    },
+    {
       "title": "Carsie Blanton w/ The Burning Hell",
       "date": "Sep 13, 2026",
       "dateISO": "2026-09-13",
@@ -897,6 +582,20 @@
       "stream": "ripples"
     },
     {
+      "title": "Mannequin Pussy",
+      "date": "Sep 13",
+      "dateISO": "2026-09-13",
+      "time": "8:00 PM",
+      "venue": "Burton Cummings Theatre",
+      "url": "https://www.ticketmaster.ca/discover/winnipeg?categoryId=KZFzniwnSyZfZ7v7nJ",
+      "blurb": "Touring rock band Mannequin Pussy plays a show at the Burton Cummings Theatre.",
+      "tags": [
+        "tix"
+      ],
+      "sellout": false,
+      "stream": "rapids"
+    },
+    {
       "title": "Mark Normand",
       "date": "Sunday, September 13, 2026",
       "dateISO": "2026-09-13",
@@ -939,6 +638,20 @@
       "stream": "horizon"
     },
     {
+      "title": "Aisha Alfa Live",
+      "date": "Sep 15-17",
+      "dateISO": "2026-09-15",
+      "time": "See website for showtimes",
+      "venue": "Rumor's Restaurant and Comedy Club (190-2025 Corydon Avenue)",
+      "url": "https://www.tourismwinnipeg.com/festivals-and-events/upcoming-events/display,event/11648/rumor-s-restaurant-and-comedy-club-presents-aisha-alfa",
+      "blurb": "A multi-night stand-up comedy engagement at Rumor's Comedy Club.",
+      "tags": [
+        "tix"
+      ],
+      "sellout": false,
+      "stream": "deep"
+    },
+    {
       "title": "Andy Noble",
       "date": "Sep 15-17",
       "dateISO": "2026-09-15",
@@ -951,6 +664,20 @@
       ],
       "sellout": false,
       "stream": "deep"
+    },
+    {
+      "title": "Wellness Farmers' Market",
+      "date": "Tuesdays through Sep 22",
+      "dateISO": "2026-09-15",
+      "time": "9:30 AM - 2:00 PM",
+      "venue": "Winnipeg",
+      "url": "https://www.travelmanitoba.com/blog/the-ultimate-list-of-manitoba-farmers-markets/",
+      "blurb": "Weekly market focused on wellness-oriented and local vendors, wrapping up for the season on Sep 22.",
+      "tags": [
+        "free"
+      ],
+      "sellout": false,
+      "stream": "confluence"
     },
     {
       "title": "Hieroglyphics",
@@ -1161,7 +888,7 @@
       "tags": [
         "tix"
       ],
-      "sellout": false,
+      "sellout": true,
       "stream": "horizon"
     },
     {
@@ -1194,6 +921,20 @@
       "stream": "horizon"
     },
     {
+      "title": "International Red Panda Day Weekend",
+      "date": "Sep 19-20",
+      "dateISO": "2026-09-19",
+      "time": "See listing",
+      "venue": "Assiniboine Park Zoo",
+      "url": "https://www.assiniboinepark.ca/events",
+      "blurb": "A weekend of family-friendly educational activities celebrating International Red Panda Day.",
+      "tags": [
+        "fam"
+      ],
+      "sellout": false,
+      "stream": "ripples"
+    },
+    {
       "title": "Red River Paddle Challenge",
       "date": "September 19-20, 2026",
       "dateISO": "2026-09-19",
@@ -1223,6 +964,21 @@
       "stream": "horizon"
     },
     {
+      "title": "Sunset Goose Flights",
+      "date": "Sep 19-20",
+      "dateISO": "2026-09-19",
+      "time": "5:30 PM - 8:00 PM",
+      "venue": "FortWhyte Alive (Alloway Reception Centre, 1961 McCreary Rd.)",
+      "url": "https://www.fortwhyte.org/venue/fortwhyte-arc/page/2/",
+      "blurb": "An evening autumn ritual watching thousands of geese land at FortWhyte after sunset.",
+      "tags": [
+        "tix",
+        "fam"
+      ],
+      "sellout": false,
+      "stream": "sky"
+    },
+    {
       "title": "Under The Boardwalk Show N Shine",
       "date": "Saturday, September 19, 2026",
       "dateISO": "2026-09-19",
@@ -1236,6 +992,20 @@
       ],
       "sellout": false,
       "stream": "horizon"
+    },
+    {
+      "title": "When We Were Young: Live Band Emo Night",
+      "date": "Sep 19",
+      "dateISO": "2026-09-19",
+      "time": "8:00 PM",
+      "venue": "Park Theatre (698 Osborne St)",
+      "url": "https://www.ticketmaster.ca/park-theatre-tickets-winnipeg/venue/140094",
+      "blurb": "A live band performs emo and pop-punk favourites at Park Theatre.",
+      "tags": [
+        "tix"
+      ],
+      "sellout": false,
+      "stream": "rapids"
     },
     {
       "title": "AC/DC - Power Up Tour 2026",
@@ -1378,6 +1148,20 @@
       "stream": "horizon"
     },
     {
+      "title": "Lyle Lovett and The Hello Darlins",
+      "date": "Sep 24",
+      "dateISO": "2026-09-24",
+      "time": "See listings",
+      "venue": "Burton Cummings Theatre",
+      "url": "https://www.songkick.com/metro-areas/27403-canada-winnipeg",
+      "blurb": "Singer-songwriter Lyle Lovett performs with The Hello Darlins.",
+      "tags": [
+        "tix"
+      ],
+      "sellout": false,
+      "stream": "horizon"
+    },
+    {
       "title": "Stella Standingbear w/ Natasha Fisher",
       "date": "Sep 24, 2026",
       "dateISO": "2026-09-24",
@@ -1434,13 +1218,13 @@
       "stream": "horizon"
     },
     {
-      "title": "Bahamas",
-      "date": "September 25, 2026",
+      "title": "Architecture+Film: The History of Concrete",
+      "date": "Sep 25",
       "dateISO": "2026-09-25",
-      "time": "8:00 PM",
-      "venue": "Burton Cummings Theatre",
-      "url": "https://winnipeg.events/september/",
-      "blurb": "Juno-winning artist Bahamas performs his laid-back pop-rock live.",
+      "time": "See listing",
+      "venue": "Dave Barber Cinematheque (100 Arthur St)",
+      "url": "https://x.com/wfgcinematheque",
+      "blurb": "A screening in the Architecture+Film series featuring a documentary look at the bedrock of New York City by John Wilson.",
       "tags": [
         "tix"
       ],
@@ -1448,13 +1232,27 @@
       "stream": "horizon"
     },
     {
-      "title": "Blue Bombers Orange Shirt Game vs. Toronto Argonauts",
+      "title": "Bahamas",
+      "date": "Sep 25",
+      "dateISO": "2026-09-25",
+      "time": "See listings",
+      "venue": "Burton Cummings Theatre",
+      "url": "https://www.songkick.com/metro-areas/27403-canada-winnipeg",
+      "blurb": "Canadian singer-songwriter Bahamas plays the Burton Cummings Theatre.",
+      "tags": [
+        "tix"
+      ],
+      "sellout": false,
+      "stream": "horizon"
+    },
+    {
+      "title": "Blue Bombers vs. Toronto Argonauts",
       "date": "Sep 25",
       "dateISO": "2026-09-25",
       "time": "7:00 PM",
       "venue": "Princess Auto Stadium",
-      "url": "https://www.bluebombers.com/schedule/2026/",
-      "blurb": "Blue Bombers home game recognizing the National Day for Truth and Reconciliation.",
+      "url": "https://www.ticketmaster.ca/winnipeg-blue-bombers-tickets/artist/907041",
+      "blurb": "CFL regular season home game between the Winnipeg Blue Bombers and Toronto Argonauts.",
       "tags": [
         "tix"
       ],
@@ -1483,6 +1281,20 @@
       "venue": "The Handsome Daughter (61 Sherbrook Street)",
       "url": "https://www.showpass.com/heavenly26/",
       "blurb": "Kickoff show of the multi-venue Heavenly Wknd festival pass, headlined by LA's Shearling.",
+      "tags": [
+        "tix"
+      ],
+      "sellout": false,
+      "stream": "horizon"
+    },
+    {
+      "title": "Lux et Veritas Floreant / Let Light and Truth Flourish",
+      "date": "Sep 25",
+      "dateISO": "2026-09-25",
+      "time": "See listing",
+      "venue": "Dave Barber Cinematheque (100 Arthur St)",
+      "url": "https://x.com/wfgcinematheque",
+      "blurb": "A film program presented with Gallery 1C03 marking its 40th anniversary, themed around the University of Winnipeg's motto.",
       "tags": [
         "tix"
       ],
@@ -1547,6 +1359,20 @@
       "stream": "horizon"
     },
     {
+      "title": "Celebrate Migration at Oak Hammock Marsh",
+      "date": "Sep 26-27",
+      "dateISO": "2026-09-26",
+      "time": "10:00 AM - 1:00 PM",
+      "venue": "Oak Hammock Marsh Wetland Discovery Centre",
+      "url": "https://www.oakhammockmarsh.ca/events/",
+      "blurb": "A weekend celebrating fall migration with bird banding demonstrations and special theatre presentations by a Manitoba bird expert.",
+      "tags": [
+        "fam"
+      ],
+      "sellout": false,
+      "stream": "horizon"
+    },
+    {
       "title": "Hindu YUVA Navratri @ UofM",
       "date": "Sep 26",
       "dateISO": "2026-09-26",
@@ -1598,6 +1424,21 @@
       "tags": [
         "fam",
         "free"
+      ],
+      "sellout": false,
+      "stream": "horizon"
+    },
+    {
+      "title": "Tyndall Community Market",
+      "date": "Sep 26-27",
+      "dateISO": "2026-09-26",
+      "time": "See listing",
+      "venue": "Tyndall Park Community Centre",
+      "url": "https://www.queenteam.ca/journal/farmers-markets-winnipeg-2026",
+      "blurb": "Community market weekend with local vendors, food and crafts at Tyndall Park.",
+      "tags": [
+        "free",
+        "fam"
       ],
       "sellout": false,
       "stream": "horizon"
@@ -1675,6 +1516,20 @@
       "stream": "horizon"
     },
     {
+      "title": "Interference",
+      "date": "Sep 27",
+      "dateISO": "2026-09-27",
+      "time": "See listings",
+      "venue": "Sidestage",
+      "url": "https://www.songkick.com/metro-areas/27403-canada-winnipeg",
+      "blurb": "Live show at Sidestage the weekend after the main window.",
+      "tags": [
+        "tix"
+      ],
+      "sellout": false,
+      "stream": "horizon"
+    },
+    {
       "title": "Teddy Bears' Picnic",
       "date": "September 27, 2026",
       "dateISO": "2026-09-27",
@@ -1687,6 +1542,32 @@
         "free"
       ],
       "sellout": true,
+      "stream": "horizon"
+    },
+    {
+      "title": "Full Moon Ceremony",
+      "date": "Sep 28",
+      "dateISO": "2026-09-28",
+      "time": "See listing",
+      "venue": "Winnipeg (see Tourism Winnipeg listing for site)",
+      "url": "https://www.tourismwinnipeg.com/festivals-and-events/upcoming-events",
+      "blurb": "A community full moon ceremony organized in collaboration with Sunshine House and Manitoba Keewatinowi Okimakanak's MMIWG Liaison Unit.",
+      "tags": [],
+      "sellout": false,
+      "stream": "horizon"
+    },
+    {
+      "title": "Quicksand / F / Fucked Up",
+      "date": "Sep 28",
+      "dateISO": "2026-09-28",
+      "time": "See listings",
+      "venue": "Park Theatre (698 Osborne St)",
+      "url": "https://www.livenation.com/venue/rZ7HnEZa7Bp/the-park-theatre-events",
+      "blurb": "Touring punk and post-hardcore bill with Quicksand, F, and Fucked Up.",
+      "tags": [
+        "tix"
+      ],
+      "sellout": false,
       "stream": "horizon"
     },
     {
@@ -1718,6 +1599,21 @@
       "stream": "horizon"
     },
     {
+      "title": "Truth and Reconciliation Day Event",
+      "date": "Sep 29",
+      "dateISO": "2026-09-29",
+      "time": "See listing",
+      "venue": "École Powerview School & Turtle Lodge (Sagkeeng First Nation)",
+      "url": "https://www.gov.mb.ca/inr/osd.html",
+      "blurb": "A school and community ceremony held ahead of the National Day for Truth and Reconciliation at Turtle Lodge in Sagkeeng First Nation.",
+      "tags": [
+        "free",
+        "fam"
+      ],
+      "sellout": false,
+      "stream": "horizon"
+    },
+    {
       "title": "Winnipeg Poetry Slam Open Mic",
       "date": "Tuesday, September 29, 2026",
       "dateISO": "2026-09-29",
@@ -1730,16 +1626,42 @@
       "stream": "horizon"
     },
     {
+      "title": "Honouring Our Red River Metis Survivors and Lost Children",
+      "date": "Sep 30",
+      "dateISO": "2026-09-30",
+      "time": "See listing",
+      "venue": "MMF's Seven Regions across Manitoba",
+      "url": "https://www.mmf.mb.ca/",
+      "blurb": "Manitoba Metis Federation ceremonies across its seven regions marking the National Day for Truth and Reconciliation.",
+      "tags": [
+        "free"
+      ],
+      "sellout": false,
+      "stream": "horizon"
+    },
+    {
+      "title": "National Day for Truth and Reconciliation at CMHR",
+      "date": "Sep 30",
+      "dateISO": "2026-09-30",
+      "time": "See listing",
+      "venue": "Canadian Museum for Human Rights",
+      "url": "https://www.tourismwinnipeg.com/festivals-and-events/upcoming-events",
+      "blurb": "As National Day for Truth and Reconciliation approaches, the museum highlights exhibits related to ongoing reconciliation.",
+      "tags": [],
+      "sellout": false,
+      "stream": "horizon"
+    },
+    {
       "title": "National Day for Truth and Reconciliation Free Admission",
       "date": "Sep 30-Oct 2",
       "dateISO": "2026-09-30",
-      "time": "Regular museum hours",
+      "time": "See listing",
       "venue": "Manitoba Museum (190 Rupert Ave)",
       "url": "https://www.tourismwinnipeg.com/festivals-and-events",
-      "blurb": "Free admission to the Museum Galleries, Science Gallery, and Planetarium to mark the National Day for Truth and Reconciliation.",
+      "blurb": "Free admission to the Museum Galleries, Science Gallery and Planetarium to honour the National Day for Truth and Reconciliation.",
       "tags": [
-        "free",
-        "fam"
+        "fam",
+        "free"
       ],
       "sellout": false,
       "stream": "horizon"
@@ -1763,13 +1685,13 @@
       "title": "SCO Orange Shirt Day Pow Wow",
       "date": "September 30, 2026",
       "dateISO": "2026-09-30",
-      "time": "",
+      "time": "9:30 AM",
       "venue": "Winnipeg, Manitoba",
       "url": "https://scoinc.mb.ca/sco-nation-pow-wows-2026/",
       "blurb": "Southern Chiefs' Organization pow wow marking the National Day for Truth and Reconciliation, honouring residential school survivors and children who never came home.",
       "tags": [
-        "free",
-        "fam"
+        "fam",
+        "free"
       ],
       "sellout": false,
       "stream": "horizon"
@@ -1859,6 +1781,35 @@
       "stream": "horizon"
     },
     {
+      "title": "Boo at the Zoo",
+      "date": "Oct 2-31",
+      "dateISO": "2026-10-02",
+      "time": "Evenings",
+      "venue": "Assiniboine Park Zoo",
+      "url": "https://www.assiniboinepark.ca/",
+      "blurb": "A Halloween tradition with glowing pumpkins, festive photo-ops, fair rides and spooky family entertainment through Spookyville.",
+      "tags": [
+        "tix",
+        "fam"
+      ],
+      "sellout": false,
+      "stream": "horizon"
+    },
+    {
+      "title": "Heavenly Wknd 2026: Ethereal Tomb / Leon's Getting Larger / Number One / Steadfast",
+      "date": "Oct 2",
+      "dateISO": "2026-10-02",
+      "time": "Doors 7:30 PM / Music 8:30 PM",
+      "venue": "Handsome Daughter (61 Sherbrook St)",
+      "url": "https://www.showpass.com/heavenly26/",
+      "blurb": "A later date on the Heavenly Wknd festival pass with touring act Ethereal Tomb and local bands.",
+      "tags": [
+        "tix"
+      ],
+      "sellout": false,
+      "stream": "horizon"
+    },
+    {
       "title": "Jets Home Opener vs Boston Bruins",
       "date": "October 2, 2026",
       "dateISO": "2026-10-02",
@@ -1925,6 +1876,20 @@
       "tags": [
         "tix",
         "fam"
+      ],
+      "sellout": false,
+      "stream": "horizon"
+    },
+    {
+      "title": "Manitoba Moose Home Opener vs. Chicago Wolves",
+      "date": "Oct 3",
+      "dateISO": "2026-10-03",
+      "time": "2:00 PM",
+      "venue": "Canada Life Centre",
+      "url": "https://www.ticketmaster.ca/canada-life-centre-tickets-winnipeg/venue/139625",
+      "blurb": "The Manitoba Moose open their AHL home season against the Chicago Wolves.",
+      "tags": [
+        "tix"
       ],
       "sellout": false,
       "stream": "horizon"
@@ -2003,6 +1968,20 @@
       "stream": "horizon"
     },
     {
+      "title": "Stravinsky Double Bill: The Fairy's Kiss & Firebird",
+      "date": "Oct 8-11",
+      "dateISO": "2026-10-08",
+      "time": "See listing",
+      "venue": "Winnipeg (see Tourism Winnipeg listing for venue)",
+      "url": "https://www.tourismwinnipeg.com/festivals-and-events/upcoming-events",
+      "blurb": "A dance double bill reimagining Stravinsky, pairing Alexei Ratmansky's The Fairy's Kiss with a new Firebird by Houston Thomas, tickets from $45.",
+      "tags": [
+        "tix"
+      ],
+      "sellout": false,
+      "stream": "horizon"
+    },
+    {
       "title": "almost monday",
       "date": "Oct 9, 2026",
       "dateISO": "2026-10-09",
@@ -2010,6 +1989,20 @@
       "venue": "The Park Theatre",
       "url": "https://www.bandsintown.com/e/1039429298-almost-monday-at-the-park-theatre",
       "blurb": "California indie-pop trio almost monday bring their sunny hooks to the Park Theatre.",
+      "tags": [
+        "tix"
+      ],
+      "sellout": false,
+      "stream": "horizon"
+    },
+    {
+      "title": "UnCommon Pours",
+      "date": "Oct 9",
+      "dateISO": "2026-10-09",
+      "time": "See listing",
+      "venue": "The Common, The Forks Market",
+      "url": "https://www.tourismwinnipeg.com/festivals-and-events/upcoming-events",
+      "blurb": "First installment of a four-part series featuring exclusive beer and wine selections at The Forks Market.",
       "tags": [
         "tix"
       ],
@@ -2745,6 +2738,20 @@
       "stream": "horizon"
     },
     {
+      "title": "Adrian Sutherland & Jade Turner",
+      "date": "Nov 28",
+      "dateISO": "2026-11-28",
+      "time": "See listings",
+      "venue": "West End Cultural Centre (586 Ellice Ave)",
+      "url": "https://www.wecc.ca/",
+      "blurb": "A double bill pairing Adrian Sutherland and Jade Turner.",
+      "tags": [
+        "tix"
+      ],
+      "sellout": false,
+      "stream": "horizon"
+    },
+    {
       "title": "Amanda Marshall",
       "date": "Saturday, November 28, 2026",
       "dateISO": "2026-11-28",
@@ -2794,6 +2801,20 @@
       "venue": "Centennial Concert Hall",
       "url": "https://concertfix.com/concerts/winnipeg-mb+manitoba-centennial-concert-hall",
       "blurb": "KISS frontman Gene Simmons brings his solo band and rock classics to the Concert Hall.",
+      "tags": [
+        "tix"
+      ],
+      "sellout": false,
+      "stream": "horizon"
+    },
+    {
+      "title": "Bicycle Face Christmas: MyrrHvana's Greatest Hits",
+      "date": "Dec 11",
+      "dateISO": "2026-12-11",
+      "time": "See listings",
+      "venue": "West End Cultural Centre (586 Ellice Ave)",
+      "url": "https://www.wecc.ca/",
+      "blurb": "The 10th annual Bicycle Face holiday show at WECC.",
       "tags": [
         "tix"
       ],
@@ -2896,6 +2917,20 @@
         "tix"
       ],
       "sellout": true,
+      "stream": "horizon"
+    },
+    {
+      "title": "Hilary Duff - The Lucky Me Tour",
+      "date": "Jan 30",
+      "dateISO": "2027-01-30",
+      "time": "See listings",
+      "venue": "Canada Life Centre",
+      "url": "https://www.ticketmaster.ca/discover/winnipeg?categoryId=KZFzniwnSyZfZ7v7nJ",
+      "blurb": "Hilary Duff brings her Lucky Me Tour to Canada Life Centre.",
+      "tags": [
+        "tix"
+      ],
+      "sellout": false,
       "stream": "horizon"
     },
     {
@@ -3007,6 +3042,20 @@
         "tix"
       ],
       "sellout": true,
+      "stream": "horizon"
+    },
+    {
+      "title": "Wheeler Walker Jr. - Pullin' Out: The Farewell Tour",
+      "date": "Apr 5",
+      "dateISO": "2027-04-05",
+      "time": "8:00 PM",
+      "venue": "Club Regent Event Centre",
+      "url": "https://www.ticketmaster.ca/discover/winnipeg?categoryId=KZFzniwnSyZfZ7v7nJ",
+      "blurb": "Comedic country act Wheeler Walker Jr. performs on his farewell tour.",
+      "tags": [
+        "tix"
+      ],
+      "sellout": false,
       "stream": "horizon"
     },
     {
