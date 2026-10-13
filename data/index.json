@@ -1,96 +1,101 @@
 {
-  "latest": "data/2026/10/12.json",
-  "updated": "2026-10-12",
-  "runs": [
-    {
-      "date": "2026-07-21",
-      "path": "data/2026/07/21.json",
-      "count": 114
-    },
-    {
-      "date": "2026-07-23",
-      "path": "data/2026/07/23.json",
-      "count": 204
-    },
-    {
-      "date": "2026-07-24",
-      "path": "data/2026/07/24.json",
-      "count": 321
-    },
-    {
-      "date": "2026-07-25",
-      "path": "data/2026/07/25.json",
-      "count": 482
-    },
-    {
-      "date": "2026-07-26",
-      "path": "data/2026/07/26.json",
-      "count": 421
-    },
-    {
-      "date": "2026-07-27",
-      "path": "data/2026/07/27.json",
-      "count": 416
-    },
-    {
-      "date": "2026-07-28",
-      "path": "data/2026/07/28.json",
-      "count": 435
-    },
-    {
-      "date": "2026-07-29",
-      "path": "data/2026/07/29.json",
-      "count": 423
-    },
-    {
-      "date": "2026-07-31",
-      "path": "data/2026/07/31.json",
-      "count": 464
-    },
-    {
-      "date": "2026-08-01",
-      "path": "data/2026/08/01.json",
-      "count": 516
-    },
-    {
-      "date": "2026-08-02",
-      "path": "data/2026/08/02.json",
-      "count": 564
-    },
-    {
-      "date": "2026-08-12",
-      "path": "data/2026/08/12.json",
-      "count": 349
-    },
-    {
-      "date": "2026-08-26",
-      "path": "data/2026/08/26.json",
-      "count": 245
-    },
-    {
-      "date": "2026-09-02",
-      "path": "data/2026/09/02.json",
-      "count": 213
-    },
-    {
-      "date": "2026-09-09",
-      "path": "data/2026/09/09.json",
-      "count": 216
-    },
-    {
-      "date": "2026-09-16",
-      "path": "data/2026/09/16.json",
-      "count": 206
-    },
-    {
-      "date": "2026-10-11",
-      "path": "data/2026/10/11.json",
-      "count": 135
-    },
-    {
-      "date": "2026-10-12",
-      "path": "data/2026/10/12.json",
-      "count": 176
-    }
-  ]
+ "latest": "data/2026/10/13.json",
+ "updated": "2026-10-13",
+ "runs": [
+  {
+   "date": "2026-07-21",
+   "path": "data/2026/07/21.json",
+   "count": 114
+  },
+  {
+   "date": "2026-07-23",
+   "path": "data/2026/07/23.json",
+   "count": 204
+  },
+  {
+   "date": "2026-07-24",
+   "path": "data/2026/07/24.json",
+   "count": 321
+  },
+  {
+   "date": "2026-07-25",
+   "path": "data/2026/07/25.json",
+   "count": 482
+  },
+  {
+   "date": "2026-07-26",
+   "path": "data/2026/07/26.json",
+   "count": 421
+  },
+  {
+   "date": "2026-07-27",
+   "path": "data/2026/07/27.json",
+   "count": 416
+  },
+  {
+   "date": "2026-07-28",
+   "path": "data/2026/07/28.json",
+   "count": 435
+  },
+  {
+   "date": "2026-07-29",
+   "path": "data/2026/07/29.json",
+   "count": 423
+  },
+  {
+   "date": "2026-07-31",
+   "path": "data/2026/07/31.json",
+   "count": 464
+  },
+  {
+   "date": "2026-08-01",
+   "path": "data/2026/08/01.json",
+   "count": 516
+  },
+  {
+   "date": "2026-08-02",
+   "path": "data/2026/08/02.json",
+   "count": 564
+  },
+  {
+   "date": "2026-08-12",
+   "path": "data/2026/08/12.json",
+   "count": 349
+  },
+  {
+   "date": "2026-08-26",
+   "path": "data/2026/08/26.json",
+   "count": 245
+  },
+  {
+   "date": "2026-09-02",
+   "path": "data/2026/09/02.json",
+   "count": 213
+  },
+  {
+   "date": "2026-09-09",
+   "path": "data/2026/09/09.json",
+   "count": 216
+  },
+  {
+   "date": "2026-09-16",
+   "path": "data/2026/09/16.json",
+   "count": 206
+  },
+  {
+   "date": "2026-10-11",
+   "path": "data/2026/10/11.json",
+   "count": 135
+  },
+  {
+   "date": "2026-10-12",
+   "path": "data/2026/10/12.json",
+   "count": 176
+  },
+  {
+   "date": "2026-10-13",
+   "path": "data/2026/10/13.json",
+   "count": 247
+  }
+ ]
 }
