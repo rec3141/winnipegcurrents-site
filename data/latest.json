@@ -1,142 +1,31 @@
 {
- "generated": "2026-10-13",
+ "generated": "2026-10-14",
  "window": {
-  "start": "2026-10-13",
-  "end": "2026-10-27",
-  "label": "October 13 – October 27, 2026"
+  "start": "2026-10-14",
+  "end": "2026-10-28",
+  "label": "October 14 – October 28, 2026"
  },
  "headwaters": [
   {
    "theme": "f1",
-   "tag": "Heritage Classic",
-   "title": "Tim Hortons NHL Heritage Classic: Jets vs. Canadiens",
-   "meta": "Oct 25 · Princess Auto Stadium (alumni game Oct 24, Canada Life Centre)",
-   "blurb": "The Jets host Montreal in an outdoor NHL game at Princess Auto Stadium.",
-   "url": "https://www.nhl.com/jets/news/jets-announce-2026-27-regular-season-schedule",
-   "cta": "See the schedule →"
+   "tag": "NHL Outdoors",
+   "title": "Tim Hortons Heritage Classic: Jets vs. Canadiens",
+   "meta": "Oct 25 · Princess Auto Stadium",
+   "blurb": "The Jets host Montreal in an outdoor NHL Heritage Classic.",
+   "url": "https://www.nhl.com/jets/news/six-jets-home-games-you-won-t-want-to-miss-in-26-27",
+   "cta": "Game details →"
   },
   {
    "theme": "f2",
-   "tag": "Manito Ahbee",
-   "title": "Manito Ahbee Festival & Pow Wow",
+   "tag": "Indigenous Festival",
+   "title": "Manito Ahbee Festival",
    "meta": "Oct 30 – Nov 1 · Canada Life Centre",
-   "blurb": "Pow wow Oct 31 and Nov 1, NextGEN youth celebration and a Friday night cultural lineup in Treaty 1 Territory.",
-   "url": "https://www.canadalifecentre.ca/calendar-events/manito-ahbee-festival/",
-   "cta": "Get tickets →"
+   "blurb": "Three days of Indigenous culture headlined by the Manito Ahbee Pow Wow, with dancers, drummers and singers from across North America, plus NextGEN youth empowerment.",
+   "url": "https://www.manitoahbee.com/events/pow-wow/about",
+   "cta": "See the festival →"
   }
  ],
  "events": [
-  {
-   "title": "Glory - PTE Season Opener",
-   "date": "Oct 13-25",
-   "dateISO": "2026-10-13",
-   "time": "Evenings",
-   "venue": "Prairie Theatre Exchange (Portage Place, 393 Portage Ave)",
-   "url": "https://www.pte.mb.ca/performances",
-   "blurb": "Prairie Theatre Exchange opens its all-Canadian 2026-27 season with Tracey Power's Glory, about a trailblazing women's hockey team.",
-   "tags": [
-    "tix"
-   ],
-   "sellout": true,
-   "stream": "horizon"
-  },
-  {
-   "title": "Glory (Prairie Theatre Exchange)",
-   "date": "Through Oct 25",
-   "dateISO": "2026-10-13",
-   "time": "Evenings; relaxed perf Oct 23 7:30 pm, audio described Oct 24 7:30 pm",
-   "venue": "Prairie Theatre Exchange, Portage Place",
-   "url": "https://www.pte.mb.ca/performances/glory",
-   "blurb": "Tracey Power's play about the Preston Rivulettes, 1930s women's hockey champions. Runs to Oct 25, 2026.",
-   "tags": [
-    "tix"
-   ],
-   "sellout": false,
-   "stream": "deep"
-  },
-  {
-   "title": "Cyrano de Bergerac (Royal MTC)",
-   "date": "Through Nov 1",
-   "dateISO": "2026-10-13",
-   "time": "",
-   "venue": "Royal MTC, John Hirsch Mainstage",
-   "url": "https://royalmtc.ca/Current-Plays/Cyrano-de-Bergerac.aspx",
-   "blurb": "Royal MTC mainstage season opener; runs Oct 7 to Nov 1, 2026.",
-   "tags": [
-    "tix"
-   ],
-   "sellout": false,
-   "stream": "deep"
-  },
-  {
-   "title": "Boo at the Zoo",
-   "date": "Through Oct 31",
-   "dateISO": "2026-10-13",
-   "time": "Evenings (check site for hours)",
-   "venue": "Assiniboine Park Zoo",
-   "url": "https://www.assiniboinepark.ca",
-   "blurb": "Halloween nights at the zoo, running through Oct 31 (Oct 2-31). Confirm hours and tickets with Assiniboine Park Conservancy.",
-   "tags": [
-    "tix",
-    "fam"
-   ],
-   "sellout": false,
-   "stream": "ripples"
-  },
-  {
-   "title": "UnCommon Pours at The Common",
-   "date": "Through Nov 6",
-   "dateISO": "2026-10-13",
-   "time": "",
-   "venue": "The Common, The Forks Market",
-   "url": "https://www.theforks.com/events",
-   "blurb": "Four-part beer and wine series at The Forks Market running May 8 to Nov 6, 2026. Check The Forks events page for remaining session dates.",
-   "tags": [
-    "tix"
-   ],
-   "sellout": false,
-   "stream": "confluence"
-  },
-  {
-   "title": "Geese Migration Evening Viewing at FortWhyte Alive",
-   "date": "Through Oct 18",
-   "dateISO": "2026-10-13",
-   "time": "Evening, around sunset",
-   "venue": "Alloway Reception Centre, FortWhyte Alive, 1961 McCreary Rd",
-   "url": "https://www.fortwhyte.org/explore/events/",
-   "blurb": "Watch thousands of geese land after sunset. Runs to Oct 18, 2026. $10, pre-registration required, call (204) 989-8355 ext 206.",
-   "tags": [
-    "tix"
-   ],
-   "sellout": false,
-   "stream": "sky"
-  },
-  {
-   "title": "Gardener Chats at The Leaf",
-   "date": "Through Jan 9",
-   "dateISO": "2026-10-13",
-   "time": "",
-   "venue": "The Leaf, Assiniboine Park",
-   "url": "https://www.assiniboinepark.ca/events/event/229",
-   "blurb": "Gardening chats at The Leaf. Runs to Jan 9, 2027.",
-   "tags": [],
-   "sellout": false,
-   "stream": "sky"
-  },
-  {
-   "title": "Toddler Tuesdays at The Leaf",
-   "date": "Through Nov 24",
-   "dateISO": "2026-10-13",
-   "time": "",
-   "venue": "The Leaf, Assiniboine Park",
-   "url": "https://www.assiniboinepark.ca/events/event/121",
-   "blurb": "Weekly toddler programming. Runs to Nov 24, 2026.",
-   "tags": [
-    "fam"
-   ],
-   "sellout": false,
-   "stream": "ripples"
-  },
   {
    "title": "Sunset Goose Flights at FortWhyte Alive",
    "date": "Through Oct 25 (select evenings)",
@@ -179,6 +68,35 @@
    ],
    "sellout": false,
    "stream": "deep"
+  },
+  {
+   "title": "Glory",
+   "date": "Oct 14",
+   "dateISO": "2026-10-14",
+   "time": "",
+   "venue": "Prairie Theatre Exchange",
+   "url": "https://www.pte.mb.ca/performances/glory",
+   "blurb": "Hockey play set in a 1930s rink. Runs through Oct 25.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "deep"
+  },
+  {
+   "title": "Boo at the Zoo",
+   "date": "Oct 14-31",
+   "dateISO": "2026-10-14",
+   "time": "",
+   "venue": "Assiniboine Park Zoo",
+   "url": "https://www.assiniboinepark.ca/events",
+   "blurb": "Family Halloween event with entertainment and rides. Runs to Oct 31.",
+   "tags": [
+    "tix",
+    "fam"
+   ],
+   "sellout": false,
+   "stream": "ripples"
   },
   {
    "title": "Moontricks",
@@ -419,6 +337,46 @@
    "stream": "rapids"
   },
   {
+   "title": "Sal Vulcano",
+   "date": "Oct 16",
+   "dateISO": "2026-10-16",
+   "time": "7:00 PM",
+   "venue": "Burton Cummings Theatre",
+   "url": "https://www.burtoncummingstheatre.ca/event/sal-vulcano/",
+   "blurb": "Stand-up from the Impractical Jokers co-star (Everything's Fine Tour).",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "deep"
+  },
+  {
+   "title": "Scattered Seeds Craft Market",
+   "date": "Oct 16-18",
+   "dateISO": "2026-10-16",
+   "time": "",
+   "venue": "Red River Exhibition Park",
+   "url": "https://www.travelmanitoba.com/blog/guide-to-manitoba-craft-sales/",
+   "blurb": "Fall craft market; repeats Oct 23-25.",
+   "tags": [],
+   "sellout": false,
+   "stream": "confluence"
+  },
+  {
+   "title": "Jarlath Regan - Gas Man",
+   "date": "Oct 16",
+   "dateISO": "2026-10-16",
+   "time": "8:00 PM",
+   "venue": "West End Cultural Centre",
+   "url": "https://www.wecc.ca/events/1-rbb5a-zj64b-hsjxs-j5cds-3g6jw-65m79-zrtgr-2agtb",
+   "blurb": "Irish stand-up comedian's touring show.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "deep"
+  },
+  {
    "title": "Winnipeg Jets vs. Carolina Hurricanes",
    "date": "Oct 17",
    "dateISO": "2026-10-17",
@@ -592,6 +550,49 @@
    "stream": "rapids"
   },
   {
+   "title": "Family Ghoul Flashlight Haunt",
+   "date": "Oct 17",
+   "dateISO": "2026-10-17",
+   "time": "2-5 PM",
+   "venue": "Six Pines Haunted Attractions",
+   "url": "https://www.todocanada.ca/six-pines-haunted-attractions-winnipegs-scary-halloween-haunt-is-back-for-2026/",
+   "blurb": "Daytime flashlight haunt, no jump scares. Also Oct 18, 24, 25, 31. $25 age 5+.",
+   "tags": [
+    "tix",
+    "fam"
+   ],
+   "sellout": false,
+   "stream": "ripples"
+  },
+  {
+   "title": "Danny Bhoy",
+   "date": "Oct 17",
+   "dateISO": "2026-10-17",
+   "time": "7:30 PM",
+   "venue": "Burton Cummings Theatre",
+   "url": "https://www.burtoncummingstheatre.ca/event/danny-bhoy/",
+   "blurb": "Scottish stand-up comedian on tour.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "deep"
+  },
+  {
+   "title": "Jets vs. Carolina Hurricanes",
+   "date": "Oct 17",
+   "dateISO": "2026-10-17",
+   "time": "",
+   "venue": "Canada Life Centre",
+   "url": "https://www.nhl.com/jets/schedule",
+   "blurb": "Ehlers and the Hurricanes visit Winnipeg.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "roar"
+  },
+  {
    "title": "Rumble in the Burt 4",
    "date": "Oct 18",
    "dateISO": "2026-10-18",
@@ -666,12 +667,12 @@
   },
   {
    "title": "Create and Connect Crafts at The Leaf",
-   "date": "Through Feb 7",
+   "date": "Oct 18 - Feb 7",
    "dateISO": "2026-10-18",
    "time": "",
    "venue": "The Leaf, Assiniboine Park",
-   "url": "https://www.assiniboinepark.ca/events/event/139",
-   "blurb": "Crafts at The Leaf. Runs Oct 18, 2026 to Feb 7, 2027.",
+   "url": "https://www.assiniboinepark.ca/events",
+   "blurb": "Hands-on crafts, no biome admission needed. Runs to Feb 7, 2027.",
    "tags": [
     "fam"
    ],
@@ -691,6 +692,21 @@
    ],
    "sellout": false,
    "stream": "sky"
+  },
+  {
+   "title": "Manitoba Moose vs. Texas Stars (matinee)",
+   "date": "Oct 18",
+   "dateISO": "2026-10-18",
+   "time": "2:00 PM",
+   "venue": "Canada Life Centre",
+   "url": "https://www.moosehockey.com/schedule",
+   "blurb": "Sunday matinee AHL game.",
+   "tags": [
+    "tix",
+    "fam"
+   ],
+   "sellout": false,
+   "stream": "roar"
   },
   {
    "title": "Classic Albums Live: Madonna - The Immaculate Collection",
@@ -792,6 +808,20 @@
    "stream": "rapids"
   },
   {
+   "title": "Toddler Tuesdays at The Leaf",
+   "date": "Oct 20 - Nov 24",
+   "dateISO": "2026-10-20",
+   "time": "",
+   "venue": "The Leaf, Assiniboine Park",
+   "url": "https://www.assiniboinepark.ca/events",
+   "blurb": "Music, games and movement for toddlers. Tuesdays to Nov 24.",
+   "tags": [
+    "fam"
+   ],
+   "sellout": false,
+   "stream": "ripples"
+  },
+  {
    "title": "GOBLIN:MACBETH",
    "date": "October 21 – November 7, 2026",
    "dateISO": "2026-10-21",
@@ -863,15 +893,14 @@
   },
   {
    "title": "Zoo Tots",
-   "date": "Oct 21-Dec 9",
+   "date": "Oct 21 - Dec 9",
    "dateISO": "2026-10-21",
    "time": "",
    "venue": "Assiniboine Park Zoo",
-   "url": "https://www.assiniboinepark.ca/events/event/306",
-   "blurb": "Programming for little ones at the zoo, Oct 21 to Dec 9, 2026.",
+   "url": "https://www.assiniboinepark.ca/events",
+   "blurb": "Outdoor play and animal encounters for little ones. Runs to Dec 9.",
    "tags": [
-    "fam",
-    "tix"
+    "fam"
    ],
    "sellout": false,
    "stream": "ripples"
@@ -1028,6 +1057,20 @@
    "blurb": "Film screening in 4K with live shadow cast, audience participation and costume contest; VIP meet-and-greet with Bostwick available. Rated 14A.",
    "tags": [
     "tix"
+   ],
+   "sellout": false,
+   "stream": "deep"
+  },
+  {
+   "title": "One eye filled with night - Laura Lewis (opening)",
+   "date": "Oct 23",
+   "dateISO": "2026-10-23",
+   "time": "6 PM",
+   "venue": "Plug In ICA",
+   "url": "https://plugin.org/exhibitions/",
+   "blurb": "Opening reception; on view to Jan 9, 2027.",
+   "tags": [
+    "free"
    ],
    "sellout": false,
    "stream": "deep"
@@ -1217,6 +1260,18 @@
    "stream": "roar"
   },
   {
+   "title": "Fall Craft and Vendor Show",
+   "date": "Oct 24",
+   "dateISO": "2026-10-24",
+   "time": "",
+   "venue": "Oxford Heights Community Club",
+   "url": "https://www.travelmanitoba.com/blog/guide-to-manitoba-craft-sales/",
+   "blurb": "Neighbourhood fall craft and vendor show.",
+   "tags": [],
+   "sellout": false,
+   "stream": "confluence"
+  },
+  {
    "title": "2026 Tim Hortons Heritage Classic: Jets vs Canadiens",
    "date": "Sunday, October 25, 2026",
    "dateISO": "2026-10-25",
@@ -1360,6 +1415,20 @@
    "stream": "roar"
   },
   {
+   "title": "Tim Hortons Heritage Classic: Jets vs. Canadiens",
+   "date": "Oct 25",
+   "dateISO": "2026-10-25",
+   "time": "",
+   "venue": "Princess Auto Stadium",
+   "url": "https://www.nhl.com/jets/news/six-jets-home-games-you-won-t-want-to-miss-in-26-27",
+   "blurb": "Outdoor NHL Heritage Classic as the Jets host Montreal.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": true,
+   "stream": "roar"
+  },
+  {
    "title": "Full Moon Ceremony",
    "date": "Oct 26",
    "dateISO": "2026-10-26",
@@ -1444,6 +1513,20 @@
    "stream": "horizon"
   },
   {
+   "title": "Owen Riegling: In The Feeling Tour",
+   "date": "Oct 27",
+   "dateISO": "2026-10-27",
+   "time": "8:00 PM",
+   "venue": "Burton Cummings Theatre",
+   "url": "https://www.burtoncummingstheatre.ca/",
+   "blurb": "Rising singer-songwriter on his headline tour.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "rapids"
+  },
+  {
    "title": "Flora Luna – Album Release",
    "date": "Thursday, October 29, 2026",
    "dateISO": "2026-10-29",
@@ -1494,6 +1577,20 @@
    "venue": "West End Cultural Centre",
    "url": "https://www.wecc.ca/events/",
    "blurb": "Album release show at the WECC.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "Frightening 5er Night Run",
+   "date": "Oct 29",
+   "dateISO": "2026-10-29",
+   "time": "6:30 PM",
+   "venue": "FortWhyte Alive",
+   "url": "https://findarace.com/ca/events/frightening-5er-2",
+   "blurb": "Costumed 5K night run through FortWhyte trails; medal and post-race treat.",
    "tags": [
     "tix"
    ],
@@ -1618,6 +1715,35 @@
    "stream": "horizon"
   },
   {
+   "title": "Winnipeg Comiccon",
+   "date": "Oct 30-Nov 1",
+   "dateISO": "2026-10-30",
+   "time": "",
+   "venue": "RBC Convention Centre",
+   "url": "https://www.travelmanitoba.com/events/winnipeg-comiccon/",
+   "blurb": "6th edition of the pop-culture convention.",
+   "tags": [
+    "tix",
+    "fam"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "Wesmen Basketball vs. Manitoba Bisons",
+   "date": "Oct 30",
+   "dateISO": "2026-10-30",
+   "time": "",
+   "venue": "Duckworth Centre",
+   "url": "https://wesmen.ca/",
+   "blurb": "Manitoba university basketball rivalry.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
    "title": "Free Throw & Microwave",
    "date": "Oct 31",
    "dateISO": "2026-10-31",
@@ -1632,13 +1758,13 @@
    "stream": "horizon"
   },
   {
-   "title": "Manito Ahbee Festival Pow Wow",
-   "date": "October 31-November 1, 2026",
+   "title": "Manito Ahbee Festival: Pow Wow",
+   "date": "Oct 31 - Nov 1",
    "dateISO": "2026-10-31",
-   "time": "Grand entry times TBA",
-   "venue": "Canada Life Centre, Winnipeg",
-   "url": "https://www.manitoahbee.com/",
-   "blurb": "International competition powwow, the centrepiece of the Manito Ahbee Festival celebrating Indigenous arts.",
+   "time": "",
+   "venue": "Canada Life Centre",
+   "url": "https://www.manitoahbee.com/events/pow-wow/about",
+   "blurb": "Headline of a three-day Indigenous festival (Oct 30 - Nov 1) with NextGEN youth event. Tickets via Ticketmaster.",
    "tags": [
     "tix",
     "fam"
@@ -1747,6 +1873,35 @@
    "stream": "horizon"
   },
   {
+   "title": "Wesmen Volleyball vs. Mount Royal",
+   "date": "Oct 31",
+   "dateISO": "2026-10-31",
+   "time": "",
+   "venue": "Duckworth Centre",
+   "url": "https://wesmen.ca/",
+   "blurb": "Canada West volleyball; series Oct 31 - Nov 1.",
+   "tags": [
+    "tix",
+    "fam"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "Pavlo & Band in Concert",
+   "date": "Oct 31",
+   "dateISO": "2026-10-31",
+   "time": "7:30 PM",
+   "venue": "West End Cultural Centre",
+   "url": "https://www.wecc.ca/events/1-rbb5a-zj64b-hsjxs-j5cds-3g6jw-65m79-zrtgr-jkf7d-wzyae-bzzxw-7zf5z",
+   "blurb": "Halloween-night concert.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
    "title": "Manito Ahbee Festival",
    "date": "Nov 1",
    "dateISO": "2026-11-01",
@@ -1846,6 +2001,34 @@
    "stream": "horizon"
   },
   {
+   "title": "Jets vs. Vancouver Canucks",
+   "date": "Nov 5",
+   "dateISO": "2026-11-05",
+   "time": "7:00 PM",
+   "venue": "Canada Life Centre",
+   "url": "https://www.nhl.com/jets/schedule",
+   "blurb": "NHL home game.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "Stylus Magazine Archive Show Demo",
+   "date": "Nov 5",
+   "dateISO": "2026-11-05",
+   "time": "8:00 PM",
+   "venue": "West End Cultural Centre",
+   "url": "https://www.wecc.ca/events/1-rbb5a-zj64b-hsjxs-j5cds-3g6jw-65m79-zrtgr-jkf7d-wzyae-bzzxw-ldzwz-7dgee-b74sy-6ktfc-hzx7p-gexa2",
+   "blurb": "Local indie showcase w/ Vav Jungle, PRAIRIE and Jay Flores.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
    "title": "ABBA Revisited",
    "date": "Nov 6",
    "dateISO": "2026-11-06",
@@ -1894,8 +2077,8 @@
    "dateISO": "2026-11-06",
    "time": "7:00 PM",
    "venue": "Canada Life Centre",
-   "url": "https://www.moosehockey.com",
-   "blurb": "Friday night AHL hockey.",
+   "url": "https://www.moosehockey.com/schedule",
+   "blurb": "AHL home game; rematch Nov 7 at 6 PM.",
    "tags": [
     "tix",
     "fam"
@@ -1919,14 +2102,28 @@
    "stream": "horizon"
   },
   {
-   "title": "CRAFTED: Show + Sale",
+   "title": "Crafted Show + Sale",
    "date": "Nov 6-8",
    "dateISO": "2026-11-06",
    "time": "",
-   "venue": "Winnipeg Art Gallery, 300 Memorial Blvd",
-   "url": "https://www.todocanada.ca/city/winnipeg/event/crafted-show-sale-virtual-edition/",
+   "venue": "Winnipeg Art Gallery",
+   "url": "https://www.travelmanitoba.com/blog/guide-to-manitoba-craft-sales/",
    "blurb": "Juried craft show and sale at the WAG.",
    "tags": [],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "òFukami album release w/ Mama Cutworth & Tanja Faylene Woloshen",
+   "date": "Nov 6",
+   "dateISO": "2026-11-06",
+   "time": "8:00 PM",
+   "venue": "West End Cultural Centre",
+   "url": "https://www.wecc.ca/events/1-rbb5a-zj64b-hsjxs-j5cds-3g6jw-65m79-zrtgr-jkf7d-wzyae-bzzxw-ldzwz-7dgee-b74sy-6ktfc-ykkkn",
+   "blurb": "Keri Latimer's theremin alter ego releases an album.",
+   "tags": [
+    "tix"
+   ],
    "sellout": false,
    "stream": "horizon"
   },
@@ -1940,6 +2137,32 @@
    "blurb": "Neighbourhood Christmas market with local vendors.",
    "tags": [
     "fam"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "Artisan Alley by Inspirations Market",
+   "date": "Nov 7-8",
+   "dateISO": "2026-11-07",
+   "time": "",
+   "venue": "Red River Exhibition Park",
+   "url": "https://www.travelmanitoba.com/blog/guide-to-manitoba-craft-sales/",
+   "blurb": "Weekend artisan and maker market.",
+   "tags": [],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "Laura Ramoso: The Calm Down Tour",
+   "date": "Nov 7",
+   "dateISO": "2026-11-07",
+   "time": "7:00 PM",
+   "venue": "Burton Cummings Theatre",
+   "url": "https://www.burtoncummingstheatre.ca/event/laura-ramoso/",
+   "blurb": "Stand-up comedy night.",
+   "tags": [
+    "tix"
    ],
    "sellout": false,
    "stream": "horizon"
@@ -1969,6 +2192,62 @@
    "tags": [
     "free",
     "fam"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "Jets vs. Tampa Bay Lightning",
+   "date": "Nov 8",
+   "dateISO": "2026-11-08",
+   "time": "",
+   "venue": "Canada Life Centre",
+   "url": "https://www.nhl.com/jets/schedule",
+   "blurb": "NHL Sunday home game.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "Jets vs. New Jersey Devils",
+   "date": "Nov 10",
+   "dateISO": "2026-11-10",
+   "time": "",
+   "venue": "Canada Life Centre",
+   "url": "https://www.nhl.com/jets/schedule",
+   "blurb": "NHL home game.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "Korpiklaani and Crimson Shadows",
+   "date": "Nov 10",
+   "dateISO": "2026-11-10",
+   "time": "",
+   "venue": "Park Theatre",
+   "url": "https://www.songkick.com/metro-areas/27403-canada-winnipeg/october-2026",
+   "blurb": "Finnish folk metal.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "Glove Box Gold presents: Full Moon Fever",
+   "date": "Nov 10",
+   "dateISO": "2026-11-10",
+   "time": "8:00 PM",
+   "venue": "West End Cultural Centre",
+   "url": "https://www.wecc.ca/events/1-rbb5a-zj64b-hsjxs-j5cds-3g6jw-65m79-zrtgr-jkf7d-wzyae-bzzxw-7zf5z-jcl4a-h2yh5-wswp7",
+   "blurb": "Full Moon Fever night.",
+   "tags": [
+    "tix"
    ],
    "sellout": false,
    "stream": "horizon"
@@ -2037,6 +2316,34 @@
    "venue": "Club Regent Event Centre",
    "url": "https://www.songkick.com/concerts/43198435-dean-brody-at-club-regent-event-centre",
    "blurb": "Two nights of country with Dean Brody, The Reklaws and Nate Haller.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "Arkells: Between Us Tour",
+   "date": "Nov 12",
+   "dateISO": "2026-11-12",
+   "time": "",
+   "venue": "Burton Cummings Theatre",
+   "url": "https://www.burtoncummingstheatre.ca/",
+   "blurb": "Hamilton rockers on the Between Us tour.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": true,
+   "stream": "horizon"
+  },
+  {
+   "title": "Rick St. Clair - Record Release Show",
+   "date": "Nov 12",
+   "dateISO": "2026-11-12",
+   "time": "8:00 PM",
+   "venue": "West End Cultural Centre",
+   "url": "https://www.wecc.ca/events/1-rbb5a-zj64b-hsjxs-j5cds-3g6jw-65m79-zrtgr-jkf7d-wzyae-bzzxw-7zf5z-jcl4a-h2yh5-2ae9z",
+   "blurb": "Record release with Michael Audette and Friends.",
    "tags": [
     "tix"
    ],
@@ -2187,6 +2494,76 @@
    "stream": "horizon"
   },
   {
+   "title": "Manitoba Hydro Santa Parade",
+   "date": "Nov 14",
+   "dateISO": "2026-11-14",
+   "time": "5:00 PM",
+   "venue": "Portage Avenue",
+   "url": "https://www.mbhydrosantaparade.com/",
+   "blurb": "Annual Santa parade with block parties from 4 PM.",
+   "tags": [
+    "free",
+    "fam"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "Jimmy Carr: Laughs Funny",
+   "date": "Nov 14",
+   "dateISO": "2026-11-14",
+   "time": "7:00 PM & 9:30 PM",
+   "venue": "Centennial Concert Hall",
+   "url": "https://centennialconcerthall.com/Online/article/JimmyCarr",
+   "blurb": "British stand-up comedian; two shows.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "Christmas Market in South Winnipeg",
+   "date": "Nov 14",
+   "dateISO": "2026-11-14",
+   "time": "10am-3pm",
+   "venue": "St. Vital EMC Church",
+   "url": "https://www.todocanada.ca/city/winnipeg/event/christmas-market-in-south-winnipeg/",
+   "blurb": "40+ vendors with crafts and baking.",
+   "tags": [
+    "free",
+    "fam"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "Inspirations Market",
+   "date": "Nov 14-15",
+   "dateISO": "2026-11-14",
+   "time": "",
+   "venue": "Assiniboia Downs",
+   "url": "https://www.travelmanitoba.com/blog/guide-to-manitoba-craft-sales/",
+   "blurb": "Large weekend craft and vendor market.",
+   "tags": [],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "The Good, The Bad and The Puppets: A Wild West End Puppet Slam",
+   "date": "Nov 15",
+   "dateISO": "2026-11-15",
+   "time": "8:00 PM",
+   "venue": "West End Cultural Centre",
+   "url": "https://www.wecc.ca/events/1-rbb5a-zj64b-hsjxs-j5cds-3g6jw-65m79-zrtgr-jkf7d-wzyae-bzzxw-ldzwz-7dgee-b74sy-6ktfc-dp3fh-rh4ca",
+   "blurb": "Puppet slam cabaret.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
    "title": "Dax",
    "date": "Mon, Nov 16, 2026",
    "dateISO": "2026-11-16",
@@ -2243,6 +2620,20 @@
    "stream": "horizon"
   },
   {
+   "title": "Jets vs. Ottawa Senators",
+   "date": "Nov 17",
+   "dateISO": "2026-11-17",
+   "time": "",
+   "venue": "Canada Life Centre",
+   "url": "https://www.nhl.com/jets/schedule",
+   "blurb": "NHL home game.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
    "title": "Comfort Food",
    "date": "November 18 – December 5, 2026",
    "dateISO": "2026-11-18",
@@ -2285,6 +2676,20 @@
    "stream": "horizon"
   },
   {
+   "title": "Jets vs. New York Islanders",
+   "date": "Nov 19",
+   "dateISO": "2026-11-19",
+   "time": "",
+   "venue": "Canada Life Centre",
+   "url": "https://www.nhl.com/jets/schedule",
+   "blurb": "NHL home game.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
    "title": "Manitoba Moose vs. Rockford IceHogs",
    "date": "Nov 20",
    "dateISO": "2026-11-20",
@@ -2304,11 +2709,11 @@
    "date": "Nov 20-22",
    "dateISO": "2026-11-20",
    "time": "",
-   "venue": "Red River Exhibition Place, 3977 Portage Ave",
-   "url": "https://www.todocanada.ca/city/winnipeg/event/third-bird-christmas-market/",
-   "blurb": "Large holiday market at Red River Ex.",
+   "venue": "Red River Exhibition Park",
+   "url": "https://www.redriverex.com/events/thirdbird-christmas-market/",
+   "blurb": "Holiday market; tickets ~$10-25 + GST at thirdandbird.com.",
    "tags": [
-    "fam"
+    "tix"
    ],
    "sellout": false,
    "stream": "horizon"
@@ -2322,6 +2727,35 @@
    "url": "https://www.todocanada.ca/city/winnipeg/event/fortwhyte-alives-holiday-shopping-weekend/",
    "blurb": "Holiday shopping weekend at FortWhyte Alive.",
    "tags": [
+    "fam"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "Killers of Kill Tony",
+   "date": "Nov 20",
+   "dateISO": "2026-11-20",
+   "time": "7:00 PM & 9:30 PM",
+   "venue": "Burton Cummings Theatre",
+   "url": "https://www.burtoncummingstheatre.ca/event/killers-of-kill-tony/2026-11-20/1/",
+   "blurb": "Kill Tony regulars Lucas, Kim, Timmy No Brakes and Phillips.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "Wesmen Volleyball vs. Regina / UBC",
+   "date": "Nov 20",
+   "dateISO": "2026-11-20",
+   "time": "",
+   "venue": "Duckworth Centre",
+   "url": "https://wesmen.ca/",
+   "blurb": "Canada West doubleheader weekend, Nov 20-21.",
+   "tags": [
+    "tix",
     "fam"
    ],
    "sellout": false,
@@ -2370,6 +2804,20 @@
    "stream": "horizon"
   },
   {
+   "title": "Jets vs. Vegas Golden Knights",
+   "date": "Nov 21",
+   "dateISO": "2026-11-21",
+   "time": "7:00 PM",
+   "venue": "Canada Life Centre",
+   "url": "https://www.nhl.com/jets/schedule",
+   "blurb": "Saturday night NHL home game.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
    "title": "Tape Face",
    "date": "Sunday, November 22, 2026",
    "dateISO": "2026-11-22",
@@ -2377,6 +2825,21 @@
    "venue": "Club Regent Event Centre",
    "url": "https://concertfix.com/concerts/winnipeg-mb+event-centre-at-club-regent-casino",
    "blurb": "America's Got Talent sensation Tape Face brings his silent comedy act to Club Regent.",
+   "tags": [
+    "tix",
+    "fam"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "Manitoba Moose vs. Rockford IceHogs",
+   "date": "Nov 22",
+   "dateISO": "2026-11-22",
+   "time": "2:00 PM",
+   "venue": "Canada Life Centre",
+   "url": "https://www.moosehockey.com/schedule",
+   "blurb": "Sunday matinee AHL; series opens Nov 20 at 7 PM.",
    "tags": [
     "tix",
     "fam"
@@ -2396,6 +2859,20 @@
     "tix"
    ],
    "sellout": true,
+   "stream": "horizon"
+  },
+  {
+   "title": "Jets vs. Utah Mammoth",
+   "date": "Nov 23",
+   "dateISO": "2026-11-23",
+   "time": "",
+   "venue": "Canada Life Centre",
+   "url": "https://www.nhl.com/jets/schedule",
+   "blurb": "NHL Monday home game.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
    "stream": "horizon"
   },
   {
@@ -2440,6 +2917,21 @@
     "tix"
    ],
    "sellout": true,
+   "stream": "horizon"
+  },
+  {
+   "title": "Manitoba Moose School Day Game vs. Grand Rapids Griffins",
+   "date": "Nov 24",
+   "dateISO": "2026-11-24",
+   "time": "10:30 AM",
+   "venue": "Canada Life Centre",
+   "url": "https://www.moosehockey.com/schedule",
+   "blurb": "Project 11 morning school-day game.",
+   "tags": [
+    "tix",
+    "fam"
+   ],
+   "sellout": false,
    "stream": "horizon"
   },
   {
@@ -2600,6 +3092,33 @@
    "stream": "horizon"
   },
   {
+   "title": "41st Annual Christkindlmarkt",
+   "date": "Nov 27-29",
+   "dateISO": "2026-11-27",
+   "time": "",
+   "venue": "Fort Garry Place Mall",
+   "url": "https://www.travelmanitoba.com/blog/guide-to-manitoba-craft-sales/",
+   "blurb": "Long-running German-style Christmas market.",
+   "tags": [],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "Wesmen Volleyball vs. Saskatchewan",
+   "date": "Nov 27",
+   "dateISO": "2026-11-27",
+   "time": "",
+   "venue": "Duckworth Centre",
+   "url": "https://wesmen.ca/",
+   "blurb": "Canada West volleyball, Nov 27-28.",
+   "tags": [
+    "tix",
+    "fam"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
    "title": "Adrian Sutherland & Jade Turner",
    "date": "Nov 28",
    "dateISO": "2026-11-28",
@@ -2642,6 +3161,33 @@
    "stream": "horizon"
   },
   {
+   "title": "Steve's Independent Makers Fair",
+   "date": "Nov 28",
+   "dateISO": "2026-11-28",
+   "time": "",
+   "venue": "Artspace, 100 Arthur St",
+   "url": "https://www.travelmanitoba.com/blog/guide-to-manitoba-craft-sales/",
+   "blurb": "One-day independent makers fair in the Exchange District.",
+   "tags": [],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "Manitoba Moose vs. Belleville Senators",
+   "date": "Nov 28",
+   "dateISO": "2026-11-28",
+   "time": "2:00 PM",
+   "venue": "Canada Life Centre",
+   "url": "https://www.moosehockey.com/schedule",
+   "blurb": "Saturday matinee AHL; rematch Nov 29 at 2 PM.",
+   "tags": [
+    "tix",
+    "fam"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
    "title": "GWAR",
    "date": "Monday, November 30, 2026",
    "dateISO": "2026-11-30",
@@ -2649,6 +3195,20 @@
    "venue": "Burton Cummings Theatre",
    "url": "https://www.bandsintown.com/e/1038830593-gwar-at-burton-cummings-theatre",
    "blurb": "Shock-rock spectacle GWAR bring their notorious costumed live show to Winnipeg. A one-of-a-kind touring event.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "Jets vs. Chicago Blackhawks",
+   "date": "Nov 30",
+   "dateISO": "2026-11-30",
+   "time": "",
+   "venue": "Canada Life Centre",
+   "url": "https://www.nhl.com/jets/schedule",
+   "blurb": "NHL Monday home game.",
    "tags": [
     "tix"
    ],
@@ -2699,6 +3259,32 @@
    "stream": "horizon"
   },
   {
+   "title": "Pitâw Mīno Muskîki Indigenous Handmade Winter Market",
+   "date": "Dec 4-6",
+   "dateISO": "2026-12-04",
+   "time": "",
+   "venue": "Via Rail Union Station",
+   "url": "https://www.travelmanitoba.com/blog/guide-to-manitoba-craft-sales/",
+   "blurb": "5th annual Indigenous handmade winter market.",
+   "tags": [],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "Wesmen Basketball vs. Saskatchewan",
+   "date": "Dec 4",
+   "dateISO": "2026-12-04",
+   "time": "",
+   "venue": "Duckworth Centre",
+   "url": "https://wesmen.ca/",
+   "blurb": "Canada West basketball, Dec 4-5.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
    "title": "Sesame Street Live",
    "date": "Dec 5",
    "dateISO": "2026-12-05",
@@ -2709,6 +3295,32 @@
    "tags": [
     "tix",
     "fam"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "Warm & Bright",
+   "date": "Dec 5-6",
+   "dateISO": "2026-12-05",
+   "time": "",
+   "venue": "618 Artlington Studios",
+   "url": "https://www.travelmanitoba.com/blog/guide-to-manitoba-craft-sales/",
+   "blurb": "Studio holiday sale of local art and handmade gifts.",
+   "tags": [],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "The Heating of the Rivalry",
+   "date": "Dec 5",
+   "dateISO": "2026-12-05",
+   "time": "8:00 PM",
+   "venue": "West End Cultural Centre",
+   "url": "https://www.wecc.ca/events/1-rbb5a-zj64b-hsjxs-j5cds-3g6jw-65m79-zrtgr-jkf7d-wzyae-bzzxw-ldzwz-7dgee-b74sy-6ktfc-j9dbm-em8ws",
+   "blurb": "Live night at the WECC.",
+   "tags": [
+    "tix"
    ],
    "sellout": false,
    "stream": "horizon"
@@ -2742,6 +3354,20 @@
    "stream": "horizon"
   },
   {
+   "title": "Jets vs. Philadelphia Flyers",
+   "date": "Dec 8",
+   "dateISO": "2026-12-08",
+   "time": "",
+   "venue": "Canada Life Centre",
+   "url": "https://www.nhl.com/jets/schedule",
+   "blurb": "NHL home game.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
    "title": "Gene Simmons Band",
    "date": "Wednesday, December 9, 2026",
    "dateISO": "2026-12-09",
@@ -2749,6 +3375,34 @@
    "venue": "Centennial Concert Hall",
    "url": "https://concertfix.com/concerts/winnipeg-mb+manitoba-centennial-concert-hall",
    "blurb": "KISS frontman Gene Simmons brings his solo band and rock classics to the Concert Hall.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "Gene Simmons",
+   "date": "Dec 9",
+   "dateISO": "2026-12-09",
+   "time": "",
+   "venue": "Centennial Concert Hall",
+   "url": "https://centennialconcerthall.com/",
+   "blurb": "KISS co-founder live in Winnipeg.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "Jets vs. Chicago Blackhawks (Dec 10)",
+   "date": "Dec 10",
+   "dateISO": "2026-12-10",
+   "time": "",
+   "venue": "Canada Life Centre",
+   "url": "https://www.nhl.com/jets/schedule",
+   "blurb": "NHL home game.",
    "tags": [
     "tix"
    ],
@@ -2765,6 +3419,35 @@
    "blurb": "The 10th annual Bicycle Face holiday show at WECC.",
    "tags": [
     "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "MyrrHvana's Greatest Hits: The 10th Annual Bicycle Face Christmas",
+   "date": "Dec 11",
+   "dateISO": "2026-12-11",
+   "time": "8:00 PM",
+   "venue": "West End Cultural Centre",
+   "url": "https://www.wecc.ca/events/1-rbb5a-zj64b-hsjxs-j5cds-3g6jw-65m79-zrtgr-jkf7d-wzyae-bzzxw-ldzwz-7dgee-b74sy-6ktfc-9hs5z",
+   "blurb": "Annual local holiday show.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "Manitoba Moose vs. Iowa Wild",
+   "date": "Dec 12",
+   "dateISO": "2026-12-12",
+   "time": "2:00 PM",
+   "venue": "Canada Life Centre",
+   "url": "https://www.moosehockey.com/schedule",
+   "blurb": "Saturday matinee AHL; rematch Dec 13 at 2 PM.",
+   "tags": [
+    "tix",
+    "fam"
    ],
    "sellout": false,
    "stream": "horizon"
@@ -2812,6 +3495,35 @@
    "stream": "horizon"
   },
   {
+   "title": "Manitoba Moose School Day Game vs. Rockford IceHogs",
+   "date": "Dec 16",
+   "dateISO": "2026-12-16",
+   "time": "10:30 AM",
+   "venue": "Canada Life Centre",
+   "url": "https://www.moosehockey.com/schedule",
+   "blurb": "Project 11 school-day game; series continues Dec 18.",
+   "tags": [
+    "tix",
+    "fam"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "Cindy & The City: 4th Annual Sick + Twisted Holiday Panto",
+   "date": "Dec 17-31",
+   "dateISO": "2026-12-17",
+   "time": "7:00 PM",
+   "venue": "West End Cultural Centre",
+   "url": "https://www.wecc.ca/events/1-rbb5a-zj64b-hsjxs-j5cds-3g6jw-65m79-zrtgr-jkf7d-wzyae-bzzxw-ldzwz-7dgee-b74sy-6ktfc-czftk-b6s8b-8n8zb",
+   "blurb": "Irreverent holiday panto; also Jan 2-3, 2027.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
    "title": "Munschbusters!",
    "date": "Fri, Dec 18",
    "dateISO": "2026-12-18",
@@ -2842,6 +3554,18 @@
    "stream": "horizon"
   },
   {
+   "title": "Manitoba Craft Council + IKEA Vinterfest Market",
+   "date": "Dec 18-20",
+   "dateISO": "2026-12-18",
+   "time": "",
+   "venue": "IKEA Winnipeg",
+   "url": "https://www.travelmanitoba.com/blog/guide-to-manitoba-craft-sales/",
+   "blurb": "Last-minute holiday maker market.",
+   "tags": [],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
    "title": "Winnipeg Jets vs. Dallas Stars",
    "date": "Dec 19-20",
    "dateISO": "2026-12-19",
@@ -2854,6 +3578,62 @@
     "fam"
    ],
    "sellout": true,
+   "stream": "horizon"
+  },
+  {
+   "title": "Jets vs. Dallas Stars",
+   "date": "Dec 19",
+   "dateISO": "2026-12-19",
+   "time": "",
+   "venue": "Canada Life Centre",
+   "url": "https://www.nhl.com/jets/schedule",
+   "blurb": "Back-to-back vs Dallas Dec 19 and 20.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "Red Moon Road - A Simple Kind of Christmas",
+   "date": "Dec 19",
+   "dateISO": "2026-12-19",
+   "time": "8:00 PM",
+   "venue": "West End Cultural Centre",
+   "url": "https://www.wecc.ca/events/1-rbb5a-zj64b-hsjxs-j5cds-3g6jw-65m79-zrtgr-jkf7d-wzyae-bzzxw-ldzwz-7dgee-b74sy-6ktfc-czftk-b6s8b",
+   "blurb": "Holiday roots concert.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "Jets vs. Dallas Stars (Dec 20)",
+   "date": "Dec 20",
+   "dateISO": "2026-12-20",
+   "time": "",
+   "venue": "Canada Life Centre",
+   "url": "https://www.nhl.com/jets/schedule",
+   "blurb": "Second of two straight home games vs Dallas.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "Jets vs. San Jose Sharks",
+   "date": "Dec 28",
+   "dateISO": "2026-12-28",
+   "time": "7:30 PM",
+   "venue": "Canada Life Centre",
+   "url": "https://www.nhl.com/jets/schedule",
+   "blurb": "NHL holiday-week home game.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
    "stream": "horizon"
   },
   {
@@ -2901,6 +3681,21 @@
    "stream": "horizon"
   },
   {
+   "title": "Manitoba Moose New Year's Eve vs. Abbotsford Canucks",
+   "date": "Dec 31",
+   "dateISO": "2026-12-31",
+   "time": "4:00 PM",
+   "venue": "Canada Life Centre",
+   "url": "https://www.moosehockey.com/schedule",
+   "blurb": "Moose NYE game; also play Abbotsford Dec 29.",
+   "tags": [
+    "tix",
+    "fam"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
    "title": "Winnipeg Jets vs. Calgary Flames",
    "date": "Jan 2",
    "dateISO": "2027-01-02",
@@ -2910,6 +3705,21 @@
    "blurb": "Jets home game against their Prairie rival.",
    "tags": [
     "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "M is for Music (Winnipeg Symphony Orchestra)",
+   "date": "Jan 9",
+   "dateISO": "2027-01-09",
+   "time": "",
+   "venue": "Centennial Concert Hall",
+   "url": "https://wso.ca/",
+   "blurb": "WSO concert.",
+   "tags": [
+    "tix",
+    "fam"
    ],
    "sellout": false,
    "stream": "horizon"
@@ -2936,6 +3746,20 @@
    "venue": "Royal MTC, John Hirsch Mainstage",
    "url": "https://royalmtc.ca/Current-Plays/Intrepid.aspx",
    "blurb": "Mainstage production, Jan 13 to Feb 6, 2027.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "From the Inside Out (Winnipeg Symphony Orchestra)",
+   "date": "Jan 14-16",
+   "dateISO": "2027-01-14",
+   "time": "",
+   "venue": "Centennial Concert Hall",
+   "url": "https://wso.ca/",
+   "blurb": "WSO, three performances.",
    "tags": [
     "tix"
    ],
@@ -2996,6 +3820,21 @@
     "tix"
    ],
    "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "Beetlejuice - The Musical",
+   "date": "Jan 29-31",
+   "dateISO": "2027-01-29",
+   "time": "",
+   "venue": "Centennial Concert Hall",
+   "url": "https://centennialconcerthall.com/",
+   "blurb": "Touring Broadway musical; Jan 30 show at 2 PM.",
+   "tags": [
+    "tix",
+    "fam"
+   ],
+   "sellout": true,
    "stream": "horizon"
   },
   {
@@ -3111,6 +3950,20 @@
    "stream": "horizon"
   },
   {
+   "title": "Simple Plan",
+   "date": "Feb 2",
+   "dateISO": "2027-02-02",
+   "time": "7:00 PM",
+   "venue": "Canada Life Centre",
+   "url": "https://www.ticketnews.com/2026/10/simple-plan-winnipeg-tickets-on-sale-at-canada-life-centre/",
+   "blurb": "Pop-punk favourites.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": true,
+   "stream": "horizon"
+  },
+  {
    "title": "Warrant",
    "date": "Feb 10",
    "dateISO": "2027-02-10",
@@ -3135,6 +3988,35 @@
    "tags": [
     "tix",
     "fam"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "Barbie in Concert (Winnipeg Symphony Orchestra)",
+   "date": "Feb 12-13",
+   "dateISO": "2027-02-12",
+   "time": "",
+   "venue": "Centennial Concert Hall",
+   "url": "https://wso.ca/",
+   "blurb": "The film played live with the orchestra.",
+   "tags": [
+    "tix",
+    "fam"
+   ],
+   "sellout": true,
+   "stream": "horizon"
+  },
+  {
+   "title": "Dexter and the Moonrocks with Return to Dust",
+   "date": "Feb 13",
+   "dateISO": "2027-02-13",
+   "time": "",
+   "venue": "Burton Cummings Theatre",
+   "url": "https://www.burtoncummingstheatre.ca/",
+   "blurb": "Tickets from about $44.",
+   "tags": [
+    "tix"
    ],
    "sellout": false,
    "stream": "horizon"
@@ -3211,6 +4093,20 @@
    "stream": "horizon"
   },
   {
+   "title": "Dropkick Murphys with Spiritual Cramp and Home Front",
+   "date": "Feb 18",
+   "dateISO": "2027-02-18",
+   "time": "",
+   "venue": "Burton Cummings Theatre",
+   "url": "https://www.burtoncummingstheatre.ca/",
+   "blurb": "Celtic punk.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": true,
+   "stream": "horizon"
+  },
+  {
    "title": "Behind the Moon",
    "date": "February 23 - March 7, 2027",
    "dateISO": "2027-02-23",
@@ -3236,6 +4132,20 @@
     "tix"
    ],
    "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "Gerry Dee",
+   "date": "Feb 27",
+   "dateISO": "2027-02-27",
+   "time": "8:00 PM",
+   "venue": "Burton Cummings Theatre",
+   "url": "https://www.burtoncummingstheatre.ca/event/gerry-dee-2/",
+   "blurb": "Stand-up from the Canadian comedian.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": true,
    "stream": "horizon"
   },
   {
@@ -3377,6 +4287,20 @@
    "stream": "horizon"
   },
   {
+   "title": "Tommy Emmanuel with Molly Tuttle",
+   "date": "Mar 17",
+   "dateISO": "2027-03-17",
+   "time": "",
+   "venue": "Burton Cummings Theatre",
+   "url": "https://www.burtoncummingstheatre.ca/",
+   "blurb": "Fingerstyle guitar virtuoso with Molly Tuttle.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
    "title": "Death from Above 1979",
    "date": "Mar 20",
    "dateISO": "2027-03-20",
@@ -3384,6 +4308,20 @@
    "venue": "Park Theatre, 698 Osborne St",
    "url": "https://www.songkick.com/concerts/43225531-death-from-above-1979-at-park-theatre",
    "blurb": "Toronto dance-punk duo at Park Theatre. Worth booking early.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "Theory of a Deadman",
+   "date": "Mar 20",
+   "dateISO": "2027-03-20",
+   "time": "",
+   "venue": "Burton Cummings Theatre",
+   "url": "https://www.burtoncummingstheatre.ca/",
+   "blurb": "Canadian hard rock.",
    "tags": [
     "tix"
    ],
@@ -3475,13 +4413,27 @@
    "stream": "horizon"
   },
   {
+   "title": "Bruce Cockburn",
+   "date": "Apr 17",
+   "dateISO": "2027-04-17",
+   "time": "",
+   "venue": "Burton Cummings Theatre",
+   "url": "https://www.burtoncummingstheatre.ca/",
+   "blurb": "Canadian folk and rock legend.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
    "title": "A Perfect Circle",
-   "date": "Mon, Apr 19, 2027",
+   "date": "Apr 19",
    "dateISO": "2027-04-19",
-   "time": "7:30 pm",
+   "time": "",
    "venue": "Canada Life Centre",
-   "url": "https://www.ticketmaster.ca/a-perfect-circle-winnipeg-manitoba-04-19-2027/event/1100653986EB54E6?language=en-ca",
-   "blurb": "Alt-rock band A Perfect Circle on tour.",
+   "url": "https://concertfix.com/concerts/winnipeg-mb",
+   "blurb": "Alt-metal tour stop (seen on one aggregator; confirm with venue).",
    "tags": [
     "tix"
    ],
