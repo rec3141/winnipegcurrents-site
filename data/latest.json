@@ -1,462 +1,31 @@
 {
- "generated": "2026-10-17",
+ "generated": "2026-10-18",
  "window": {
-  "start": "2026-10-17",
-  "end": "2026-10-31",
-  "label": "October 17 – October 31, 2026"
+  "start": "2026-10-18",
+  "end": "2026-11-01",
+  "label": "October 18 – November 1, 2026"
  },
  "headwaters": [
   {
    "theme": "f1",
-   "tag": "Indigenous · Treaty 1 Territory",
-   "title": "Manito Ahbee Festival & Pow Wow",
+   "tag": "Powwow · Treaty 1 Territory",
+   "title": "Manito Ahbee Festival Pow Wow",
    "meta": "Oct 30 – Nov 1 · Canada Life Centre",
-   "blurb": "Manitoba's largest Indigenous pow wow: dance, drumming, a marketplace and the NextGEN youth celebration.",
+   "blurb": "One of Western Canada's largest pow wows returns to Treaty No. 1 Territory, opening Friday Oct 30 with the pow wow Oct 31 – Nov 1.",
    "url": "https://www.manitoahbee.com/events/pow-wow/about",
    "cta": "See the pow wow →"
   },
   {
    "theme": "f2",
    "tag": "Outdoor NHL",
-   "title": "Tim Hortons NHL Heritage Classic",
+   "title": "2026 Tim Hortons NHL Heritage Classic",
    "meta": "Oct 25 · Princess Auto Stadium",
-   "blurb": "Canadiens at Jets under the open sky. Tickets are scarce, so check resale (date may shift to Oct 26 for weather).",
+   "blurb": "Canadiens at Jets under the open sky, with a Jets alumni game and The Trews the night before.",
    "url": "https://www.nhl.com/events/nhl-heritage-classic/",
-   "cta": "Get the details →"
+   "cta": "Game weekend details →"
   }
  ],
  "events": [
-  {
-   "title": "Winnipeg Jets vs. Carolina Hurricanes",
-   "date": "Oct 17",
-   "dateISO": "2026-10-17",
-   "time": "",
-   "venue": "Canada Life Centre",
-   "url": "https://www.nhl.com/jets/news/jets-announce-2026-27-regular-season-schedule",
-   "blurb": "Jets host the reigning Stanley Cup champion Hurricanes (and former Jet Nikolaj Ehlers). Puck drop time not confirmed.",
-   "tags": [
-    "tix"
-   ],
-   "sellout": false,
-   "stream": "roar"
-  },
-  {
-   "title": "Halloween at the Hill",
-   "date": "Oct 17",
-   "dateISO": "2026-10-17",
-   "time": "",
-   "venue": "Birds Hill Park Ranch",
-   "url": "https://www.todocanada.ca/city/winnipeg/events/familyevents/",
-   "blurb": "Halloween event at the Birds Hill Park Ranch. Third-party listing, so confirm details with the venue.",
-   "tags": [
-    "fam"
-   ],
-   "sellout": false,
-   "stream": "sky"
-  },
-  {
-   "title": "Bison Bus Tour",
-   "date": "Oct 17",
-   "dateISO": "2026-10-17",
-   "time": "1:30-2:30 pm",
-   "venue": "FortWhyte Alive",
-   "url": "https://www.fortwhyte.org/events",
-   "blurb": "Ride out to the bison herd on a guided bus tour. Also runs Oct 18, 25 and 31.",
-   "tags": [
-    "tix",
-    "fam"
-   ],
-   "sellout": false,
-   "stream": "sky"
-  },
-  {
-   "title": "Guided Nature Hike",
-   "date": "Oct 17",
-   "dateISO": "2026-10-17",
-   "time": "1:00-2:30 pm",
-   "venue": "FortWhyte Alive",
-   "url": "https://www.fortwhyte.org/event/family-nature-hike-2/2026-10-17/",
-   "blurb": "Guided family nature hike through FortWhyte's trails. Suggested for ages 5+.",
-   "tags": [
-    "tix",
-    "fam"
-   ],
-   "sellout": false,
-   "stream": "sky"
-  },
-  {
-   "title": "The Sweet Lips at West End Cultural Centre",
-   "date": "Oct 17",
-   "dateISO": "2026-10-17",
-   "time": "",
-   "venue": "West End Cultural Centre, 586 Ellice Ave",
-   "url": "https://www.songkick.com/concerts/43419864-sweet-lips-at-west-end-cultural-centre",
-   "blurb": "Saturday-night show at the WECC.",
-   "tags": [
-    "tix"
-   ],
-   "sellout": false,
-   "stream": "rapids"
-  },
-  {
-   "title": "The Sweet Lips",
-   "date": "Oct 17",
-   "dateISO": "2026-10-17",
-   "time": "",
-   "venue": "West End Cultural Centre",
-   "url": "https://www.songkick.com/concerts/43419864-sweet-lips-at-west-end-cultural-centre",
-   "blurb": "The Sweet Lips take the WECC stage.",
-   "tags": [
-    "tix"
-   ],
-   "sellout": false,
-   "stream": "rapids"
-  },
-  {
-   "title": "Full Circle with Leddwyn",
-   "date": "Oct 17",
-   "dateISO": "2026-10-17",
-   "time": "",
-   "venue": "Park Theatre",
-   "url": "https://www.songkick.com/concerts/43348592-full-circle-at-park-theatre",
-   "blurb": "Full Circle (listed with Leddwyn) at the Park Theatre.",
-   "tags": [
-    "tix"
-   ],
-   "sellout": false,
-   "stream": "rapids"
-  },
-  {
-   "title": "Orienteering Adventure",
-   "date": "Oct 17",
-   "dateISO": "2026-10-17",
-   "time": "9:30 am-4:30 pm",
-   "venue": "FortWhyte Alive",
-   "url": "https://www.fortwhyte.org/event/orienteering-adventure-3/2026-10-17/",
-   "blurb": "Self-guided orienteering course on FortWhyte's grounds.",
-   "tags": [
-    "tix",
-    "fam"
-   ],
-   "sellout": false,
-   "stream": "sky"
-  },
-  {
-   "title": "Alive in the Woods",
-   "date": "Oct 17",
-   "dateISO": "2026-10-17",
-   "time": "9:00 am-5:00 pm",
-   "venue": "FortWhyte Alive",
-   "url": "https://www.fortwhyte.org/event/alive-in-the-woods/2026-10-03/",
-   "blurb": "Saturday forest program at FortWhyte Alive. Also listed Oct 24 and Oct 31, 2026.",
-   "tags": [
-    "tix",
-    "fam"
-   ],
-   "sellout": false,
-   "stream": "sky"
-  },
-  {
-   "title": "Moving / Still: Animation at the Winnipeg Film Group",
-   "date": "Oct 17",
-   "dateISO": "2026-10-17",
-   "time": "",
-   "venue": "Dave Barber Cinematheque",
-   "url": "https://davebarbercinematheque.com/movies/moving-still-animation-at-the-winnipeg-film-group/",
-   "blurb": "Showcase of animation from the Winnipeg Film Group.",
-   "tags": [
-    "tix"
-   ],
-   "sellout": false,
-   "stream": "deep"
-  },
-  {
-   "title": "Haunted Halloween Tea Party",
-   "date": "Oct 17",
-   "dateISO": "2026-10-17",
-   "time": "1:30-3:00 PM",
-   "venue": "Dalnavert Museum",
-   "url": "https://www.todocanada.ca/city/winnipeg/event/haunted-halloween-tea-party/",
-   "blurb": "For ages 6-12, costumes encouraged, ghost hunting and crafts. About $10 per person. Also runs Oct 24 and Oct 31. Confirm with venue.",
-   "tags": [
-    "tix",
-    "fam"
-   ],
-   "sellout": false,
-   "stream": "ripples"
-  },
-  {
-   "title": "Full Circle",
-   "date": "Oct 17",
-   "dateISO": "2026-10-17",
-   "time": "",
-   "venue": "Park Theatre",
-   "url": "https://www.songkick.com/concerts/43348592-full-circle-at-park-theatre",
-   "blurb": "Full Circle live at the Park Theatre.",
-   "tags": [
-    "tix"
-   ],
-   "sellout": false,
-   "stream": "rapids"
-  },
-  {
-   "title": "Family Ghoul Flashlight Haunt",
-   "date": "Oct 17",
-   "dateISO": "2026-10-17",
-   "time": "2-5 PM",
-   "venue": "Six Pines Haunted Attractions",
-   "url": "https://www.todocanada.ca/six-pines-haunted-attractions-winnipegs-scary-halloween-haunt-is-back-for-2026/",
-   "blurb": "Daytime flashlight haunt, no jump scares. Also Oct 18, 24, 25, 31. $25 age 5+.",
-   "tags": [
-    "tix",
-    "fam"
-   ],
-   "sellout": false,
-   "stream": "ripples"
-  },
-  {
-   "title": "Danny Bhoy",
-   "date": "Oct 17",
-   "dateISO": "2026-10-17",
-   "time": "7:30 PM",
-   "venue": "Burton Cummings Theatre",
-   "url": "https://comedy.tickets/event/danny-bhoy-winnipeg-saturday-october-17-2026-730-pm/?pid=5339",
-   "blurb": "Scottish stand-up comedian live in Winnipeg.",
-   "tags": [
-    "tix"
-   ],
-   "sellout": false,
-   "stream": "deep"
-  },
-  {
-   "title": "Jets vs. Carolina Hurricanes",
-   "date": "Oct 17",
-   "dateISO": "2026-10-17",
-   "time": "",
-   "venue": "Canada Life Centre",
-   "url": "https://www.nhl.com/jets/schedule",
-   "blurb": "Ehlers and the Hurricanes visit Winnipeg.",
-   "tags": [
-    "tix"
-   ],
-   "sellout": false,
-   "stream": "roar"
-  },
-  {
-   "title": "Back 2 Back: The Music of Billy Joel & Elton John (WSO)",
-   "date": "Oct 17-18",
-   "dateISO": "2026-10-17",
-   "time": "",
-   "venue": "Centennial Concert Hall",
-   "url": "https://wso.ca/whats-on/p1-back-2-back-the-music-of-billy-joel-and-elton-john/",
-   "blurb": "The Winnipeg Symphony Orchestra performs the hits of Billy Joel and Elton John.",
-   "tags": [
-    "tix"
-   ],
-   "sellout": false,
-   "stream": "rapids"
-  },
-  {
-   "title": "Full Circle (Leddwyn)",
-   "date": "Oct 17",
-   "dateISO": "2026-10-17",
-   "time": "",
-   "venue": "Park Theatre",
-   "url": "https://www.songkick.com/concerts/43348592-full-circle-at-park-theatre",
-   "blurb": "Full Circle with Leddwyn at the Park Theatre.",
-   "tags": [
-    "tix"
-   ],
-   "sellout": false,
-   "stream": "rapids"
-  },
-  {
-   "title": "FORMING (Toronto)",
-   "date": "Oct 17",
-   "dateISO": "2026-10-17",
-   "time": "",
-   "venue": "Lo Bar",
-   "url": "https://www.songkick.com/concerts/43412501-forming-toronto-at-lo-bar",
-   "blurb": "Toronto act FORMING plays an intimate Lo Bar night.",
-   "tags": [
-    "tix"
-   ],
-   "sellout": false,
-   "stream": "rapids"
-  },
-  {
-   "title": "Cyrano de Bergerac (Royal MTC)",
-   "date": "Oct 17",
-   "dateISO": "2026-10-17",
-   "time": "",
-   "venue": "Royal MTC, John Hirsch Mainstage",
-   "url": "https://royalmtc.ca/Current-Plays/Cyrano-de-Bergerac.aspx",
-   "blurb": "Mainstage run underway; continues through Nov 1, 2026.",
-   "tags": [
-    "tix"
-   ],
-   "sellout": false,
-   "stream": "deep"
-  },
-  {
-   "title": "Glory (Prairie Theatre Exchange)",
-   "date": "Oct 17",
-   "dateISO": "2026-10-17",
-   "time": "",
-   "venue": "Prairie Theatre Exchange",
-   "url": "https://www.pte.mb.ca/performances/glory",
-   "blurb": "PTE production underway; runs through Oct 25, 2026.",
-   "tags": [
-    "tix"
-   ],
-   "sellout": false,
-   "stream": "deep"
-  },
-  {
-   "title": "Dreams in Nightmares (Cinematheque)",
-   "date": "Oct 17",
-   "dateISO": "2026-10-17",
-   "time": "2:30 pm",
-   "venue": "Dave Barber Cinematheque",
-   "url": "https://davebarbercinematheque.com/movies/dreams-in-nightmares/",
-   "blurb": "Screens Oct 17, 18, 20, 21 and 22.",
-   "tags": [
-    "tix"
-   ],
-   "sellout": false,
-   "stream": "deep"
-  },
-  {
-   "title": "Black Zombie (Cinematheque)",
-   "date": "Oct 17",
-   "dateISO": "2026-10-17",
-   "time": "5:00 pm",
-   "venue": "Dave Barber Cinematheque",
-   "url": "https://davebarbercinematheque.com/movies/black-zombie/",
-   "blurb": "Screens Oct 17, 18, 20 and 21.",
-   "tags": [
-    "tix"
-   ],
-   "sellout": false,
-   "stream": "deep"
-  },
-  {
-   "title": "Scattered Seeds Craft Market",
-   "date": "Oct 17-18",
-   "dateISO": "2026-10-17",
-   "time": "",
-   "venue": "Red River Exhibition Park",
-   "url": "https://www.todocanada.ca/city/winnipeg/event/scattered-seeds-craft-market-2/",
-   "blurb": "Fall craft and artisan market; second weekend Oct 23-25. Tickets $10 advance, $12 door.",
-   "tags": [
-    "tix"
-   ],
-   "sellout": false,
-   "stream": "confluence"
-  },
-  {
-   "title": "Pumpkins After Dark",
-   "date": "Oct 17-31",
-   "dateISO": "2026-10-17",
-   "time": "Oct 17-18 7-11pm; Oct 22-25 6:45-11pm; Oct 28-31 6:30-11pm",
-   "venue": "Assiniboia Downs, 3975 Portage Ave",
-   "url": "https://www.todocanada.ca/city/winnipeg/event/pumpkins-after-dark-winnipeg/",
-   "blurb": "Walk-through trail of 10,000+ hand-carved jack-o'-lanterns with carving demos and food trucks. No jump scares.",
-   "tags": [
-    "tix",
-    "fam"
-   ],
-   "sellout": false,
-   "stream": "sky"
-  },
-  {
-   "title": "Boonstra Farms Fall Corn Maze",
-   "date": "Through Oct 31",
-   "dateISO": "2026-10-17",
-   "time": "",
-   "venue": "Boonstra Farms, Stonewall",
-   "url": "https://www.todocanada.ca/city/winnipeg/halloween-family/",
-   "blurb": "Corn maze, hayride, bale maze, petting zoo and playground. Season runs to Oct 31; call (204) 467-8480.",
-   "tags": [
-    "tix",
-    "fam"
-   ],
-   "sellout": false,
-   "stream": "sky"
-  },
-  {
-   "title": "A Maze In Corn",
-   "date": "Through Nov 1",
-   "dateISO": "2026-10-17",
-   "time": "",
-   "venue": "1351 PR 200, Saint Adolphe",
-   "url": "https://www.todocanada.ca/city/winnipeg/halloween-haunts/",
-   "blurb": "Large corn maze south of Winnipeg, open through Nov 1, with evening Haunted Forest option.",
-   "tags": [
-    "tix",
-    "fam"
-   ],
-   "sellout": false,
-   "stream": "sky"
-  },
-  {
-   "title": "Boo at the Zoo",
-   "date": "Oct 17-31",
-   "dateISO": "2026-10-17",
-   "time": "Evenings",
-   "venue": "Assiniboine Park Zoo",
-   "url": "https://www.assiniboinepark.ca/events/boo-at-the-zoo/info",
-   "blurb": "Halloween tradition for the whole family with entertainment, photo-ops and fair rides.",
-   "tags": [
-    "fam",
-    "tix"
-   ],
-   "sellout": false,
-   "stream": "ripples"
-  },
-  {
-   "title": "Forbidden Rooms: Halloween on Howe",
-   "date": "Through Nov 1",
-   "dateISO": "2026-10-17",
-   "time": "",
-   "venue": "Dave Barber Cinematheque",
-   "url": "https://thecinematheque.ca/series/forbidden-rooms-halloween",
-   "blurb": "Eight-film horror series (Oct 12 to Nov 1) including Daughters of Darkness and Vampyr.",
-   "tags": [
-    "tix"
-   ],
-   "sellout": false,
-   "stream": "deep"
-  },
-  {
-   "title": "GORGE Presents: You Betta Werk Kiki Ball Pt 3",
-   "date": "Oct 17",
-   "dateISO": "2026-10-17",
-   "time": "6:00-10:00 PM",
-   "venue": "The Event Space, The Forks Market",
-   "url": "https://www.showpass.com/youbettawerkpt3/",
-   "blurb": "Ballroom-culture kiki ball presented by GORGE on the second floor of The Forks Market.",
-   "tags": [
-    "tix"
-   ],
-   "sellout": false,
-   "stream": "confluence"
-  },
-  {
-   "title": "WFPS Run Teeny Trot (1K, kids 10 and under)",
-   "date": "Oct 17",
-   "dateISO": "2026-10-17",
-   "time": "",
-   "venue": "Canadian Mennonite University North Campus",
-   "url": "https://endorphinsrunning.com/races/wfps-winnipeg",
-   "blurb": "Kids' 1K fun run the day before the WFPS Run.",
-   "tags": [
-    "fam",
-    "tix"
-   ],
-   "sellout": false,
-   "stream": "sky"
-  },
   {
    "title": "Rumble in the Burt 4",
    "date": "Oct 18",
@@ -490,10 +59,10 @@
    "title": "Manitoba Moose vs. Texas Stars",
    "date": "Oct 18",
    "dateISO": "2026-10-18",
-   "time": "2:00 PM",
+   "time": "",
    "venue": "Canada Life Centre",
-   "url": "https://www.moosehockey.com",
-   "blurb": "Sunday matinee AHL hockey, a good family-friendly option.",
+   "url": "https://www.moosehockey.com/schedule",
+   "blurb": "AHL hockey, 2 PM matinee puck drop, a good fit for families.",
    "tags": [
     "tix",
     "fam"
@@ -603,6 +172,106 @@
    "stream": "sky"
   },
   {
+   "title": "Six Pines Haunted Attractions: Fear by Night",
+   "date": "Through Oct 31",
+   "dateISO": "2026-10-18",
+   "time": "Evenings Thu-Sat, plus Wed Oct 28",
+   "venue": "Six Pines Haunted Attractions, north of Winnipeg",
+   "url": "https://www.todocanada.ca/six-pines-haunted-attractions-winnipegs-scary-halloween-haunt-is-back-for-2026/",
+   "blurb": "Winnipeg's scary haunted trail attraction. Season runs through Oct 31, with a special Wednesday opening Oct 28.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "sky"
+  },
+  {
+   "title": "Pumpkins After Dark",
+   "date": "Through Oct 31",
+   "dateISO": "2026-10-18",
+   "time": "",
+   "venue": "Assiniboia Downs, 3975 Portage Ave",
+   "url": "https://www.todocanada.ca/city/winnipeg/event/pumpkins-after-dark-winnipeg/",
+   "blurb": "Walk-through display of 10,000+ hand-carved pumpkins, family friendly with no jump scares. Runs Oct 15-31; evenings.",
+   "tags": [
+    "tix",
+    "fam"
+   ],
+   "sellout": false,
+   "stream": "ripples"
+  },
+  {
+   "title": "Anne Mulaire Pop-Up Shop",
+   "date": "Through Oct 18",
+   "dateISO": "2026-10-18",
+   "time": "10 AM-6 PM",
+   "venue": "Explore Indigenous / Turtle Tours, The Forks",
+   "url": "https://www.theforks.com/events",
+   "blurb": "Pop-up shop from a Red River Métis-owned fashion brand, with clothing made from natural fabrics like bamboo and cotton.",
+   "tags": [
+    "free"
+   ],
+   "sellout": false,
+   "stream": "confluence"
+  },
+  {
+   "title": "Cyrano de Bergerac (Royal MTC)",
+   "date": "Through Nov 1",
+   "dateISO": "2026-10-18",
+   "time": "",
+   "venue": "Royal MTC John Hirsch Mainstage",
+   "url": "https://royalmtc.ca/Current-Plays/Cyrano-de-Bergerac.aspx",
+   "blurb": "Royal MTC's 2026/27 season opener, running Oct 7 - Nov 1. Final two weeks.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "deep"
+  },
+  {
+   "title": "Glory (Prairie Theatre Exchange)",
+   "date": "Through Oct 25",
+   "dateISO": "2026-10-18",
+   "time": "",
+   "venue": "Prairie Theatre Exchange, Portage Place",
+   "url": "https://www.pte.mb.ca/performances/glory",
+   "blurb": "PTE 2026-27 season production, Oct 13 - 25.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "deep"
+  },
+  {
+   "title": "Boo at the Zoo: Spookyville",
+   "date": "Through Oct 31",
+   "dateISO": "2026-10-18",
+   "time": "",
+   "venue": "Assiniboine Park Zoo",
+   "url": "https://www.assiniboinepark.ca/events/boo-at-the-zoo/info",
+   "blurb": "Family Halloween at the zoo with themed entertainment, photo spots and fair rides. Timed tickets required; $17.50 + GST ages 3+. Closed Mon/Tue.",
+   "tags": [
+    "tix",
+    "fam"
+   ],
+   "sellout": false,
+   "stream": "ripples"
+  },
+  {
+   "title": "A Maze in Corn",
+   "date": "Through Nov 1",
+   "dateISO": "2026-10-18",
+   "time": "",
+   "venue": "Saint Adolphe, MB",
+   "url": "https://www.todocanada.ca/witchy-wonderland-26/",
+   "blurb": "Outdoor corn maze with farm animals and a bale pyramid, open through Nov 1. Hours and prices unconfirmed.",
+   "tags": [
+    "fam"
+   ],
+   "sellout": false,
+   "stream": "sky"
+  },
+  {
    "title": "Classic Albums Live: Madonna - The Immaculate Collection",
    "date": "Monday, October 19, 2026",
    "dateISO": "2026-10-19",
@@ -677,10 +346,10 @@
    "title": "W.A.S.P.",
    "date": "Oct 19",
    "dateISO": "2026-10-19",
-   "time": "8:00 PM",
+   "time": "8:00 pm",
    "venue": "Burton Cummings Theatre",
    "url": "https://www.burtoncummingstheatre.ca/event/w-a-s-p/",
-   "blurb": "Shock-metal veterans bring their theatrical live show to the Burt.",
+   "blurb": "The shock-metal veterans bring their theatrical live show to the Burt.",
    "tags": [
     "tix"
    ],
@@ -693,8 +362,8 @@
    "dateISO": "2026-10-20",
    "time": "",
    "venue": "Sidestage",
-   "url": "https://www.songkick.com/concerts/43289480-youth-fountain-at-sidestage",
-   "blurb": "Emo/pop-punk band Youth Fountain at Sidestage.",
+   "url": "https://songkick.com/concerts/43289480-youth-fountain-at-sidestage",
+   "blurb": "Emo/pop-punk band Youth Fountain plays Sidestage. Doors 7:30 PM.",
    "tags": [
     "tix"
    ],
@@ -844,6 +513,20 @@
    "stream": "ripples"
   },
   {
+   "title": "Goblin:Macbeth (Royal MTC Warehouse)",
+   "date": "Oct 21 - Nov 8",
+   "dateISO": "2026-10-21",
+   "time": "",
+   "venue": "Tom Hendry Warehouse",
+   "url": "https://royalmtc.ca/Current-Plays/Goblin-Macbeth.aspx",
+   "blurb": "Warehouse-stage production running Oct 21 - Nov 8.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "deep"
+  },
+  {
    "title": "The East Pointers",
    "date": "Thu, Oct 22",
    "dateISO": "2026-10-22",
@@ -892,8 +575,8 @@
    "dateISO": "2026-10-22",
    "time": "",
    "venue": "Park Theatre",
-   "url": "https://www.songkick.com/festivals/3224728-east-pointers-presented-by-winnipeg-folk/id/43162438-the-east-pointers-presented-by-winnipeg-folk-festival-2026",
-   "blurb": "Celtic-roots trio presented by the Winnipeg Folk Festival.",
+   "url": "https://songkick.com/festivals/3224728-east-pointers-presented-by-winnipeg-folk/id/43162438-the-east-pointers-presented-by-winnipeg-folk-festival-2026",
+   "blurb": "Celtic-roots trio The East Pointers, presented by the Winnipeg Folk Festival.",
    "tags": [
     "tix"
    ],
@@ -901,13 +584,13 @@
    "stream": "rapids"
   },
   {
-   "title": "Screamplay (4K Restoration)",
+   "title": "Screamplay 4K Restoration",
    "date": "Oct 22",
    "dateISO": "2026-10-22",
    "time": "",
    "venue": "Dave Barber Cinematheque",
-   "url": "https://davebarbercinematheque.com/",
-   "blurb": "4K restoration screening of the Winnipeg-made horror cult film.",
+   "url": "https://davebarbercinematheque.com/movies/screamplay-4k-restoration/",
+   "blurb": "4K restoration screening at the Cinematheque. Check site for showtimes.",
    "tags": [
     "tix"
    ],
@@ -1033,8 +716,8 @@
    "dateISO": "2026-10-23",
    "time": "",
    "venue": "Pyramid Cabaret",
-   "url": "https://www.songkick.com/concerts/43369420-chest-fever-at-pyramid-cabaret",
-   "blurb": "Chest Fever (The Band tribute) at the Pyramid Cabaret.",
+   "url": "https://songkick.com/concerts/43369420-chest-fever-at-pyramid-cabaret",
+   "blurb": "Montreal's Chest Fever brings its brass-and-drums party show to the Pyramid Cabaret.",
    "tags": [
     "tix"
    ],
@@ -1075,8 +758,8 @@
    "dateISO": "2026-10-23",
    "time": "",
    "venue": "Dave Barber Cinematheque",
-   "url": "https://davebarbercinematheque.com/",
-   "blurb": "Documentary screening at the Cinematheque.",
+   "url": "https://davebarbercinematheque.com/movies/once-upon-a-time-in-harlem/",
+   "blurb": "Cinematheque screening starting Oct 23. Check site for showtimes.",
    "tags": [
     "tix"
    ],
@@ -1090,7 +773,7 @@
    "time": "",
    "venue": "Dave Barber Cinematheque",
    "url": "https://davebarbercinematheque.com/movies/a-rimbaud/",
-   "blurb": "Film screening at the Cinematheque.",
+   "blurb": "Cinematheque screening starting Oct 23. Check site for showtimes.",
    "tags": [
     "tix"
    ],
@@ -1168,18 +851,32 @@
    "stream": "deep"
   },
   {
+   "title": "Laura Lewis: One eye filled with night (opening)",
+   "date": "Oct 23",
+   "dateISO": "2026-10-23",
+   "time": "",
+   "venue": "Plug In ICA",
+   "url": "https://plugin.org/exhibitions/one-eye-filled-with-night-laura-lewis-opening-october-23-2026-6pm/",
+   "blurb": "Opening reception 6 PM for the exhibition, which runs Oct 23 - Jan 9, 2027.",
+   "tags": [
+    "free"
+   ],
+   "sellout": false,
+   "stream": "deep"
+  },
+  {
    "title": "Hawksley Workman",
-   "date": "Saturday, October 24, 2026",
+   "date": "Oct 24",
    "dateISO": "2026-10-24",
-   "time": "8:00 PM",
+   "time": "",
    "venue": "Park Theatre",
-   "url": "https://myparktheatre.com/",
-   "blurb": "Canadian art-rock troubadour Hawksley Workman headlines the Park.",
+   "url": "https://songkick.com/concerts/43247558-hawksley-workman-at-park-theatre",
+   "blurb": "Canadian art-pop songwriter Hawksley Workman plays Park Theatre. He also plays Gimli's Ship & Plough on Oct 25.",
    "tags": [
     "tix"
    ],
    "sellout": false,
-   "stream": "horizon"
+   "stream": "rapids"
   },
   {
    "title": "Winnipeg Jets vs. Montreal Canadiens Alumni Game",
@@ -1258,8 +955,8 @@
    "dateISO": "2026-10-24",
    "time": "",
    "venue": "Sidestage",
-   "url": "https://www.songkick.com/concerts/43316361-ken-mode-at-sidestage",
-   "blurb": "Heavy local night with KEN Mode.",
+   "url": "https://songkick.com/concerts/43316361-ken-mode-at-sidestage",
+   "blurb": "Winnipeg noise-metal band KEN Mode headlines with local openers Malefaction and Moyamoya.",
    "tags": [
     "tix"
    ],
@@ -1382,13 +1079,13 @@
    "title": "Haunted Halloween Tea Party",
    "date": "Oct 24",
    "dateISO": "2026-10-24",
-   "time": "1:30-3:00 PM",
+   "time": "",
    "venue": "Dalnavert Museum",
    "url": "https://www.todocanada.ca/city/winnipeg/event/haunted-halloween-tea-party/",
-   "blurb": "Tea party with ghost-hunting and crafts for ages 6-12 with an adult. $10 per person.",
+   "blurb": "Spooky tea party at the historic Dalnavert house, ages 6-12 with an adult. $10 per person, 1:30-3 PM. Repeats Oct 31.",
    "tags": [
-    "fam",
-    "tix"
+    "tix",
+    "fam"
    ],
    "sellout": false,
    "stream": "ripples"
@@ -1436,6 +1133,35 @@
    ],
    "sellout": false,
    "stream": "ripples"
+  },
+  {
+   "title": "Six Pines Haunted Attractions: Family Ghoul Flashlight Haunt",
+   "date": "Oct 24, 25, 31",
+   "dateISO": "2026-10-24",
+   "time": "2-5 PM",
+   "venue": "Six Pines Haunted Attractions, north of Winnipeg",
+   "url": "https://www.todocanada.ca/six-pines-haunted-attractions-winnipegs-scary-halloween-haunt-is-back-for-2026/",
+   "blurb": "Daytime flashlight walk through the haunted grounds, the family-friendly version of Six Pines' scare season.",
+   "tags": [
+    "tix",
+    "fam"
+   ],
+   "sellout": false,
+   "stream": "ripples"
+  },
+  {
+   "title": "Jets Alumni Game: Winnipeg vs. Montreal (with The Trews)",
+   "date": "Oct 24",
+   "dateISO": "2026-10-24",
+   "time": "",
+   "venue": "Canada Life Centre",
+   "url": "https://www.nhl.com/jets/news/jets-announce-2026-27-regular-season-schedule",
+   "blurb": "Alumni face off the night before the Heritage Classic; The Trews headline, with a watch party at Fan Fest. Start time unconfirmed.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "roar"
   },
   {
    "title": "2026 Tim Hortons Heritage Classic: Jets vs Canadiens",
@@ -1641,10 +1367,10 @@
    "title": "2026 Tim Hortons NHL Heritage Classic: Canadiens at Jets",
    "date": "Oct 25",
    "dateISO": "2026-10-25",
-   "time": "6:00 PM (confirm)",
+   "time": "",
    "venue": "Princess Auto Stadium",
    "url": "https://www.nhl.com/events/nhl-heritage-classic/",
-   "blurb": "Jets host Montreal in an outdoor NHL game; fan festival at the U of M from noon. Tickets likely resale only.",
+   "blurb": "Outdoor NHL game, Jets host Montreal. Puck drop 6 PM per NHL (may shift to Oct 26 for weather). Resale only.",
    "tags": [
     "tix"
    ],
@@ -1672,8 +1398,8 @@
    "dateISO": "2026-10-25",
    "time": "",
    "venue": "Sidestage",
-   "url": "https://www.songkick.com/concerts/42894161-ruzz-guitars-blues-revue-at-sidestage",
-   "blurb": "Sunday blues revue at Sidestage.",
+   "url": "https://songkick.com/concerts/42894161-ruzz-guitars-blues-revue-at-sidestage",
+   "blurb": "Local blues showcase led by Ruzz Guitar.",
    "tags": [
     "tix"
    ],
@@ -1684,15 +1410,15 @@
    "title": "Full Moon Ceremony",
    "date": "Oct 26",
    "dateISO": "2026-10-26",
-   "time": "5:30 - 7:30 pm",
+   "time": "5:30-7:30 PM",
    "venue": "Oodena Celebration Circle, The Forks",
    "url": "https://www.theforks.com/events",
-   "blurb": "Monthly full moon gathering and ceremony at the Oodena Celebration Circle.",
+   "blurb": "Community ceremony with teachings about feminine energy and Grandmother Moon. Bring your own chair, plus drums or rattles if you have them.",
    "tags": [
     "free"
    ],
    "sellout": false,
-   "stream": "horizon"
+   "stream": "deep"
   },
   {
    "title": "Spencer Krug",
@@ -1700,8 +1426,8 @@
    "dateISO": "2026-10-26",
    "time": "",
    "venue": "Cornerstone",
-   "url": "https://www.songkick.com/concerts/43414045-spencer-krug-at-cornerstone",
-   "blurb": "Indie songwriter Spencer Krug (Wolf Parade, Sunset Rubdown) at Cornerstone.",
+   "url": "https://songkick.com/concerts/43414045-spencer-krug-at-cornerstone",
+   "blurb": "Spencer Krug (Wolf Parade, Sunset Rubdown) plays an intimate show at Cornerstone.",
    "tags": [
     "tix"
    ],
@@ -1714,8 +1440,8 @@
    "dateISO": "2026-10-26",
    "time": "",
    "venue": "Sidestage",
-   "url": "https://www.songkick.com/concerts/43391928-mean-bikini-at-sidestage",
-   "blurb": "Punk bill: Mean Bikini, Die Job and Toaster Bath.",
+   "url": "https://songkick.com/concerts/43391928-mean-bikini-at-sidestage",
+   "blurb": "Punk bill: Mean Bikini with Die Job and Toaster Bath.",
    "tags": [
     "tix"
    ],
@@ -1923,8 +1649,8 @@
    "dateISO": "2026-10-29",
    "time": "",
    "venue": "Gordie's Coffeehouse (Gordon King Memorial United Church)",
-   "url": "https://www.songkick.com/concerts/43412913-sarah-hiltz-at-gordies-coffeehouse-gordon-king-memorial-united-church",
-   "blurb": "Singer-songwriter evening at a community coffeehouse.",
+   "url": "https://songkick.com/concerts/43412913-sarah-hiltz-at-gordies-coffeehouse-gordon-king-memorial-united-church",
+   "blurb": "Singer-songwriter Sarah Hiltz at a cozy church-basement coffeehouse.",
    "tags": [
     "tix"
    ],
@@ -1967,6 +1693,20 @@
    "venue": "The Park Theatre",
    "url": "https://spectaculos.ca/spectacle/the-annual-dnd-improv-halloween-show-winnipeg?d=132511",
    "blurb": "Dungeons & Dragons-style improv comedy, Halloween edition.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "deep"
+  },
+  {
+   "title": "Revelations of Divine Love",
+   "date": "Oct 29",
+   "dateISO": "2026-10-29",
+   "time": "",
+   "venue": "Dave Barber Cinematheque",
+   "url": "https://davebarbercinematheque.com/movies/revelations-of-divine-love/",
+   "blurb": "Cinematheque screening starting Oct 29. Check site for showtimes.",
    "tags": [
     "tix"
    ],
@@ -2209,10 +1949,10 @@
    "title": "CreativeMornings Winnipeg",
    "date": "Oct 30",
    "dateISO": "2026-10-30",
-   "time": "8:00-10:00 AM",
-   "venue": "The Event Space, The Forks Market",
-   "url": "https://www.theforks.com/events/calendar-of-events/event/1225",
-   "blurb": "Monthly creative-community breakfast talk.",
+   "time": "8-10 AM",
+   "venue": "The Event Space, The Forks Market (2nd floor)",
+   "url": "https://www.theforks.com/events",
+   "blurb": "Morning of networking, a local performance, and a speaker on the monthly theme.",
    "tags": [
     "free"
    ],
@@ -2249,19 +1989,18 @@
    "stream": "horizon"
   },
   {
-   "title": "Manito Ahbee Festival: Pow Wow",
+   "title": "Manito Ahbee Festival Pow Wow",
    "date": "Oct 31 - Nov 1",
    "dateISO": "2026-10-31",
    "time": "",
    "venue": "Canada Life Centre",
    "url": "https://www.manitoahbee.com/events/pow-wow/about",
-   "blurb": "Headline of a three-day Indigenous festival (Oct 30 - Nov 1) with NextGEN youth event. Tickets via Ticketmaster.",
+   "blurb": "One of Western Canada's largest pow wows, on Treaty No. 1 Territory. The wider Manito Ahbee Festival opens Friday Oct 30 with dancer registration; tickets through Ticketmaster.",
    "tags": [
-    "tix",
-    "fam"
+    "tix"
    ],
    "sellout": false,
-   "stream": "horizon"
+   "stream": "confluence"
   },
   {
    "title": "Manito Ahbee Pow Wow",
@@ -2327,13 +2066,13 @@
    "dateISO": "2026-10-31",
    "time": "",
    "venue": "Park Theatre",
-   "url": "https://www.songkick.com/concerts/43289410-free-throw-at-park-theatre",
-   "blurb": "Free Throw on Halloween at the Park Theatre.",
+   "url": "https://songkick.com/concerts/43289410-free-throw-at-park-theatre",
+   "blurb": "Midwest emo band Free Throw plays Park Theatre on Halloween.",
    "tags": [
     "tix"
    ],
    "sellout": false,
-   "stream": "horizon"
+   "stream": "rapids"
   },
   {
    "title": "Wesmen volleyball home opener vs. Mount Royal",
@@ -2356,13 +2095,13 @@
    "dateISO": "2026-10-31",
    "time": "",
    "venue": "Park Theatre",
-   "url": "https://www.songkick.com/festivals/3806400-black-parade-halloween-emo-night-winnipeg-at-park-oct-31/id/43426466-the-black-parade-halloween-emo-night-winnipeg-at-park-theatre--oct-31-2026",
-   "blurb": "Halloween emo night at the Park Theatre.",
+   "url": "https://songkick.com/festivals/3806400-black-parade-halloween-emo-night-winnipeg-at-park-oct-31/id/43426466-the-black-parade-halloween-emo-night-winnipeg-at-park-theatre--oct-31-2026",
+   "blurb": "Halloween emo dance night at Park Theatre.",
    "tags": [
     "tix"
    ],
    "sellout": false,
-   "stream": "horizon"
+   "stream": "rapids"
   },
   {
    "title": "Wesmen Volleyball vs. Mount Royal",
@@ -2458,8 +2197,8 @@
    "dateISO": "2026-10-31",
    "time": "",
    "venue": "King's Head Pub",
-   "url": "https://www.songkick.com/concerts/43152903-dr-rocktopus-at-kings-head-pub",
-   "blurb": "Halloween night live music at the King's Head Pub.",
+   "url": "https://songkick.com/concerts/43152903-dr-rocktopus-at-kings-head-pub",
+   "blurb": "Halloween-night show with Dr. Rocktopus at the King's Head Pub.",
    "tags": [
     "tix"
    ],
@@ -2525,6 +2264,21 @@
    "stream": "deep"
   },
   {
+   "title": "Haunted Halloween Tea Party (Halloween)",
+   "date": "Oct 31",
+   "dateISO": "2026-10-31",
+   "time": "",
+   "venue": "Dalnavert Museum",
+   "url": "https://www.todocanada.ca/city/winnipeg/event/haunted-halloween-tea-party/",
+   "blurb": "Halloween-day edition of the Dalnavert tea party, ages 6-12 with an adult. $10 per person, 1:30-3 PM.",
+   "tags": [
+    "tix",
+    "fam"
+   ],
+   "sellout": false,
+   "stream": "ripples"
+  },
+  {
    "title": "Manito Ahbee Festival",
    "date": "Nov 1",
    "dateISO": "2026-11-01",
@@ -2582,13 +2336,27 @@
    "stream": "horizon"
   },
   {
+   "title": "Tyler Braden and Steven Lee Olsen",
+   "date": "Nov 3",
+   "dateISO": "2026-11-03",
+   "time": "",
+   "venue": "Park Theatre",
+   "url": "https://www.songkick.com/concerts/43341409-tyler-braden-at-park-theatre",
+   "blurb": "A country double bill.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
    "title": "Making Movies",
    "date": "Nov 4",
    "dateISO": "2026-11-04",
    "time": "",
-   "venue": "West End Cultural Centre, 586 Ellice Ave",
-   "url": "https://www.songkick.com/concerts/43399585-making-movies-at-west-end-cultural-centre",
-   "blurb": "Latin-rock band from Kansas City on a Wednesday night at the WECC.",
+   "venue": "West End Cultural Centre",
+   "url": "https://www.eventworld.com/winnipeg/concerts/indie",
+   "blurb": "Latin rock band Making Movies at the WECC. Date from a listings site; confirm with venue.",
    "tags": [
     "tix"
    ],
@@ -2629,8 +2397,8 @@
    "dateISO": "2026-11-05",
    "time": "",
    "venue": "Canada Life Centre",
-   "url": "https://www.nhl.com/jets/schedule",
-   "blurb": "Thursday night NHL home game against the Canucks.",
+   "url": "https://www.nhl.com/jets/news/jets-announce-2026-27-regular-season-schedule",
+   "blurb": "Jets home game against Vancouver after a road trip.",
    "tags": [
     "tix"
    ],
@@ -3026,7 +2794,7 @@
    "time": "",
    "venue": "Park Theatre",
    "url": "https://www.songkick.com/concerts/43387326-korpiklaani-at-park-theatre",
-   "blurb": "Finnish folk-metal party band.",
+   "blurb": "Finnish folk-metal party band Korpiklaani plays Winnipeg.",
    "tags": [
     "tix"
    ],
@@ -3202,6 +2970,20 @@
    "stream": "horizon"
   },
   {
+   "title": "Arkells (Burton Cummings Theatre)",
+   "date": "Nov 12",
+   "dateISO": "2026-11-12",
+   "time": "8:00 pm",
+   "venue": "Burton Cummings Theatre",
+   "url": "https://www.burtoncummingstheatre.ca/event/arkells/",
+   "blurb": "A second Winnipeg night for the anthemic Canadian rock band.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
    "title": "Disney On Ice presents Jump In!",
    "date": "Nov 13",
    "dateISO": "2026-11-13",
@@ -3246,16 +3028,16 @@
   },
   {
    "title": "Begonia",
-   "date": "Nov 13",
+   "date": "Nov 13-14",
    "dateISO": "2026-11-13",
-   "time": "",
+   "time": "8:00 pm",
    "venue": "Burton Cummings Theatre",
-   "url": "https://www.songkick.com/concerts/43063546-begonia-at-burton-cummings-theatre",
-   "blurb": "Begonia plays two Winnipeg nights (Nov 13-14).",
+   "url": "https://www.burtoncummingstheatre.ca/event/begonia-2/2026-11-13/",
+   "blurb": "Winnipeg's own Begonia plays two hometown nights.",
    "tags": [
     "tix"
    ],
-   "sellout": true,
+   "sellout": false,
    "stream": "horizon"
   },
   {
@@ -3584,17 +3366,31 @@
    "stream": "horizon"
   },
   {
+   "title": "Comfort Food (Royal MTC Warehouse)",
+   "date": "Nov 18 - Dec 6",
+   "dateISO": "2026-11-18",
+   "time": "",
+   "venue": "Tom Hendry Warehouse",
+   "url": "https://royalmtc.ca/Current-Plays/Comfort-Food.aspx",
+   "blurb": "Royal MTC Warehouse production, Nov 18 - Dec 6.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
    "title": "Sam Roberts Band",
    "date": "Nov 19",
    "dateISO": "2026-11-19",
    "time": "8:00 pm",
    "venue": "Burton Cummings Theatre",
    "url": "https://www.burtoncummingstheatre.ca/event/sam-roberts-band/",
-   "blurb": "Canadian rock favourites Sam Roberts Band.",
+   "blurb": "Canadian rock staple Sam Roberts Band live at the Burt.",
    "tags": [
     "tix"
    ],
-   "sellout": true,
+   "sellout": false,
    "stream": "horizon"
   },
   {
@@ -3658,10 +3454,10 @@
    "title": "Killers of Kill Tony",
    "date": "Nov 20",
    "dateISO": "2026-11-20",
-   "time": "7:00 PM & 9:30 PM",
+   "time": "7:00 pm and 9:30 pm",
    "venue": "Burton Cummings Theatre",
    "url": "https://www.burtoncummingstheatre.ca/event/killers-of-kill-tony/2026-11-20/1/",
-   "blurb": "Kill Tony regulars Lucas, Kim, Timmy No Brakes and Phillips.",
+   "blurb": "The live comedy roast phenomenon, two shows on a rescheduled date.",
    "tags": [
     "tix"
    ],
@@ -3787,14 +3583,14 @@
    "title": "Turnover",
    "date": "Nov 23",
    "dateISO": "2026-11-23",
-   "time": "6:30 PM",
-   "venue": "The Park Theatre",
-   "url": "https://myparktheatre.com/calendar/",
-   "blurb": "Virginia dream-pop/indie band Turnover headlines the Park with tickets already dwindling.",
+   "time": "",
+   "venue": "Park Theatre",
+   "url": "https://www.eventworld.com/winnipeg/concerts/indie",
+   "blurb": "Indie/dream-rock band Turnover at Park Theatre. Date from a listings site; confirm with venue.",
    "tags": [
     "tix"
    ],
-   "sellout": true,
+   "sellout": false,
    "stream": "horizon"
   },
   {
@@ -3886,13 +3682,13 @@
    "stream": "horizon"
   },
   {
-   "title": "Manitoba Moose Project 11 School Day game vs. Grand Rapids",
+   "title": "Manitoba Moose Project 11 School Day Game vs. Grand Rapids",
    "date": "Nov 24",
    "dateISO": "2026-11-24",
-   "time": "10:30 am",
+   "time": "",
    "venue": "Canada Life Centre",
    "url": "https://www.moosehockey.com/schedule",
-   "blurb": "Morning school-day AHL game, popular with families and school groups.",
+   "blurb": "Morning (10:30 AM) AHL school-day game against the Grand Rapids Griffins.",
    "tags": [
     "tix",
     "fam"
@@ -3992,9 +3788,9 @@
    "date": "Nov 26-29",
    "dateISO": "2026-11-26",
    "time": "",
-   "venue": "RBC Convention Centre Winnipeg, 375 York Ave",
-   "url": "https://festivalnet.com/state/Manitoba/Winnipeg-MB",
-   "blurb": "Four-day juried holiday craft and artisan market with 140+ Canadian makers. 2026 admission price not confirmed.",
+   "venue": "RBC Convention Centre Winnipeg",
+   "url": "https://www.cantonfair.net/event/16376-signatures-handmade-market",
+   "blurb": "Four-day juried holiday marketplace with 140+ Canadian artisans. Dates from a third-party listing; confirm with organizer.",
    "tags": [
     "tix"
    ],
@@ -4005,10 +3801,10 @@
    "title": "Protest The Hero",
    "date": "Nov 26",
    "dateISO": "2026-11-26",
-   "time": "7:00 PM",
+   "time": "",
    "venue": "Pyramid Cabaret",
    "url": "https://www.eventworld.com/protest-the-hero-winnipeg-bilety-11-26-2026/event/537970",
-   "blurb": "Canadian progressive metal band at the Pyramid.",
+   "blurb": "Canadian progressive metal band at the Pyramid Cabaret. Tickets from about $76.",
    "tags": [
     "tix"
    ],
@@ -4121,6 +3917,20 @@
    "venue": "Burton Cummings Theatre",
    "url": "https://www.songkick.com/concerts/43311521-faouzia-at-burton-cummings-theatre",
    "blurb": "Pop vocalist Faouzia backed by the WSO.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "Faouzia and the WSO",
+   "date": "Nov 27",
+   "dateISO": "2026-11-27",
+   "time": "7:30 pm",
+   "venue": "Burton Cummings Theatre",
+   "url": "https://www.burtoncummingstheatre.ca/event/faouzia-and-the-wso/",
+   "blurb": "Pop vocalist Faouzia joins the Winnipeg Symphony Orchestra.",
    "tags": [
     "tix"
    ],
@@ -4365,10 +4175,10 @@
    "title": "Sesame Street Live",
    "date": "Dec 5",
    "dateISO": "2026-12-05",
-   "time": "2:00 pm",
+   "time": "2:00 pm and 6:00 pm",
    "venue": "Burton Cummings Theatre",
    "url": "https://www.burtoncummingstheatre.ca/event/sesame-street-live/2026-12-05/1/",
-   "blurb": "Family show with Sesame Street characters.",
+   "blurb": "Elmo and friends in a live family stage show.",
    "tags": [
     "tix",
     "fam"
@@ -4555,6 +4365,20 @@
    "tags": [
     "tix",
     "fam"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "Once Upon an African Christmas",
+   "date": "Dec 12",
+   "dateISO": "2026-12-12",
+   "time": "",
+   "venue": "Saint Boniface Cathedral parish ballroom",
+   "url": "https://www.todocanada.ca/city/winnipeg/event/once-upon-an-african-christmas/",
+   "blurb": "Evening of African Christmas culture and celebration, 6-9 PM. Tickets $30.",
+   "tags": [
+    "tix"
    ],
    "sellout": false,
    "stream": "horizon"
@@ -5135,12 +4959,12 @@
   },
   {
    "title": "Hilary Duff: the lucky me tour",
-   "date": "Sat, Jan 30, 2027",
+   "date": "Jan 30",
    "dateISO": "2027-01-30",
    "time": "7:30 pm",
    "venue": "Canada Life Centre",
-   "url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-winnipeg-manitoba-01-30-2027/event/1100644ABDD62163?language=en-ca",
-   "blurb": "Pop tour stop at Canada Life Centre.",
+   "url": "https://www.canadalifecentre.ca/calendar-events/hilary-duff/",
+   "blurb": "Pop star Hilary Duff on her arena tour.",
    "tags": [
     "tix"
    ],
@@ -5235,10 +5059,10 @@
    "title": "Simple Plan with Yellowcard and Bowling for Soup",
    "date": "Feb 2",
    "dateISO": "2027-02-02",
-   "time": "7:00 PM",
+   "time": "7:00 pm",
    "venue": "Canada Life Centre",
    "url": "https://www.canadalifecentre.ca/calendar-events/simple-plan/",
-   "blurb": "Pop-punk package tour.",
+   "blurb": "A pop-punk nostalgia triple bill.",
    "tags": [
     "tix"
    ],
@@ -5406,16 +5230,16 @@
   },
   {
    "title": "Dropkick Murphys",
-   "date": "Feb 18",
+   "date": "Feb 18-19",
    "dateISO": "2027-02-18",
-   "time": "",
+   "time": "8:00 pm",
    "venue": "Burton Cummings Theatre",
-   "url": "https://www.songkick.com/concerts/43438529-dropkick-murphys-at-burton-cummings-theatre",
-   "blurb": "Celtic punk heavyweights Dropkick Murphys.",
+   "url": "https://www.burtoncummingstheatre.ca/event/dropkick-murphys-2/",
+   "blurb": "Boston Celtic-punk favourites play two nights.",
    "tags": [
     "tix"
    ],
-   "sellout": true,
+   "sellout": false,
    "stream": "horizon"
   },
   {
@@ -5461,6 +5285,20 @@
    "stream": "horizon"
   },
   {
+   "title": "Eluveitie and ILLUMISHADE",
+   "date": "Feb 21",
+   "dateISO": "2027-02-21",
+   "time": "",
+   "venue": "Park Theatre",
+   "url": "https://www.songkick.com/concerts/43417309-eluveitie-at-park-theatre",
+   "blurb": "Swiss Celtic folk-metal band Eluveitie on tour.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
    "title": "Behind the Moon",
    "date": "February 23 - March 7, 2027",
    "dateISO": "2027-02-23",
@@ -5492,14 +5330,14 @@
    "title": "Gerry Dee",
    "date": "Feb 27",
    "dateISO": "2027-02-27",
-   "time": "8:00 PM",
+   "time": "8:00 pm",
    "venue": "Burton Cummings Theatre",
    "url": "https://www.burtoncummingstheatre.ca/event/gerry-dee-2/",
-   "blurb": "Stand-up from the Canadian comedian.",
+   "blurb": "Canadian stand-up comedian Gerry Dee.",
    "tags": [
     "tix"
    ],
-   "sellout": true,
+   "sellout": false,
    "stream": "horizon"
   },
   {
@@ -5644,10 +5482,10 @@
    "title": "April Wine",
    "date": "Mar 13",
    "dateISO": "2027-03-13",
-   "time": "",
+   "time": "8:00 pm",
    "venue": "Burton Cummings Theatre",
-   "url": "https://www.songkick.com/concerts/43417341-april-wine-at-burton-cummings-theatre",
-   "blurb": "Canadian classic-rock staple.",
+   "url": "https://www.burtoncummingstheatre.ca/event/april-wine-3/",
+   "blurb": "Canadian classic-rock mainstays.",
    "tags": [
     "tix"
    ],
@@ -5697,6 +5535,20 @@
    "stream": "horizon"
   },
   {
+   "title": "Tommy Emmanuel, CGP",
+   "date": "Mar 17",
+   "dateISO": "2027-03-17",
+   "time": "8:00 pm",
+   "venue": "Burton Cummings Theatre",
+   "url": "https://www.burtoncummingstheatre.ca/event/tommy-emmanuel-cgp/",
+   "blurb": "The virtuoso fingerstyle guitarist live.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
    "title": "Death from Above 1979",
    "date": "Mar 20",
    "dateISO": "2027-03-20",
@@ -5714,10 +5566,10 @@
    "title": "Theory of a Deadman",
    "date": "Mar 20",
    "dateISO": "2027-03-20",
-   "time": "",
+   "time": "8:00 pm",
    "venue": "Burton Cummings Theatre",
-   "url": "https://www.songkick.com/concerts/43384757-theory-of-a-deadman-at-burton-cummings-theatre",
-   "blurb": "Hard-rock radio favourites.",
+   "url": "https://www.burtoncummingstheatre.ca/event/theory-of-a-deadman/",
+   "blurb": "Hard-rock hitmakers from Delta, BC.",
    "tags": [
     "tix"
    ],
@@ -5746,6 +5598,35 @@
    "venue": "Royal MTC, Mainstage",
    "url": "https://royalmtc.ca/Current-Plays/Waiting-for-Godot.aspx",
    "blurb": "Beckett classic on the Royal MTC Mainstage. Runs Mar 24 - Apr 17, 2027.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "Cirque Alice",
+   "date": "Apr 3-4",
+   "dateISO": "2027-04-03",
+   "time": "8:00 pm (Apr 3), 2:00 pm (Apr 4)",
+   "venue": "Burton Cummings Theatre",
+   "url": "https://www.burtoncummingstheatre.ca/event/cirque-alice/",
+   "blurb": "An Alice in Wonderland circus-theatre spectacle.",
+   "tags": [
+    "tix",
+    "fam"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "Tyler Hilton",
+   "date": "Apr 3",
+   "dateISO": "2027-04-03",
+   "time": "",
+   "venue": "Park Theatre",
+   "url": "https://www.songkick.com/concerts/43376898-tyler-hilton-at-park-theatre",
+   "blurb": "Singer-songwriter and One Tree Hill alum Tyler Hilton.",
    "tags": [
     "tix"
    ],
