@@ -1,384 +1,31 @@
 {
- "generated": "2026-10-29",
+ "generated": "2026-10-30",
  "window": {
-  "start": "2026-10-29",
-  "end": "2026-11-12",
-  "label": "October 29 – November 12, 2026"
+  "start": "2026-10-30",
+  "end": "2026-11-13",
+  "label": "October 30 – November 13, 2026"
  },
  "headwaters": [
   {
    "theme": "f1",
-   "tag": "This weekend · Indigenous culture",
+   "tag": "Now · Pow Wow",
    "title": "Manito Ahbee Pow Wow",
    "meta": "Oct 31 – Nov 1 · Canada Life Centre",
-   "blurb": "Two days of Grand Entries, dance competitions and drumming, with the Manito Ahbee Marketplace running Oct 30 – Nov 1.",
+   "blurb": "Grand Entries, dancers, drummers and an Indigenous marketplace downtown in Treaty 1 Territory.",
    "url": "https://www.manitoahbee.com/events/pow-wow/about",
-   "cta": "Plan your weekend →"
+   "cta": "See the pow wow →"
   },
   {
    "theme": "f2",
-   "tag": "Coming soon · Winter lights",
-   "title": "Zoo Lights",
-   "meta": "Opens Nov 20 · Assiniboine Park Zoo",
-   "blurb": "The annual winter light display opens Nov 20 and runs through Jan 3. Public ticket sales open Nov 4.",
-   "url": "https://www.assiniboinepark.ca/events/zoolights",
+   "tag": "This weekend · Pop Culture",
+   "title": "Winnipeg Comiccon",
+   "meta": "Oct 30 – Nov 1 · RBC Convention Centre",
+   "blurb": "Comics, cosplay, celebrity guests and vendors all weekend.",
+   "url": "https://www.travelmanitoba.com/events/winnipeg-comiccon/",
    "cta": "Get tickets →"
   }
  ],
  "events": [
-  {
-   "title": "Flora Luna – Album Release",
-   "date": "Thursday, October 29, 2026",
-   "dateISO": "2026-10-29",
-   "time": "8:00 PM",
-   "venue": "West End Cultural Centre",
-   "url": "https://www.wecc.ca/",
-   "blurb": "Winnipeg artist Flora Luna launches a new album at the WECC.",
-   "tags": [
-    "tix"
-   ],
-   "sellout": false,
-   "stream": "confluence"
-  },
-  {
-   "title": "Frightening 5er (night 5K, forest trails)",
-   "date": "Oct 29",
-   "dateISO": "2026-10-29",
-   "time": "6:00-8:00 pm",
-   "venue": "FortWhyte Alive",
-   "url": "https://www.fortwhyte.org/event/frightening-5er/",
-   "blurb": "Halloween-themed night 5K on FortWhyte's forest trails.",
-   "tags": [
-    "tix"
-   ],
-   "sellout": false,
-   "stream": "sky"
-  },
-  {
-   "title": "Frightening 5er Halloween 5K",
-   "date": "Oct 29",
-   "dateISO": "2026-10-29",
-   "time": "Evening",
-   "venue": "FortWhyte Alive (verify)",
-   "url": "https://findarace.com/ca/events/frightening-5er-2",
-   "blurb": "Costume-friendly 5K night run on spooky trails.",
-   "tags": [
-    "tix"
-   ],
-   "sellout": false,
-   "stream": "sky"
-  },
-  {
-   "title": "Frightening 5er Night Run",
-   "date": "Oct 29",
-   "dateISO": "2026-10-29",
-   "time": "6-8 pm",
-   "venue": "FortWhyte Alive",
-   "url": "https://www.fortwhyte.org/event/frightening-5er/",
-   "blurb": "Halloween night 5K on FortWhyte's forest trails, with the Manitoba Marathon.",
-   "tags": [
-    "tix"
-   ],
-   "sellout": false,
-   "stream": "sky"
-  },
-  {
-   "title": "Lectures & Lagers",
-   "date": "Oct 29",
-   "dateISO": "2026-10-29",
-   "time": "6:00 PM",
-   "venue": "The Forks Market",
-   "url": "https://www.theforks.com/events/calendar-of-events",
-   "blurb": "A talk from local experts paired with a curated beer selection from The Common, with proceeds to The Forks Foundation.",
-   "tags": [
-    "free",
-    "tix"
-   ],
-   "sellout": false,
-   "stream": "confluence"
-  },
-  {
-   "title": "Park Tots",
-   "date": "Oct 29",
-   "dateISO": "2026-10-29",
-   "time": "",
-   "venue": "Assiniboine Park",
-   "url": "https://www.assiniboinepark.ca/events/event/358",
-   "blurb": "Outdoor preschooler program in the park.",
-   "tags": [
-    "fam"
-   ],
-   "sellout": false,
-   "stream": "sky"
-  },
-  {
-   "title": "Revelations of Divine Love",
-   "date": "Oct 29-Nov 4",
-   "dateISO": "2026-10-29",
-   "time": "7:00 & 9:00 PM",
-   "venue": "Dave Barber Cinematheque (100 Arthur St)",
-   "url": "https://www.cinemaclock.com/movie-theaters/dave-barber-cinematheque",
-   "blurb": "A film screening running at the Cinematheque from October 29 through November 4.",
-   "tags": [
-    "tix"
-   ],
-   "sellout": false,
-   "stream": "deep"
-  },
-  {
-   "title": "Sarah Hiltz",
-   "date": "Oct 29",
-   "dateISO": "2026-10-29",
-   "time": "",
-   "venue": "Gordie's Coffeehouse (Gordon King Memorial United Church)",
-   "url": "https://songkick.com/concerts/43412913-sarah-hiltz-at-gordies-coffeehouse-gordon-king-memorial-united-church",
-   "blurb": "Singer-songwriter Sarah Hiltz at a cozy church-basement coffeehouse.",
-   "tags": [
-    "tix"
-   ],
-   "sellout": false,
-   "stream": "rapids"
-  },
-  {
-   "title": "Skratcher Winnipeg",
-   "date": "Oct 29",
-   "dateISO": "2026-10-29",
-   "time": "7:00 PM - 9:00 PM",
-   "venue": "The Event Space, The Forks Market (2nd floor)",
-   "url": "https://www.theforks.com/events/calendar-of-events",
-   "blurb": "A community networking night for DJs, part of Winnipeg's preserved DJ subculture.",
-   "tags": [],
-   "sellout": false,
-   "stream": "rapids"
-  },
-  {
-   "title": "The Annual DnD Improv Halloween Show",
-   "date": "Oct 29",
-   "dateISO": "2026-10-29",
-   "time": "",
-   "venue": "The Park Theatre",
-   "url": "https://spectaculos.ca/spectacle/the-annual-dnd-improv-halloween-show-winnipeg?d=132511",
-   "blurb": "Improv comedy in a Dungeons and Dragons style with a Halloween theme.",
-   "tags": [
-    "tix"
-   ],
-   "sellout": false,
-   "stream": "deep"
-  },
-  {
-   "title": "Vathek",
-   "date": "Oct 29",
-   "dateISO": "2026-10-29",
-   "time": "",
-   "venue": "Sidestage",
-   "url": "https://www.songkick.com/concerts/43341393-vathek-at-sidestage",
-   "blurb": "Vathek live at Sidestage.",
-   "tags": [
-    "tix"
-   ],
-   "sellout": false,
-   "stream": "rapids"
-  },
-  {
-   "title": "Winnipeg Public Library Pop-up at Assiniboine Park",
-   "date": "Thursdays, Oct 29 - Nov 25",
-   "dateISO": "2026-10-29",
-   "time": "",
-   "venue": "Assiniboine Park",
-   "url": "https://www.assiniboinepark.ca/events/event/137",
-   "blurb": "Library pop-up program in the park.",
-   "tags": [
-    "free",
-    "fam"
-   ],
-   "sellout": false,
-   "stream": "ripples"
-  },
-  {
-   "title": "Winnipeg Public Library Pop-up at The Leaf",
-   "date": "Oct 29 - Nov 25",
-   "dateISO": "2026-10-29",
-   "time": "",
-   "venue": "The Leaf, Assiniboine Park",
-   "url": "https://www.assiniboinepark.ca/events",
-   "blurb": "Library pop-up with books and programming, Oct 29 through Nov 25.",
-   "tags": [
-    "fam",
-    "free"
-   ],
-   "sellout": false,
-   "stream": "ripples"
-  },
-  {
-   "title": "Witchy Wonderland (second weekend)",
-   "date": "Oct 29-31",
-   "dateISO": "2026-10-29",
-   "time": "Oct 29-30 5-9pm; Oct 31 1-6pm",
-   "venue": "Red River Exhibition Park, 3977 Portage Ave",
-   "url": "https://www.todocanada.ca/witchy-wonderland-26/",
-   "blurb": "Final Halloween-weekend run with Halloween train, inflatables, costumed characters and entertainment. $20 ages 3+, free ages 2 and under.",
-   "tags": [
-    "tix",
-    "fam"
-   ],
-   "sellout": false,
-   "stream": "ripples"
-  },
-  {
-   "title": "Flora Luna Album Release w/ KC is Lazy",
-   "date": "Oct 29",
-   "dateISO": "2026-10-29",
-   "time": "8:00 PM",
-   "venue": "West End Cultural Centre",
-   "url": "https://www.wecc.ca/events",
-   "blurb": "Album release show for Flora Luna with KC is Lazy.",
-   "tags": [
-    "tix"
-   ],
-   "sellout": false,
-   "stream": "rapids"
-  },
-  {
-   "title": "Frightening 5er Night Trail Run",
-   "date": "Oct 29",
-   "dateISO": "2026-10-29",
-   "time": "6:00-8:00 pm",
-   "venue": "FortWhyte Alive",
-   "url": "https://www.fortwhyte.org/event/frightening-5er/",
-   "blurb": "A night 5K on FortWhyte's forest trails.",
-   "tags": [
-    "tix"
-   ],
-   "sellout": false,
-   "stream": "sky"
-  },
-  {
-   "title": "Flora Luna - Album Release w/ KC is Lazy",
-   "date": "Oct 29",
-   "dateISO": "2026-10-29",
-   "time": "8:00 PM",
-   "venue": "West End Cultural Centre",
-   "url": "https://www.wecc.ca/",
-   "blurb": "Album release show for Flora Luna with KC is Lazy.",
-   "tags": [
-    "tix"
-   ],
-   "sellout": false,
-   "stream": "rapids"
-  },
-  {
-   "title": "Cyrano de Bergerac",
-   "date": "Through Nov 1",
-   "dateISO": "2026-10-29",
-   "time": "",
-   "venue": "Royal MTC, John Hirsch Mainstage",
-   "url": "https://royalmtc.ca",
-   "blurb": "Royal MTC mainstage production in its final week; closes Nov 1.",
-   "tags": [
-    "tix"
-   ],
-   "sellout": false,
-   "stream": "deep"
-  },
-  {
-   "title": "Goblin:Macbeth",
-   "date": "Through Nov 8",
-   "dateISO": "2026-10-29",
-   "time": "",
-   "venue": "Royal MTC, Tom Hendry Warehouse",
-   "url": "https://royalmtc.ca",
-   "blurb": "Spontaneous theatre creation by Rebecca Northan and Bruce Horak, selling fast. Runs to Nov 8.",
-   "tags": [
-    "tix"
-   ],
-   "sellout": false,
-   "stream": "deep"
-  },
-  {
-   "title": "Group exhibition on the sacred",
-   "date": "Through Nov 26",
-   "dateISO": "2026-10-29",
-   "time": "",
-   "venue": "Galerie Buhler Gallery",
-   "url": "https://galeriebuhlergallery.ca/",
-   "blurb": "Group show on the sacred by contemporary Canadian artists. Runs through Nov 26.",
-   "tags": [
-    "free"
-   ],
-   "sellout": false,
-   "stream": "deep"
-  },
-  {
-   "title": "Takashi Iwasaki: Music in My Head",
-   "date": "Through Nov 9",
-   "dateISO": "2026-10-29",
-   "time": "",
-   "venue": "Two Two Six Gallery",
-   "url": "https://winnipegarts.ca/billboard",
-   "blurb": "Exhibition at Two Two Six Gallery, to Nov 9.",
-   "tags": [
-    "free"
-   ],
-   "sellout": false,
-   "stream": "deep"
-  },
-  {
-   "title": "SO BELOW: Vincent Wolfgang",
-   "date": "Through Nov 14",
-   "dateISO": "2026-10-29",
-   "time": "",
-   "venue": "Urban Shaman Gallery",
-   "url": "https://winnipegarts.ca/billboard",
-   "blurb": "Exhibition at Urban Shaman Gallery, to Nov 14.",
-   "tags": [
-    "free"
-   ],
-   "sellout": false,
-   "stream": "deep"
-  },
-  {
-   "title": "Maya de Forest: my brain like strips of confetti",
-   "date": "Through Jan 15",
-   "dateISO": "2026-10-29",
-   "time": "",
-   "venue": "School of Art Gallery, University of Manitoba",
-   "url": "https://winnipegarts.ca/billboard",
-   "blurb": "Exhibition opening Oct 29, running through Jan 15.",
-   "tags": [
-    "free"
-   ],
-   "sellout": false,
-   "stream": "deep"
-  },
-  {
-   "title": "Frightening 5er at FortWhyte Alive",
-   "date": "Oct 29",
-   "dateISO": "2026-10-29",
-   "time": "6:00-8:00 pm",
-   "venue": "FortWhyte Alive",
-   "url": "https://www.fortwhyte.org/event/frightening-5er/",
-   "blurb": "Evening Halloween-season outing at FortWhyte Alive.",
-   "tags": [
-    "tix"
-   ],
-   "sellout": false,
-   "stream": "sky"
-  },
-  {
-   "title": "Boo at the Zoo",
-   "date": "Through Oct 31",
-   "dateISO": "2026-10-29",
-   "time": "",
-   "venue": "Assiniboine Park Zoo",
-   "url": "https://www.assiniboinepark.ca/events/boo-at-the-zoo",
-   "blurb": "Halloween family event at the zoo with costumed characters, games and displays; wraps up Oct 31. Confirm times.",
-   "tags": [
-    "fam",
-    "tix"
-   ],
-   "sellout": false,
-   "stream": "ripples"
-  },
   {
    "title": "Candlelight: A Haunted Evening of Halloween Classics",
    "date": "Oct 30",
@@ -699,6 +346,20 @@
    "stream": "confluence"
   },
   {
+   "title": "Gimme Some Truth Documentary Festival (17th annual)",
+   "date": "Oct 30 - Nov 1",
+   "dateISO": "2026-10-30",
+   "time": "",
+   "venue": "Dave Barber Cinematheque",
+   "url": "https://davebarbercinematheque.com/",
+   "blurb": "The Cinematheque's annual documentary festival runs through Sunday, November 1.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "deep"
+  },
+  {
    "title": "Begotten (4K Restoration)",
    "date": "Oct 31",
    "dateISO": "2026-10-31",
@@ -962,13 +623,13 @@
    "stream": "confluence"
   },
   {
-   "title": "Saturday Morning All-You-Can-Eat Cereal Cartoon Party: Halloween Edition",
+   "title": "Saturday Morning All-You-Can-Eat-Cereal Cartoon Party: Halloween Edition",
    "date": "Oct 31",
    "dateISO": "2026-10-31",
-   "time": "10:00 AM",
+   "time": "",
    "venue": "Dave Barber Cinematheque",
-   "url": "https://davebarbercinematheque.com/movies/the-saturday-morning-all-you-can-eat-cereal-cartoon-party-halloween-edition/",
-   "blurb": "Halloween edition of the cartoon and cereal party; showtime not yet listed.",
+   "url": "https://davebarbercinematheque.com/",
+   "blurb": "A Halloween edition of the Cinematheque's Saturday-morning cartoon and cereal party.",
    "tags": [
     "fam",
     "tix"
@@ -1164,6 +825,21 @@
    ],
    "sellout": false,
    "stream": "sky"
+  },
+  {
+   "title": "Manito Ahbee Pow Wow (Grand Entries)",
+   "date": "Oct 31 - Nov 1",
+   "dateISO": "2026-10-31",
+   "time": "Grand Entries Sat Oct 31 and Sun Nov 1 (times TBA)",
+   "venue": "Canada Life Centre, Winnipeg",
+   "url": "https://www.manitoahbee.com/events/pow-wow/about",
+   "blurb": "The Manito Ahbee Festival's competition pow wow brings dancers, drummers and a marketplace to downtown Winnipeg in Treaty 1 Territory.",
+   "tags": [
+    "tix",
+    "fam"
+   ],
+   "sellout": false,
+   "stream": "deep"
   },
   {
    "title": "Bison Bus Tour (Nov 1)",
@@ -1464,6 +1140,20 @@
    "stream": "ripples"
   },
   {
+   "title": "Allison Russell: In The Hour of Chaos Tour",
+   "date": "Nov 3",
+   "dateISO": "2026-11-03",
+   "time": "8:30 PM",
+   "venue": "Burton Cummings Theatre",
+   "url": "https://www.livenation.com/venue/KovZpaK1we/burton-cummings-theatre-events",
+   "blurb": "The Grammy-nominated singer-songwriter brings her genre-crossing tour to the Burton.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "rapids"
+  },
+  {
    "title": "Beginner D&D",
    "date": "Nov 4",
    "dateISO": "2026-11-04",
@@ -1604,12 +1294,12 @@
   },
   {
    "title": "Astronomy Night",
-   "date": "Nov 5",
+   "date": "Thu, Nov 5",
    "dateISO": "2026-11-05",
-   "time": "6-9 pm",
+   "time": "6:00-9:00 pm",
    "venue": "FortWhyte Alive",
    "url": "https://www.fortwhyte.org/event/astronomy-night/2026-11-05/",
-   "blurb": "Evening stargazing at FortWhyte Alive.",
+   "blurb": "An evening of stargazing and night-sky programming.",
    "tags": [
     "tix"
    ],
@@ -1770,6 +1460,20 @@
    ],
    "sellout": false,
    "stream": "rapids"
+  },
+  {
+   "title": "Masao Adachi Takes a Passport Photo (Gimme Some Truth)",
+   "date": "Nov 5",
+   "dateISO": "2026-11-05",
+   "time": "",
+   "venue": "Dave Barber Cinematheque",
+   "url": "https://davebarbercinematheque.com/",
+   "blurb": "A Gimme Some Truth documentary screening at the Cinematheque.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "deep"
   },
   {
    "title": "ABBA Revisited",
@@ -2007,13 +1711,25 @@
    "dateISO": "2026-11-06",
    "time": "7:00 PM",
    "venue": "The Common, The Forks Market",
-   "url": "https://www.theforks.com/events",
-   "blurb": "Final tasting of the UnCommon Pours series; reservations required.",
+   "url": "https://www.theforks.com/events/calendar-of-events/event/1252",
+   "blurb": "Final installment of The Common's UnCommon Pours tasting series, themed around wine and winter.",
    "tags": [
     "tix"
    ],
    "sellout": false,
    "stream": "confluence"
+  },
+  {
+   "title": "Leon's Getting Larger w/ Synthetic Friend & We're Only Here for the Snacks",
+   "date": "Nov 6",
+   "dateISO": "2026-11-06",
+   "time": "7:00 PM",
+   "venue": "The Handsome Daughter",
+   "url": "https://www.songkick.com/metro-areas/27403-canada-winnipeg",
+   "blurb": "Local indie bill at the Handsome Daughter.",
+   "tags": [],
+   "sellout": false,
+   "stream": "rapids"
   },
   {
    "title": "2026 Manitoba Country Music Awards",
@@ -2060,17 +1776,18 @@
   },
   {
    "title": "Bison Walk for World Bison Day",
-   "date": "Nov 7",
+   "date": "Sat, Nov 7",
    "dateISO": "2026-11-07",
    "time": "10:30-11:30 am",
    "venue": "FortWhyte Alive",
    "url": "https://www.fortwhyte.org/event/world-bison-day/2026-11-07/1/",
-   "blurb": "Guided bison walk marking World Bison Day.",
+   "blurb": "A guided walk to meet FortWhyte's bison herd.",
    "tags": [
+    "fam",
     "tix"
    ],
    "sellout": false,
-   "stream": "horizon"
+   "stream": "sky"
   },
   {
    "title": "Clayton Bellamy",
@@ -2302,10 +2019,10 @@
    "title": "Laura Ramoso",
    "date": "Nov 7",
    "dateISO": "2026-11-07",
-   "time": "",
+   "time": "7:00 PM",
    "venue": "Burton Cummings Theatre",
    "url": "https://www.burtoncummingstheatre.ca/event/laura-ramoso/",
-   "blurb": "Stand-up comedy night with Laura Ramoso.",
+   "blurb": "Stand-up comedian Laura Ramoso plays a one-night show.",
    "tags": [
     "tix"
    ],
@@ -2339,6 +2056,21 @@
    ],
    "sellout": false,
    "stream": "deep"
+  },
+  {
+   "title": "Bonfire Marshmallow Roast",
+   "date": "Sat, Nov 7",
+   "dateISO": "2026-11-07",
+   "time": "12:00-3:00 pm",
+   "venue": "FortWhyte Alive",
+   "url": "https://www.fortwhyte.org/event/marshmallow-roast-2/2026-11-07/",
+   "blurb": "Roast marshmallows over an open bonfire in the forest.",
+   "tags": [
+    "fam",
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "sky"
   },
   {
    "title": "Arch Enemy & The Black Dahlia Murder",
@@ -2403,9 +2135,9 @@
    "date": "Nov 8-14",
    "dateISO": "2026-11-08",
    "time": "",
-   "venue": "2005 St. Mary's Rd",
+   "venue": "St. Vital Evangelical Mennonite Church, Winnipeg",
    "url": "https://www.todocanada.ca/city/winnipeg/christmas-markets/",
-   "blurb": "Christmas market with local vendors, free admission.",
+   "blurb": "A free-admission Christmas market with local vendors running all week.",
    "tags": [
     "free",
     "fam"
@@ -2461,10 +2193,11 @@
    "dateISO": "2026-11-08",
    "time": "5:00 PM",
    "venue": "Canada Life Centre",
-   "url": "https://www.canadalifecentre.ca/events/jets-events/",
-   "blurb": "Home game at Canada Life Centre. Verify puck-drop time.",
+   "url": "https://www.nhl.com/jets/schedule",
+   "blurb": "An early Sunday evening NHL matchup against the Lightning.",
    "tags": [
-    "tix"
+    "tix",
+    "fam"
    ],
    "sellout": false,
    "stream": "roar"
@@ -2483,6 +2216,36 @@
    ],
    "sellout": false,
    "stream": "ripples"
+  },
+  {
+   "title": "Bison Bus Tour",
+   "date": "Sundays in Nov (Nov 8, 15, 22, 29)",
+   "dateISO": "2026-11-08",
+   "time": "10:30 am and 1:30 pm",
+   "venue": "FortWhyte Alive",
+   "url": "https://www.fortwhyte.org/event/bison-bus-tour-2/2026-11-08/1/",
+   "blurb": "A bus tour through the bison paddock with a FortWhyte guide.",
+   "tags": [
+    "fam",
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "sky"
+  },
+  {
+   "title": "Guided Dipnetting",
+   "date": "Sun, Nov 8",
+   "dateISO": "2026-11-08",
+   "time": "1:00-3:00 pm",
+   "venue": "FortWhyte Alive",
+   "url": "https://www.fortwhyte.org/event/guided-dipnetting-3/2026-11-08/",
+   "blurb": "Explore the lake's aquatic life with nets in a guided session.",
+   "tags": [
+    "fam",
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "sky"
   },
   {
    "title": "Arkells",
@@ -2553,6 +2316,21 @@
    ],
    "sellout": false,
    "stream": "roar"
+  },
+  {
+   "title": "Orienteering Adventure",
+   "date": "Tue, Nov 10",
+   "dateISO": "2026-11-10",
+   "time": "9:30 am-4:30 pm",
+   "venue": "FortWhyte Alive",
+   "url": "https://www.fortwhyte.org/event/orienteering-adventure-3/2026-11-10/",
+   "blurb": "A full-day map-and-compass outing across FortWhyte's trails.",
+   "tags": [
+    "fam",
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "sky"
   },
   {
    "title": "Arkells",
@@ -2808,6 +2586,20 @@
    "stream": "rapids"
   },
   {
+   "title": "Arkells: The Between Us Tour",
+   "date": "Nov 12",
+   "dateISO": "2026-11-12",
+   "time": "9 PM",
+   "venue": "Burton Cummings Theatre",
+   "url": "https://www.livenation.com/venue/KovZpaK1we/burton-cummings-theatre-events",
+   "blurb": "Hamilton rock favourites Arkells play the Burton.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "rapids"
+  },
+  {
    "title": "All-4-One",
    "date": "Nov 13",
    "dateISO": "2026-11-13",
@@ -2947,6 +2739,20 @@
    ],
    "sellout": true,
    "stream": "horizon"
+  },
+  {
+   "title": "Begonia: The Fantasy Life Tour",
+   "date": "Nov 13-14",
+   "dateISO": "2026-11-13",
+   "time": "9 PM",
+   "venue": "Burton Cummings Theatre",
+   "url": "https://www.livenation.com/venue/KovZpaK1we/burton-cummings-theatre-events",
+   "blurb": "Winnipeg's own Begonia plays two homecoming nights.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "rapids"
   },
   {
    "title": "All-4-One",
@@ -3323,8 +3129,9 @@
    "time": "11:00 AM - 2:30 PM",
    "venue": "The Event Space, The Forks Market",
    "url": "https://www.theforks.com/events/calendar-of-events/event/1318",
-   "blurb": "Open table tennis tournament for all ages and skill levels.",
+   "blurb": "A drop-in table tennis tournament held above The Forks Market.",
    "tags": [
+    "free",
     "fam"
    ],
    "sellout": false,
@@ -3339,6 +3146,35 @@
    "url": "https://comedy.tickets/event/jimmy-carr-winnipeg-saturday-november-14-2026-700-pm/?pid=2223",
    "blurb": "Two shows. Tickets from $53.",
    "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "Christmas Market at Mennonite Heritage Village",
+   "date": "Nov 14",
+   "dateISO": "2026-11-14",
+   "time": "",
+   "venue": "Mennonite Heritage Village, Steinbach",
+   "url": "https://www.todocanada.ca/city/winnipeg/christmas-markets/",
+   "blurb": "Over 40 vendors plus a hot lunch available for purchase at the Steinbach heritage village.",
+   "tags": [
+    "fam"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "Forest Frolics",
+   "date": "Sat, Nov 14",
+   "dateISO": "2026-11-14",
+   "time": "10:30 am and 1:30 pm",
+   "venue": "FortWhyte Alive",
+   "url": "https://www.fortwhyte.org/event/forest-frolics/2026-11-14/1/",
+   "blurb": "A nature-play session in the forest for little explorers.",
+   "tags": [
+    "fam",
     "tix"
    ],
    "sellout": false,
@@ -3433,8 +3269,25 @@
    "time": "1:00 PM - 4:00 PM",
    "venue": "Explore Indigenous / Turtle Tours, The Forks",
    "url": "https://www.theforks.com/events/calendar-of-events/event/1313",
-   "blurb": "Community beading circle at The Forks.",
-   "tags": [],
+   "blurb": "A beading circle at The Forks hosted by Explore Indigenous.",
+   "tags": [
+    "fam"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "Kids Nature Craft",
+   "date": "Sun, Nov 15",
+   "dateISO": "2026-11-15",
+   "time": "12:30-3:30 pm",
+   "venue": "FortWhyte Alive",
+   "url": "https://www.fortwhyte.org/event/kids-nature-craft/2026-11-15/",
+   "blurb": "Hands-on nature crafts for kids.",
+   "tags": [
+    "fam",
+    "tix"
+   ],
    "sellout": false,
    "stream": "horizon"
   },
@@ -3668,6 +3521,34 @@
    "venue": "Canada Life Centre",
    "url": "https://www.canadalifecentre.ca/events/jets-events/",
    "blurb": "Home game at Canada Life Centre. Verify puck-drop time.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "Winnipeg Jets Pride Night vs. New York",
+   "date": "Nov 19",
+   "dateISO": "2026-11-19",
+   "time": "6:00 PM",
+   "venue": "Canada Life Centre",
+   "url": "https://www.nhl.com/jets/schedule",
+   "blurb": "The Jets' Pride Night game (opponent listed as New York; team needs confirming).",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "Sam Roberts Band: Chemical City 20th Anniversary Tour",
+   "date": "Nov 19",
+   "dateISO": "2026-11-19",
+   "time": "9 PM",
+   "venue": "Burton Cummings Theatre",
+   "url": "https://www.livenation.com/venue/KovZpaK1we/burton-cummings-theatre-events",
+   "blurb": "Sam Roberts Band celebrates 20 years of Chemical City.",
    "tags": [
     "tix"
    ],
@@ -3931,10 +3812,10 @@
    "title": "Killers of Kill Tony",
    "date": "Nov 20",
    "dateISO": "2026-11-20",
-   "time": "9:30 PM",
+   "time": "7:00 PM and 9:30 PM",
    "venue": "Burton Cummings Theatre",
-   "url": "https://www.burtoncummingstheatre.ca/event/killers-of-kill-tony/2026-11-20/2/",
-   "blurb": "Touring stand-up show from the Kill Tony podcast.",
+   "url": "https://www.burtoncummingstheatre.ca/event/killers-of-kill-tony/2026-11-20/1/",
+   "blurb": "Regulars from the Kill Tony live podcast bring their stand-up tour for two shows.",
    "tags": [
     "tix"
    ],
@@ -3953,6 +3834,18 @@
     "tix",
     "fam"
    ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "Nature Shop Holiday Shopping Weekend",
+   "date": "Nov 20-23",
+   "dateISO": "2026-11-20",
+   "time": "All day",
+   "venue": "FortWhyte Alive",
+   "url": "https://www.fortwhyte.org/event/holiday-shopping-weekend/",
+   "blurb": "Holiday shopping weekend at the FortWhyte Nature Shop.",
+   "tags": [],
    "sellout": false,
    "stream": "horizon"
   },
@@ -4047,8 +3940,8 @@
    "dateISO": "2026-11-21",
    "time": "6:00 PM",
    "venue": "Canada Life Centre",
-   "url": "https://www.canadalifecentre.ca/events/jets-events/",
-   "blurb": "Home game at Canada Life Centre. Verify puck-drop time.",
+   "url": "https://www.nhl.com/jets/schedule",
+   "blurb": "A Saturday night game against a Western Conference contender.",
    "tags": [
     "tix"
    ],
@@ -4411,12 +4304,12 @@
   },
   {
    "title": "Anne of Green Gables - The Musical",
-   "date": "Nov 25",
+   "date": "Nov 25 - Dec 19",
    "dateISO": "2026-11-25",
-   "time": "",
+   "time": "7:30 pm evenings; 1 or 2 pm matinees",
    "venue": "Royal MTC, John Hirsch Mainstage",
    "url": "https://royalmtc.ca/Current-Plays/Anne-of-Green-Gables-The-Musical.aspx",
-   "blurb": "Holiday-season family musical. Runs Nov 25 to Dec 20.",
+   "blurb": "Royal MTC's holiday musical on the Mainstage (playbill gives a Dec 19 close; ticketing lists Dec 20).",
    "tags": [
     "tix",
     "fam"
@@ -4432,6 +4325,34 @@
    "venue": "Burton Cummings Theatre",
    "url": "https://www.burtoncummingstheatre.ca/event/raine-maida-and-chantal-kreviazuk/",
    "blurb": "Intimate theatre show.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "An Evening with Raine Maida & Chantal Kreviazuk",
+   "date": "Nov 25",
+   "dateISO": "2026-11-25",
+   "time": "9 PM",
+   "venue": "Burton Cummings Theatre",
+   "url": "https://www.livenation.com/venue/KovZpaK1we/burton-cummings-theatre-events",
+   "blurb": "The Canadian power couple perform an intimate evening of songs and stories.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "The Tenors: Season of Hope",
+   "date": "Nov 25",
+   "dateISO": "2026-11-25",
+   "time": "7 PM",
+   "venue": "Club Regent Event Centre",
+   "url": "https://www.concertarchives.org/venues/club-regent-event-centre",
+   "blurb": "The Canadian vocal group's holiday tour arrives at Club Regent.",
    "tags": [
     "tix"
    ],
@@ -4532,6 +4453,20 @@
    "venue": "Park Theatre",
    "url": "https://www.songkick.com/concerts/43404799-boy-golden-at-park-theatre",
    "blurb": "Boy Golden, third night.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "Protest the Hero w/ Royal Tusk & Kaonashi",
+   "date": "Nov 26",
+   "dateISO": "2026-11-26",
+   "time": "",
+   "venue": "Pyramid Cabaret",
+   "url": "https://www.songkick.com/venues/31673-pyramid-cabaret",
+   "blurb": "Canadian progressive metal band headlines the Pyramid.",
    "tags": [
     "tix"
    ],
@@ -4714,7 +4649,7 @@
    "time": "8:00 AM - 10:00 AM",
    "venue": "The Event Space, The Forks Market",
    "url": "https://www.theforks.com/events/calendar-of-events/event/1225",
-   "blurb": "Morning creative community talk and networking.",
+   "blurb": "A morning creative-community talk and coffee gathering.",
    "tags": [
     "free"
    ],
@@ -4740,10 +4675,10 @@
    "title": "Adrian Sutherland & Jade Turner",
    "date": "Nov 28",
    "dateISO": "2026-11-28",
-   "time": "See listings",
-   "venue": "West End Cultural Centre (586 Ellice Ave)",
-   "url": "https://www.wecc.ca/",
-   "blurb": "A double bill pairing Adrian Sutherland and Jade Turner.",
+   "time": "8:00 PM",
+   "venue": "West End Cultural Centre",
+   "url": "https://www.wecc.ca/events",
+   "blurb": "Cree singer-songwriter Adrian Sutherland shares the stage with Jade Turner.",
    "tags": [
     "tix"
    ],
@@ -4906,6 +4841,20 @@
    "stream": "horizon"
   },
   {
+   "title": "Amanda Marshall: The Dirty 30 Tour",
+   "date": "Nov 28",
+   "dateISO": "2026-11-28",
+   "time": "8:30 PM",
+   "venue": "Burton Cummings Theatre",
+   "url": "https://www.livenation.com/venue/KovZpaK1we/burton-cummings-theatre-events",
+   "blurb": "The powerhouse vocalist marks 30 years since her debut.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
    "title": "Carve a Diamond Willow Walking Stick",
    "date": "Sun, Nov 29",
    "dateISO": "2026-11-29",
@@ -5007,6 +4956,20 @@
    "stream": "horizon"
   },
   {
+   "title": "Celebrating 60 Years of FortWhyte Alive",
+   "date": "Sun, Nov 29",
+   "dateISO": "2026-11-29",
+   "time": "9:00 am-5:00 pm",
+   "venue": "FortWhyte Alive",
+   "url": "https://www.fortwhyte.org/event/60/",
+   "blurb": "A day-long celebration of FortWhyte Alive's 60th anniversary.",
+   "tags": [
+    "fam"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
    "title": "GWAR",
    "date": "Monday, November 30, 2026",
    "dateISO": "2026-11-30",
@@ -5063,13 +5026,13 @@
    "stream": "horizon"
   },
   {
-   "title": "Winnipeg Jets vs Chicago Blackhawks",
+   "title": "Winnipeg Jets vs. Chicago Blackhawks",
    "date": "Nov 30",
    "dateISO": "2026-11-30",
    "time": "6:30 PM",
    "venue": "Canada Life Centre",
    "url": "https://www.nhl.com/jets/schedule",
-   "blurb": "NHL home game vs Chicago Blackhawks.",
+   "blurb": "The Jets close out November at home against the Blackhawks.",
    "tags": [
     "tix"
    ],
@@ -5264,9 +5227,9 @@
    "date": "Dec 4",
    "dateISO": "2026-12-04",
    "time": "",
-   "venue": "Park Theatre",
-   "url": "https://www.songkick.com/concerts/43449641-slow-leaves-at-park-theatre",
-   "blurb": "Indie-folk songwriter Slow Leaves.",
+   "venue": "The Park Theatre",
+   "url": "https://myparktheatre.com/tm_tags/winnipeg-live-music/",
+   "blurb": "Winnipeg-bred indie folk songwriter plays the Park Theatre.",
    "tags": [
     "tix"
    ],
@@ -5542,13 +5505,27 @@
    "stream": "horizon"
   },
   {
-   "title": "Curubande Allstars: Concurso de Salsa",
+   "title": "Bicycle Face Christmas",
+   "date": "Dec 11",
+   "dateISO": "2026-12-11",
+   "time": "8:00 PM",
+   "venue": "West End Cultural Centre",
+   "url": "https://www.wecc.ca/events",
+   "blurb": "A holiday-season show at the WECC.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "Curubande Allstars, Concurso de salsa",
    "date": "Dec 12",
    "dateISO": "2026-12-12",
    "time": "8:00 PM",
    "venue": "West End Cultural Centre",
    "url": "https://www.wecc.ca/events",
-   "blurb": "Live at the West End Cultural Centre.",
+   "blurb": "Latin dance night with a salsa contest.",
    "tags": [
     "tix"
    ],
@@ -5681,6 +5658,20 @@
    "tags": [
     "tix",
     "fam"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "Choir! Choir! Choir!: Un-Silent Night Holiday Sing-Along",
+   "date": "Dec 15",
+   "dateISO": "2026-12-15",
+   "time": "9 PM",
+   "venue": "Burton Cummings Theatre",
+   "url": "https://www.livenation.com/venue/KovZpaK1we/burton-cummings-theatre-events",
+   "blurb": "A huge crowd sing-along of holiday favourites led by the Toronto collective.",
+   "tags": [
+    "tix"
    ],
    "sellout": false,
    "stream": "horizon"
@@ -5844,13 +5835,13 @@
    "stream": "horizon"
   },
   {
-   "title": "Red Moon Road: A Simple Kind of Christmas",
+   "title": "Red Moon Road, A Simple Kind of Christmas",
    "date": "Dec 19",
    "dateISO": "2026-12-19",
    "time": "8:00 PM",
    "venue": "West End Cultural Centre",
    "url": "https://www.wecc.ca/events",
-   "blurb": "Live at the West End Cultural Centre.",
+   "blurb": "Red Moon Road's annual holiday concert.",
    "tags": [
     "tix"
    ],
@@ -5867,6 +5858,21 @@
    "blurb": "Pre-Christmas weekend game against the Stars (also Dec 20).",
    "tags": [
     "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "Winnipeg Jets vs. Dallas Stars (2-game weekend)",
+   "date": "Dec 19-20",
+   "dateISO": "2026-12-19",
+   "time": "",
+   "venue": "Canada Life Centre",
+   "url": "https://www.nhl.com/jets/schedule",
+   "blurb": "Back-to-back home games against the Stars on the pre-Christmas weekend.",
+   "tags": [
+    "tix",
+    "fam"
    ],
    "sellout": false,
    "stream": "horizon"
@@ -5946,10 +5952,10 @@
    "title": "Trooper",
    "date": "Dec 30",
    "dateISO": "2026-12-30",
-   "time": "",
+   "time": "9 PM",
    "venue": "Burton Cummings Theatre",
-   "url": "https://www.songkick.com/concerts/43430760-trooper-at-burton-cummings-theatre",
-   "blurb": "Classic Canadian rockers Trooper close out the year.",
+   "url": "https://www.livenation.com/venue/KovZpaK1we/burton-cummings-theatre-events",
+   "blurb": "Canadian rock staple Trooper rings out the year with its hits.",
    "tags": [
     "tix"
    ],
@@ -6016,6 +6022,21 @@
    "stream": "horizon"
   },
   {
+   "title": "Manitoba Moose New Year's Eve Party vs. Abbotsford Canucks",
+   "date": "Dec 31",
+   "dateISO": "2026-12-31",
+   "time": "",
+   "venue": "Canada Life Centre",
+   "url": "https://www.moosehockey.com/schedule/",
+   "blurb": "The Moose's annual New Year's Eve theme game, part of a 10-game home stand Dec 12 to Jan 10.",
+   "tags": [
+    "tix",
+    "fam"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
    "title": "Manitoba Moose vs Calgary Wranglers",
    "date": "Fri, Jan 1",
    "dateISO": "2027-01-01",
@@ -6073,6 +6094,20 @@
    "stream": "horizon"
   },
   {
+   "title": "Winnipeg Jets vs. Nashville Predators",
+   "date": "Jan 7",
+   "dateISO": "2027-01-07",
+   "time": "6:00 PM",
+   "venue": "Canada Life Centre",
+   "url": "https://www.nhl.com/jets/schedule",
+   "blurb": "The Jets host the Predators on a Thursday night.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
    "title": "M is for Music (Winnipeg Symphony Orchestra)",
    "date": "Jan 9",
    "dateISO": "2027-01-09",
@@ -6083,6 +6118,20 @@
    "tags": [
     "tix",
     "fam"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "Winnipeg Jets vs. Utah",
+   "date": "Jan 9",
+   "dateISO": "2027-01-09",
+   "time": "6:00 PM",
+   "venue": "Canada Life Centre",
+   "url": "https://www.nhl.com/jets/schedule",
+   "blurb": "A second Saturday-night meeting with Utah this season.",
+   "tags": [
+    "tix"
    ],
    "sellout": false,
    "stream": "horizon"
@@ -6123,6 +6172,20 @@
    "venue": "Prairie Theatre Exchange, Winnipeg",
    "url": "https://www.pte.mb.ca/2026-2027",
    "blurb": "The Johnna Wright and Patty Jamieson reimagining of the classic psychological thriller comes to PTE.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "Winnipeg Jets vs. Minnesota Wild",
+   "date": "Jan 19",
+   "dateISO": "2027-01-19",
+   "time": "6:00 PM",
+   "venue": "Canada Life Centre",
+   "url": "https://www.nhl.com/jets/schedule",
+   "blurb": "A divisional rivalry game against the Wild.",
    "tags": [
     "tix"
    ],
@@ -6181,6 +6244,21 @@
    "blurb": "Indie songwriter Bill Callahan.",
    "tags": [
     "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "Winnipeg Jets vs. Buffalo Sabres",
+   "date": "Jan 24",
+   "dateISO": "2027-01-24",
+   "time": "2:00 PM",
+   "venue": "Canada Life Centre",
+   "url": "https://www.nhl.com/jets/schedule",
+   "blurb": "A Sunday afternoon matinee, a good pick for families.",
+   "tags": [
+    "tix",
+    "fam"
    ],
    "sellout": false,
    "stream": "horizon"
@@ -6285,6 +6363,20 @@
    "stream": "horizon"
   },
   {
+   "title": "Hilary Duff with Lauren Spencer Smith",
+   "date": "Jan 30",
+   "dateISO": "2027-01-30",
+   "time": "7:30 PM",
+   "venue": "Canada Life Centre",
+   "url": "https://www.ticketsonsale.com/venues/canada-life-centre",
+   "blurb": "The pop star's arena tour stops in Winnipeg with Lauren Spencer Smith opening.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
    "title": "Reframed",
    "date": "Until January 2027",
    "dateISO": "2027-01-31",
@@ -6352,6 +6444,20 @@
     "tix"
    ],
    "sellout": true,
+   "stream": "horizon"
+  },
+  {
+   "title": "Yellowcard & Simple Plan",
+   "date": "Feb 2",
+   "dateISO": "2027-02-02",
+   "time": "7 PM",
+   "venue": "Canada Life Centre",
+   "url": "https://concertfix.com/concerts/winnipeg-mb",
+   "blurb": "Pop-punk co-headliners bring a big nostalgia night to the arena.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
    "stream": "horizon"
   },
   {
@@ -6442,6 +6548,20 @@
    "stream": "horizon"
   },
   {
+   "title": "Dexter and the Moonrocks: Friends That I Don't Like",
+   "date": "Feb 13",
+   "dateISO": "2027-02-13",
+   "time": "9 PM",
+   "venue": "Burton Cummings Theatre",
+   "url": "https://www.livenation.com/venue/KovZpaK1we/burton-cummings-theatre-events",
+   "blurb": "Canadian tour from the rising rock act.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
    "title": "Manitoba Moose Super Hero Day vs. Laval Rocket",
    "date": "Feb 15",
    "dateISO": "2027-02-15",
@@ -6514,16 +6634,16 @@
   },
   {
    "title": "Dropkick Murphys",
-   "date": "Feb 18",
+   "date": "Feb 18-19",
    "dateISO": "2027-02-18",
-   "time": "8:00 pm",
+   "time": "8 PM",
    "venue": "Burton Cummings Theatre",
-   "url": "https://www.songkick.com/concerts/43438529-dropkick-murphys-at-burton-cummings-theatre",
-   "blurb": "Celtic punk from Boston; these shows tend to go fast.",
+   "url": "https://www.livenation.com/venue/KovZpaK1we/burton-cummings-theatre-events",
+   "blurb": "The Celtic punk veterans play two nights, a sign of strong demand.",
    "tags": [
     "tix"
    ],
-   "sellout": true,
+   "sellout": false,
    "stream": "horizon"
   },
   {
@@ -6583,6 +6703,20 @@
    "stream": "horizon"
   },
   {
+   "title": "Gerry Dee: The New Stuff Tour",
+   "date": "Feb 27, 2027",
+   "dateISO": "2027-02-27",
+   "time": "8:00 PM",
+   "venue": "Burton Cummings Theatre",
+   "url": "https://www.burtoncummingstheatre.ca/event/gerry-dee-2/",
+   "blurb": "Canadian stand-up and Mr. D star Gerry Dee headlines the Burton Cummings Theatre.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
    "title": "Air Supply",
    "date": "Feb 28",
    "dateISO": "2027-02-28",
@@ -6604,6 +6738,20 @@
    "venue": "Canada Life Centre",
    "url": "https://www.ticketmaster.ca/air-supply-a-matter-of-time-winnipeg-manitoba-02-28-2027/event/11006529C87392ED",
    "blurb": "Soft-rock hitmakers on their Canadian tour.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "Air Supply with Glass Tiger",
+   "date": "Feb 28",
+   "dateISO": "2027-02-28",
+   "time": "",
+   "venue": "Canada Life Centre",
+   "url": "https://x.com/CanadaLifeCtr",
+   "blurb": "Soft-rock hitmakers Air Supply play the arena with Glass Tiger (per venue's X post).",
    "tags": [
     "tix"
    ],
@@ -6796,10 +6944,10 @@
    "title": "April Wine",
    "date": "Mar 13",
    "dateISO": "2027-03-13",
-   "time": "8:00 pm",
+   "time": "9 PM",
    "venue": "Burton Cummings Theatre",
-   "url": "https://www.burtoncummingstheatre.ca/event/april-wine-3/",
-   "blurb": "Canadian classic-rock mainstays.",
+   "url": "https://www.livenation.com/venue/KovZpaK1we/burton-cummings-theatre-events",
+   "blurb": "Classic Canadian rock band April Wine plays the Burton.",
    "tags": [
     "tix"
    ],
@@ -6828,6 +6976,20 @@
    "venue": "Canada Life Centre",
    "url": "https://www.songkick.com/concerts/43445404-red-clay-strays-at-canada-life-centre",
    "blurb": "Alabama soul-country band The Red Clay Strays in an arena show.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "The Red Clay Strays with The Bends",
+   "date": "Mar 14",
+   "dateISO": "2027-03-14",
+   "time": "7 PM",
+   "venue": "Canada Life Centre",
+   "url": "https://concertfix.com/concerts/winnipeg-mb",
+   "blurb": "Alabama roots-rock rising stars step up to arena size.",
    "tags": [
     "tix"
    ],
@@ -6905,6 +7067,20 @@
    "stream": "horizon"
   },
   {
+   "title": "Theory of a Deadman: The Northern Chaos Tour",
+   "date": "Mar 20",
+   "dateISO": "2027-03-20",
+   "time": "8 PM",
+   "venue": "Burton Cummings Theatre",
+   "url": "https://www.livenation.com/venue/KovZpaK1we/burton-cummings-theatre-events",
+   "blurb": "The hard-rock Canadians bring their Northern Chaos tour.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
    "title": "RuPaul's Drag Race Live",
    "date": "Mar 24",
    "dateISO": "2027-03-24",
@@ -6940,6 +7116,20 @@
    "venue": "Royal MTC, John Hirsch Mainstage",
    "url": "https://royalmtc.ca",
    "blurb": "Royal MTC Mainstage run, Mar 24 – Apr 17, 2027.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "Ruby Waters, presented by Winnipeg Folk Festival",
+   "date": "Apr 1",
+   "dateISO": "2027-04-01",
+   "time": "8 PM",
+   "venue": "Burton Cummings Theatre",
+   "url": "https://www.thatericalper.com/2026/10/21/winnipeg-folk-festival-brings-angine-de-poitrine-ruby-waters-and-jp-hoe-to-burton-cummings-theatre/",
+   "blurb": "Folk Fest presents the rising singer-songwriter.",
    "tags": [
     "tix"
    ],
@@ -6993,10 +7183,10 @@
    "title": "Wheeler Walker Jr.: Pullin' Out Farewell Tour",
    "date": "Apr 5",
    "dateISO": "2027-04-05",
-   "time": "8:00 PM",
+   "time": "8 PM",
    "venue": "Burton Cummings Theatre",
-   "url": "https://www.burtoncummingstheatre.ca/event/wheeler-walker-jr/",
-   "blurb": "Raunchy country comedy farewell tour.",
+   "url": "https://www.livenation.com/venue/KovZpaK1we/burton-cummings-theatre-events",
+   "blurb": "The raunchy country parody act's farewell tour (18+ content).",
    "tags": [
     "tix"
    ],
@@ -7011,6 +7201,20 @@
    "venue": "Burton Cummings Theatre",
    "url": "https://www.burtoncummingstheatre.ca/event/angine-de-poitrine/2027-04-06/",
    "blurb": "Two nights of the Quebec avant-rock duo.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "Angine de Poitrine, presented by Winnipeg Folk Festival",
+   "date": "Apr 6-7",
+   "dateISO": "2027-04-06",
+   "time": "8 PM",
+   "venue": "Burton Cummings Theatre",
+   "url": "https://www.thatericalper.com/2026/10/21/winnipeg-folk-festival-brings-angine-de-poitrine-ruby-waters-and-jp-hoe-to-burton-cummings-theatre/",
+   "blurb": "The buzzy Quebec avant-rock duo plays two nights; presale opened Oct 27.",
    "tags": [
     "tix"
    ],
@@ -7145,6 +7349,20 @@
    "stream": "horizon"
   },
   {
+   "title": "Bruce Cockburn, presented by Winnipeg Folk Festival",
+   "date": "Apr 17",
+   "dateISO": "2027-04-17",
+   "time": "8 PM",
+   "venue": "Burton Cummings Theatre",
+   "url": "https://www.livenation.com/venue/KovZpaK1we/burton-cummings-theatre-events",
+   "blurb": "The Canadian folk-rock legend plays an evening presented by the Folk Fest.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
    "title": "A Perfect Circle",
    "date": "Apr 19",
    "dateISO": "2027-04-19",
@@ -7199,6 +7417,20 @@
     "fam"
    ],
    "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "Dauphin's Countryfest 2027",
+   "date": "Jul 1-4, 2027",
+   "dateISO": "2027-07-01",
+   "time": "",
+   "venue": "Dauphin",
+   "url": "https://countryfest.ca/",
+   "blurb": "Save-the-date posted for Canada Day weekend 2027; lineup and tickets still to come.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": true,
    "stream": "horizon"
   },
   {
