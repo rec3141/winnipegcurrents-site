@@ -1,115 +1,31 @@
 {
- "generated": "2026-11-02",
+ "generated": "2026-11-03",
  "window": {
-  "start": "2026-11-02",
-  "end": "2026-11-16",
-  "label": "November 2 – November 16, 2026"
+  "start": "2026-11-03",
+  "end": "2026-11-17",
+  "label": "November 3 – November 17, 2026"
  },
  "headwaters": [
   {
    "theme": "f1",
-   "tag": "Civic tradition",
-   "title": "Manitoba Hydro Santa Parade",
-   "meta": "Nov 14 · 5 PM · Portage Avenue, downtown",
-   "blurb": "Free annual Santa Claus parade with 60+ floats down Portage Avenue; block parties from 4 PM.",
-   "url": "https://www.mbhydrosantaparade.com/",
-   "cta": "Plan your parade night →"
+   "tag": "Parade Weekend",
+   "title": "Manitoba Hydro Santa Claus Parade",
+   "meta": "Nov 14 · Portage Avenue, Downtown",
+   "blurb": "Floats, bands and Santa roll down Portage Avenue, with a free Christmas market at CityPlace all weekend.",
+   "url": "https://www.todocanada.ca/city/winnipeg/event/winnipeg-santa-claus-parade/",
+   "cta": "Plan your parade day →"
   },
   {
    "theme": "f2",
-   "tag": "Book ahead",
-   "title": "Anne of Green Gables – The Musical",
-   "meta": "Nov 25 – Dec 20 · Royal MTC Mainstage",
-   "blurb": "Royal MTC's holiday-season musical is likely to sell well — book early.",
-   "url": "https://royalmtc.ca/Current-Plays/Anne-of-Green-Gables-The-Musical.aspx",
-   "cta": "Get tickets →"
+   "tag": "Book Ahead",
+   "title": "Festival du Voyageur 2027",
+   "meta": "Feb 12–21, 2027 · Whittier Park, Saint-Boniface",
+   "blurb": "Western Canada's biggest winter festival. Tickets go on sale Nov 12.",
+   "url": "https://heho.ca/en/",
+   "cta": "Get festival details →"
   }
  ],
  "events": [
-  {
-   "title": "C*NTRESSAS Canadian Tour",
-   "date": "Nov 2",
-   "dateISO": "2026-11-02",
-   "time": "Doors 7 PM, Show 8 PM",
-   "venue": "Park Theatre",
-   "url": "https://myparktheatre.com/tm-event/cntressas-canadian-tour/",
-   "blurb": "A touring drag cabaret show featuring Drag Race alumni Gawdland, Sminty Drop, Zahirah Zapanta and Mariah Balenciaga.",
-   "tags": [
-    "tix"
-   ],
-   "sellout": false,
-   "stream": "deep"
-  },
-  {
-   "title": "Coco Accessories & Jewelry Pop Up",
-   "date": "Nov 2-15",
-   "dateISO": "2026-11-02",
-   "time": "11:00 AM-10:00 PM",
-   "venue": "The Forks Market, Pop-up Kiosk",
-   "url": "https://www.theforks.com/events/calendar-of-events/event/1310",
-   "blurb": "Two-week pop-up of handmade hair accessories and jewelry from a Winnipeg small business.",
-   "tags": [
-    "free"
-   ],
-   "sellout": false,
-   "stream": "confluence"
-  },
-  {
-   "title": "K-Man & The 45s",
-   "date": "Nov 2",
-   "dateISO": "2026-11-02",
-   "time": "7:00 PM",
-   "venue": "Sidestage",
-   "url": "https://www.songkick.com/metro-areas/27403-canada-winnipeg",
-   "blurb": "A live soul/funk show at the Sidestage bar.",
-   "tags": [
-    "tix"
-   ],
-   "sellout": false,
-   "stream": "rapids"
-  },
-  {
-   "title": "C*NTRESSAS Canadian Tour (drag)",
-   "date": "Nov 2",
-   "dateISO": "2026-11-02",
-   "time": "Doors 7 PM, show 8 PM",
-   "venue": "The Park Theatre, 698 Osborne St",
-   "url": "https://myparktheatre.com/tm-event/cntressas-canadian-tour/",
-   "blurb": "Drag touring show. 18+.",
-   "tags": [
-    "tix"
-   ],
-   "sellout": false,
-   "stream": "deep"
-  },
-  {
-   "title": "Goblin:Macbeth (Royal MTC)",
-   "date": "Through Nov 8",
-   "dateISO": "2026-11-02",
-   "time": "",
-   "venue": "Tom Hendry Warehouse, Royal MTC",
-   "url": "https://royalmtc.ca/Current-Plays/Goblin-Macbeth.aspx",
-   "blurb": "Warehouse production running Oct 21 to Nov 8, 2026.",
-   "tags": [
-    "tix"
-   ],
-   "sellout": false,
-   "stream": "deep"
-  },
-  {
-   "title": "Ningiukulu Teevee: Stories from the Arctic",
-   "date": "Through winter 2026/27",
-   "dateISO": "2026-11-02",
-   "time": "",
-   "venue": "WAG-Qaumajuq",
-   "url": "https://wag.ca/",
-   "blurb": "Kinngait (Cape Dorset) artist's graphic work. Runs through winter 2026/27, exact end date unconfirmed. WAG Wednesday Nights are free.",
-   "tags": [
-    "tix"
-   ],
-   "sellout": false,
-   "stream": "deep"
-  },
   {
    "title": "Allison Russell",
    "date": "Tuesday, November 3, 2026",
@@ -235,6 +151,34 @@
    ],
    "sellout": false,
    "stream": "rapids"
+  },
+  {
+   "title": "Coco Accessories & Jewelry Pop Up",
+   "date": "Nov 3-15",
+   "dateISO": "2026-11-03",
+   "time": "11:00 AM-10:00 PM",
+   "venue": "The Forks Market",
+   "url": "https://www.theforks.com/events/calendar-of-events/event/1310",
+   "blurb": "Pop-up kiosk of accessories and jewelry, through Nov 15.",
+   "tags": [
+    "free"
+   ],
+   "sellout": false,
+   "stream": "confluence"
+  },
+  {
+   "title": "Goblin:Macbeth",
+   "date": "Through Nov 7",
+   "dateISO": "2026-11-03",
+   "time": "",
+   "venue": "Royal MTC, Tom Hendry Warehouse",
+   "url": "https://royalmtc.ca",
+   "blurb": "Three goblins take over the stage in this interactive Spontaneous Theatre creation by Rebecca Northan and Bruce Horak. Runs through Nov 7.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "deep"
   },
   {
    "title": "Beginner D&D",
@@ -551,7 +495,7 @@
    "time": "8:00 PM",
    "venue": "West End Cultural Centre",
    "url": "https://www.wecc.ca/events",
-   "blurb": "Local indie night tied to Stylus magazine's archive project.",
+   "blurb": "Local indie showcase celebrating the Stylus Magazine archive.",
    "tags": [
     "tix"
    ],
@@ -1729,6 +1673,20 @@
    "stream": "deep"
   },
   {
+   "title": "Arkells (Park Theatre)",
+   "date": "Nov 11",
+   "dateISO": "2026-11-11",
+   "time": "7:00 PM",
+   "venue": "Park Theatre",
+   "url": "https://www.songkick.com/concerts/43417305-arkells-at-park-theatre",
+   "blurb": "Arkells in an intimate room.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "rapids"
+  },
+  {
    "title": "Arkells",
    "date": "Nov 12",
    "dateISO": "2026-11-12",
@@ -2760,13 +2718,13 @@
    "dateISO": "2026-11-17",
    "time": "",
    "venue": "Prairie Theatre Exchange",
-   "url": "https://www.pte.mb.ca",
-   "blurb": "Prairie Theatre Exchange production, Nov 17 to 29.",
+   "url": "https://www.pte.mb.ca/2026-2027",
+   "blurb": "Samantha Machado's story of love, loss and language. Runs Nov 17-29.",
    "tags": [
     "tix"
    ],
    "sellout": false,
-   "stream": "horizon"
+   "stream": "deep"
   },
   {
    "title": "The Incomplete Dictionary of Lexical Gaps (PTE)",
@@ -3845,10 +3803,10 @@
    "title": "Raine Maida and Chantal Kreviazuk",
    "date": "Nov 25",
    "dateISO": "2026-11-25",
-   "time": "8:00 pm",
+   "time": "8:00 PM",
    "venue": "Burton Cummings Theatre",
    "url": "https://www.burtoncummingstheatre.ca/event/raine-maida-and-chantal-kreviazuk/",
-   "blurb": "Canadian power couple of rock and piano pop.",
+   "blurb": "Intimate evening with the Canadian music couple.",
    "tags": [
     "tix"
    ],
@@ -3877,6 +3835,20 @@
    "venue": "Club Regent Event Centre",
    "url": "https://www.concertarchives.org/venues/club-regent-event-centre",
    "blurb": "The Canadian vocal group's holiday tour arrives at Club Regent.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "Boy Golden and Field Guide",
+   "date": "Nov 25",
+   "dateISO": "2026-11-25",
+   "time": "7:00 PM",
+   "venue": "Park Theatre",
+   "url": "https://www.songkick.com/concerts/43404798-boy-golden-at-park-theatre",
+   "blurb": "Second night of the Boy Golden run.",
    "tags": [
     "tix"
    ],
@@ -4019,6 +3991,20 @@
    "venue": "Sidestage",
    "url": "https://www.songkick.com/metro-areas/27403-canada-winnipeg",
    "blurb": "Winnipeg dream-pop band Living Hour at Sidestage.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "Boy Golden and Field Guide",
+   "date": "Nov 26",
+   "dateISO": "2026-11-26",
+   "time": "7:00 PM",
+   "venue": "Park Theatre",
+   "url": "https://www.songkick.com/concerts/43404799-boy-golden-at-park-theatre",
+   "blurb": "Third night of the Boy Golden run.",
    "tags": [
     "tix"
    ],
@@ -4690,6 +4676,20 @@
    "stream": "horizon"
   },
   {
+   "title": "Ego Spank Does Prince, His Royal Badness",
+   "date": "Dec 3",
+   "dateISO": "2026-12-03",
+   "time": "8:00 PM",
+   "venue": "West End Cultural Centre",
+   "url": "https://www.wecc.ca/events",
+   "blurb": "Prince tribute night.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
    "title": "Amero Little Christmas",
    "date": "Dec 4",
    "dateISO": "2026-12-04",
@@ -5134,7 +5134,7 @@
    "time": "8:00 PM",
    "venue": "West End Cultural Centre",
    "url": "https://www.wecc.ca/events",
-   "blurb": "Annual holiday show.",
+   "blurb": "Annual local holiday show, 10th year.",
    "tags": [
     "tix"
    ],
@@ -5763,6 +5763,21 @@
    "stream": "horizon"
   },
   {
+   "title": "Manitoba Moose New Year's Eve Game vs Abbotsford Canucks",
+   "date": "Dec 31",
+   "dateISO": "2026-12-31",
+   "time": "",
+   "venue": "Canada Life Centre",
+   "url": "https://www.moosehockey.com/schedule",
+   "blurb": "AHL New Year's Eve theme game. Confirm puck drop time.",
+   "tags": [
+    "tix",
+    "fam"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
    "title": "Manitoba Moose vs Calgary Wranglers",
    "date": "Fri, Jan 1",
    "dateISO": "2027-01-01",
@@ -5898,6 +5913,20 @@
    "venue": "John Hirsch Mainstage, Royal MTC",
    "url": "https://royalmtc.ca/Current-Plays/Intrepid.aspx",
    "blurb": "Mainstage production, Jan 13 to Feb 6, 2027.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "Intrepid (world premiere)",
+   "date": "Jan 13 - Feb 6",
+   "dateISO": "2027-01-13",
+   "time": "",
+   "venue": "Royal MTC, John Hirsch Mainstage",
+   "url": "https://royalmtc.ca",
+   "blurb": "World-premiere spy thriller about Winnipeg hero William Stephenson. Runs Jan 13 - Feb 6.",
    "tags": [
     "tix"
    ],
@@ -6115,16 +6144,15 @@
    "stream": "horizon"
   },
   {
-   "title": "Winnipeg Jets vs. Buffalo Sabres",
+   "title": "Winnipeg Jets vs Buffalo Sabres",
    "date": "Jan 24",
    "dateISO": "2027-01-24",
-   "time": "2:00 PM",
+   "time": "3:00 PM",
    "venue": "Canada Life Centre",
    "url": "https://www.nhl.com/jets/schedule",
-   "blurb": "A Sunday afternoon matinee, a good pick for families.",
+   "blurb": "Jets home game, 2026-27 NHL regular season. Start times may change.",
    "tags": [
-    "tix",
-    "fam"
+    "tix"
    ],
    "sellout": false,
    "stream": "horizon"
@@ -6375,8 +6403,8 @@
    "dateISO": "2027-02-02",
    "time": "7:00 PM",
    "venue": "Canada Life Centre",
-   "url": "https://www.canadalifecentre.ca/events/",
-   "blurb": "Pop-punk favourites.",
+   "url": "https://www.canadalifecentre.ca/calendar-events/simple-plan/",
+   "blurb": "Pop-punk stars Simple Plan.",
    "tags": [
     "tix"
    ],
@@ -6419,6 +6447,21 @@
    "venue": "Canada Life Centre",
    "url": "https://www.canadalifecentre.ca/calendar-events/the-ram-motorsports-spectacular/",
    "blurb": "Monster trucks and motorsports, two afternoon shows.",
+   "tags": [
+    "tix",
+    "fam"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "Learn to Ice Fish (Adult & Child)",
+   "date": "Feb 6",
+   "dateISO": "2027-02-06",
+   "time": "1:00 PM - 3:00 PM",
+   "venue": "FortWhyte Alive",
+   "url": "https://www.active.com/winnipeg-mb/classes/learn-to-ice-fish-adult-and-child-2027-110484501",
+   "blurb": "Hands-on intro to ice fishing with a pro guide. Weather cancellation possible.",
    "tags": [
     "tix",
     "fam"
@@ -6587,9 +6630,9 @@
    "date": "Feb 17 - Mar 13",
    "dateISO": "2027-02-17",
    "time": "",
-   "venue": "Royal MTC - John Hirsch Mainstage",
+   "venue": "Royal MTC, John Hirsch Mainstage",
    "url": "https://royalmtc.ca",
-   "blurb": "By Elizabeth Strout, adapted by Rona Munro, starring Jennifer Lyon. Runs Feb 17 to Mar 13, 2027.",
+   "blurb": "Rona Munro's adaptation of Elizabeth Strout's novel, starring Jennifer Lyon. Runs Feb 17 - Mar 13.",
    "tags": [
     "tix"
    ],
@@ -6626,6 +6669,20 @@
    "stream": "horizon"
   },
   {
+   "title": "Winnipeg Jets vs Los Angeles Kings",
+   "date": "Feb 17",
+   "dateISO": "2027-02-17",
+   "time": "7:30 PM",
+   "venue": "Canada Life Centre",
+   "url": "https://www.nhl.com/jets/schedule",
+   "blurb": "Jets home game, 2026-27 NHL regular season. Start times may change.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
    "title": "Dropkick Murphys",
    "date": "Feb 18-19",
    "dateISO": "2027-02-18",
@@ -6633,6 +6690,20 @@
    "venue": "Burton Cummings Theatre",
    "url": "https://www.livenation.com/venue/KovZpaK1we/burton-cummings-theatre-events",
    "blurb": "The Celtic punk veterans play two nights, a sign of strong demand.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "Dropkick Murphys, Spiritual Cramp & Home Front",
+   "date": "Feb 18",
+   "dateISO": "2027-02-18",
+   "time": "7:00 PM",
+   "venue": "Burton Cummings Theatre",
+   "url": "https://www.startickets.com/mb/winnipeg/burton-cummings-theatre-tickets",
+   "blurb": "Celtic punk. Date from an aggregator.",
    "tags": [
     "tix"
    ],
@@ -6654,6 +6725,20 @@
    "stream": "horizon"
   },
   {
+   "title": "Winnipeg Jets vs St. Louis Blues",
+   "date": "Feb 19",
+   "dateISO": "2027-02-19",
+   "time": "7:00 PM",
+   "venue": "Canada Life Centre",
+   "url": "https://www.nhl.com/jets/schedule",
+   "blurb": "Jets home game, 2026-27 NHL regular season. Start times may change.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
    "title": "Eluveitie and ILLUMISHADE",
    "date": "Feb 21",
    "dateISO": "2027-02-21",
@@ -6661,6 +6746,20 @@
    "venue": "Park Theatre",
    "url": "https://www.songkick.com/concerts/43417309-eluveitie-at-park-theatre",
    "blurb": "Swiss Celtic folk-metal band Eluveitie on tour.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "Winnipeg Jets vs Pittsburgh Penguins",
+   "date": "Feb 21",
+   "dateISO": "2027-02-21",
+   "time": "5:00 PM",
+   "venue": "Canada Life Centre",
+   "url": "https://www.nhl.com/jets/schedule",
+   "blurb": "Jets home game, 2026-27 NHL regular season. Start times may change.",
    "tags": [
     "tix"
    ],
@@ -6806,13 +6905,27 @@
    "stream": "horizon"
   },
   {
+   "title": "Winnipeg Jets vs Seattle Kraken",
+   "date": "Mar 1",
+   "dateISO": "2027-03-01",
+   "time": "7:00 PM",
+   "venue": "Canada Life Centre",
+   "url": "https://www.nhl.com/jets/schedule",
+   "blurb": "Jets home game, 2026-27 NHL regular season. Start times may change.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
    "title": "Fifteen Dogs",
    "date": "Mar 3-20",
    "dateISO": "2027-03-03",
    "time": "",
-   "venue": "Royal MTC - Tom Hendry Warehouse",
+   "venue": "Royal MTC, Tom Hendry Warehouse",
    "url": "https://royalmtc.ca",
-   "blurb": "Stage adaptation of Andre Alexis's novel, directed by Haysam Kadri. Runs Mar 3-20, 2027.",
+   "blurb": "Stage adaptation of André Alexis's novel about gods, a wager and fifteen dogs. Runs Mar 3-20.",
    "tags": [
     "tix"
    ],
@@ -6934,6 +7047,20 @@
    "stream": "horizon"
   },
   {
+   "title": "Gimli Ice Festival",
+   "date": "Mar 6-7",
+   "dateISO": "2027-03-06",
+   "time": "",
+   "venue": "Gimli, MB",
+   "url": "https://interlaketourism.com/interlake-event/gimli-ice-festival/",
+   "blurb": "Winter weekend on frozen Lake Winnipeg: ice racing, ice village, fireworks. Dates from Interlake Tourism listing only.",
+   "tags": [
+    "fam"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
    "title": "Winnipeg Jets vs. Calgary Flames",
    "date": "Mar 7",
    "dateISO": "2027-03-07",
@@ -7025,6 +7152,20 @@
    "venue": "Centennial Concert Hall",
    "url": "https://centennialconcerthall.com/Online/article/WSO2627",
    "blurb": "Winnipeg Symphony Orchestra subscription concert.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "Winnipeg Jets vs Nashville Predators",
+   "date": "Mar 13",
+   "dateISO": "2027-03-13",
+   "time": "3:30 PM",
+   "venue": "Canada Life Centre",
+   "url": "https://www.nhl.com/jets/schedule",
+   "blurb": "Jets home game, 2026-27 NHL regular season. Start times may change.",
    "tags": [
     "tix"
    ],
@@ -7190,9 +7331,9 @@
    "date": "Mar 24 - Apr 17",
    "dateISO": "2027-03-24",
    "time": "",
-   "venue": "Royal MTC - John Hirsch Mainstage",
+   "venue": "Royal MTC, John Hirsch Mainstage",
    "url": "https://royalmtc.ca",
-   "blurb": "Revival of the Shakespeare in the Ruins production, indoors this time. Runs Mar 24 to Apr 17, 2027.",
+   "blurb": "Revival of Shakespeare in the Ruins' production of Beckett's classic, now indoors. Runs Mar 24 - Apr 17.",
    "tags": [
     "tix"
    ],
@@ -7566,6 +7707,20 @@
    "stream": "horizon"
   },
   {
+   "title": "fareWel",
+   "date": "May 5-29",
+   "dateISO": "2027-05-05",
+   "time": "",
+   "venue": "Royal MTC, John Hirsch Mainstage",
+   "url": "https://royalmtc.ca",
+   "blurb": "Ian Ross's dark comedy about life and politics on a reserve, with NAC Indigenous Theatre. Runs May 5-29.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
    "title": "The Neighbourhood World Tour II",
    "date": "May 11",
    "dateISO": "2027-05-11",
@@ -7587,6 +7742,20 @@
    "venue": "Canada Life Centre",
    "url": "https://www.ticketmaster.ca/event/1100655ABABC7A98",
    "blurb": "The Neighbourhood on the Wourld Tour II.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "The Neighbourhood",
+   "date": "May 11",
+   "dateISO": "2027-05-11",
+   "time": "7:00 PM",
+   "venue": "Canada Life Centre",
+   "url": "https://www.canadalifecentre.ca/calendar-events/the-neighbourhood/",
+   "blurb": "The Neighbourhood World Tour II.",
    "tags": [
     "tix"
    ],
