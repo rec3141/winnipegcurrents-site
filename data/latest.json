@@ -1,99 +1,31 @@
 {
- "generated": "2026-11-09",
+ "generated": "2026-11-10",
  "window": {
-  "start": "2026-11-09",
-  "end": "2026-11-23",
-  "label": "November 9 – November 23, 2026"
+  "start": "2026-11-10",
+  "end": "2026-11-24",
+  "label": "November 10 – November 24, 2026"
  },
  "headwaters": [
   {
    "theme": "f1",
-   "tag": "Now–Jan 3",
-   "title": "Zoo Lights",
-   "meta": "Select nights Nov 20 – Jan 3 · Assiniboine Park Zoo",
-   "blurb": "The zoo's annual festive light display, timed tickets online.",
-   "url": "https://www.assiniboinepark.ca/events/zoolights",
-   "cta": "Get Zoo Lights tickets →"
+   "tag": "This Saturday",
+   "title": "Manitoba Hydro Santa Claus Parade",
+   "meta": "Sat, Nov 14 · 5:00 PM · Portage Avenue",
+   "blurb": "Winnipeg's annual parade rolls down Portage Avenue, with a Christmas market at Cityplace all weekend.",
+   "url": "https://www.todocanada.ca/city/winnipeg/event/winnipeg-santa-claus-parade/",
+   "cta": "See the parade details →"
   },
   {
    "theme": "f2",
-   "tag": "Nov 26–29",
-   "title": "Winnipeg Christmas Market",
-   "meta": "Nov 26–29 · RBC Convention Centre",
-   "blurb": "Four-day juried holiday market with 140+ Canadian artisans and food vendors.",
-   "url": "https://www.todocanada.ca/city/winnipeg/event/winnipeg-christmas-market/",
+   "tag": "Opens Nov 20",
+   "title": "Zoo Lights presented by Red River Co-op",
+   "meta": "Nov 20 – Jan 3 · Assiniboine Park Zoo",
+   "blurb": "Festive light display with carolers nightly and Santa photos at the Peppermint Palace.",
+   "url": "https://www.assiniboinepark.ca/events/zoolights/planyourvisit",
    "cta": "Plan your visit →"
   }
  ],
  "events": [
-  {
-   "title": "Ningiukulu Teevee: Stories from the Arctic (WAG-Qaumajuq)",
-   "date": "Ongoing",
-   "dateISO": "2026-11-09",
-   "time": "",
-   "venue": "WAG-Qaumajuq",
-   "url": "https://www.wag.ca",
-   "blurb": "Solo show by Kinngait graphic artist Ningiukulu Teevee, reported to run through winter 2026/27; closing date unconfirmed.",
-   "tags": [
-    "tix"
-   ],
-   "sellout": false,
-   "stream": "deep"
-  },
-  {
-   "title": "Reframed (WAG-Qaumajuq)",
-   "date": "Ongoing",
-   "dateISO": "2026-11-09",
-   "time": "",
-   "venue": "WAG-Qaumajuq",
-   "url": "https://www.wag.ca",
-   "blurb": "Curated by Marie-Anne Redhead, examines how Indigenous peoples have been represented in the WAG-Qaumajuq collection; closing date unconfirmed.",
-   "tags": [
-    "tix"
-   ],
-   "sellout": false,
-   "stream": "deep"
-  },
-  {
-   "title": "Coco Accessories & Jewelry Pop Up",
-   "date": "Through Nov 15",
-   "dateISO": "2026-11-09",
-   "time": "11:00 AM - 10:00 PM",
-   "venue": "The Forks Market, Pop-up Kiosk",
-   "url": "https://www.theforks.com/events/calendar-of-events/event/1310",
-   "blurb": "Jewelry and accessories pop-up kiosk inside The Forks Market, running Nov 2-15.",
-   "tags": [
-    "free"
-   ],
-   "sellout": false,
-   "stream": "confluence"
-  },
-  {
-   "title": "Portage Place Holiday Market",
-   "date": "Through Dec 16",
-   "dateISO": "2026-11-09",
-   "time": "",
-   "venue": "Portage Place, 393 Portage Ave",
-   "url": "https://www.todocanada.ca/city/winnipeg/christmas-markets/",
-   "blurb": "Seasonal holiday market in downtown's Portage Place, listed as free. Listing says Nov 4 to Dec 16, 2026.",
-   "tags": [
-    "free"
-   ],
-   "sellout": false,
-   "stream": "confluence"
-  },
-  {
-   "title": "Gardener Chats at The Leaf",
-   "date": "Through Jan 9",
-   "dateISO": "2026-11-09",
-   "time": "",
-   "venue": "The Leaf, Assiniboine Park",
-   "url": "https://www.assiniboinepark.ca/events/event/229",
-   "blurb": "Drop-in chats with Leaf gardeners, running to Jan 9, 2027.",
-   "tags": [],
-   "sellout": false,
-   "stream": "sky"
-  },
   {
    "title": "Arkells",
    "date": "Nov 10-12",
@@ -261,6 +193,20 @@
    ],
    "sellout": false,
    "stream": "sky"
+  },
+  {
+   "title": "Coco Accessories & Jewelry Pop Up",
+   "date": "Nov 10-15",
+   "dateISO": "2026-11-10",
+   "time": "11am-10pm",
+   "venue": "The Forks Market",
+   "url": "https://www.theforks.com/events/calendar-of-events/event/1310",
+   "blurb": "Jewelry and accessories pop-up (runs Nov 2-15).",
+   "tags": [
+    "free"
+   ],
+   "sellout": false,
+   "stream": "confluence"
   },
   {
    "title": "Arkells",
@@ -1379,6 +1325,20 @@
    "stream": "ripples"
   },
   {
+   "title": "Orienteering Adventure (self-guided)",
+   "date": "Nov 14",
+   "dateISO": "2026-11-14",
+   "time": "9:30 AM-4:30 PM",
+   "venue": "FortWhyte Alive",
+   "url": "https://www.fortwhyte.org/event/orienteering-adventure-3/2026-11-14/",
+   "blurb": "Self-guided orienteering; no registration.",
+   "tags": [
+    "fam"
+   ],
+   "sellout": false,
+   "stream": "sky"
+  },
+  {
    "title": "Beer Brunch with Chef Daniel D'Elboux",
    "date": "Nov 15",
    "dateISO": "2026-11-15",
@@ -1505,18 +1465,18 @@
   },
   {
    "title": "Family D&D",
-   "date": "Sun, Nov 15",
+   "date": "Nov 15",
    "dateISO": "2026-11-15",
    "time": "2:00-5:00 pm",
-   "venue": "Across the Board Game Café, 211 Bannatyne Ave",
+   "venue": "Across the Board Game Cafe",
    "url": "https://acrosstheboardcafe.com/event/family-dd-69/",
-   "blurb": "D&D adventure for families. $25.",
+   "blurb": "Beginner-friendly D&D for families.",
    "tags": [
     "tix",
     "fam"
    ],
    "sellout": false,
-   "stream": "confluence"
+   "stream": "deep"
   },
   {
    "title": "Connect 2: Board Game Speed Dating (Bi/Pan Edition, ages 25-39)",
@@ -1618,6 +1578,20 @@
    "stream": "sky"
   },
   {
+   "title": "Connect 2: Board Game Speed Dating - Bi/Pan Edition (25-39)",
+   "date": "Nov 15",
+   "dateISO": "2026-11-15",
+   "time": "6:00-8:00 pm",
+   "venue": "Across the Board Game Cafe",
+   "url": "https://acrosstheboardcafe.com/event/connect-2-board-game-speed-dating-bi-pan-edition25-39/",
+   "blurb": "Speed dating over board games.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "deep"
+  },
+  {
    "title": "AMBY with Earth Angel, Diaphanie and Fu Fu Chi Chi Choir",
    "date": "Nov 16",
    "dateISO": "2026-11-16",
@@ -1708,7 +1682,7 @@
    "time": "",
    "venue": "Times Change(d) High & Lonesome Club",
    "url": "https://www.songkick.com/concerts/43458019-dirty-catfish-brass-band-at-times-change-high-and-lonesome-club",
-   "blurb": "Brass-band party music in a small club room.",
+   "blurb": "Brass-band funk, New Orleans-style party music.",
    "tags": [
     "tix"
    ],
@@ -1942,12 +1916,12 @@
   },
   {
    "title": "Comfort Food (Royal MTC)",
-   "date": "Nov 18-Dec 6",
+   "date": "Nov 18 - Dec 5",
    "dateISO": "2026-11-18",
    "time": "",
-   "venue": "Tom Hendry Warehouse Theatre, Royal MTC",
-   "url": "https://royalmtc.ca/Current-Plays/Comfort-Food.aspx",
-   "blurb": "Royal MTC Warehouse show, Nov 18 to Dec 6.",
+   "venue": "Tom Hendry Warehouse, Royal MTC",
+   "url": "https://royalmtc.ca",
+   "blurb": "Zorana Sadiq's play about a cooking-show host; Crow's Theatre production. Through Dec 5.",
    "tags": [
     "tix"
    ],
@@ -2053,12 +2027,12 @@
   },
   {
    "title": "Winnipeg Jets vs. New York Islanders",
-   "date": "Thu, Nov 19",
+   "date": "Nov 19",
    "dateISO": "2026-11-19",
-   "time": "7:00 PM",
+   "time": "",
    "venue": "Canada Life Centre",
    "url": "https://www.nhl.com/jets/schedule",
-   "blurb": "NHL regular-season home game.",
+   "blurb": "NHL home game at Canada Life Centre.",
    "tags": [
     "tix"
    ],
@@ -2078,6 +2052,20 @@
    ],
    "sellout": false,
    "stream": "rapids"
+  },
+  {
+   "title": "Astronomy Night: Comets and Meteors",
+   "date": "Nov 19",
+   "dateISO": "2026-11-19",
+   "time": "7:00-9:00 PM",
+   "venue": "Oak Hammock Marsh",
+   "url": "https://www.oakhammockmarsh.ca/events/astronomy-night-comets-and-meteors/",
+   "blurb": "Stargazing and a talk on comets and meteors.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "sky"
   },
   {
    "title": "Bisons Basketball vs. Alberta (women's and men's)",
@@ -2462,6 +2450,20 @@
    "stream": "roar"
   },
   {
+   "title": "Holiday Shopping Weekend at the Nature Shop",
+   "date": "Nov 20-23",
+   "dateISO": "2026-11-20",
+   "time": "All day",
+   "venue": "FortWhyte Alive",
+   "url": "https://www.fortwhyte.org/event/holiday-shopping-weekend/",
+   "blurb": "Holiday shopping at the Nature Shop.",
+   "tags": [
+    "free"
+   ],
+   "sellout": false,
+   "stream": "sky"
+  },
+  {
    "title": "Family Nature Hike",
    "date": "Nov 21",
    "dateISO": "2026-11-21",
@@ -2494,13 +2496,15 @@
    "title": "George Cotter Retrospective",
    "date": "Nov 21",
    "dateISO": "2026-11-21",
-   "time": "1:00-2:30 pm",
+   "time": "1:00-2:30 PM",
    "venue": "Oak Hammock Marsh",
    "url": "https://www.oakhammockmarsh.ca/events/george-cotter-retrospective/",
-   "blurb": "Afternoon retrospective talk at Oak Hammock Marsh.",
-   "tags": [],
+   "blurb": "Free viewing of nature films by the late George Cotter.",
+   "tags": [
+    "free"
+   ],
    "sellout": false,
-   "stream": "confluence"
+   "stream": "sky"
   },
   {
    "title": "Museum Unlocked",
@@ -2704,6 +2708,36 @@
    "stream": "roar"
   },
   {
+   "title": "Family Nature Hike (FortWhyte Alive)",
+   "date": "Nov 21",
+   "dateISO": "2026-11-21",
+   "time": "1:00-2:30 PM",
+   "venue": "FortWhyte Alive",
+   "url": "https://www.fortwhyte.org/event/family-nature-hike-2-2/",
+   "blurb": "Guided family hike.",
+   "tags": [
+    "fam",
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "sky"
+  },
+  {
+   "title": "Bison Bus Tour",
+   "date": "Nov 21",
+   "dateISO": "2026-11-21",
+   "time": "1:30-2:30 PM",
+   "venue": "FortWhyte Alive",
+   "url": "https://www.fortwhyte.org/event/bison-bus-tour-2/2026-11-21/",
+   "blurb": "Bus tour of the bison herd; also Nov 22 and 29.",
+   "tags": [
+    "fam",
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "sky"
+  },
+  {
    "title": "Manitoba Moose vs. Rockford IceHogs (Teddy Bear Toss)",
    "date": "Nov 22",
    "dateISO": "2026-11-22",
@@ -2833,6 +2867,21 @@
    "stream": "ripples"
   },
   {
+   "title": "Youth D&D (ages 10-15)",
+   "date": "Nov 22",
+   "dateISO": "2026-11-22",
+   "time": "2:00-5:00 pm",
+   "venue": "Across the Board Game Cafe",
+   "url": "https://acrosstheboardcafe.com/event/youth-dd-24/",
+   "blurb": "D&D for ages 10-15.",
+   "tags": [
+    "tix",
+    "fam"
+   ],
+   "sellout": false,
+   "stream": "deep"
+  },
+  {
    "title": "Turnover",
    "date": "Nov 23",
    "dateISO": "2026-11-23",
@@ -2914,7 +2963,7 @@
     "tix"
    ],
    "sellout": false,
-   "stream": "horizon"
+   "stream": "confluence"
   },
   {
    "title": "Boy Golden and Field Guide",
@@ -2928,7 +2977,7 @@
     "tix"
    ],
    "sellout": false,
-   "stream": "horizon"
+   "stream": "confluence"
   },
   {
    "title": "Boy Golden w/ Field Guide",
@@ -2942,7 +2991,7 @@
     "tix"
    ],
    "sellout": false,
-   "stream": "horizon"
+   "stream": "confluence"
   },
   {
    "title": "Boy Golden with Field Guide (3 nights)",
@@ -2956,7 +3005,7 @@
     "tix"
    ],
    "sellout": true,
-   "stream": "horizon"
+   "stream": "confluence"
   },
   {
    "title": "Boy Golden with Field Guide (night 1)",
@@ -2970,7 +3019,7 @@
     "tix"
    ],
    "sellout": false,
-   "stream": "horizon"
+   "stream": "confluence"
   },
   {
    "title": "Graham Clark",
@@ -2984,7 +3033,7 @@
     "tix"
    ],
    "sellout": false,
-   "stream": "horizon"
+   "stream": "confluence"
   },
   {
    "title": "Manitoba Moose School Day Game vs. Grand Rapids Griffins",
@@ -2999,7 +3048,7 @@
     "tix"
    ],
    "sellout": false,
-   "stream": "horizon"
+   "stream": "confluence"
   },
   {
    "title": "Winnipeg Poetry Slam Open Mic",
@@ -3013,7 +3062,7 @@
     "free"
    ],
    "sellout": false,
-   "stream": "horizon"
+   "stream": "confluence"
   },
   {
    "title": "Miniature Painting Night",
@@ -3027,7 +3076,7 @@
     "tix"
    ],
    "sellout": false,
-   "stream": "horizon"
+   "stream": "confluence"
   },
   {
    "title": "Boy Golden and Field Guide (three nights)",
@@ -3041,7 +3090,7 @@
     "tix"
    ],
    "sellout": true,
-   "stream": "horizon"
+   "stream": "confluence"
   },
   {
    "title": "Boy Golden with Field Guide",
@@ -3055,7 +3104,7 @@
     "tix"
    ],
    "sellout": true,
-   "stream": "horizon"
+   "stream": "confluence"
   },
   {
    "title": "Anne of Green Gables - The Musical",
@@ -3942,6 +3991,50 @@
    "stream": "horizon"
   },
   {
+   "title": "Ripperz",
+   "date": "Nov 28",
+   "dateISO": "2026-11-28",
+   "time": "",
+   "venue": "Park Theatre",
+   "url": "https://www.songkick.com/concerts/43445405-ripperz-at-park-theatre",
+   "blurb": "Live at the Park Theatre.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "Transcona BIZ Zone Christmas Market",
+   "date": "Nov 28-29",
+   "dateISO": "2026-11-28",
+   "time": "",
+   "venue": "Transcona, Winnipeg",
+   "url": "https://www.todocanada.ca/city/winnipeg/christmas-markets/",
+   "blurb": "Handmade goods and Christmas baking.",
+   "tags": [
+    "free",
+    "fam"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "Christmas Market on Willowlake Crescent",
+   "date": "Nov 28-29",
+   "dateISO": "2026-11-28",
+   "time": "",
+   "venue": "45 Willowlake Crescent",
+   "url": "https://www.todocanada.ca/city/winnipeg/christmas-markets/",
+   "blurb": "Small neighbourhood Christmas market.",
+   "tags": [
+    "free",
+    "fam"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
    "title": "Carve a Diamond Willow Walking Stick",
    "date": "Nov 29",
    "dateISO": "2026-11-29",
@@ -4078,6 +4171,20 @@
    "venue": "Across the Board Game Café, 211 Bannatyne Ave",
    "url": "https://acrosstheboardcafe.com/event/crokinole-tournament/",
    "blurb": "Doubles crokinole tournament. $75 per team.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "Crokinole Tournament",
+   "date": "Nov 29",
+   "dateISO": "2026-11-29",
+   "time": "5:00-8:30 pm",
+   "venue": "Across the Board Game Cafe",
+   "url": "https://acrosstheboardcafe.com/event/crokinole-tournament/",
+   "blurb": "Classic Canadian flicking game tournament; $75.",
    "tags": [
     "tix"
    ],
@@ -4246,6 +4353,34 @@
    "venue": "Park Theatre",
    "url": "https://www.songkick.com/concerts/43454747-andrina-turenne-at-park-theatre",
    "blurb": "Francophone folk artist Andrina Turenne at the Park Theatre.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "Dungeons & Dragons Night",
+   "date": "Dec 3",
+   "dateISO": "2026-12-03",
+   "time": "6:00-10:00 pm",
+   "venue": "Across the Board Game Cafe",
+   "url": "https://acrosstheboardcafe.com/event/ddnight/2026-12-03/",
+   "blurb": "Weekly Thursday D&D night.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "Astronomy Night (FortWhyte Alive)",
+   "date": "Dec 3",
+   "dateISO": "2026-12-03",
+   "time": "6-9 PM",
+   "venue": "FortWhyte Alive",
+   "url": "https://www.fortwhyte.org/event/astronomy-night/2026-12-03/",
+   "blurb": "Evening stargazing.",
    "tags": [
     "tix"
    ],
@@ -4625,10 +4760,10 @@
    "title": "Holiday Wreath Workshop",
    "date": "Dec 6",
    "dateISO": "2026-12-06",
-   "time": "1:00-3:00 pm",
+   "time": "1:00-3:00 PM",
    "venue": "Oak Hammock Marsh",
    "url": "https://www.oakhammockmarsh.ca/events/holiday-wreath-workshop/",
-   "blurb": "Make a holiday wreath at the marsh.",
+   "blurb": "Make a holiday wreath, $50; limited space.",
    "tags": [
     "tix"
    ],
@@ -5131,6 +5266,20 @@
    "stream": "horizon"
   },
   {
+   "title": "Astronomy Night: Winter Constellations",
+   "date": "Dec 17",
+   "dateISO": "2026-12-17",
+   "time": "7:00-9:00 PM",
+   "venue": "Oak Hammock Marsh",
+   "url": "https://www.oakhammockmarsh.ca/events/astronomy-night-winter-constellations/",
+   "blurb": "Winter stargazing; pre-register.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
    "title": "Ben Albert",
    "date": "Dec 18-19",
    "dateISO": "2026-12-18",
@@ -5361,6 +5510,20 @@
    "stream": "horizon"
   },
   {
+   "title": "Christmas Bird Count",
+   "date": "Dec 19",
+   "dateISO": "2026-12-19",
+   "time": "8:45 AM-3:00 PM",
+   "venue": "Oak Hammock Marsh",
+   "url": "https://www.oakhammockmarsh.ca/events/christmas-bird-count/",
+   "blurb": "Annual citizen-science bird count.",
+   "tags": [
+    "free"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
    "title": "Jets vs. Dallas Stars (Sunday)",
    "date": "Dec 20",
    "dateISO": "2026-12-20",
@@ -5411,6 +5574,21 @@
    "url": "https://www.songkick.com/concerts/43474849-northshore-at-park-theatre",
    "blurb": "Northshore and Rivers on the Park Theatre stage.",
    "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "Marshland Wonderland",
+   "date": "Dec 26",
+   "dateISO": "2026-12-26",
+   "time": "10:00 AM-4:30 PM",
+   "venue": "Oak Hammock Marsh",
+   "url": "https://www.oakhammockmarsh.ca/events/marshland-wonderland/",
+   "blurb": "Holiday day with guided snowshoe walk.",
+   "tags": [
+    "fam",
     "tix"
    ],
    "sellout": false,
@@ -5975,6 +6153,21 @@
    "stream": "horizon"
   },
   {
+   "title": "Duckworth Challenge: Wesmen vs. Bisons basketball (Game 1)",
+   "date": "Jan 21",
+   "dateISO": "2027-01-21",
+   "time": "",
+   "venue": "Duckworth Centre, U of Winnipeg",
+   "url": "https://wesmen.ca",
+   "blurb": "Annual U of W vs U of M rivalry; confirm tip-off times.",
+   "tags": [
+    "tix",
+    "fam"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
    "title": "Kim Mitchell and Pumps",
    "date": "Jan 23",
    "dateISO": "2027-01-23",
@@ -6054,6 +6247,21 @@
    "blurb": "Crosstown rivalry doubleheader. Women's at 2, men's at 4.",
    "tags": [
     "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "Duckworth Challenge: Bisons vs. Wesmen basketball (Game 2)",
+   "date": "Jan 23",
+   "dateISO": "2027-01-23",
+   "time": "",
+   "venue": "U of Manitoba",
+   "url": "https://gobisons.ca",
+   "blurb": "Second game of the home-and-home; confirm tip-off times.",
+   "tags": [
+    "tix",
+    "fam"
    ],
    "sellout": false,
    "stream": "horizon"
@@ -7216,6 +7424,20 @@
    "stream": "horizon"
   },
   {
+   "title": "Puppers Presents Letterkenny Live",
+   "date": "Mar 10",
+   "dateISO": "2027-03-10",
+   "time": "",
+   "venue": "Canada Life Centre",
+   "url": "https://www.livenation.com/venue/KovZpaK5me/canada-life-centre-events",
+   "blurb": "Live Letterkenny comedy show (time unconfirmed).",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
    "title": "Jets vs. Toronto Maple Leafs",
    "date": "Mar 11",
    "dateISO": "2027-03-11",
@@ -7321,6 +7543,20 @@
    "venue": "Event Centre at Club Regent Casino",
    "url": "https://comedy.tickets/city/winnipeg/",
    "blurb": "Corner Gas creator and stand-up comic performs live.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "WSO: Subscription Concert (Mar)",
+   "date": "Mar 13-14",
+   "dateISO": "2027-03-13",
+   "time": "",
+   "venue": "Centennial Concert Hall",
+   "url": "https://centennialconcerthall.com/Online/article/WSO2627",
+   "blurb": "Winnipeg Symphony Orchestra season concert pair.",
    "tags": [
     "tix"
    ],
@@ -8067,6 +8303,20 @@
    "venue": "Centennial Concert Hall",
    "url": "https://wso.ca/whats-on/a5-brahms-piano-concerto-no-1-and-mussorgskys-pictures-at-an-exhibition/",
    "blurb": "WSO subscription concert.",
+   "tags": [
+    "tix"
+   ],
+   "sellout": false,
+   "stream": "horizon"
+  },
+  {
+   "title": "WSO: Subscription Concert (May)",
+   "date": "May 8-9",
+   "dateISO": "2027-05-08",
+   "time": "",
+   "venue": "Centennial Concert Hall",
+   "url": "https://centennialconcerthall.com/Online/article/WSO2627",
+   "blurb": "Winnipeg Symphony Orchestra season concert pair.",
    "tags": [
     "tix"
    ],
