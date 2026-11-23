@@ -1,9 +1,9 @@
 {
-  "generated": "2026-11-22",
+  "generated": "2026-11-23",
   "window": {
-    "start": "2026-11-22",
-    "end": "2026-12-06",
-    "label": "November 22 – December 6, 2026"
+    "start": "2026-11-23",
+    "end": "2026-12-07",
+    "label": "November 23 – December 7, 2026"
   },
   "headwaters": [
     {
@@ -26,498 +26,6 @@
     }
   ],
   "events": [
-    {
-      "title": "Baby, It's Cold Outside",
-      "date": "Nov 22",
-      "dateISO": "2026-11-22",
-      "time": "",
-      "venue": "West St. Paul Access Centre, 48 Holland Rd, West St. Paul",
-      "url": "https://www.travelmanitoba.com/blog/guide-to-manitoba-craft-sales/",
-      "blurb": "A winter-themed craft and vendor market just north of the Perimeter in West St. Paul. Listed in Travel Manitoba's 2026 craft sale guide; check the organizer for hours.",
-      "tags": [],
-      "sellout": false,
-      "stream": "confluence"
-    },
-    {
-      "title": "Bison Bus Tour",
-      "date": "Sun, Nov 22",
-      "dateISO": "2026-11-22",
-      "time": "10:30-11:30 AM",
-      "venue": "FortWhyte Alive",
-      "url": "https://www.fortwhyte.org/event/bison-bus-tour-2/2026-11-22/1/",
-      "blurb": "Bus tour to see the bison herd.",
-      "tags": [],
-      "sellout": false,
-      "stream": "confluence"
-    },
-    {
-      "title": "Create and Connect Crafts at The Leaf",
-      "date": "Nov 22 - Feb 7",
-      "dateISO": "2026-11-22",
-      "time": "",
-      "venue": "The Leaf, Assiniboine Park",
-      "url": "https://www.assiniboinepark.ca/events/event/139",
-      "blurb": "Drop-in family craft sessions, through Feb 7, 2027.",
-      "tags": [
-        "fam"
-      ],
-      "sellout": false,
-      "stream": "ripples"
-    },
-    {
-      "title": "Esteban Seunarine with The Kind Ghosts",
-      "date": "Nov 22",
-      "dateISO": "2026-11-22",
-      "time": "7:00 PM (doors 6:00)",
-      "venue": "The Club Room, Fort Garry Hotel, 222 Broadway",
-      "url": "https://www.showpass.com/esteban-seunarine-the-kind-ghosts/",
-      "blurb": "Drummer Esteban Seunarine blends Caribbean and Latin rhythms with prairie indie-folk as he releases his third album, The Expanding Whatever. Jazz Winnipeg presents, and the show is already more than half sold.",
-      "tags": [
-        "tix"
-      ],
-      "sellout": true,
-      "stream": "rapids"
-    },
-    {
-      "title": "Housing, Inc.: A Global Takeover and Our Fight for Home",
-      "date": "Nov 22",
-      "dateISO": "2026-11-22",
-      "time": "1:00 PM",
-      "venue": "Canadian Museum for Human Rights, 85 Israel Asper Way",
-      "url": "https://humanrights.ca/event/housing-inc-global-takeover-and-our-fight-home",
-      "blurb": "2026 CBC Massey Lecturer and former UN housing rapporteur Leilani Farha talks about her new book, followed by a signing. Free, registration required; doors 12:30 PM.",
-      "tags": [
-        "free"
-      ],
-      "sellout": false,
-      "stream": "deep"
-    },
-    {
-      "title": "Lavish Events Christmas Market",
-      "date": "Nov 22",
-      "dateISO": "2026-11-22",
-      "time": "11:00 AM-4:00 PM",
-      "venue": "Createful Spaces, 359 McDermot Ave",
-      "url": "https://allevents.in/winnipeg/christmas-market/200031011639056",
-      "blurb": "A boutique Exchange District holiday market with 15+ local vendors, including Sips by Sammy and Dragonfly Fragrance Bar, set among photo-ready festive displays.",
-      "tags": [
-        "free"
-      ],
-      "sellout": false,
-      "stream": "confluence"
-    },
-    {
-      "title": "Manitoba Moose vs. Rockford IceHogs",
-      "date": "Nov 22",
-      "dateISO": "2026-11-22",
-      "time": "2:00 PM",
-      "venue": "Canada Life Centre (300 Portage Ave)",
-      "url": "https://www.canadalifecentre.ca/events/moose-events/",
-      "blurb": "Annual Teddy Bear Toss game where fans throw stuffed animals onto the ice after the first Moose goal, collected for local charities.",
-      "tags": [
-        "fam",
-        "tix"
-      ],
-      "sellout": true,
-      "stream": "confluence"
-    },
-    {
-      "title": "Merry Makers Market - Purl & Hank Holiday Market",
-      "date": "Nov 22",
-      "dateISO": "2026-11-22",
-      "time": "10:00 AM",
-      "venue": "St. Norbert Farmers' Market (3514 Pembina Highway)",
-      "url": "https://stnorbertfarmersmarket.ca/",
-      "blurb": "A holiday pop-up market from Purl & Hank held at the St. Norbert Farmers' Market.",
-      "tags": [
-        "free"
-      ],
-      "sellout": false,
-      "stream": "confluence"
-    },
-    {
-      "title": "New Friend Night!",
-      "date": "Nov 22",
-      "dateISO": "2026-11-22",
-      "time": "6:30-8:30 PM",
-      "venue": "Across the Board Game Café",
-      "url": "https://acrosstheboardcafe.com/event/new-friend-night-5/",
-      "blurb": "Show up solo and get matched into board-game groups; a low-pressure way to meet fellow tabletop people ($12).",
-      "tags": [
-        "tix"
-      ],
-      "sellout": false,
-      "stream": "confluence"
-    },
-    {
-      "title": "Santa in the Forest",
-      "date": "Nov 22",
-      "dateISO": "2026-11-22",
-      "time": "10:30 AM - 3:00 PM",
-      "venue": "FortWhyte Alive",
-      "url": "https://www.fortwhyte.org/event/santa/2026-11-22/",
-      "blurb": "Photos with Santa in FortWhyte's wintry forest setting, included with admission plus a photo fee.",
-      "tags": [
-        "tix",
-        "fam"
-      ],
-      "sellout": false,
-      "stream": "ripples"
-    },
-    {
-      "title": "Santa's Workshop at FortWhyte Alive",
-      "date": "Nov 22-30",
-      "dateISO": "2026-11-22",
-      "time": "",
-      "venue": "FortWhyte Alive, 1961 McCreary Rd",
-      "url": "https://www.fortwhyte.org/visit/calendar/",
-      "blurb": "Holiday workshop experience at FortWhyte, $100-$120. Dates from an aggregator; confirm with FortWhyte.",
-      "tags": [
-        "tix",
-        "fam"
-      ],
-      "sellout": false,
-      "stream": "confluence"
-    },
-    {
-      "title": "Siamese Rescue Craft Sale",
-      "date": "Nov 22",
-      "dateISO": "2026-11-22",
-      "time": "",
-      "venue": "Archwood Community Centre, 565 Guilbault St",
-      "url": "https://www.travelmanitoba.com/blog/guide-to-manitoba-craft-sales/",
-      "blurb": "A craft sale in support of Siamese cat rescue, with handmade goods from area crafters. Listed in Travel Manitoba's 2026 craft sale guide; check the organizer for hours.",
-      "tags": [],
-      "sellout": false,
-      "stream": "confluence"
-    },
-    {
-      "title": "Tape Face",
-      "date": "Nov 22",
-      "dateISO": "2026-11-22",
-      "time": "7:00 pm",
-      "venue": "Club Regent Event Centre",
-      "url": "https://www.etickets.com/concerts/comedy/tape-face-winnipeg-mb-11-22-2026/8042625/t",
-      "blurb": "Sam Wills, the New Zealand comic seen on America's Got Talent, performs his silent comedy act with taped-shut lips, mime and audience volunteers.",
-      "tags": [
-        "tix",
-        "fam"
-      ],
-      "sellout": false,
-      "stream": "deep"
-    },
-    {
-      "title": "The Bros. Landreth",
-      "date": "Nov 22",
-      "dateISO": "2026-11-22",
-      "time": "See listing",
-      "venue": "Burton Cummings Theatre (364 Smith St)",
-      "url": "https://exclaim.ca/concertcentral/concerts/city/winnipeg",
-      "blurb": "Winnipeg roots-rock band The Bros. Landreth play a home-city show.",
-      "tags": [
-        "tix"
-      ],
-      "sellout": false,
-      "stream": "rapids"
-    },
-    {
-      "title": "Top Dog: A Competitive Improv Show",
-      "date": "Nov 22",
-      "dateISO": "2026-11-22",
-      "time": "7 PM",
-      "venue": "Sidestage (700 Osborne St)",
-      "url": "https://www.sidestagewpg.com/tm-event/top-dog-a-competitive-improv-show-4/",
-      "blurb": "Winnipeg improvisers go head-to-head for audience glory in this recurring competitive improv night. All ages, tickets roughly $15-20, doors 6:30.",
-      "tags": [
-        "tix"
-      ],
-      "sellout": false,
-      "stream": "deep"
-    },
-    {
-      "title": "Ukrainian Newcomer Makers Market",
-      "date": "Nov 22",
-      "dateISO": "2026-11-22",
-      "time": "",
-      "venue": "Holy Trinity Ukrainian Orthodox Church, 1175 Main St",
-      "url": "https://www.travelmanitoba.com/blog/guide-to-manitoba-craft-sales/",
-      "blurb": "Shop handmade goods from Ukrainian newcomer makers at this North End market, held at Holy Trinity Ukrainian Orthodox Church.",
-      "tags": [],
-      "sellout": false,
-      "stream": "confluence"
-    },
-    {
-      "title": "Warren Miller's DAY'S OFF",
-      "date": "Nov 22",
-      "dateISO": "2026-11-22",
-      "time": "12:45 PM (doors 12:15)",
-      "venue": "Park Theatre",
-      "url": "https://myparktheatre.com/tm-event/warren-millers-days-off/",
-      "blurb": "The annual Warren Miller ski and snowboard film screens as a Sunday matinee to kick off winter.",
-      "tags": [
-        "tix"
-      ],
-      "sellout": false,
-      "stream": "deep"
-    },
-    {
-      "title": "West Kildonan Christmas Craft Market",
-      "date": "Nov 22",
-      "dateISO": "2026-11-22",
-      "time": "",
-      "venue": "West Kildonan Memorial Community Centre, 346 Perth Ave",
-      "url": "https://www.travelmanitoba.com/blog/guide-to-manitoba-craft-sales/",
-      "blurb": "A Sunday neighbourhood Christmas market in the north end with local crafters and vendors.",
-      "tags": [
-        "free",
-        "fam"
-      ],
-      "sellout": false,
-      "stream": "confluence"
-    },
-    {
-      "title": "Women Helping Women 2026",
-      "date": "Nov 22",
-      "dateISO": "2026-11-22",
-      "time": "7:00 PM (doors 6:30)",
-      "venue": "Park Theatre",
-      "url": "https://myparktheatre.com/tm-event/women-helping-women-2026/",
-      "blurb": "An annual benefit concert featuring local women performers.",
-      "tags": [
-        "tix"
-      ],
-      "sellout": false,
-      "stream": "rapids"
-    },
-    {
-      "title": "Youth D&D",
-      "date": "Nov 22",
-      "dateISO": "2026-11-22",
-      "time": "2-5 PM",
-      "venue": "Across the Board Game Café",
-      "url": "https://acrosstheboardcafe.com/event/youth-dd-24/",
-      "blurb": "A guided Dungeons & Dragons session just for 10-to-15-year-olds, run by the café's game masters ($20).",
-      "tags": [
-        "tix",
-        "fam"
-      ],
-      "sellout": false,
-      "stream": "ripples"
-    },
-    {
-      "title": "Zoo Lights Festival",
-      "date": "Nov 22 - Jan 5",
-      "dateISO": "2026-11-22",
-      "time": "5:00 PM - 10:00 PM",
-      "venue": "Assiniboine Park Zoo",
-      "url": "https://www.assiniboinepark.ca/events/zoolights/planyourvisit",
-      "blurb": "Winnipeg's holiday light display winds through the Zoo after dark with seasonal entertainment.",
-      "tags": [
-        "fam",
-        "tix"
-      ],
-      "sellout": false,
-      "stream": "confluence"
-    },
-    {
-      "title": "Manitoba Antique Association Fall Sale",
-      "date": "Nov 22",
-      "dateISO": "2026-11-22",
-      "time": "10am-4pm",
-      "venue": "Viscount Gort Hotel, 1670 Portage Ave",
-      "url": "https://explorethepeg.ca/events/manitoba-antique-association-fall-sale-2026-11-22",
-      "blurb": "Dealers bring antiques, collectibles and vintage finds to the association's fall show and sale, which makes for good one-of-a-kind holiday gift hunting.",
-      "tags": [],
-      "sellout": false,
-      "stream": "confluence"
-    },
-    {
-      "title": "Comfort Food",
-      "date": "Through Dec 6",
-      "dateISO": "2026-11-22",
-      "time": "",
-      "venue": "Royal MTC Tom Hendry Warehouse, 140 Rupert Ave",
-      "url": "https://royalmtc.ca/Current-Plays/Comfort-Food.aspx",
-      "blurb": "Zorana Sadiq's two-hander about Bette, a TV cooking-show host who brings her online-obsessed son back on air to save her ratings, with real cooking and live camera work. It runs about 90 minutes with no intermission and closes Dec 6.",
-      "tags": [
-        "tix"
-      ],
-      "sellout": false,
-      "stream": "deep"
-    },
-    {
-      "title": "The Incomplete Dictionary of Lexical Gaps",
-      "date": "Through Nov 29",
-      "dateISO": "2026-11-22",
-      "time": "",
-      "venue": "Prairie Theatre Exchange, Portage Place, 393 Portage Ave",
-      "url": "http://www.pte.mb.ca/",
-      "blurb": "Prairie Theatre Exchange's November mainstage production runs until Nov 29. The Nov 27 performance is relaxed and ASL-interpreted.",
-      "tags": [
-        "tix"
-      ],
-      "sellout": false,
-      "stream": "deep"
-    },
-    {
-      "title": "L'hiver de nos vies",
-      "date": "Through Nov 28",
-      "dateISO": "2026-11-22",
-      "time": "",
-      "venue": "Théâtre Cercle Molière, 340 Provencher Blvd",
-      "url": "https://www.cerclemoliere.com/en/26-27",
-      "blurb": "The French-language production that opens Théâtre Cercle Molière's 2026-27 season in Saint-Boniface runs until Nov 28.",
-      "tags": [
-        "tix"
-      ],
-      "sellout": false,
-      "stream": "deep"
-    },
-    {
-      "title": "Otium",
-      "date": "Nov 22-24",
-      "dateISO": "2026-11-22",
-      "time": "3:00, 7:00 and 9:00 pm",
-      "venue": "Dave Barber Cinematheque, 100 Arthur St",
-      "url": "https://davebarbercinematheque.com/movies/otium/",
-      "blurb": "Christopher Beaulieu's debut feature follows a real estate photographer who commutes to Toronto to shoot luxury apartments for secretive companies, in a quiet look at the gig economy and a generation's money worries. Screenings are on Nov 22 and Nov 24.",
-      "tags": [
-        "tix"
-      ],
-      "sellout": false,
-      "stream": "deep"
-    },
-    {
-      "title": "Unzipped",
-      "date": "Nov 22",
-      "dateISO": "2026-11-22",
-      "time": "5:00 pm",
-      "venue": "Dave Barber Cinematheque, 100 Arthur St",
-      "url": "https://davebarbercinematheque.com/movies/unzipped-4k-restoration/",
-      "blurb": "A new 4K restoration of the classic documentary that follows designer Isaac Mizrahi as he plans his fall 1994 collection.",
-      "tags": [
-        "tix"
-      ],
-      "sellout": false,
-      "stream": "deep"
-    },
-    {
-      "title": "One eye filled with night",
-      "date": "Through Jan 9",
-      "dateISO": "2026-11-22",
-      "time": "Tue, Wed and Fri 12-6 pm; Thu 12-8 pm; Sat 12-5 pm",
-      "venue": "Plug In ICA, 1-460 Portage Ave",
-      "url": "https://plugin.org/",
-      "blurb": "A free exhibition of Laura Lewis's work at Plug In ICA, open until Jan 9, 2027. The gallery's holiday bookstore sale, with 20% off (30% for members), runs until Dec 19.",
-      "tags": [
-        "free"
-      ],
-      "sellout": false,
-      "stream": "deep"
-    },
-    {
-      "title": "November Members' Exhibition",
-      "date": "Through Dec 4",
-      "dateISO": "2026-11-22",
-      "time": "Wed-Sat 12-5 pm",
-      "venue": "aceartinc., 206 Princess St",
-      "url": "https://aceart.org/2026/09/23/november-members-exhibition-2026/",
-      "blurb": "aceartinc.'s annual members' show, with one work from each active member in any medium. Works are for sale and the proceeds go straight to the artists. It closes Dec 4.",
-      "tags": [
-        "free"
-      ],
-      "sellout": false,
-      "stream": "deep"
-    },
-    {
-      "title": "Eaton's Fairytale Vignettes",
-      "date": "Through Jan 3",
-      "dateISO": "2026-11-22",
-      "time": "9:30 AM–4:30 PM (museum hours)",
-      "venue": "Manitoba Children's Museum, 45 Forks Market Rd",
-      "url": "https://childrensmuseum.com/visit/temporary-exhibitions/eatons-fairytale-vignettes",
-      "blurb": "The 15 restored animatronic fairytale scenes from Santa's Village on the ninth floor of the old downtown Eaton's are back for the season, running until January 3, 2027. Free with general museum admission.",
-      "tags": [
-        "tix",
-        "fam"
-      ],
-      "sellout": false,
-      "stream": "ripples"
-    },
-    {
-      "title": "TROLLS: Save the Humans",
-      "date": "Weekends through Feb 7",
-      "dateISO": "2026-11-22",
-      "time": "Free Troll Translator Tours 10:30 AM",
-      "venue": "Assiniboine Park Zoo",
-      "url": "https://www.assiniboinepark.ca/events/event/412",
-      "blurb": "Nature activities for all ages with a different theme each weekend, inspired by the Troll sculptures: geocaching and pot painting Nov 28-29, sustainable gift wrap Dec 5-6, then snowshoeing and campfires in the new year. The guided Troll Translator Tours are free.",
-      "tags": [
-        "fam",
-        "tix"
-      ],
-      "sellout": false,
-      "stream": "ripples"
-    },
-    {
-      "title": "Music and Makers - Holiday Edition",
-      "date": "Nov 22",
-      "dateISO": "2026-11-22",
-      "time": "12:00 PM - 8:00 PM",
-      "venue": "The Event Space, 2nd floor, The Forks Market",
-      "url": "https://www.theforks.com/events/calendar-of-events/event/1324",
-      "blurb": "Live music from emerging and established local acts plus shopping from handmade vendors at The Forks. Runs Nov 20-22, and today is the last day.",
-      "tags": [
-        "free",
-        "fam"
-      ],
-      "sellout": false,
-      "stream": "confluence"
-    },
-    {
-      "title": "Third + Bird Christmas Market",
-      "date": "Nov 22",
-      "dateISO": "2026-11-22",
-      "time": "12:00 PM - 4:30 PM",
-      "venue": "Red River Exhibition Park, 3977 Portage Ave",
-      "url": "https://www.redriverex.com/events/thirdbird-christmas-market/",
-      "blurb": "Final day of Third + Bird's YWG Christmas Market, Winnipeg's largest urban makers' market, with hundreds of local makers and artisans. General admission is $10 + GST online at thirdandbird.com, and kids 12 and under get in free with an online ticket. A limited number of $15 cash tickets are sold at the door.",
-      "tags": [
-        "tix",
-        "fam"
-      ],
-      "sellout": false,
-      "stream": "confluence"
-    },
-    {
-      "title": "Grant Park Holiday Pop Up",
-      "date": "Nov 22 & 27-29",
-      "dateISO": "2026-11-22",
-      "time": "Fri 10 AM-7 PM, Sat 10 AM-6 PM, Sun 12-5 PM",
-      "venue": "Grant Park Shopping Centre, 1120 Grant Ave",
-      "url": "https://www.todocanada.ca/city/winnipeg/event/grant-park-holiday-pop-up-2/",
-      "blurb": "The 2nd annual holiday pop-up of local makers, bakers and small businesses inside Grant Park mall. Free admission. It runs two weekends, Nov 20-22 and Nov 27-29.",
-      "tags": [
-        "free",
-        "fam"
-      ],
-      "sellout": false,
-      "stream": "confluence"
-    },
-    {
-      "title": "JFest",
-      "date": "Through Nov 22",
-      "dateISO": "2026-11-22",
-      "time": "All day",
-      "venue": "Rady JCC / Asper Jewish Community Campus, 123 Doncaster St",
-      "url": "https://www.jewishwinnipeg.org/community-calendar/jfest-2026",
-      "blurb": "The Rady JCC's yearly week of Jewish culture, food and concerts ran Nov 14-22 and ends today. Check the listing for the final day's program.",
-      "tags": [
-        "tix"
-      ],
-      "sellout": false,
-      "stream": "confluence"
-    },
     {
       "title": "Jets vs. Utah Mammoth",
       "date": "Nov 23",
@@ -570,6 +78,175 @@
       "blurb": "Masters men's teams in the Winnipeg region play for spots at the provincial Masters championship. Spectators can usually drop in for free.",
       "tags": [
         "free"
+      ],
+      "sellout": false,
+      "stream": "sky"
+    },
+    {
+      "title": "Comfort Food",
+      "date": "Through Dec 6",
+      "dateISO": "2026-11-23",
+      "time": "7:30 PM",
+      "venue": "Royal MTC Tom Hendry Warehouse, 140 Rupert Ave",
+      "url": "https://royalmtc.ca/Current-Plays/Comfort-Food.aspx",
+      "blurb": "Zorana Sadiq's two-hander about a fading TV cooking-show host and her very-online son, with live cooking and camera work in front of a 'studio audience' (food may be shared with the crowd). It runs about 90 minutes with no intermission and closes Dec 6.",
+      "tags": [
+        "tix"
+      ],
+      "sellout": false,
+      "stream": "deep"
+    },
+    {
+      "title": "L'hiver de nos vies",
+      "date": "Through Nov 28",
+      "dateISO": "2026-11-23",
+      "time": "7:30 PM (2 PM matinees)",
+      "venue": "Théâtre Cercle Molière, 340 boul. Provencher",
+      "url": "https://www.cerclemoliere.com/en/event/lhiver-de-nos-vies",
+      "blurb": "France Adams' documentary play grows out of a talk with her aging mother about death and weaves in life stories gathered from Franco-Manitoban seniors. French and English subtitles, ages 14+, closes Nov 28. Some performances are marked sold out.",
+      "tags": [
+        "tix"
+      ],
+      "sellout": true,
+      "stream": "deep"
+    },
+    {
+      "title": "One eye filled with night",
+      "date": "Through Jan 9",
+      "dateISO": "2026-11-23",
+      "time": "Tue/Wed/Fri 12-6 PM, Thu 12-8 PM, Sat 12-5 PM",
+      "venue": "Plug In ICA, 1-460 Portage Ave",
+      "url": "https://plugin.org/exhibitions/one-eye-filled-with-night-laura-lewis-opening-october-23-2026-6pm/",
+      "blurb": "Laura Lewis's solo exhibition at Plug In ICA runs until January 9, 2027. The holiday 'Art of Gifting' bookstore sale runs until Dec 19.",
+      "tags": [
+        "free"
+      ],
+      "sellout": false,
+      "stream": "deep"
+    },
+    {
+      "title": "November Members' Exhibition",
+      "date": "Through Dec 4",
+      "dateISO": "2026-11-23",
+      "time": "Wed-Sat 12-5 PM",
+      "venue": "aceartinc., 206 Princess St",
+      "url": "https://aceart.org/2026/09/23/november-members-exhibition-2026/",
+      "blurb": "aceartinc.'s annual open members' show, with one work per member in any medium. Pieces are for sale and proceeds go straight to the artists, which makes it a good stop for local holiday gifts. Closes Dec 4.",
+      "tags": [
+        "free"
+      ],
+      "sellout": false,
+      "stream": "deep"
+    },
+    {
+      "title": "Fired",
+      "date": "Through Jan 15",
+      "dateISO": "2026-11-23",
+      "time": "",
+      "venue": "C2 Centre for Craft, 1-329 Cumberland Ave",
+      "url": "https://creativemanitoba.ca/event/fired/",
+      "blurb": "Ceramics by 33 artists from the 1950s to the 2020s, drawn from the Manitoba Crafts Museum and Library collection. It closes January 15, 2027.",
+      "tags": [
+        "free"
+      ],
+      "sellout": false,
+      "stream": "deep"
+    },
+    {
+      "title": "Mending with Tradition",
+      "date": "Through Jan 22",
+      "dateISO": "2026-11-23",
+      "time": "",
+      "venue": "Graffiti Gallery, 109 Higgins Ave",
+      "url": "https://creativemanitoba.ca/event/mending-with-tradition/",
+      "blurb": "Jannuska tells Indigenous stories through a large mixed-media comic, 'The Wolf and the Eagle in the Rain', and related works on motherhood, ceremony and grief that feature Brandon-area knowledge keepers and Elders. On view until January 22, 2027.",
+      "tags": [
+        "free"
+      ],
+      "sellout": false,
+      "stream": "deep"
+    },
+    {
+      "title": "Maya de Forest: my brain like strips of confetti",
+      "date": "Through Jan 15",
+      "dateISO": "2026-11-23",
+      "time": "",
+      "venue": "School of Art Gallery, 255 ARTlab, University of Manitoba, 180 Dafoe Rd",
+      "url": "https://creativemanitoba.ca/event/maya-de-forest-my-brain-like-strips-of-confetti-school-of-art-gallery/",
+      "blurb": "Maya de Forest uses video, collage, sculpture and installation to rework the archive of her father, a former U of M architecture professor. Free admission, until January 15, 2027.",
+      "tags": [
+        "free"
+      ],
+      "sellout": false,
+      "stream": "deep"
+    },
+    {
+      "title": "Ningiukulu Teevee",
+      "date": "On now",
+      "dateISO": "2026-11-23",
+      "time": "Wed 11 AM-9 PM, Thu-Sun 11 AM-5 PM",
+      "venue": "WAG-Qaumajuq, 300 Memorial Blvd",
+      "url": "https://www.wag.ca/exhibitions/ningiukulu-teevee/",
+      "blurb": "Drawings and prints by Kinngait artist Ningiukulu Teevee drawing on Inuit stories and legends, curated by Darlene Wight. Listings show it on view through the end of 2026.",
+      "tags": [
+        "tix"
+      ],
+      "sellout": false,
+      "stream": "deep"
+    },
+    {
+      "title": "TROLLS: Save the Humans",
+      "date": "Through Feb 13",
+      "dateISO": "2026-11-23",
+      "time": "Zoo hours (also at Zoo Lights)",
+      "venue": "Assiniboine Park Zoo, 2595 Roblin Blvd",
+      "url": "https://www.assiniboinepark.ca/trolls",
+      "blurb": "This is the first Canadian stop for Thomas Dambo's six giant trolls built from reclaimed materials. You can see them by day at the zoo or at night during Zoo Lights. It runs until February 13, 2027 and is included with zoo admission.",
+      "tags": [
+        "tix",
+        "fam"
+      ],
+      "sellout": false,
+      "stream": "ripples"
+    },
+    {
+      "title": "The Migrant's Story",
+      "date": "Through Apr 2027",
+      "dateISO": "2026-11-23",
+      "time": "During museum hours",
+      "venue": "Canadian Museum for Human Rights, 85 Israel Asper Way (Level 1 Classroom Lobby)",
+      "url": "https://humanrights.ca/program/migrants-story",
+      "blurb": "A free, bilingual Community Corridor exhibit by Jamaican Canadian poet Nadine Williams that pairs her quilt 'The Fabric of Our Being' with illustrated poems about migration, identity and belonging. It is open now and runs through April 2027.",
+      "tags": [
+        "free"
+      ],
+      "sellout": false,
+      "stream": "deep"
+    },
+    {
+      "title": "Gardener Chats",
+      "date": "Through Jan 9",
+      "dateISO": "2026-11-23",
+      "time": "11:30 am & 1:30 pm weekdays; 11:30 am weekends",
+      "venue": "Biomes at The Leaf, Assiniboine Park",
+      "url": "https://www.assiniboinepark.ca/events/event/229",
+      "blurb": "Drop-in chats with The Leaf's horticulture team as you walk through the indoor biomes, a warm green break from winter. Chats run daily except statutory holidays (none Dec 25–26 or Jan 1) through January 9.",
+      "tags": [
+        "fam"
+      ],
+      "sellout": false,
+      "stream": "sky"
+    },
+    {
+      "title": "The Nature Shop's Holiday Shopping Weekend",
+      "date": "Nov 20-23",
+      "dateISO": "2026-11-23",
+      "time": "All day",
+      "venue": "FortWhyte Alive, 1961 McCreary Rd",
+      "url": "https://www.fortwhyte.org/event/holiday-shopping-weekend/",
+      "blurb": "Last day of FortWhyte's Nature Shop holiday sale, with nature-themed gifts, books and local goods. You can pair it with a walk on the winter trails.",
+      "tags": [
+        "fam"
       ],
       "sellout": false,
       "stream": "sky"
@@ -710,6 +387,60 @@
       "blurb": "A pop-up of Afro-Canadian vendors at Cityplace, part of its Pop-Up Series. Blend & Bloom joins on Tuesday. Free to browse over the lunch hour downtown.",
       "tags": [
         "free"
+      ],
+      "sellout": false,
+      "stream": "confluence"
+    },
+    {
+      "title": "Kilter Trivia Night",
+      "date": "Nov 24",
+      "dateISO": "2026-11-24",
+      "time": "6:30pm-9pm",
+      "venue": "Kilter Brewing Co., 450 Rue Deschambault",
+      "url": "https://allevents.in/winnipeg/trivia-night-at-kilter-brewing/200031047247954",
+      "blurb": "Taproom trivia at Kilter's St. Boniface brewery. Bring a team and pair it with a fresh pint.",
+      "tags": [
+        "free"
+      ],
+      "sellout": false,
+      "stream": "confluence"
+    },
+    {
+      "title": "Tuesday Night Jazz Jams",
+      "date": "Nov 24",
+      "dateISO": "2026-11-24",
+      "time": "7:00 PM",
+      "venue": "Park Alleys, 730 Osborne St",
+      "url": "https://www.jazzwinnipeg.com/calendar/2026/8/18/tuesday-night-jazz-jams-6c2jr-ebpc6-jfws7-ertw6-fbjrp-c5ldd-dnjlh-khcl2-pw3gf-j945g-72gca-n5642-29tn7-9h6hp-l3l6z",
+      "blurb": "A weekly Tuesday jazz jam in the Osborne Village bowling-alley bar, running 7 to 9:30 pm. Local players sit in, and you can just drop by.",
+      "tags": [],
+      "sellout": false,
+      "stream": "rapids"
+    },
+    {
+      "title": "An Evening with John Larsen and Jeremy Hansen",
+      "date": "Nov 24",
+      "dateISO": "2026-11-24",
+      "time": "7:00 PM",
+      "venue": "Westworth United Church, 1750 Grosvenor Ave",
+      "url": "https://allevents.in/winnipeg/an-evening-with-john-larsen-and-astronaut-jeremy-hansen/100002004084274012",
+      "blurb": "Canadian astronaut Jeremy Hansen and author John Larsen talk about Artemis II, the first crewed trip into deep space in 50 years, and Larsen's book Earthrise. Each $54.58 ticket covers two people and one signed copy of the book.",
+      "tags": [
+        "tix"
+      ],
+      "sellout": true,
+      "stream": "deep"
+    },
+    {
+      "title": "Fuckup Nights Winnipeg: Vol. 3",
+      "date": "Nov 24",
+      "dateISO": "2026-11-24",
+      "time": "5:30 PM",
+      "venue": "Manitoba Children's Museum, 45 Forks Market Rd",
+      "url": "https://allevents.in/winnipeg/fuckup-nights-winnipeg-vol-3/100002003666614782",
+      "blurb": "Three local professionals each get 10 minutes and 10 slides to tell the story of their biggest career failure. Q&A, food, drinks and networking follow. Talks start at 6:00 and general admission is $39.",
+      "tags": [
+        "tix"
       ],
       "sellout": false,
       "stream": "confluence"
@@ -929,6 +660,61 @@
       "stream": "deep"
     },
     {
+      "title": "Books and Blocks",
+      "date": "Nov 25",
+      "dateISO": "2026-11-25",
+      "time": "10:30 am",
+      "venue": "St. John's Library",
+      "url": "https://wpl.libcal.com/event/4048739",
+      "blurb": "A short story time followed by free play with soft blocks for babies and toddlers. Drop-in and free.",
+      "tags": [
+        "free",
+        "fam"
+      ],
+      "sellout": false,
+      "stream": "ripples"
+    },
+    {
+      "title": "Marco Castillo",
+      "date": "Nov 25",
+      "dateISO": "2026-11-25",
+      "time": "5:30 PM",
+      "venue": "Smith, Inn at The Forks, 75 Forks Market Rd",
+      "url": "https://www.jazzwinnipeg.com/calendar/marco-castillo-2",
+      "blurb": "Jazz at the Smith restaurant in the Inn at The Forks from 5:30 to 7:30 pm, part of its Wednesday happy-hour series.",
+      "tags": [],
+      "sellout": false,
+      "stream": "rapids"
+    },
+    {
+      "title": "An Evening with Carol Off",
+      "date": "Nov 25",
+      "dateISO": "2026-11-25",
+      "time": "6:00 PM",
+      "venue": "McNally Robinson Booksellers, Grant Park (Atrium)",
+      "url": "https://allevents.in/winnipeg/an-evening-with-carol-off-true-patriot-love-and-host-niigaan-sinclair/200030958958126",
+      "blurb": "Journalist Carol Off talks with host Niigaan Sinclair about her new book True Patriot Love: Reporting from the Frontlines of Canadian Sovereignty, then signs books. It is also streamed live on YouTube.",
+      "tags": [
+        "free"
+      ],
+      "sellout": false,
+      "stream": "deep"
+    },
+    {
+      "title": "ONE PIECE Card Game 4th Anniversary OP-18 Release Event",
+      "date": "Nov 25",
+      "dateISO": "2026-11-25",
+      "time": "6:00 PM",
+      "venue": "Arctic Rift Cards, 1170 Main St",
+      "url": "https://allevents.in/winnipeg/4th-anniversary-event-op-18-release-event/200031027782612",
+      "blurb": "A Swiss-format Standard tournament to launch the OP-18 set. The $30 entry includes two OP-18 boosters, an anniversary tournament pack and a Monkey.D.Luffy promo card. Register in the Bandai TCG+ app, and round 1 starts at 6:30.",
+      "tags": [
+        "tix"
+      ],
+      "sellout": false,
+      "stream": "confluence"
+    },
+    {
       "title": "Alien 45th Anniversary Re-Release",
       "date": "Nov 26",
       "dateISO": "2026-11-26",
@@ -1066,10 +852,10 @@
       "title": "Living Hour",
       "date": "Nov 26",
       "dateISO": "2026-11-26",
-      "time": "",
+      "time": "7:00 PM",
       "venue": "Sidestage",
-      "url": "https://www.songkick.com/concerts/43414261-living-hour-at-sidestage",
-      "blurb": "Winnipeg dream-pop band Living Hour plays a hazy, slow-burning hometown set.",
+      "url": "https://www.showpass.com/livinghour2026/",
+      "blurb": "Winnipeg's dream-pop band Living Hour plays a hometown show at Sidestage with Prairie opening. Doors are at 7 pm.",
       "tags": [
         "tix"
       ],
@@ -1251,9 +1037,9 @@
       "date": "Nov 26-29",
       "dateISO": "2026-11-26",
       "time": "",
-      "venue": "Deer Lodge Curling Club",
-      "url": "https://curlmanitoba.org/events/list/",
-      "blurb": "The Winnipeg-region qualifiers for the men's and women's club curling provincials, four days of grassroots competitive curling. Spectators are welcome to watch.",
+      "venue": "Deer Lodge Curling Club (Winnipeg region)",
+      "url": "https://curlmanitoba.org/event/manitoba-blue-cross-womens-curling-club-regional-qualifiers/",
+      "blurb": "Club-level women's teams play down for spots in CurlManitoba's provincial Curling Club Championship. The Winnipeg region plays at Deer Lodge, and spectators are welcome in the club lounge.",
       "tags": [
         "free"
       ],
@@ -1268,6 +1054,34 @@
       "venue": "Centre culturel franco-manitobain, 340 boul. Provencher",
       "url": "https://creativemanitoba.ca/event/vernissage-opening-laurence-belzile/",
       "blurb": "Free opening reception for Laurence Belzile's new exhibition of works inspired by six women painters. Light refreshments will be served.",
+      "tags": [
+        "free"
+      ],
+      "sellout": false,
+      "stream": "deep"
+    },
+    {
+      "title": "Grandpa's Home Alone",
+      "date": "Through Jan 10",
+      "dateISO": "2026-11-26",
+      "time": "Thu–Sat doors 6pm, Sun doors 5pm",
+      "venue": "Destination Dinner Stage, Canad Inns Fort Garry, 1824 Pembina Hwy",
+      "url": "https://www.canadinns.com/destination-dinner-stage/",
+      "blurb": "Destination Dinner Stage's holiday dinner-theatre comedy: a cranky grandpa left behind by his family sets pranks and traps for two bumbling crooks. Runs Thursday to Sunday until Jan 10, 2027, with dinner included.",
+      "tags": [
+        "tix"
+      ],
+      "sellout": false,
+      "stream": "deep"
+    },
+    {
+      "title": "Barbara Schott Book Launch",
+      "date": "Nov 26",
+      "dateISO": "2026-11-26",
+      "time": "6:00 PM",
+      "venue": "McNally Robinson Booksellers, Grant Park",
+      "url": "https://allevents.in/winnipeg/barbara-schott-book-launch-all-things-that-love-the-sun/200030990144051",
+      "blurb": "Winnipeg poet Barbara Schott launches her new book All Things That Love the Sun at McNally's Grant Park store.",
       "tags": [
         "free"
       ],
@@ -1304,12 +1118,12 @@
     },
     {
       "title": "Canad Inns Winter Wonderland",
-      "date": "Nov 27 - Jan 2",
+      "date": "Nov 27 – Jan 2",
       "dateISO": "2026-11-27",
-      "time": "6-10 pm nightly",
+      "time": "6:00–10:00 pm nightly (closed Dec 25)",
       "venue": "Red River Exhibition Park, 3977 Portage Ave",
       "url": "https://www.redriverex.com/events/canad-inns-winter-wonderland/",
-      "blurb": "Western Canada's largest drive-through light show opens with a 2.5 km route, over two million lights and a 90-foot LED tree, plus pond skating and weekend hayrides (weather permitting). $30 per vehicle of up to seven; closed Dec 25, runs to Jan 2.",
+      "blurb": "Manitoba's biggest drive-through light show, $30 per vehicle for 1–7 people. Extras are free horse-drawn hayrides on weekends, Furry Friends Fridays with Santa or the Grinch, free 3D glasses on Wednesdays and nightly pond skating, weather permitting.",
       "tags": [
         "tix",
         "fam"
@@ -1732,6 +1546,106 @@
       "venue": "Warren Curling Club, Warren",
       "url": "https://curlmanitoba.org/events/list/",
       "blurb": "A weekend open bonspiel for two-person stick curling teams, about 40 minutes northwest of Winnipeg.",
+      "tags": [],
+      "sellout": false,
+      "stream": "sky"
+    },
+    {
+      "title": "Zoo Lights",
+      "date": "Nov 27 – Jan 3",
+      "dateISO": "2026-11-27",
+      "time": "5:00–10:00 pm (last entry 9 pm)",
+      "venue": "Assiniboine Park Zoo, 2595 Roblin Blvd",
+      "url": "https://www.assiniboinepark.ca/events/zoolights",
+      "blurb": "Assiniboine Park's walk-through holiday light festival is back, and this year Thomas Dambo's TROLLS: Save the Humans adds six giant troll sculptures made from reclaimed materials. It opened Nov 20 and runs on select nights through Jan 3: Nov 27-29, Dec 4-6, 11-13, 16-23 and 26-31, and Jan 1-3. You need timed tickets bought online. November tickets are $13.50 + GST and December/January tickets are $18 + GST.",
+      "tags": [
+        "tix",
+        "fam"
+      ],
+      "sellout": false,
+      "stream": "ripples"
+    },
+    {
+      "title": "Imagination Station",
+      "date": "Nov 27",
+      "dateISO": "2026-11-27",
+      "time": "10:30 am",
+      "venue": "St. Vital Library",
+      "url": "https://wpl.libcal.com/event/4081618",
+      "blurb": "Free unstructured play time with toys that encourage imaginative play, for kids ages 0-5 with a caregiver. It runs again on Fridays Dec 4, 11 and 18.",
+      "tags": [
+        "free",
+        "fam"
+      ],
+      "sellout": false,
+      "stream": "ripples"
+    },
+    {
+      "title": "Grant Park Holiday Pop Up",
+      "date": "Nov 27-29",
+      "dateISO": "2026-11-27",
+      "time": "Fri 10am-7pm, Sat 10am-6pm, Sun 12-5pm",
+      "venue": "Grant Park Shopping Centre, 1120 Grant Ave",
+      "url": "https://www.todocanada.ca/city/winnipeg/event/grant-park-holiday-pop-up-2/",
+      "blurb": "The second annual holiday pop-up of local makers and small businesses at Grant Park mall, on its final weekend. Free entry and free parking.",
+      "tags": [
+        "free"
+      ],
+      "sellout": false,
+      "stream": "confluence"
+    },
+    {
+      "title": "Prelude to Christmas",
+      "date": "Nov 27-28",
+      "dateISO": "2026-11-27",
+      "time": "",
+      "venue": "Church of Jesus Christ of Latter-day Saints, 45 Dalhousie Dr",
+      "url": "https://www.todocanada.ca/city/winnipeg/event/prelude-to-christmas/",
+      "blurb": "A two-day community Christmas celebration hosted by the Winnipeg Manitoba West Stake to kick off the season. Free, but RSVP is required.",
+      "tags": [
+        "free",
+        "fam"
+      ],
+      "sellout": false,
+      "stream": "confluence"
+    },
+    {
+      "title": "C.C. Benison Book Launch",
+      "date": "Nov 27",
+      "dateISO": "2026-11-27",
+      "time": "6:00 PM",
+      "venue": "McNally Robinson Booksellers, Grant Park",
+      "url": "https://allevents.in/winnipeg/cc-benison-book-launch-dionision-life-a-comedy/200031011636848",
+      "blurb": "Winnipeg mystery writer C.C. Benison launches his comic novel Dionision Life: A Comedy.",
+      "tags": [
+        "free"
+      ],
+      "sellout": false,
+      "stream": "deep"
+    },
+    {
+      "title": "Critical Hit: Our Tribute to Classic RPGs",
+      "date": "Nov 27",
+      "dateISO": "2026-11-27",
+      "time": "7:30 PM",
+      "venue": "Jubilee Place, 181 Riverton Ave",
+      "url": "https://allevents.in/winnipeg/wvgo-presents-critical-hit-our-tribute-to-classic-rpgs-featuring-superfx/200030844608011",
+      "blurb": "The Winnipeg Video Game Orchestra's flagship winter concert, opened by SuperFX, plays music from Final Fantasy IV to VI, Dragon Quest, Super Mario RPG, Secret of Mana, Zelda: The Wind Waker and Undertale. Tickets are $25 at tickets.wvgo.ca, with youth and rush rates available.",
+      "tags": [
+        "tix",
+        "fam"
+      ],
+      "sellout": false,
+      "stream": "rapids"
+    },
+    {
+      "title": "Lac du Bonnet Men's Bonspiel",
+      "date": "Nov 27-29",
+      "dateISO": "2026-11-27",
+      "time": "Starts 5:00 PM Fri",
+      "venue": "Lac du Bonnet Curling Club, Lac du Bonnet",
+      "url": "https://curlmanitoba.org/event/lac-du-bonnet-mens-bonspiel-3/",
+      "blurb": "A weekend men's bonspiel in cottage country, running from Friday evening to Sunday afternoon.",
       "tags": [],
       "sellout": false,
       "stream": "sky"
@@ -2424,6 +2338,177 @@
       "stream": "confluence"
     },
     {
+      "title": "TROLLS: Save the Humans Weekend Activities",
+      "date": "Nov 28-29",
+      "dateISO": "2026-11-28",
+      "time": "Troll Translator Tour 10:30 am",
+      "venue": "Assiniboine Park Zoo, 2595 Roblin Blvd",
+      "url": "https://www.assiniboinepark.ca/events/event/412",
+      "blurb": "Themed troll weekends at the Zoo, including a free guided Troll Translator Tour. This weekend has troll geocaching and a pot-painting craft to take home. Later weekends add gift-wrap crafts, and from January there are snowshoe walks and campfire marshmallows, running through Feb 7.",
+      "tags": [
+        "fam"
+      ],
+      "sellout": false,
+      "stream": "ripples"
+    },
+    {
+      "title": "Santa in the Forest",
+      "date": "Nov 28-29",
+      "dateISO": "2026-11-28",
+      "time": "10:30 am - 3:00 pm",
+      "venue": "FortWhyte Alive, 1961 McCreary Rd",
+      "url": "https://www.fortwhyte.org/event/santa/2026-11-28/",
+      "blurb": "Family photos with Santa in FortWhyte's snowy forest, with time to share holiday wishes. Both final weekend dates are listed as sold out, so check for cancellations.",
+      "tags": [
+        "tix",
+        "fam"
+      ],
+      "sellout": true,
+      "stream": "ripples"
+    },
+    {
+      "title": "Mrs. Claus at CF Polo Park",
+      "date": "Weekends through Dec 20",
+      "dateISO": "2026-11-28",
+      "time": "Weekends, mall hours",
+      "venue": "CF Polo Park, 1485 Portage Ave",
+      "url": "https://retail-insider.com/retail-insider/2026/11/cadillac-fairview-outlines-2026-holiday-programming-across-canadian-shopping-centres/",
+      "blurb": "Mrs. Claus makes weekend appearances at Polo Park through December 20 as part of Cadillac Fairview's holiday programming. The mall also has LEGO mini-builds and a Toy Mountain donation bin.",
+      "tags": [
+        "free",
+        "fam"
+      ],
+      "sellout": false,
+      "stream": "ripples"
+    },
+    {
+      "title": "Family Train Time",
+      "date": "Nov 28",
+      "dateISO": "2026-11-28",
+      "time": "2:00 pm",
+      "venue": "Millennium Library",
+      "url": "https://wpl.libcal.com/event/4049348",
+      "blurb": "Free wooden-train play for toddlers and preschoolers with their grown-ups. It repeats at Sir William Stephenson Library (Dec 5), St. John's Library (Dec 12) and Louis Riel Library (Dec 22).",
+      "tags": [
+        "free",
+        "fam"
+      ],
+      "sellout": false,
+      "stream": "ripples"
+    },
+    {
+      "title": "LEGO at the Library",
+      "date": "Nov 28",
+      "dateISO": "2026-11-28",
+      "time": "2:00 pm",
+      "venue": "Louis Riel Library",
+      "url": "https://wpl.libcal.com/event/4080962",
+      "blurb": "A free LEGO build session for ages 6-12; all bricks stay at the library. It runs again at Harvey Smith Library on Dec 12 and Munroe Library on Dec 14.",
+      "tags": [
+        "free",
+        "fam"
+      ],
+      "sellout": false,
+      "stream": "ripples"
+    },
+    {
+      "title": "Happy Paw-lidays Market",
+      "date": "Nov 28",
+      "dateISO": "2026-11-28",
+      "time": "10am-2pm",
+      "venue": "Ukrainian Orthodox Church of All Saints, 1500 Day St",
+      "url": "https://allevents.in/winnipeg/happy-paw-lidays-market-by-wgbr/200030731536938",
+      "blurb": "A Transcona holiday makers' market put on by Winnipeg Giant Breed Rescue, with proceeds going to the rescue's foster dogs.",
+      "tags": [
+        "fam"
+      ],
+      "sellout": false,
+      "stream": "confluence"
+    },
+    {
+      "title": "Cookie Walk & Craft Sale",
+      "date": "Nov 28",
+      "dateISO": "2026-11-28",
+      "time": "9am",
+      "venue": "Peace Lutheran Church, 350 Gilmore Ave",
+      "url": "https://allevents.in/winnipeg/cookie-walk-and-craft-sale/200031011638755",
+      "blurb": "Walk past tables of homemade decorated cookies and fill a box with your favourites, then shop a craft sale of gifts from local businesses. Proceeds support the church.",
+      "tags": [
+        "fam"
+      ],
+      "sellout": false,
+      "stream": "confluence"
+    },
+    {
+      "title": "Impressions Jazz Group",
+      "date": "Nov 28",
+      "dateISO": "2026-11-28",
+      "time": "8:00 PM",
+      "venue": "King Cob Market Pub, 580 Ellice Ave",
+      "url": "https://www.jazzwinnipeg.com/calendar/the-jazz-workshop-winnipeg-presents-impressions-jazz-group-and-guests-2",
+      "blurb": "The Jazz Workshop Winnipeg presents the Impressions Jazz Group and guests at West End pub King Cob. No cover.",
+      "tags": [
+        "free"
+      ],
+      "sellout": false,
+      "stream": "rapids"
+    },
+    {
+      "title": "Nob Jazz Nights with Emmanuel Bach Trio",
+      "date": "Nov 28",
+      "dateISO": "2026-11-28",
+      "time": "7:00 PM",
+      "venue": "The Nob @ St Norbert Hotel, 3540 Pembina Hwy",
+      "url": "https://www.jazzwinnipeg.com/calendar/2026/2/28/nob-jazz-nights-with-emmanuel-bach-trio-amp-guests-j2eax-dscnl-hhxsy-4m74w-zxz3l-t24d2-gdfl2-kby56-pzzrw-792y6-8rxam-xj6pk-baka5-c2sbf-m244e-k7c65",
+      "blurb": "Free Saturday-night jazz with the Emmanuel Bach Trio and rotating guests at the St. Norbert Hotel. It runs weekly through December.",
+      "tags": [
+        "free"
+      ],
+      "sellout": false,
+      "stream": "rapids"
+    },
+    {
+      "title": "Silver Heights Saturday Afternoon Jazz",
+      "date": "Nov 28",
+      "dateISO": "2026-11-28",
+      "time": "1:00 PM",
+      "venue": "Silver Heights Restaurant, 2169 Portage Ave",
+      "url": "https://www.jazzwinnipeg.com/calendar/2026/9/19/silver-heights-restaurant-saturday-afternoon-jazz-z6m6f-e6ga6-gbt36-wwjbz-hcxgd-56dwz-4l57m-2b4ys-839ej",
+      "blurb": "A weekly Saturday-afternoon jazz set (about 1 to 4 pm) at a St. James institution; this week it's Jon Gordon, Carter Graham, Steve Hamilton and Rob Siwik. $8 cover.",
+      "tags": [],
+      "sellout": false,
+      "stream": "rapids"
+    },
+    {
+      "title": "Welcome 2 Winnipeg Comedy Show",
+      "date": "Nov 28",
+      "dateISO": "2026-11-28",
+      "time": "8:00 PM",
+      "venue": "Ibex Restaurant & Event Space, 626 Sargent Ave",
+      "url": "https://allevents.in/winnipeg/welcome-2-winnipeg-comedy-show/100002004553439298",
+      "blurb": "An 18+ stand-up night at Ibex on Sargent, headlined by Filmon \"Gergish\" Yohannes. Doors open at 7.",
+      "tags": [
+        "tix"
+      ],
+      "sellout": false,
+      "stream": "deep"
+    },
+    {
+      "title": "Bison Bus Tour",
+      "date": "Nov 28",
+      "dateISO": "2026-11-28",
+      "time": "1:30–2:30 pm",
+      "venue": "FortWhyte Alive, 1961 McCreary Rd",
+      "url": "https://www.fortwhyte.org/event/bison-bus-tour-2/2026-11-28/",
+      "blurb": "A guided bus ride out onto FortWhyte's prairie to see the bison herd up close in its winter coats, with an interpreter on board. Register through FortWhyte's online store.",
+      "tags": [
+        "tix",
+        "fam"
+      ],
+      "sellout": false,
+      "stream": "sky"
+    },
+    {
       "title": "A Cup of Intrigue: Dwight Talks Spies!",
       "date": "Nov 29",
       "dateISO": "2026-11-29",
@@ -2757,6 +2842,62 @@
       "stream": "confluence"
     },
     {
+      "title": "A Reunion with Beethoven",
+      "date": "Nov 29",
+      "dateISO": "2026-11-29",
+      "time": "2:00 PM",
+      "venue": "Desautels Concert Hall, 150 Dafoe Rd W",
+      "url": "https://www.showpass.com/cello/",
+      "blurb": "Cellist Minna Rose Chung joins Desautels alumni Gregory Lewis (violin) and Paul Williamson (piano) for Beethoven's Piano Trio Op. 70 No. 2, with conversation between pieces. Tickets are pay-what-you-can, up to about $28.",
+      "tags": [
+        "tix"
+      ],
+      "sellout": false,
+      "stream": "rapids"
+    },
+    {
+      "title": "Matt Dusk: A Very Sinatra Christmas",
+      "date": "Nov 29",
+      "dateISO": "2026-11-29",
+      "time": "7:00 PM",
+      "venue": "Club Regent Event Centre, 1425 Regent Ave W",
+      "url": "https://explorethepeg.ca/events/holiday-matt-dusk-sinatra-2026",
+      "blurb": "Crooner Matt Dusk sings Sinatra-style holiday standards. All ages, from $35.",
+      "tags": [
+        "tix"
+      ],
+      "sellout": false,
+      "stream": "rapids"
+    },
+    {
+      "title": "An Afternoon with Brad Gushue",
+      "date": "Nov 29",
+      "dateISO": "2026-11-29",
+      "time": "1:00 PM",
+      "venue": "McNally Robinson Booksellers, Grant Park (Atrium)",
+      "url": "https://allevents.in/winnipeg/an-afternoon-with-brad-gushue-gushue-the-making-of-a-champion/200031011638655",
+      "blurb": "Curling champion Brad Gushue talks about his book Gushue: The Making of a Champion, then signs copies. It is also streamed live on YouTube.",
+      "tags": [
+        "free"
+      ],
+      "sellout": false,
+      "stream": "deep"
+    },
+    {
+      "title": "Behind the Scenes Zoo Experience: Toucan Ridge",
+      "date": "Nov 29",
+      "dateISO": "2026-11-29",
+      "time": "11:00 am",
+      "venue": "Assiniboine Park Zoo, 2595 Roblin Blvd",
+      "url": "https://www.assiniboinepark.ca/programs-and-tours/behind-the-scenes",
+      "blurb": "A 60-minute behind-the-scenes visit, capped at 4 people, among the free-flying tropical birds of Toucan Ridge, covering how keepers care for them. It is the last date of the fall series. Cost is $46 + GST plus Zoo admission, ages 10+, and advance booking is required.",
+      "tags": [
+        "tix"
+      ],
+      "sellout": false,
+      "stream": "sky"
+    },
+    {
       "title": "GWAR",
       "date": "Monday, November 30, 2026",
       "dateISO": "2026-11-30",
@@ -2880,6 +3021,21 @@
       ],
       "sellout": false,
       "stream": "confluence"
+    },
+    {
+      "title": "LEGO Builders Club",
+      "date": "Dec 1",
+      "dateISO": "2026-12-01",
+      "time": "6:00 pm",
+      "venue": "Millennium Library",
+      "url": "https://wpl.libcal.com/event/4049598",
+      "blurb": "A free one-hour themed LEGO building club for ages 9-12, with a new challenge each month. It also meets at Pembina Trail Library (Dec 10 and 12) and Fort Garry Library (Dec 12).",
+      "tags": [
+        "free",
+        "fam"
+      ],
+      "sellout": false,
+      "stream": "ripples"
     },
     {
       "title": "An Evening with Mary Lawson",
@@ -3185,6 +3341,46 @@
       ],
       "sellout": false,
       "stream": "confluence"
+    },
+    {
+      "title": "UM Jazz Vocal Ensemble",
+      "date": "Dec 3",
+      "dateISO": "2026-12-03",
+      "time": "7:30 PM",
+      "venue": "Desautels Concert Hall, 150 Dafoe Rd W",
+      "url": "https://www.jazzwinnipeg.com/calendar/um-jazz-ensemble-directed-by-fabio-ragnelli-atnel",
+      "blurb": "The University of Manitoba's jazz vocal ensemble, directed by Karly Epp, gives its end-of-term concert. Pay what you can.",
+      "tags": [],
+      "sellout": false,
+      "stream": "rapids"
+    },
+    {
+      "title": "Jennifer Ilse Black Book Launch",
+      "date": "Dec 3",
+      "dateISO": "2026-12-03",
+      "time": "6:00 PM",
+      "venue": "McNally Robinson Booksellers, Grant Park",
+      "url": "https://allevents.in/winnipeg/jennifer-ilse-black-book-launch-fulfillment/200030990145958",
+      "blurb": "Jennifer Ilse Black launches her new book Fulfillment at McNally Robinson.",
+      "tags": [
+        "free"
+      ],
+      "sellout": false,
+      "stream": "deep"
+    },
+    {
+      "title": "Prairie Winter Invitational",
+      "date": "Dec 3-6",
+      "dateISO": "2026-12-03",
+      "time": "",
+      "venue": "Pan Am Pool, 25 Poseidon Bay",
+      "url": "https://gobisons.ca/sports/swimming-and-diving/schedule",
+      "blurb": "A four-day swim meet at the Pan Am Pool. The Bisons swim team races alongside clubs from across the Prairies, and spectators can watch from the pool deck seating.",
+      "tags": [
+        "fam"
+      ],
+      "sellout": false,
+      "stream": "sky"
     },
     {
       "title": "Pitâw Mīno Muskîki Indigenous Handmade Winter Market",
@@ -3500,6 +3696,32 @@
       ],
       "sellout": false,
       "stream": "rapids"
+    },
+    {
+      "title": "Allow Me to Demonstrate: An Evening of Very Revealing Presentations",
+      "date": "Dec 4",
+      "dateISO": "2026-12-04",
+      "time": "7:00 PM",
+      "venue": "The Output at Video Pool Media Arts Centre, 100 Arthur St",
+      "url": "https://allevents.in/winnipeg/allow-me-to-demonstrate-an-evening-of-very-revealing-presentations/100002003735457693",
+      "blurb": "Local burlesque performers give PowerPoint talks on their niche obsessions, with trivia and drinks between them. Hosted by Bat Haus Burlesque and Mildred Mayhem. 18+, about $20.",
+      "tags": [
+        "tix"
+      ],
+      "sellout": false,
+      "stream": "deep"
+    },
+    {
+      "title": "Whiteshell Men's Bonspiel",
+      "date": "Dec 4-6",
+      "dateISO": "2026-12-04",
+      "time": "",
+      "venue": "Whiteshell Curling Club",
+      "url": "https://curlmanitoba.org/event/whiteshell-mens-bonspiel-3/",
+      "blurb": "A weekend men's bonspiel at the Whiteshell Curling Club, one of eastern Manitoba's early-season club spiels.",
+      "tags": [],
+      "sellout": false,
+      "stream": "sky"
     },
     {
       "title": "Abonten (Outside)",
@@ -4148,6 +4370,104 @@
       "stream": "ripples"
     },
     {
+      "title": "Wheelie Good Reads",
+      "date": "Dec 5",
+      "dateISO": "2026-12-05",
+      "time": "10:30 am",
+      "venue": "Cornish Library",
+      "url": "https://wpl.libcal.com/event/4090969",
+      "blurb": "A free transportation-themed story time with songs and rhymes, followed by a vehicle art craft. For ages 3-5 with a caregiver; 45 minutes.",
+      "tags": [
+        "free",
+        "fam"
+      ],
+      "sellout": false,
+      "stream": "ripples"
+    },
+    {
+      "title": "Ho Ho Ho Drag Brunch",
+      "date": "Dec 5",
+      "dateISO": "2026-12-05",
+      "time": "12pm-1:30pm",
+      "venue": "La Roca",
+      "url": "https://allevents.in/winnipeg/ho-ho-ho-la-roca-drag-brunch/100002004877129464",
+      "blurb": "A holiday-themed drag brunch with festive performances served alongside your meal.",
+      "tags": [
+        "tix"
+      ],
+      "sellout": false,
+      "stream": "confluence"
+    },
+    {
+      "title": "St. James Collegiate Holiday Craft Sale",
+      "date": "Dec 5",
+      "dateISO": "2026-12-05",
+      "time": "9am-2pm",
+      "venue": "St. James Collegiate",
+      "url": "https://allevents.in/winnipeg/holiday-craft-sale/200031001454553",
+      "blurb": "A last-minute shopping stop for locally made and personalized gifts. Santa photos are available for a small donation to the 2027 Safe Grad.",
+      "tags": [
+        "free",
+        "fam"
+      ],
+      "sellout": false,
+      "stream": "confluence"
+    },
+    {
+      "title": "Under the Mistletoe with THOSE GUYS",
+      "date": "Dec 5-6",
+      "dateISO": "2026-12-05",
+      "time": "7:30 PM (Sun 2 PM)",
+      "venue": "Desautels Concert Hall, 150 Dafoe Rd W",
+      "url": "https://explorethepeg.ca/events/holiday-those-guys-mistletoe-2026",
+      "blurb": "Winnipeg's nine-voice a cappella group THOSE GUYS plays its holiday show: Saturday at 7:30 pm and Sunday at 2 pm.",
+      "tags": [
+        "tix"
+      ],
+      "sellout": false,
+      "stream": "rapids"
+    },
+    {
+      "title": "UM Concert Choir, Singers and Upper Voices",
+      "date": "Dec 5",
+      "dateISO": "2026-12-05",
+      "time": "7:30 PM",
+      "venue": "Desautels Faculty of Music, University of Manitoba",
+      "url": "https://www.showpass.com/um-concert-choir-singers-and-upper-voices-2/",
+      "blurb": "Three University of Manitoba choirs share the stage for the end-of-term choral concert.",
+      "tags": [
+        "tix"
+      ],
+      "sellout": false,
+      "stream": "rapids"
+    },
+    {
+      "title": "George Tanner Classic",
+      "date": "Dec 5",
+      "dateISO": "2026-12-05",
+      "time": "",
+      "venue": "James Daly Fieldhouse, University of Manitoba",
+      "url": "https://gobisons.ca/sports/track-and-field/schedule",
+      "blurb": "The Bisons host their annual indoor track and field meet in the James Daly Fieldhouse, with university and club athletes from across the province. It's a chance to watch sprints, jumps and throws up close before the Canada West season gets going.",
+      "tags": [
+        "fam"
+      ],
+      "sellout": false,
+      "stream": "sky"
+    },
+    {
+      "title": "Elm Creek Inaugural 2-Person Stick Bonspiel",
+      "date": "Dec 5",
+      "dateISO": "2026-12-05",
+      "time": "",
+      "venue": "Elm Creek Curling Club, Elm Creek",
+      "url": "https://curlmanitoba.org/event/elm-creek-inaugural-2-person-stick-bonspiel/",
+      "blurb": "A one-day, first-ever two-person stick curling bonspiel about 45 minutes southwest of Winnipeg. It's a low-key format suited to older and recreational curlers.",
+      "tags": [],
+      "sellout": false,
+      "stream": "sky"
+    },
+    {
       "title": "An Evening with GMH and Morgan Jean",
       "date": "Dec 6",
       "dateISO": "2026-12-06",
@@ -4345,6 +4665,49 @@
       "stream": "confluence"
     },
     {
+      "title": "Create and Connect Crafts at The Leaf",
+      "date": "Dec 6",
+      "dateISO": "2026-12-06",
+      "time": "1:00 pm - 3:00 pm",
+      "venue": "Tannis M. Richardson Classroom, The Leaf, Assiniboine Park",
+      "url": "https://www.assiniboinepark.ca/events/event/139",
+      "blurb": "Hands-on family crafting with natural and recycled materials. No biome admission is needed, and children must come with an adult. It runs again Dec 20, Jan 3 and Feb 7.",
+      "tags": [
+        "fam"
+      ],
+      "sellout": false,
+      "stream": "ripples"
+    },
+    {
+      "title": "Dinner and a Movie: Elf",
+      "date": "Dec 6",
+      "dateISO": "2026-12-06",
+      "time": "Buffet 4pm, movie 6pm",
+      "venue": "The Metropolitan Entertainment Centre, 281 Donald St",
+      "url": "https://allevents.in/winnipeg/dinner-and-a-movie-at-the-met-elf/210007243828383",
+      "blurb": "A buffet dinner followed by a big-screen showing of Elf in the Met's historic hall, with popcorn and an intermission of coffee and dessert. $49.99 adults, $29.99 kids.",
+      "tags": [
+        "tix",
+        "fam"
+      ],
+      "sellout": false,
+      "stream": "confluence"
+    },
+    {
+      "title": "Rosemary Siemens",
+      "date": "Dec 6",
+      "dateISO": "2026-12-06",
+      "time": "",
+      "venue": "Springfield Heights Mennonite Church, Winnipeg",
+      "url": "https://www.songkick.com/concerts/43475090-rosemary-siemens-at-springfield-heights-mennonite-church",
+      "blurb": "Violinist and singer Rosemary Siemens ends her Manitoba church tour with a Winnipeg date; the tour also stops in Winkler (Dec 4) and Steinbach (Dec 5).",
+      "tags": [
+        "tix"
+      ],
+      "sellout": false,
+      "stream": "rapids"
+    },
+    {
       "title": "Auralight Jewelry Pop-up",
       "date": "Dec 7-21",
       "dateISO": "2026-12-07",
@@ -4415,6 +4778,33 @@
       ],
       "sellout": false,
       "stream": "horizon"
+    },
+    {
+      "title": "Family LEGO Time",
+      "date": "Dec 7",
+      "dateISO": "2026-12-07",
+      "time": "5:00 pm",
+      "venue": "Osborne Library",
+      "url": "https://wpl.libcal.com/event/4080955",
+      "blurb": "A free family LEGO build for kids ages 3-12; creations stay at the library. It runs again at Westwood Library on Dec 15.",
+      "tags": [
+        "free",
+        "fam"
+      ],
+      "sellout": false,
+      "stream": "ripples"
+    },
+    {
+      "title": "UM Jazz Ensemble",
+      "date": "Dec 7-8",
+      "dateISO": "2026-12-07",
+      "time": "7:30 PM",
+      "venue": "Eva Clare Hall, 65 Dafoe Rd W",
+      "url": "https://www.jazzwinnipeg.com/calendar/um-jazz-ensemble-directed-by-fabio-ragnelli-rd4w6",
+      "blurb": "The University of Manitoba Jazz Ensemble, directed by Fabio Ragnelli, plays two nights of big-band jazz. Pay what you can.",
+      "tags": [],
+      "sellout": false,
+      "stream": "rapids"
     },
     {
       "title": "George Canyon & Aaron Pritchett",
@@ -4529,6 +4919,20 @@
       "stream": "horizon"
     },
     {
+      "title": "God is a Scottish Drag Queen",
+      "date": "Dec 8-10",
+      "dateISO": "2026-12-08",
+      "time": "Evenings",
+      "venue": "Royal MTC Tom Hendry Warehouse, 140 Rupert Ave",
+      "url": "https://allevents.in/winnipeg/god-is-a-scottish-drag-queen-winnipeg-fringe-fundraiser/200031023055248",
+      "blurb": "The Fringe-favourite comedy returns for three nights as a fundraiser for the Winnipeg Fringe Theatre Festival. Tickets are sold at winnipegfringe.com.",
+      "tags": [
+        "tix"
+      ],
+      "sellout": true,
+      "stream": "horizon"
+    },
+    {
       "title": "Gene Simmons Band",
       "date": "Wednesday, December 9, 2026",
       "dateISO": "2026-12-09",
@@ -4623,6 +5027,21 @@
       "blurb": "The Jewish Federation of Winnipeg's community Hanukkah menorah lighting, with blessings led by Rabbi Avrohom Altein and a kosher jam buster afterward. It's free, but you need to register at jewishwinnipeg.org/menorah2026. There's no seating.",
       "tags": [
         "free",
+        "fam"
+      ],
+      "sellout": false,
+      "stream": "horizon"
+    },
+    {
+      "title": "World Ballet Company: The Nutcracker",
+      "date": "Dec 9",
+      "dateISO": "2026-12-09",
+      "time": "7:00 PM",
+      "venue": "Chester Fritz Performing Arts Center, Grand Forks, ND",
+      "url": "https://www.visitgrandforks.com/events/world-ballet-company-the-nutcracker-with-live-orchestra/",
+      "blurb": "A touring Nutcracker with a live orchestra, 40 dancers and more than 150 hand-sewn costumes. About 2.5 hours down Hwy 75/I-29, so it works as a holiday shopping trip to Grand Forks.",
+      "tags": [
+        "tix",
         "fam"
       ],
       "sellout": false,
@@ -4756,6 +5175,20 @@
       "stream": "horizon"
     },
     {
+      "title": "An Evening of Sherlock Holmes: The Adventure of the Blue Carbuncle",
+      "date": "Dec 10",
+      "dateISO": "2026-12-10",
+      "time": "7:00 PM",
+      "venue": "Dalnavert Museum and Visitors' Centre, 61 Carlton St",
+      "url": "https://allevents.in/winnipeg/an-evening-of-sherlock-holmes-the-adventure-of-the-blue-carbuncle/200031093141645",
+      "blurb": "A reading of Conan Doyle's Christmastime Holmes mystery in Dalnavert's Victorian parlour, with a signature cocktail or mocktail at intermission. Doors open at 6:30, and the ticket includes one drink.",
+      "tags": [
+        "tix"
+      ],
+      "sellout": true,
+      "stream": "horizon"
+    },
+    {
       "title": "Bicycle Face Christmas: MyrrHvana's Greatest Hits",
       "date": "Dec 11",
       "dateISO": "2026-12-11",
@@ -4880,6 +5313,46 @@
       "tags": [
         "tix"
       ],
+      "sellout": false,
+      "stream": "horizon"
+    },
+    {
+      "title": "Yule Cat Paint Night",
+      "date": "Dec 11",
+      "dateISO": "2026-12-11",
+      "time": "6:00 PM",
+      "venue": "Raven's End Books, 1859 Portage Ave",
+      "url": "https://allevents.in/winnipeg/yule-cat-paint-night-at-ravens-end-books/200031027783216",
+      "blurb": "Paint the Icelandic Yule Cat in a bookstore, with step-by-step instruction from local artist Greg Cymbalist. Paint Party Manitoba supplies everything and no experience is needed.",
+      "tags": [
+        "tix"
+      ],
+      "sellout": false,
+      "stream": "horizon"
+    },
+    {
+      "title": "Athletics Manitoba Last Chance Meet",
+      "date": "Dec 11-12",
+      "dateISO": "2026-12-11",
+      "time": "",
+      "venue": "James Daly Fieldhouse, University of Manitoba",
+      "url": "https://gobisons.ca/sports/track-and-field/schedule",
+      "blurb": "Athletics Manitoba's December indoor meet. It's the last chance to post qualifying marks before the holiday break, with Bisons and club athletes competing on the U of M indoor track.",
+      "tags": [
+        "fam"
+      ],
+      "sellout": false,
+      "stream": "horizon"
+    },
+    {
+      "title": "Portage 2 Person Stick Curling Bonspiel",
+      "date": "Dec 11-13",
+      "dateISO": "2026-12-11",
+      "time": "",
+      "venue": "Portage Curling Club, Portage la Prairie",
+      "url": "https://curlmanitoba.org/event/portage-2-person-stick-curling-bonspiel/",
+      "blurb": "A weekend two-person stick curling bonspiel in Portage la Prairie, one of a growing circuit of stick events around the province.",
+      "tags": [],
       "sellout": false,
       "stream": "horizon"
     },
@@ -5306,6 +5779,63 @@
       "stream": "horizon"
     },
     {
+      "title": "Family Scrabble Club",
+      "date": "Dec 12",
+      "dateISO": "2026-12-12",
+      "time": "2:00 pm",
+      "venue": "Henderson Library",
+      "url": "https://wpl.libcal.com/event/4048442",
+      "blurb": "Friendly, non-competitive Scrabble for kids and their families, a chance to build vocabulary together. Boards are provided and it's free.",
+      "tags": [
+        "free",
+        "fam"
+      ],
+      "sellout": false,
+      "stream": "horizon"
+    },
+    {
+      "title": "UNF Christmas Market",
+      "date": "Dec 12",
+      "dateISO": "2026-12-12",
+      "time": "10am-6pm",
+      "venue": "Ukrainian National Federation, 935 Main St",
+      "url": "https://allevents.in/winnipeg/unf-christmas-market/200030834101850",
+      "blurb": "A Christmas fair celebrating Ukrainian culture and craft, with local artisans, makers and small businesses on the North End's Main Street.",
+      "tags": [
+        "fam"
+      ],
+      "sellout": false,
+      "stream": "horizon"
+    },
+    {
+      "title": "Harry Manx",
+      "date": "Dec 12",
+      "dateISO": "2026-12-12",
+      "time": "7:30 PM",
+      "venue": "Crescent Arts Centre, 525 Wardlaw Ave",
+      "url": "https://events.humanitix.com/harry-manx-live-at-the-crescent-arts-centre-or-winnipeg",
+      "blurb": "Harry Manx, the 'mysticssippi' bluesman who mixes Delta blues with Indian ragas on slide guitar and mohan veena, plays an intimate concert at the Crescent Arts Centre. Tickets are $30–$60.",
+      "tags": [
+        "tix"
+      ],
+      "sellout": true,
+      "stream": "horizon"
+    },
+    {
+      "title": "The Jury Experience: The Killer AI",
+      "date": "Dec 12 - Feb 5",
+      "dateISO": "2026-12-12",
+      "time": "7:00 PM",
+      "venue": "Winnipeg Art Gallery-Qaumajuq, 300 Memorial Blvd",
+      "url": "https://allevents.in/winnipeg/the-jury-experience-the-killer-ai/2700029297016716",
+      "blurb": "An immersive 60-minute courtroom drama in which the audience is the jury and decides whether the accused is guilty after a driverless car kills someone. Runs to Feb 5, 2027. Tickets are $24-$58 through Fever.",
+      "tags": [
+        "tix"
+      ],
+      "sellout": false,
+      "stream": "horizon"
+    },
+    {
       "title": "Borealis Beading Circle",
       "date": "Dec 13",
       "dateISO": "2026-12-13",
@@ -5431,6 +5961,34 @@
       "stream": "horizon"
     },
     {
+      "title": "The Stray Horns play Ella's Swingin' Christmas",
+      "date": "Dec 13",
+      "dateISO": "2026-12-13",
+      "time": "Afternoon & 7:00 PM",
+      "venue": "Fort Garry Hotel, 222 Broadway",
+      "url": "https://www.showpass.com/the-stray-horns-play-ellas-swingin-christmas-2/",
+      "blurb": "The Stray Horns swing through Ella Fitzgerald's classic Christmas album in two Jazz at the Fort Garry Hotel shows, one in the afternoon and one at 7 pm. Hotel jazz series shows tend to fill up.",
+      "tags": [
+        "tix"
+      ],
+      "sellout": true,
+      "stream": "horizon"
+    },
+    {
+      "title": "Have a Murray Little Christmas",
+      "date": "Dec 13",
+      "dateISO": "2026-12-13",
+      "time": "7:30 PM",
+      "venue": "Westwood Community Church, 401 Westwood Dr",
+      "url": "https://www.jazzwinnipeg.com/calendar/the-stray-horns-play-ellas-swingin-christmas-djbnw",
+      "blurb": "The Murray Riddell Big Band's holiday concert of big-band Christmas arrangements.",
+      "tags": [
+        "tix"
+      ],
+      "sellout": false,
+      "stream": "horizon"
+    },
+    {
       "title": "The Griswold Christmas Party",
       "date": "Dec 14",
       "dateISO": "2026-12-14",
@@ -5454,6 +6012,21 @@
       "blurb": "A family-style brunch overlooking the frozen marsh, with pre-registration required.",
       "tags": [
         "tix",
+        "fam"
+      ],
+      "sellout": false,
+      "stream": "horizon"
+    },
+    {
+      "title": "Making with Magformers",
+      "date": "Dec 14",
+      "dateISO": "2026-12-14",
+      "time": "6:30 pm",
+      "venue": "Sir William Stephenson Library",
+      "url": "https://wpl.libcal.com/event/4091028",
+      "blurb": "Kids build 3D creatures, cars and castles with Magformers magnetic construction sets. Free, for ages 6-12; 60 minutes.",
+      "tags": [
+        "free",
         "fam"
       ],
       "sellout": false,
@@ -5715,6 +6288,48 @@
         "tix"
       ],
       "sellout": true,
+      "stream": "horizon"
+    },
+    {
+      "title": "Family Art Night",
+      "date": "Dec 17",
+      "dateISO": "2026-12-17",
+      "time": "6:00 pm",
+      "venue": "Bill and Helen Norrie Library",
+      "url": "https://wpl.libcal.com/event/4091051",
+      "blurb": "A free drop-in evening of art and crafts for children and their families, with plenty of supplies for making your own masterpiece.",
+      "tags": [
+        "free",
+        "fam"
+      ],
+      "sellout": false,
+      "stream": "horizon"
+    },
+    {
+      "title": "60th Anniversary of How the Grinch Stole Christmas",
+      "date": "Dec 17",
+      "dateISO": "2026-12-17",
+      "time": "12:45 PM & 7:30 PM",
+      "venue": "Centre culturel franco-manitobain, 340 Provencher Blvd",
+      "url": "https://www.jazzwinnipeg.com/calendar/60th-anniversary-of-how-the-grinch-stole-christmas",
+      "blurb": "The Winnipeg Jazz Orchestra marks the Grinch's 60th with the Vince Guaraldi-era holiday jazz treatment, featuring Quinn Greene. Two shows, at 12:45 pm and 7:30 pm.",
+      "tags": [
+        "tix",
+        "fam"
+      ],
+      "sellout": false,
+      "stream": "horizon"
+    },
+    {
+      "title": "Brandon Men's Bonspiel with a Berth",
+      "date": "Dec 17-20",
+      "dateISO": "2026-12-17",
+      "time": "",
+      "venue": "Brandon Curling Club, Brandon",
+      "url": "https://curlmanitoba.org/event/brandon-mens-bonspiel-with-a-berth-3/",
+      "blurb": "A competitive men's bonspiel whose winner earns a berth in the provincial men's championship. Strong teams from across Manitoba usually enter.",
+      "tags": [],
+      "sellout": false,
       "stream": "horizon"
     },
     {
@@ -6155,6 +6770,20 @@
       "stream": "horizon"
     },
     {
+      "title": "Frozen Moon: Good Child Rearing and Solstice Potluck",
+      "date": "Dec 19",
+      "dateISO": "2026-12-19",
+      "time": "11:00 AM – 2:00 PM",
+      "venue": "Canadian Museum for Human Rights, 85 Israel Asper Way",
+      "url": "https://humanrights.ca/event/frozen-moon-good-child-rearing-and-solstice-potluck",
+      "blurb": "Knowledge keeper Marilyn Dykstra shares Cree (Inninewak) medicine teachings of the Frozen Water Moon and teachings on raising children, followed by a hands-on activity and a shared winter solstice potluck with smudging and a pipe ceremony. It is part of the museum's monthly Wahkowtowin (kinship) series and is free, but you need to register; the first 30 people to register get a spot in the activity.",
+      "tags": [
+        "free"
+      ],
+      "sellout": false,
+      "stream": "horizon"
+    },
+    {
       "title": "Christmas Carols & Duets with Rosemarie & George",
       "date": "Dec 20",
       "dateISO": "2026-12-20",
@@ -6330,6 +6959,21 @@
       "stream": "horizon"
     },
     {
+      "title": "Under the \"C\"",
+      "date": "Dec 21",
+      "dateISO": "2026-12-21",
+      "time": "10:30 am",
+      "venue": "Louis Riel Library",
+      "url": "https://wpl.libcal.com/event/4091007",
+      "blurb": "A free winter-break story time that celebrates C words (not just cookie) with stories, rhymes and a craft. For ages 3-5 with a caregiver.",
+      "tags": [
+        "free",
+        "fam"
+      ],
+      "sellout": false,
+      "stream": "horizon"
+    },
+    {
       "title": "LEGO Challenge",
       "date": "Dec 22",
       "dateISO": "2026-12-22",
@@ -6496,6 +7140,21 @@
       "blurb": "Jets home game at Canada Life Centre. Times/opponents partly from third-party schedule; verify.",
       "tags": [
         "tix"
+      ],
+      "sellout": false,
+      "stream": "horizon"
+    },
+    {
+      "title": "Winter Day Camp",
+      "date": "Dec 28-30",
+      "dateISO": "2026-12-28",
+      "time": "10:00 AM – 4:00 PM",
+      "venue": "Mennonite Heritage Village, Steinbach",
+      "url": "https://mhv.ca/event/winter-day-camp/",
+      "blurb": "Three days of winter-break camp for kids aged 6–11 in Mennonite Heritage Village's historic village, about 45 minutes from Winnipeg. $105.",
+      "tags": [
+        "tix",
+        "fam"
       ],
       "sellout": false,
       "stream": "horizon"
@@ -6982,6 +7641,20 @@
       "stream": "horizon"
     },
     {
+      "title": "Texture in Craft",
+      "date": "Jan 8 - Feb 24",
+      "dateISO": "2027-01-08",
+      "time": "Opening reception 6-9 PM",
+      "venue": "C2 Centre for Craft, 1-329 Cumberland Ave",
+      "url": "https://c2centreforcraft.ca/2026/03/05/texture-in-craft-mccs-2027-member-show",
+      "blurb": "The Manitoba Craft Council's 2027 member show is about texture in craft. It opens with a reception on January 8 and runs until February 24.",
+      "tags": [
+        "free"
+      ],
+      "sellout": false,
+      "stream": "horizon"
+    },
+    {
       "title": "12 Months of Mayhem",
       "date": "Jan 9",
       "dateISO": "2027-01-09",
@@ -7097,6 +7770,21 @@
       "stream": "horizon"
     },
     {
+      "title": "Hobby Con TCG Expo",
+      "date": "Jan 9-10",
+      "dateISO": "2027-01-09",
+      "time": "10:00 AM - 5:00 PM",
+      "venue": "Assiniboia Downs Gaming & Event Centre, 3975 Portage Ave",
+      "url": "https://allevents.in/winnipeg/hobby-con-tcg-expo-winnipeg-free-entry-and-parking-january-9-10/100002003037840100",
+      "blurb": "A two-day expo for buying, selling and trading trading cards, with on-site grading submissions. Free meet-and-greets with TCG illustrator Kouki Saitou and David Sobolov, the voice of Kaido. Free entry and parking.",
+      "tags": [
+        "free",
+        "fam"
+      ],
+      "sellout": false,
+      "stream": "horizon"
+    },
+    {
       "title": "Frozen Falcon 8-Hour Winter Trail Race",
       "date": "Jan 10",
       "dateISO": "2027-01-10",
@@ -7178,6 +7866,20 @@
       "tags": [
         "tix",
         "fam"
+      ],
+      "sellout": true,
+      "stream": "horizon"
+    },
+    {
+      "title": "Hassan Phills",
+      "date": "Jan 10",
+      "dateISO": "2027-01-10",
+      "time": "7:30 PM",
+      "venue": "Gas Station Arts Centre, 445 River Ave",
+      "url": "https://allevents.in/winnipeg/hassan-phills-live-in-winnipeg/100001999630137570",
+      "blurb": "Toronto stand-up Hassan Phills brings new material and a lot of crowd work. Presale tickets have already sold out, and general admission is about $42.",
+      "tags": [
+        "tix"
       ],
       "sellout": true,
       "stream": "horizon"
@@ -7331,6 +8033,20 @@
       "tags": [
         "tix",
         "fam"
+      ],
+      "sellout": false,
+      "stream": "horizon"
+    },
+    {
+      "title": "MVJIK",
+      "date": "Jan 14",
+      "dateISO": "2027-01-14",
+      "time": "Doors 7:00 PM",
+      "venue": "Park Theatre (698 Osborne St)",
+      "url": "https://www.songkick.com/concerts/43533605-mvjik-at-park-theatre",
+      "blurb": "MVJIK plays Winnipeg for the first time, at the Park Theatre. Tickets are about $22–$27 through Eventbrite.",
+      "tags": [
+        "tix"
       ],
       "sellout": false,
       "stream": "horizon"
@@ -7594,6 +8310,20 @@
       "stream": "horizon"
     },
     {
+      "title": "Winnipeg Optimist Athletics Winter Open",
+      "date": "Jan 16",
+      "dateISO": "2027-01-16",
+      "time": "",
+      "venue": "James Daly Fieldhouse, University of Manitoba",
+      "url": "https://gobisons.ca/sports/track-and-field/schedule",
+      "blurb": "An open indoor track and field meet run by the Winnipeg Optimist Athletics club, with a mix of youth, club and university athletes.",
+      "tags": [
+        "fam"
+      ],
+      "sellout": false,
+      "stream": "horizon"
+    },
+    {
       "title": "Nature Manitoba: Ski / Snowshoe / Walk Hecla (4 days)",
       "date": "Jan 18-21",
       "dateISO": "2027-01-18",
@@ -7728,6 +8458,20 @@
         "tix"
       ],
       "sellout": true,
+      "stream": "horizon"
+    },
+    {
+      "title": "Dr. Marcia Anderson Book Launch",
+      "date": "Jan 20",
+      "dateISO": "2027-01-20",
+      "time": "6:00 PM",
+      "venue": "McNally Robinson Booksellers, Grant Park",
+      "url": "https://allevents.in/winnipeg/dr-marcia-anderson-book-launch-lessons-from-the-lodge/200031047244138",
+      "blurb": "Cree-Anishinaabe physician and Indigenous health leader Dr. Marcia Anderson launches her book Lessons from the Lodge.",
+      "tags": [
+        "free"
+      ],
+      "sellout": false,
       "stream": "horizon"
     },
     {
@@ -8186,6 +8930,20 @@
       "stream": "horizon"
     },
     {
+      "title": "Laila Biali: Joni Mitchell and the Canadian Songbook Reimagined",
+      "date": "Jan 23",
+      "dateISO": "2027-01-23",
+      "time": "7:30 PM",
+      "venue": "SRSS Theatre, 190 McKenzie Ave, Steinbach",
+      "url": "https://steinbacharts.ca/LIVE/",
+      "blurb": "JUNO-winning jazz singer and pianist Laila Biali reworks Joni Mitchell and other Canadian classics, about 45 minutes from Winnipeg in Steinbach.",
+      "tags": [
+        "tix"
+      ],
+      "sellout": false,
+      "stream": "horizon"
+    },
+    {
       "title": "Bill Callahan",
       "date": "Jan 24-25",
       "dateISO": "2027-01-24",
@@ -8369,6 +9127,20 @@
       "stream": "horizon"
     },
     {
+      "title": "Ash Grunwald",
+      "date": "Jan 28",
+      "dateISO": "2027-01-28",
+      "time": "7:00 PM",
+      "venue": "Crescent Arts Centre, 525 Wardlaw Ave",
+      "url": "https://events.humanitix.com/ash-grunwald-at-crescent-arts-centre",
+      "blurb": "Australian blues-roots guitarist Ash Grunwald brings his stomp-box-driven, groove-heavy one-man show to the Crescent Arts Centre. Tickets are $49.",
+      "tags": [
+        "tix"
+      ],
+      "sellout": false,
+      "stream": "horizon"
+    },
+    {
       "title": "Beetlejuice The Musical",
       "date": "Jan 29-31",
       "dateISO": "2027-01-29",
@@ -8499,6 +9271,34 @@
       "stream": "horizon"
     },
     {
+      "title": "Jim Daly Bison Classic",
+      "date": "Jan 29-30",
+      "dateISO": "2027-01-29",
+      "time": "",
+      "venue": "James Daly Fieldhouse, University of Manitoba",
+      "url": "https://gobisons.ca/sports/track-and-field/schedule",
+      "blurb": "The Bisons' flagship indoor track meet, named for the longtime coach. It's the biggest home meet of the winter and usually draws university teams from across Canada West and the northern U.S.",
+      "tags": [
+        "fam"
+      ],
+      "sellout": false,
+      "stream": "horizon"
+    },
+    {
+      "title": "Seals Invitational",
+      "date": "Jan 29-30",
+      "dateISO": "2027-01-29",
+      "time": "",
+      "venue": "Pan Am Pool, 25 Poseidon Bay",
+      "url": "https://gobisons.ca/sports/swimming-and-diving/schedule",
+      "blurb": "A mid-winter swim meet at the Pan Am Pool, with the Bisons racing alongside Manitoba age-group and senior clubs.",
+      "tags": [
+        "fam"
+      ],
+      "sellout": false,
+      "stream": "horizon"
+    },
+    {
       "title": "Bisons Men's Hockey vs. MacEwan Griffins (Game 2)",
       "date": "Jan 30",
       "dateISO": "2027-01-30",
@@ -8568,6 +9368,20 @@
         "fam"
       ],
       "sellout": false,
+      "stream": "horizon"
+    },
+    {
+      "title": "Ashwyn Singh: The Imperfect Ally Tour",
+      "date": "Jan 30",
+      "dateISO": "2027-01-30",
+      "time": "8:00 PM",
+      "venue": "Gas Station Arts Centre, 445 River Ave",
+      "url": "https://allevents.in/winnipeg/ashwyn-singh-in-winnipeg-the-imperfect-ally-tour/100001993014501023",
+      "blurb": "Stand-up that mixes jokes with commentary on allyship, democracy, queerness, neurodivergence and growing up second-generation. Tickets run about $32-$45, and early bird has sold out.",
+      "tags": [
+        "tix"
+      ],
+      "sellout": true,
       "stream": "horizon"
     },
     {
@@ -9056,8 +9870,8 @@
       "dateISO": "2027-02-12",
       "time": "",
       "venue": "Parc du Voyageur (Whittier Park), St. Boniface",
-      "url": "https://heho.ca/en",
-      "blurb": "Hého! Western Canada's biggest winter festival returns for ten days of fiddles, snow sculptures, tire sur la neige and Franco-Manitoban and Métis joie de vivre. Tickets went on sale Nov 12, and coeur de pirate is the first artist announced.",
+      "url": "https://festivalduvoyageur.ca/",
+      "blurb": "The 58th edition of Western Canada's largest winter festival celebrates French-Canadian and Métis culture with snow sculptures, sleigh rides, fiddling and historical demonstrations. Quebec star Cœur de Pirate plays opening night, and more performers will be announced in January. Tickets are on sale now.",
       "tags": [
         "tix",
         "fam"
@@ -10397,6 +11211,20 @@
       "stream": "horizon"
     },
     {
+      "title": "Peter Bernstein",
+      "date": "Mar 13-14",
+      "dateISO": "2027-03-13",
+      "time": "7:00 PM (Sun 2 PM)",
+      "venue": "Berney Theatre, 123 Doncaster St",
+      "url": "https://izzyasperjazz.com/",
+      "blurb": "New York jazz guitarist Peter Bernstein plays two Izzy Asper Jazz Performances concerts: Saturday at 7 pm and a Sunday 2 pm matinee.",
+      "tags": [
+        "tix"
+      ],
+      "sellout": false,
+      "stream": "horizon"
+    },
+    {
       "title": "The Red Clay Strays",
       "date": "Mar 14",
       "dateISO": "2027-03-14",
@@ -10737,13 +11565,13 @@
       "stream": "horizon"
     },
     {
-      "title": "Trivia Night Fundraiser: Manitoba Eco-Network",
+      "title": "Network",
       "date": "Mar 25",
       "dateISO": "2027-03-25",
-      "time": "7:00 PM (doors 6:30)",
+      "time": "Doors 7:00 PM",
       "venue": "Sidestage (700 Osborne St)",
-      "url": "https://www.sidestagewpg.com/tm-event/trivia-night-fundraiser-manitoba-eco-network/",
-      "blurb": "Pub-style trivia night raising money for the Manitoba Eco-Network.",
+      "url": "https://www.songkick.com/concerts/43436220-network-at-sidestage",
+      "blurb": "Network plays its first Winnipeg show, at Sidestage on Osborne. Tickets are on sale through Ticketweb.",
       "tags": [
         "tix"
       ],
